@@ -1,0 +1,2 @@
+# Optional: only needed to reconstruct optimized schedules, never to replay them.
+ortools==9.15.6755

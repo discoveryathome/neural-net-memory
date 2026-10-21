@@ -1,0 +1,86 @@
+{
+  "schema": "research-verification/v1",
+  "status": "PASS",
+  "evidence_level": "author-checked",
+  "verified_at": "2026-10-21T22:22:16.149678+00:00",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "frontier_records_changed": false,
+  "independent_review": false,
+  "scope": "Finite cut/survivor checks, exact bound arithmetic, pinned inputs and witness replay. The global charging proof is author-reviewed mathematics, not proof-assistant or independent validation.",
+  "commands": [
+    {
+      "command": "python3 verify_all.py",
+      "result": "PASS:23 root tests,60 rows,418 baseline certificates,25 tiny exact optima and8 catalog controls",
+      "log_sha256": "0581387398d2ed53b6c4fc60335c7451787d182037585f5409a0037bbabf1777"
+    },
+    {
+      "command": "python3.12 -m unittest discover -s research/barrier-cut-20261021 -p 'test_*.py' -v",
+      "result": "PASS:17 tests including820 survivor cases and the14-node exact control",
+      "log_sha256": "302a3515d07ccced6ccb397e26e4a3122bb7e145eebf268e0004319be95dcdb0"
+    },
+    {
+      "command": "python3.9 -m unittest discover -s research/barrier-cut-20261021 -p 'test_*.py' -v",
+      "result": "PASS:17 tests",
+      "log_sha256": "18624c972316b6ea6debe2765d72f5a3d97ae01f3c6bc77bd2e8d9ec5eac2dbd"
+    },
+    {
+      "command": "python3 research/barrier-cut-20261021/budget_cut.py benchmarks/graphs/transformer-b4-t128.json --check research/barrier-cut-20261021/budget-cut.json",
+      "result": "PASS:985661440 work threshold at10 chunks; bound11 chunks below threshold",
+      "log_sha256": "9fdcb945175b0e9a8eb30a57e4105c0aa593be1a337481dbd6e2df6469386abf"
+    }
+  ],
+  "mathematical_proposal": {
+    "document": "BUDGET-PROOF.md",
+    "minimum_extra_work_at_ten_chunks": 985661440,
+    "bound_for_budgets_below_threshold_bytes": 1441792,
+    "selected_budget": 956301312,
+    "selected_existing_peak": 1441792,
+    "status": "author-checked optimum proposal; independent mathematical review and maintainer acceptance pending"
+  },
+  "finite_survivor_cases": 820,
+  "differential_forward_pebbling": {
+    "cases": 146,
+    "applicable_cut_cases": 26,
+    "max_nodes": 7,
+    "cuts_above_exact_forward_optimum": 0
+  },
+  "small_exact_control": {
+    "nodes": 14,
+    "cap": 1310720,
+    "minimum_extra_work": 85032960
+  },
+  "negative_controls": [
+    "False memory/work bound",
+    "Wrong prefix multiplicities",
+    "Forged survivor",
+    "Changed graph hash",
+    "Boolean integer count/cap",
+    "Missing/nonancestor barrier",
+    "Changed seed or selected row",
+    "Auxiliary budget substitution/overflow"
+  ],
+  "author_review": "Production-vs-possession distinction, causal Q/norm1 charging anchors, arbitrary prefetch, block0 exception, allocation forcing UP3 eviction and disjoint cost groups reviewed by the contributing author.",
+  "not_checked": [
+    "Independent mathematical/code review and maintainer acceptance",
+    "Proof-assistant verification of the global temporal charging argument",
+    "Exact minimum work at10 chunks above985661440",
+    "Existence or impossibility of12 chunks at fixed budget478150656",
+    "Native Checkmate/DTR/Moccasin comparisons, autograd fidelity, GPU or total training-memory gains"
+  ],
+  "artifacts_sha256": {
+    "BUDGET-PROOF.md": "c6bef8a469aaa2bd5b6f6a9e4e3f2fa6057c94da766bad64d92b2e71366ab416",
+    "README.md": "210faef970655642f1950d46a6a2301181dfe8b9a3aa315b76ffff4b3561c2df",
+    "SOURCES.json": "434acf9d8385a8137257b5ff8aeb218f58373ea49513e6cc4c3a0587fa73c84a",
+    "TASK.json": "d663ca3da73af0b4386fa34c0073e6ae6cb83dd925906eedbea06c7c5e95842a",
+    "budget-cut.json": "c0af64c12f1c966c9ee9be2384132423fa06c9ca1637fd73d973d0a2889ba708",
+    "budget_cut.py": "f35e1f5ecf757d9d5382a2a510586e96e33188e910f77cc7ea03d3148f10d376",
+    "certificates/auxiliary-budget.json": "cac339d92047bf6904ccfcb03f0cbe0859990855b8d5cb357756ac24f8576132",
+    "cut.json": "5b5633283f578fe245edb007485177ee3be2ff0aa3f48c97383587c326e27874",
+    "proposed-bounds.json": "869f3d263d7ac0744e38d0c44de2d01595144e6c73daeae0b17f771dfb7845bc",
+    "reset_cut.py": "fba7f704e62e86308f983f700ced2623b6ebf5b07f35fac034eea88a730d0f4b",
+    "test_budget_cut.py": "25c9c1cc1b42f042efb54b5813c873661a09c7335c08b9e0ff6183318af34a8c",
+    "test_package.py": "807f423e3638a923e9a0865a94a4c3615c2c9f805805587339d0c288d6189608",
+    "test_reset_cut.py": "5cbc7b76c5f3e58b46a0dd218f954958940ba2675c113f0f0e90e5993be950e8",
+    "verify_result.py": "3e3cfe40b03cede65eb075cdf42979c7287c7e3f0ba3e1e4f070d121107f2f54"
+  }
+}

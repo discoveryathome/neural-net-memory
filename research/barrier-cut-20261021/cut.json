@@ -1,0 +1,58 @@
+{
+  "schema": "last-barrier-cut/v1",
+  "model": "activation-memory/v1",
+  "graph_id": "transformer-b4-t128",
+  "graph_sha256": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+  "cap_rejected_bytes": 1179648,
+  "lower_bound_bytes": 1310720,
+  "allocation_quantum_bytes": 131072,
+  "target": "b0_residual2",
+  "barriers": [
+    "b0_probs",
+    "b0_gelu"
+  ],
+  "resets": [
+    {
+      "barrier": "b0_probs",
+      "live_after": [
+        "b0_probs",
+        "b0_scores",
+        "x"
+      ],
+      "reachable_without_barriers": [
+        "b0_context",
+        "b0_k",
+        "b0_norm1",
+        "b0_norm2",
+        "b0_probs",
+        "b0_proj",
+        "b0_q",
+        "b0_residual1",
+        "b0_scores",
+        "b0_up",
+        "b0_v",
+        "x"
+      ]
+    },
+    {
+      "barrier": "b0_gelu",
+      "live_after": [
+        "b0_gelu",
+        "b0_up",
+        "x"
+      ],
+      "reachable_without_barriers": [
+        "b0_down",
+        "b0_gelu",
+        "b0_k",
+        "b0_norm1",
+        "b0_q",
+        "b0_scores",
+        "b0_up",
+        "b0_v",
+        "x"
+      ]
+    }
+  ],
+  "scope": "Forward-allocation lower bound at every recomputation budget; author-checked mathematical argument, not a schedule witness"
+}

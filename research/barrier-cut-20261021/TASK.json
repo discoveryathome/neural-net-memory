@@ -1,0 +1,142 @@
+{
+  "schema": "research-task/v1",
+  "task": "search-transformers",
+  "result_kind": "stronger-bound-and-optimality-proposal",
+  "scope": "One frozen graph; three budget-sensitive bound proposals, selected-row optimality proposal, universal floor and auxiliary witness; related actual schedule improvement in retention-transfer package",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "seed": "dafc4be0863b7654352ffb2ba4a4d2df",
+  "original_draw": {
+    "track": "model-fidelity",
+    "task": "audit-workload-model"
+  },
+  "scope_change": {
+    "reason": "Donor clarified numerical-frontier priority",
+    "restriction": [
+      "schedule-search",
+      "bounds"
+    ],
+    "relative_weights": [
+      35,
+      20
+    ],
+    "first_word_mod_55": 34,
+    "track": "schedule-search",
+    "task": "search-transformers",
+    "algorithm": "Preserve file order and weights; second seed word chooses task, third word chooses open row. Explicit projection, not unmodified picker output."
+  },
+  "graph": "transformer-b4-t128",
+  "graph_path": "benchmarks/graphs/transformer-b4-t128.json",
+  "graph_sha256": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+  "selected_budget": 956301312,
+  "starting_peak_bytes": 1441792,
+  "starting_lower_bound_bytes": 1179648,
+  "proposed_lower_bound_bytes": 1441792,
+  "auxiliary_budget": 1258192896,
+  "auxiliary_budget_excess": 301891584,
+  "favorable_best_case": {
+    "graph": "transformer-b4-t128",
+    "budget": 956301312,
+    "working_peak_bytes": 1441792,
+    "target_peak_bytes": 1310720,
+    "unit_bytes": 131072,
+    "immutable_input_bytes": 131072,
+    "first_forward_cost": 478150656,
+    "backward_cost": 956301312,
+    "largest_local_allocation_bytes": 1179648,
+    "favorable_loss_recompute_floor": 209682432,
+    "loss_keep_for_relaxation": [
+      "b0_context",
+      "b0_k",
+      "b0_q",
+      "b0_up",
+      "b0_v"
+    ],
+    "loss_capacity_includes_all_sinks": true,
+    "interpretation": "Necessary favorable bound only. All first-forward and backward work charged; every absent backward-required value charged at least its own replay cost. Dependency replay, repeated eviction and other barriers relaxed, so this is NOT a feasible schedule or a promise of attainability."
+  },
+  "started_at": "2026-10-21T20:40:53Z",
+  "budget_minutes": 240,
+  "new_research_deadline": "2026-10-21T23:40:53Z",
+  "environment": {
+    "python": "3.13.3",
+    "platform": "macOS-15.5-arm64-arm-64bit-Mach-O",
+    "dependencies": "standard library only",
+    "sandbox": "macOS sandbox-exec; repository execution denied network, reads outside task under /Users, and writes outside task"
+  },
+  "evidence_level": "author-checked",
+  "independent_review": false,
+  "ai_disclosure": "Codex AI agent for @0xqtpie",
+  "commands": {
+    "positive_controls": [
+      "python3 verify_all.py",
+      "python3 run_suite.py check --graph transformer-b2-t64",
+      "python3 current_frontier.py --graph transformer-b4-t128 --budget 956301312"
+    ],
+    "replay": "python3 research/barrier-cut-20261021/verify_result.py",
+    "tests": "python3 -m unittest discover -s research/barrier-cut-20261021 -p 'test_*.py' -v"
+  },
+  "attempts": [
+    {
+      "cap": 1310720,
+      "budget_ceiling": 956301312,
+      "beam": 128,
+      "local": 16,
+      "seconds_limit": 45,
+      "order": "topological with V delayed until after probs; reverse backward",
+      "result": {
+        "status": "bounded-search-failure",
+        "reason": "no retained label at event 77: backward 35; 263872 labels truncated; no infeasibility claim",
+        "seconds": 10.874850291991606
+      },
+      "raw_log_sha256": "3a1aa2f42fd9d21a7ae0e1304117e2898b455a969daa7cceff8c445707755fbe"
+    },
+    {
+      "cap": 1310720,
+      "budget_ceiling": 956301312,
+      "beam": 1024,
+      "local": 64,
+      "seconds_limit": 150,
+      "order": "topological with V delayed until after probs; reverse backward",
+      "result": {
+        "status": "bounded-search-failure",
+        "reason": "no retained label at event 77: backward 35; 59178 labels truncated; no infeasibility claim",
+        "seconds": 18.480284750054125
+      },
+      "raw_log_sha256": "dd2780f9078c2d63184df584bb116a0e9a31fbaa567b14fc1e4bc2bd98d67890"
+    },
+    {
+      "cap": 1310720,
+      "budget_ceiling": 2000000000,
+      "beam": 1024,
+      "local": 64,
+      "seconds_limit": 120,
+      "order": "topological with V delayed until after probs; reverse backward",
+      "result": {
+        "status": "witness",
+        "peak_bytes": 1310720,
+        "recompute_cost": 1258192896,
+        "forward_cost": 1736343552,
+        "backward_cost": 956301312,
+        "seconds": 21.907470917038154
+      },
+      "raw_log_sha256": "0e1a105cff4cdbade84c00f08c6d07e371490e33c241d41fce160d7fd1a3178a"
+    },
+    {
+      "cap": 1441792,
+      "budget_ceiling": 956301312,
+      "beam": 128,
+      "local": 16,
+      "seconds_limit": 45,
+      "order": "topological with V delayed until after probs; reverse backward",
+      "result": {
+        "status": "bounded-search-failure",
+        "reason": "wall-time limit; no infeasibility claim",
+        "seconds": 45.00041895802133
+      },
+      "raw_log_sha256": "7c6bc7a37b617f14de3bee0f518b162d4fead8805d0ae8d6475d450dee890efe"
+    }
+  ],
+  "all_budget_lower_bound_bytes": 1310720,
+  "minimum_extra_work_at_ten_chunks": 985661440,
+  "budget_proof": "BUDGET-PROOF.md"
+}

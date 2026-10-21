@@ -1,0 +1,21 @@
+{
+  "schema": "proposed-frontier-results/v1",
+  "graph": "transformer-b4-t128",
+  "graph_sha256": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+  "model": "activation-memory/v1",
+  "evidence_level": "author-checked",
+  "acceptance": "Proposal only; independent review and maintainer acceptance pending",
+  "rows": [
+    {
+      "budget": 478150656,
+      "peak_bytes": 1703936,
+      "recompute_cost": 421494784,
+      "previous_peak_bytes": 1835008,
+      "previous_recompute_cost": 455344128,
+      "previous_object": "research/trial-30m/certificates/transformer-b4-t128-b478150656-p1835008.json",
+      "object": "research/retention-transfer-20261021/certificates/transformer-b4-t128-b478150656-p1703936.json",
+      "sha256": "e80ea162c52098697991793f8eb52c9c7bd9e7348639505bf2e8b369cc76f671",
+      "global_optimal": false
+    }
+  ]
+}

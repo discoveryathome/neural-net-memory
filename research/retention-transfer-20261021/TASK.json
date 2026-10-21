@@ -1,0 +1,38 @@
+{
+  "schema": "research-task/v1",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "seed": "dafc4be0863b7654352ffb2ba4a4d2df",
+  "selection": "explicit-user-followup",
+  "primary_graph": "transformer-b4-t128",
+  "primary_budget": 478150656,
+  "primary_starting_peak_bytes": 1835008,
+  "primary_target_peak_bytes": 1703936,
+  "source_of_assignment": "User explicitly requested real validated measured frontier improvements, approving incumbent-guided schedule repair.",
+  "initial_draw_record": "../barrier-cut-20261021/TASK.json",
+  "claim": "https://github.com/discoveryathome/neural-net-memory/discussions/3#discussioncomment-19109242",
+  "session_start": "2026-10-21T20:40:53Z",
+  "research_cutoff": "2026-10-21T23:40:53Z",
+  "deadline": "2026-10-22T00:40:53Z",
+  "favorable_price": {
+    "incumbent_cost": 455344128,
+    "budget_slack": 22806528,
+    "qkv_replay_with_norm_checkpoint": 8388608,
+    "warning": "Residual checkpoint regeneration includes all missing ancestors; own-op price alone is invalid."
+  },
+  "scope": "Frozen activation-memory/v1 graph. Initial optional-slot retention optimization; final exact one-block regional composition with all block-entry checkpoints. No global scheduling optimum or hardware-memory claim.",
+  "success": "A strictly smaller peak at the unchanged fixed work budget passing the unchanged verifier.",
+  "falsifiers": [
+    "Budget overflow",
+    "Invalid live dependency or loss/backward order",
+    "Output allocation after freeing inputs",
+    "Changed frozen graph/model",
+    "Stale predecessor record"
+  ],
+  "final_constructor": "compose_schedule.py",
+  "final_recompute_cost": 421494784,
+  "initial_trace_result": {
+    "commit": "9f3f36fcdbc0e676f30e0d459e7b338570fa9cea",
+    "peak_bytes": 1703936,
+    "recompute_cost": 421691392
+  }
+}

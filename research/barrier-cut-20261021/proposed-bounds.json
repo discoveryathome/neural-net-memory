@@ -1,0 +1,39 @@
+{
+  "schema": "proposed-bound-results/v1",
+  "graph": "transformer-b4-t128",
+  "graph_sha256": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+  "model": "activation-memory/v1",
+  "evidence_level": "author-checked",
+  "acceptance": "proposal only; independent mathematical review and maintainer review pending",
+  "cut": "research/barrier-cut-20261021/cut.json",
+  "rows": [
+    {
+      "budget": 239075328,
+      "previous_lower_bound_bytes": 1179648,
+      "proposed_lower_bound_bytes": 1441792,
+      "existing_witness_peak_bytes": 2883584,
+      "existing_witness": "research/trial-30m/certificates/transformer-b4-t128-b239075328-p2883584.json",
+      "proposed_optimal": false
+    },
+    {
+      "budget": 478150656,
+      "previous_lower_bound_bytes": 1179648,
+      "proposed_lower_bound_bytes": 1441792,
+      "existing_witness_peak_bytes": 1835008,
+      "existing_witness": "research/trial-30m/certificates/transformer-b4-t128-b478150656-p1835008.json",
+      "proposed_optimal": false
+    },
+    {
+      "budget": 956301312,
+      "previous_lower_bound_bytes": 1179648,
+      "proposed_lower_bound_bytes": 1441792,
+      "existing_witness_peak_bytes": 1441792,
+      "existing_witness": "research/trial-30m/certificates/transformer-b4-t128-b956301312-p1441792.json",
+      "proposed_optimal": true
+    }
+  ],
+  "all_budget_lower_bound_bytes": 1310720,
+  "minimum_extra_work_at_ten_chunks": 985661440,
+  "budget_proof": "research/barrier-cut-20261021/budget-cut.json",
+  "proof_document": "research/barrier-cut-20261021/BUDGET-PROOF.md"
+}

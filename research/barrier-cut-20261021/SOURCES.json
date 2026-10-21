@@ -1,0 +1,76 @@
+{
+  "schema": "research-sources/v1",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "repository_inputs": [
+    {
+      "path": "MODEL.md",
+      "sha256": "356237ec6ce9efa5a99a87043ff556d7128eb0abacf8420dd003189d99cc596e",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/MODEL.md"
+    },
+    {
+      "path": "verifier.py",
+      "sha256": "104e5e63d1cdb95355153144666292125d64806ee7bf149d0af714b2a47e1015",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/verifier.py"
+    },
+    {
+      "path": "discover/catalog.json",
+      "sha256": "b4e6e152415b862d7cf6787f252606183ed11b207f7baad3f9b6961ece543b16",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/discover/catalog.json"
+    },
+    {
+      "path": "benchmarks/graphs/transformer-b4-t128.json",
+      "sha256": "a1b3a93b491b729515b4deb53b90b4aa8179b218500d88ad5d4eaa2dafa7b455",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/benchmarks/graphs/transformer-b4-t128.json"
+    },
+    {
+      "path": "records/working-frontiers.json",
+      "sha256": "88cb5c9edd9c9905ae4b24b79ce6affdac8495c7babd7c13d2ea8a83a6292cb8",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/records/working-frontiers.json"
+    },
+    {
+      "path": "research/trial-30m/REPORT.md",
+      "sha256": "94a03ce8608d96b3adfb11fbd721b74bd94ed05c8d71cc2e3e9ddc4c8f114615",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/research/trial-30m/REPORT.md"
+    },
+    {
+      "path": "research/trial-30m/BOUNDS.md",
+      "sha256": "6cdc2ee15bb8486e07ff3485b8fac8492cd606df88f70890814d42ad0feb2b71",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/research/trial-30m/BOUNDS.md"
+    },
+    {
+      "path": "research/trial-30m/check_bounds.py",
+      "sha256": "acc61b67c3f36d0cc99d02a7142e03885deb5869e43dcfda05d39815370b9534",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/research/trial-30m/check_bounds.py"
+    },
+    {
+      "path": "research/trial-30m/focused_cache.py",
+      "sha256": "509285d4be7de6792ff5a0f94204f011098a8cb6588b031a32e8b2d1858a153a",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/research/trial-30m/focused_cache.py"
+    },
+    {
+      "path": "research/trial-30m/certificates/transformer-b4-t128-b956301312-p1441792.json",
+      "sha256": "5e8a7f4babe79275c023821210a4ecd80a9ffd620c25145c7cbe93d751948a4a",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/research/trial-30m/certificates/transformer-b4-t128-b956301312-p1441792.json"
+    }
+  ],
+  "prior_art": [
+    {
+      "title": "Checkmate: Breaking the Memory Wall with Optimal Tensor Rematerialization",
+      "url": "https://arxiv.org/abs/1910.02653v3",
+      "scope": "Established rematerialization and exact formulation prior art; no comparison against native Checkmate is made."
+    },
+    {
+      "title": "Moccasin: Efficient Tensor Rematerialization for Neural Networks",
+      "url": "https://proceedings.mlr.press/v202/bartan23a.html",
+      "scope": "Established constraint-programming prior art; no claim of a new optimization problem or external SOTA."
+    }
+  ],
+  "credit": [
+    "Doug Colkitt (@Mister-Meeseeks), project model, verifier and initial frontier",
+    "Codex local initialization and research/trial-30m: working schedule and predecessor bounds",
+    "Codex AI agent for @0xqtpie: this result package",
+    "Codex AI agent for @0xqtpie: one-survivor classification and proposed budget charging argument; exact regional controls build on the project pebble-state model"
+  ],
+  "optimizer_prototype_sha256": "cbc9bb40c1b61d75cd9b006f2c1a2306d18005c701255079441dbb51de0f8996",
+  "prototype_scope": "Local bounded exploration, not shipped as a solver; witness replay is the public reproduction contract."
+}

@@ -1,0 +1,84 @@
+{
+  "schema": "research-sources/v1",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "repository_inputs": [
+    {
+      "path": "MODEL.md",
+      "sha256": "356237ec6ce9efa5a99a87043ff556d7128eb0abacf8420dd003189d99cc596e",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/MODEL.md"
+    },
+    {
+      "path": "verifier.py",
+      "sha256": "104e5e63d1cdb95355153144666292125d64806ee7bf149d0af714b2a47e1015",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/verifier.py"
+    },
+    {
+      "path": "search.py",
+      "sha256": "7e321741e941d239392d2cf0e646c7ea05823a8f81dd2b4379300775c660ad63",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/search.py"
+    },
+    {
+      "path": "benchmarks/graphs/transformer-b4-t128.json",
+      "sha256": "a1b3a93b491b729515b4deb53b90b4aa8179b218500d88ad5d4eaa2dafa7b455",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/benchmarks/graphs/transformer-b4-t128.json"
+    },
+    {
+      "path": "records/working-frontiers.json",
+      "sha256": "88cb5c9edd9c9905ae4b24b79ce6affdac8495c7babd7c13d2ea8a83a6292cb8",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/records/working-frontiers.json"
+    },
+    {
+      "path": "research/trial-30m/REPORT.md",
+      "sha256": "94a03ce8608d96b3adfb11fbd721b74bd94ed05c8d71cc2e3e9ddc4c8f114615",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/research/trial-30m/REPORT.md"
+    },
+    {
+      "path": "research/trial-30m/lifetimes.py",
+      "sha256": "10538ab33c6859b57ddb299dd28230cb6a5c7d379329a7a8492542dba68db897",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/research/trial-30m/lifetimes.py"
+    },
+    {
+      "path": "research/trial-30m/cache_search.py",
+      "sha256": "2c2f66be7b49fe05e7a84864e32f91d2310a7acca30dbf0b8fd669bf1be2e58e",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/research/trial-30m/cache_search.py"
+    },
+    {
+      "path": "research/scientific-audit-20261021/cpsat_compare.py",
+      "sha256": "fc2a07e06628a4ad41764f66ee490670b9e8dfad3dd650645159ac0a6dfd62e4",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/research/scientific-audit-20261021/cpsat_compare.py"
+    },
+    {
+      "path": "research/trial-30m/certificates/transformer-b4-t128-b956301312-p1441792.json",
+      "sha256": "5e8a7f4babe79275c023821210a4ecd80a9ffd620c25145c7cbe93d751948a4a",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/research/trial-30m/certificates/transformer-b4-t128-b956301312-p1441792.json"
+    },
+    {
+      "path": "research/trial-30m/certificates/transformer-b4-t128-b478150656-p1835008.json",
+      "sha256": "b18ff15f618d5bea4278873d4c545d1a4d16987256bbbec8c95f061e212bfaa5",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/research/trial-30m/certificates/transformer-b4-t128-b478150656-p1835008.json"
+    }
+  ],
+  "prior_art": [
+    {
+      "title": "OR-Tools CP-SAT integer optimizer",
+      "url": "https://developers.google.com/optimization/cp/cp_solver",
+      "scope": "Optional construction dependency; replay uses only the standard-library project verifier."
+    },
+    {
+      "title": "Checkmate",
+      "url": "https://arxiv.org/abs/1910.02653v3",
+      "scope": "Established tensor rematerialization optimization; no external SOTA or native implementation comparison."
+    },
+    {
+      "title": "Moccasin",
+      "url": "https://proceedings.mlr.press/v202/bartan23a.html",
+      "scope": "Established constraint-programming rematerialization; no external SOTA claim."
+    }
+  ],
+  "credit": [
+    "Doug Colkitt (@Mister-Meeseeks), project model/verifier, predecessor schedules and trial-30m research",
+    "Scientific-audit CP-SAT formulation: prior same-repository integer model; this adapter uses finite optional forward slots and retimed retention",
+    "Codex AI agent for @0xqtpie: new finite trace optimizer and author-checked proposals",
+    "Exact regional construction uses the original project live/seen/done/loss pebble representation, with minimum weighted work at a fixed cap; global checkpoint policy is explicitly restricted."
+  ]
+}

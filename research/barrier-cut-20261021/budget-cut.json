@@ -1,0 +1,107 @@
+{
+  "schema": "last-barrier-budget-cut/v1",
+  "model": "activation-memory/v1",
+  "graph_id": "transformer-b4-t128",
+  "graph_sha256": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+  "cap_bytes": 1310720,
+  "memory_bound_bytes": 1441792,
+  "allocation_quantum_bytes": 131072,
+  "extra_work_lower_bound": 985661440,
+  "threshold_comparison": "budget < extra_work_lower_bound",
+  "prefix_lengths": [
+    3,
+    2,
+    1
+  ],
+  "block_forward_cost": 119537664,
+  "attention_operation_cost": 8388608,
+  "attention_replays_per_block": 4,
+  "up_replays_per_block": 1,
+  "up_cost": 33554432,
+  "blocks": 4,
+  "production_states": [
+    {
+      "target": "b0_residual2",
+      "barriers": [
+        "b0_probs",
+        "b0_gelu"
+      ],
+      "enumerated_cases": 82,
+      "admissible": [
+        {
+          "barrier": "b0_probs",
+          "survivor": "b0_down"
+        },
+        {
+          "barrier": "b0_gelu",
+          "survivor": "b0_context"
+        },
+        {
+          "barrier": "b0_gelu",
+          "survivor": "b0_proj"
+        },
+        {
+          "barrier": "b0_gelu",
+          "survivor": "b0_residual1"
+        }
+      ]
+    },
+    {
+      "target": "b1_residual2",
+      "barriers": [
+        "b0_probs",
+        "b0_gelu",
+        "b1_probs",
+        "b1_gelu"
+      ],
+      "enumerated_cases": 164,
+      "admissible": [
+        {
+          "barrier": "b1_gelu",
+          "survivor": "b1_residual1"
+        }
+      ]
+    },
+    {
+      "target": "b2_residual2",
+      "barriers": [
+        "b0_probs",
+        "b0_gelu",
+        "b1_probs",
+        "b1_gelu",
+        "b2_probs",
+        "b2_gelu"
+      ],
+      "enumerated_cases": 246,
+      "admissible": [
+        {
+          "barrier": "b2_gelu",
+          "survivor": "b2_residual1"
+        }
+      ]
+    },
+    {
+      "target": "b3_residual2",
+      "barriers": [
+        "b0_probs",
+        "b0_gelu",
+        "b1_probs",
+        "b1_gelu",
+        "b2_probs",
+        "b2_gelu",
+        "b3_probs",
+        "b3_gelu"
+      ],
+      "enumerated_cases": 328,
+      "admissible": [
+        {
+          "barrier": "b3_gelu",
+          "survivor": "b3_residual1"
+        }
+      ]
+    }
+  ],
+  "proof_document": "BUDGET-PROOF.md",
+  "evidence_level": "author-checked",
+  "scope": "Finite survivor lemma and exact cost arithmetic; global charging proof is in the document and requires independent review"
+}

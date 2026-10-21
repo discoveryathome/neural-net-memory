@@ -1,0 +1,76 @@
+{
+  "schema": "research-verification/v1",
+  "status": "PASS",
+  "evidence_level": "author-checked",
+  "verified_at": "2026-10-21T22:22:16.149678+00:00",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "frontier_records_changed": false,
+  "independent_review": false,
+  "scope": "Frozen-graph fixed-budget schedule replay and author testing of finite-trace and regional constructors.",
+  "commands": [
+    {
+      "command": "python3 verify_all.py",
+      "result": "PASS:23 root tests,60 rows,418 baseline certificates,25 tiny exact optima and8 catalog controls",
+      "log_sha256": "0581387398d2ed53b6c4fc60335c7451787d182037585f5409a0037bbabf1777"
+    },
+    {
+      "command": "python3.12 -m unittest discover -s research/retention-transfer-20261021 -p 'test_*.py' -v",
+      "result": "PASS:21 tests including36 exhaustive finite-slot cases and25 tiny regional controls",
+      "log_sha256": "d4fb8ae030978ed4b0087038a46a1d3c508e64f8d895e4c5181506cd51dfc9aa"
+    },
+    {
+      "command": "python3.9 -m unittest discover -s research/retention-transfer-20261021 -p test_regions.py -v; python3.9 -m unittest discover -s research/retention-transfer-20261021 -p test_package.py -v",
+      "result": "PASS:13 standard-library tests",
+      "log_sha256": "82beb83aaed347fc64180627506e265dac9be531b4870b9fc01b4e9b4b4c0867"
+    },
+    {
+      "command": "python3 research/retention-transfer-20261021/compose_schedule.py --graph benchmarks/graphs/transformer-b4-t128.json --cap 1703936 --budget 478150656 --out reconstructed.json",
+      "result": "PASS:1703936 bytes and421494784 extra work in Python3.9 and3.13",
+      "log_sha256": "bc7037f235fe6cc10e25034e92109aefb69355a61b1d3545c623ad77bf916b31",
+      "python39_log_sha256": "469e7aed039144e990169284cc72086f3411835446e1d0ab604467d62ce2c051"
+    },
+    {
+      "command": "python3 verifier.py benchmarks/graphs/transformer-b4-t128.json CERTIFICATE --budget 478150656",
+      "result": "PASS in separate Python3.9 and3.13 processes",
+      "log_sha256": "53b406297fb587884919e6c360712463f8968fe8237f39b2409189455ad7287c",
+      "python39_log_sha256": "53b406297fb587884919e6c360712463f8968fe8237f39b2409189455ad7287c"
+    }
+  ],
+  "negative_controls": [
+    "Fixed-budget substitution",
+    "Optimistic metric claim",
+    "Changed frozen graph",
+    "Stale incumbent",
+    "Global optimum overclaim",
+    "Missing backward activation or gradient",
+    "Illegal first forward after loss",
+    "Allocation before input drop",
+    "Non-recomputable repeat",
+    "Regional start memory overflow",
+    "State/time cap never returns an optimum"
+  ],
+  "author_review": "Exact regional state transitions and immutable parent chains, fully charged backward tails, input/checkpoint lifetimes, full global action composition and frozen-graph identity reviewed by contributing author.",
+  "not_checked": [
+    "Global minimum peak or recomputation on the56-node graph",
+    "Complete global state-space proof for12 chunks at budget478150656",
+    "Independent code/scientific review or maintainer acceptance",
+    "Native rematerialization-library comparisons, autograd export fidelity, GPU or total training-memory/speed measurements"
+  ],
+  "timing_scope": "No solver-speed benchmark claim; some exploratory solves ran concurrently on the14-core host.",
+  "artifacts_sha256": {
+    "README.md": "261cd09b6f8b86a08190b5729b5ddac5c05e3a4091e318b359c7be49556f4d0a",
+    "SOURCES.json": "41d9713bc41665ff5b3f4553ebebdedb93f1d94659996396e242d3868a920512",
+    "TASK.json": "b842788d7685664d7feccc4ac53c0c2aec378af181aca4a2c4ade70ebe7162df",
+    "certificates/transformer-b4-t128-b478150656-p1703936.json": "e80ea162c52098697991793f8eb52c9c7bd9e7348639505bf2e8b369cc76f671",
+    "compose_schedule.py": "18225cdc26ed0fb9c908aae61ee3ef884eef50e9f2c72ca6edcb1262a6eac5c4",
+    "proposed-frontiers.json": "f43a79dabcd6f171b6ddf30903fac1faa2a7d55f108e0c78a5851967387d9252",
+    "regional_exact.py": "0a6848a76242b0ad06ecda812984413fe9244f80db6456f708f3be8b7dc88109",
+    "requirements-construction.txt": "4f691938c382314d4b8dc8fb08cfaca2de457dec303f890cee3611a30950120e",
+    "test_differential.py": "8209cc9ccc53e6719b43889e4d165570003efbd7ec7fea1ce1c22d870b90b3b6",
+    "test_package.py": "8b5051ac19050b996d0542dc4b63ab6ca10fe1798dcf08345b92b90001c9e55f",
+    "test_regions.py": "81363e20e1b11a20ec527f197e77b6af91b123ee8f8ce1f9368b3bdb4df3eea2",
+    "test_trace_solver.py": "ee819f57c33a7d1e009be72e7dfb1e23d1e765428486aada4cf5a36f17efab88",
+    "trace_solver.py": "cb43e799551884456e7e618a2f4190860e257fded5a6bc108068e73d8b005bf2",
+    "verify_result.py": "ab54471bd164c9e8ed67b74433553c0ecc097e0d13a7163c2d63824335b896c5"
+  }
+}
