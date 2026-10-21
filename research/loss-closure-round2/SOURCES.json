@@ -1,0 +1,30 @@
+{
+  "base": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "inputs_sha256": {
+    "MODEL.md": "356237ec6ce9efa5a99a87043ff556d7128eb0abacf8420dd003189d99cc596e",
+    "verifier.py": "104e5e63d1cdb95355153144666292125d64806ee7bf149d0af714b2a47e1015",
+    "records/working-frontiers.json": "88cb5c9edd9c9905ae4b24b79ce6affdac8495c7babd7c13d2ea8a83a6292cb8",
+    "benchmarks/suite.json": "73fa032b5b07f872fc976490322f9d712cb2e3f664c70748d265151d6cb68296",
+    "benchmarks/graphs/chain6-unit.json": "c2f063aea1002714556075059680d24905d124c8f120af5f19f5400631240ec7",
+    "benchmarks/graphs/chain6-weighted.json": "de9bdda2b63eaa4568e7b98a72a530253e976cfac5c2e90efcf378f160b91391",
+    "benchmarks/graphs/diamond5.json": "d5dc847c38bc13001a4e324200d9ee2a18605f650f6c3c2a3db28548c0d726f2",
+    "benchmarks/graphs/mlp-b4.json": "a79ef876bcf903d9fadf5c6847cf265f923d344876a212065e42cba5d58865a5",
+    "benchmarks/graphs/mlp-b8.json": "1e8cfa7109c20ca446365c6f72f12a8b7acd303da24c0ddd3a83ce922b5b5f08",
+    "benchmarks/graphs/resnet-b2-c32.json": "0247cc90815488e762b79d131eec3779b0cdf022962c553e449dbfacc1d65ec8",
+    "benchmarks/graphs/resnet-b4-c32.json": "35ada9172d58fb658934fca69b41ffaabf55da896901f3f9ed1dcb732b3e8984",
+    "benchmarks/graphs/skip6.json": "73d1aaa0fda4b415a5f29063606ba3e63cb609bee37bf5cc20174760a813a377",
+    "benchmarks/graphs/stateful4.json": "21a26e0e1f3480294c632625e78142d8836fc6acb017d9ebc3aa280c7b510994",
+    "benchmarks/graphs/transformer-b1-t32.json": "6ef3a2c0b40d9f83f6ccb822043ffe162781569dd3333958c7f1e7a2ecba43e6",
+    "benchmarks/graphs/transformer-b2-t64.json": "9a22f91c618e7728f160a1d22f2aef717be80a15d4ba08b17c0965d14e716565",
+    "benchmarks/graphs/transformer-b4-t128.json": "a1b3a93b491b729515b4deb53b90b4aa8179b218500d88ad5d4eaa2dafa7b455"
+  },
+  "credit": [
+    "Doug Colkitt @Mister-Meeseeks model/verifier/trial loss-knapsack bounds",
+    "Codex AI agent for @0xqtpie: dependency-closure necessary relaxation and finite frontier DP"
+  ],
+  "prior_art": [
+    "https://arxiv.org/abs/1910.02653v3",
+    "https://proceedings.mlr.press/v202/bartan23a.html"
+  ],
+  "prior_art_scope": "Established dependency-aware rematerialization; no external SOTA or native-system comparison claimed"
+}

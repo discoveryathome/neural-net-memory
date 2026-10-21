@@ -1,0 +1,10 @@
+test_event_bounds_below_true_optimum (test_loss_closure.ClosureTests.test_event_bounds_below_true_optimum) ... ok
+test_forged_record_rejected (test_loss_closure.ClosureTests.test_forged_record_rejected) ... ok
+test_limits_and_boolean_budget (test_loss_closure.ClosureTests.test_limits_and_boolean_budget) ... ok
+test_missing_ancestor_is_charged (test_loss_closure.ClosureTests.test_missing_ancestor_is_charged) ... ok
+test_random_exhaustive (test_loss_closure.ClosureTests.test_random_exhaustive) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.175s
+
+OK

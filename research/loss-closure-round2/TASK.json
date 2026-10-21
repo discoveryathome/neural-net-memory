@@ -1,0 +1,16 @@
+{
+  "start": "2026-10-21T22:37:20Z",
+  "research_cutoff": "2026-10-22T01:37:20Z",
+  "deadline": "2026-10-22T02:37:20Z",
+  "budget_minutes": 240,
+  "seed": "dafc4be0863b7654352ffb2ba4a4d2df",
+  "base": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "permissions": "routine coordination plus separate focused PRs explicitly authorized; never merge/close/promote",
+  "prior_pr": 6,
+  "assignment": "explicit donor suite-wide bounds follow-up",
+  "question": "Do absent backward activations force expensive missing ancestors to repeat?",
+  "favorable_price": "necessary loss-state integer relaxation before constructor; all60 optimal at probe",
+  "candidate_rows": 11,
+  "scope": "Necessary loss and mandatory-first-forward event bounds, full original suite",
+  "additional_method": "ancestor-closed mandatory first-forward cuts force allocation coexistence without fixing action order"
+}

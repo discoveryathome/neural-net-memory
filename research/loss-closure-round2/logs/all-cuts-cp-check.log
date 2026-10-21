@@ -1,0 +1,1 @@
+{"status": "PASS", "fixed_rows": 60, "cut_comparisons": 1015, "solver": "OR-Tools9.15.6755 CP-SAT", "scope": "same necessary relaxation; integer optimum status required; author-team control"}

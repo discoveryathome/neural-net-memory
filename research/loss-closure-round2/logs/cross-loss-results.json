@@ -1,0 +1,12 @@
+{
+  "source_sha256": "bf71d42e65077db521b93cd8b17beae837db2966600e73c5b514b071241ac93c",
+  "final_source_sha256": "bf71d42e65077db521b93cd8b17beae837db2966600e73c5b514b071241ac93c",
+  "evidence_level": "same-author-team AI implementation review;not independent scientific acceptance",
+  "status": "PASS",
+  "event_frontier_comparisons": 1068,
+  "true_optimum_comparisons": 240,
+  "max_original_exact_states": 8664,
+  "maxrss_bytes": 25280512,
+  "seconds": 0.260010041994974,
+  "proof_review": "Trace-to-set event lemma, induced-ancestor encoding, last-consumer frontier-bit forgetting, and Pareto dominance found sound. Query budget must not exceed construction cap."
+}
