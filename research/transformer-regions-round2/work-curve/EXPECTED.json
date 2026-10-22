@@ -1,0 +1,19 @@
+{
+  "schema": "one-block-work-curve/v1",
+  "graph": "transformer-b1-t32",
+  "unit_bytes": 32768,
+  "rows": [
+    [9, 23281664],
+    [10, 15851520],
+    [11, 7725056],
+    [12, 5627904],
+    [13, 3530752],
+    [14, 1433600],
+    [15, 868352],
+    [16, 344064],
+    [17, 81920],
+    [18, 40960],
+    [19, 0]
+  ],
+  "evidence": "author-checked; full frozen graph Dijkstra; outside review pending"
+}

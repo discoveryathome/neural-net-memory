@@ -1,0 +1,80 @@
+{
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "seed": "dafc4be0863b7654352ffb2ba4a4d2df",
+  "assignment": "Explicit user broad frontier follow-up; complete29-point two-block work frontier, one3.99% work construction plus50.04% highest-budget reuse of PR10",
+  "graph": "transformer-b2-t64",
+  "primary_frontier_gain": false,
+  "evidence": "author-checked; same author-team AI review only",
+  "model": "activation-memory/v1, unchanged",
+  "solver": "OR-Tools9.15.6755 CP-SAT integer",
+  "bounds": {
+    "workers": 1,
+    "seconds_per_solve": 30,
+    "solver_memory_mb": 300,
+    "external_guard_mib": 350
+  },
+  "authorization": "Separate focused research proposal; parent handles GitHub writes",
+  "cases": [
+    {
+      "peak_bytes": 1245184,
+      "exact_minimum_additional_work": 26869760,
+      "negative_budget": 26869759
+    },
+    {
+      "peak_bytes": 851968,
+      "exact_minimum_additional_work": 52035584,
+      "negative_budget": 52035583,
+      "old_extra_work": 54198272
+    },
+    {
+      "peak_bytes": 655360,
+      "exact_minimum_additional_work": 106725376,
+      "negative_budget": 106725375,
+      "method": "necessary first-final-GELU cut; explicit preloss graph plus audited disjoint PDBs"
+    }
+  ],
+  "complete_curve": {
+    "exact_caps": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "points": 29,
+    "universal_peak_floor": 655360,
+    "zero_work_peak": 2490368,
+    "additional_original_benchmark_wins": 0
+  },
+  "highest_budget_reuse": {
+    "budget": 221642752,
+    "peak_bytes": 655360,
+    "old_work": 213614592,
+    "new_work": 106725376,
+    "separate_construction": false
+  }
+}

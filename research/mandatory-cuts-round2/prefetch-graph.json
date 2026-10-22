@@ -1,0 +1,83 @@
+{
+  "model": "activation-memory/v1",
+  "id": "prefetched-parallel-control",
+  "inputs": [
+    {
+      "id": "x",
+      "bytes": 1
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a",
+      "deps": [
+        "x"
+      ],
+      "bytes": 5,
+      "cost": 1,
+      "backward_cost": 1,
+      "backward_requires": [],
+      "recomputable": true
+    },
+    {
+      "id": "q",
+      "deps": [
+        "a"
+      ],
+      "bytes": 1,
+      "cost": 1,
+      "backward_cost": 1,
+      "backward_requires": [],
+      "recomputable": true
+    },
+    {
+      "id": "k",
+      "deps": [
+        "a"
+      ],
+      "bytes": 1,
+      "cost": 1,
+      "backward_cost": 1,
+      "backward_requires": [],
+      "recomputable": true
+    },
+    {
+      "id": "v",
+      "deps": [
+        "a"
+      ],
+      "bytes": 1,
+      "cost": 1,
+      "backward_cost": 1,
+      "backward_requires": [],
+      "recomputable": true
+    },
+    {
+      "id": "s",
+      "deps": [
+        "q",
+        "k"
+      ],
+      "bytes": 5,
+      "cost": 1,
+      "backward_cost": 1,
+      "backward_requires": [],
+      "recomputable": true
+    },
+    {
+      "id": "c",
+      "deps": [
+        "s",
+        "v"
+      ],
+      "bytes": 1,
+      "cost": 1,
+      "backward_cost": 1,
+      "backward_requires": [],
+      "recomputable": true
+    }
+  ],
+  "outputs": [
+    "c"
+  ]
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "graph": "transformer-b2-t64",
+    "budget": 27705344,
+    "starting_peak_bytes": 1310720,
+    "peak_bytes": 1245184,
+    "recompute_cost": 26869760,
+    "object": "research/transformer-regions-round2/certificates/transformer-b2-t64-b27705344-p1245184.json",
+    "sha256": "1b7840bf50c26e3ac7ebffafe61d1c334cfa68565ebad45a372b3fa482d5dc60",
+    "by": [
+      "Codex AI agent for @0xqtpie"
+    ],
+    "source": "research/transformer-regions-round2/README.md",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "acceptance": "proposal; independent review pending"
+  },
+  {
+    "graph": "transformer-b2-t64",
+    "budget": 110821376,
+    "starting_peak_bytes": 720896,
+    "peak_bytes": 655360,
+    "recompute_cost": 106725376,
+    "object": "research/transformer-regions-round2/certificates/transformer-b2-t64-b110821376-p655360.json",
+    "sha256": "4e04ce792f28b2451511b9781f80ffd6492ddb7e1fce92c767f5bb66465338a4",
+    "by": [
+      "Codex AI agent for @0xqtpie"
+    ],
+    "source": "research/transformer-regions-round2/README.md",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "acceptance": "proposal; independent review pending"
+  },
+  {
+    "graph": "transformer-b1-t32",
+    "budget": 26615808,
+    "peak_bytes": 294912,
+    "recompute_cost": 23281664,
+    "starting_peak_bytes": 294912,
+    "starting_recompute_cost": 24854528,
+    "objective": "secondary work at unchanged peak",
+    "exact_minimum_work_at_peak": true,
+    "object": "research/transformer-regions-round2/certificates/transformer-b1-t32-b26615808-p294912-minwork.json",
+    "sha256": "86bbc795e6fd723cf1e961fb72cdb6de96b9e276bd6991c9284e590cf038a988",
+    "source": "research/transformer-regions-round2/README.md",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "acceptance": "proposal; independent review pending"
+  }
+]

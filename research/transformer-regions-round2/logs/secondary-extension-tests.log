@@ -1,0 +1,19 @@
+test_all25_tiny_exact_frontiers (test_regions.RegionTests.test_all25_tiny_exact_frontiers) ... ok
+test_changed_graph_rejected (test_regions.RegionTests.test_changed_graph_rejected) ... ok
+test_exact_weighted_cost_and_budget (test_regions.RegionTests.test_exact_weighted_cost_and_budget) ... ok
+test_frozen_full_graph_composition (test_regions.RegionTests.test_frozen_full_graph_composition) ... ok
+test_limit_never_claims_an_optimum (test_regions.RegionTests.test_limit_never_claims_an_optimum) ... ok
+test_tail_cache_and_initial_allocation (test_regions.RegionTests.test_tail_cache_and_initial_allocation) ... ok
+test_tail_charges_every_forward (test_regions.RegionTests.test_tail_charges_every_forward) ... ok
+test_checkpoint_cannot_be_dropped_early (test_result.ResultTests.test_checkpoint_cannot_be_dropped_early) ... ok
+test_cut_false_bound_and_missing_barrier_rejected (test_result.ResultTests.test_cut_false_bound_and_missing_barrier_rejected) ... ok
+test_false_metrics_and_budget_are_rejected (test_result.ResultTests.test_false_metrics_and_budget_are_rejected) ... ok
+test_malformed_retention_rejected (test_result.ResultTests.test_malformed_retention_rejected) ... ok
+test_one_block_secondary_work_boundary (test_result.ResultTests.test_one_block_secondary_work_boundary) ... ok
+test_retention_is_charged_globally (test_result.ResultTests.test_retention_is_charged_globally) ... ok
+test_two_complete_fixed_budget_constructions (test_result.ResultTests.test_two_complete_fixed_budget_constructions) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 1.700s
+
+OK

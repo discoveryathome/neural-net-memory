@@ -1,0 +1,28 @@
+{
+  "schema": "b2-ten-unit-proof/v1",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "master_seed": "dafc4be0863b7654352ffb2ba4a4d2df",
+  "graph_sha256": "49253c00a0941d94630e5323343af6e2d19e7317f26864fc19e01bc782bc638b",
+  "cap_bytes": 655360,
+  "exact_minimum_work": 106725376,
+  "original_certificate_budget": 110821376,
+  "positive_certificate_file_sha256": "4e04ce792f28b2451511b9781f80ffd6492ddb7e1fce92c767f5bb66465338a4",
+  "positive_certificate_sha256": "f9bde99532574e5a292da3814e271ee3574f4ab23516694f5538a1f59002f6ba",
+  "binary_sha256": {
+    "backward": "e46ce6bcb25889424f9e82368d01c3fe6af5ec1168a2033ae59c9c20c3e13f27",
+    "demand": "1bfd1c3408b670e1067f477f57c0e9eaffda3198a4d57a52e5c114f6a89378b5",
+    "terminal": "c5c62b1704c6a596d73c4dc3827b0334dba37a4fa31196bcee772b70ad00648b"
+  },
+  "expected_negative": {
+    "status": "EXHAUSTED",
+    "seeds": 19,
+    "states": 2463,
+    "expanded": 2463,
+    "generated": 16754
+  },
+  "expected_positive": {
+    "status": "OPEN_LOSS_BOUNDARY",
+    "minimum_boundary_total": 106725376
+  },
+  "credits": "Doug Colkitt @Mister-Meeseeks frozen model/verifier/trial Cache and predecessors; PR6 regional composition; PR10 b2 witness; same-session PDB/native work. Codex AI for @0xqtpie; author-checked only."
+}

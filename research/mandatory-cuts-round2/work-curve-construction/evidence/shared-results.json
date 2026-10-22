@@ -1,0 +1,446 @@
+{
+  "status": "PASS",
+  "schema": "b2-constructive-work-curve/v1",
+  "graph_sha256": "49253c00a0941d94630e5323343af6e2d19e7317f26864fc19e01bc782bc638b",
+  "unit_bytes": 65536,
+  "rows": [
+    {
+      "cap_units": 10,
+      "peak_cap_bytes": 655360,
+      "extra_work": 106725376,
+      "tight_edge_states": 2948,
+      "verified_metrics": {
+        "peak_bytes": 655360,
+        "recompute_cost": 106725376,
+        "forward_cost": 217546752,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "bd0e21c11dd65236ca27479a1db0bc0745a145859a12af87d1da366762e4942a",
+      "certificate_file": "cap10.json",
+      "original_budget_replays": [
+        110821376,
+        221642752
+      ]
+    },
+    {
+      "cap_units": 11,
+      "peak_cap_bytes": 720896,
+      "extra_work": 85409792,
+      "tight_edge_states": 3386,
+      "verified_metrics": {
+        "peak_bytes": 720896,
+        "recompute_cost": 85409792,
+        "forward_cost": 196231168,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "172ffd37c2973192863f136950680505fab9a06f6ff74f65197d52467d8b7d79",
+      "certificate_file": "cap11.json"
+    },
+    {
+      "cap_units": 12,
+      "peak_cap_bytes": 786432,
+      "extra_work": 64962560,
+      "tight_edge_states": 2950,
+      "verified_metrics": {
+        "peak_bytes": 786432,
+        "recompute_cost": 64962560,
+        "forward_cost": 175783936,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "82d2dc41a29d60910f48c88a364de6fef99d5b2f5030276bd8832c5b82c428d6",
+      "certificate_file": "cap12.json"
+    },
+    {
+      "cap_units": 13,
+      "peak_cap_bytes": 851968,
+      "extra_work": 52035584,
+      "tight_edge_states": 2472,
+      "verified_metrics": {
+        "peak_bytes": 851968,
+        "recompute_cost": 52035584,
+        "forward_cost": 162856960,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "08ad7f3ee83e7f843469676195df100ced3eb7de0153b3936af3080532bfafd8",
+      "certificate_file": "cap13.json",
+      "original_budget_replays": [
+        55410688
+      ]
+    },
+    {
+      "cap_units": 14,
+      "peak_cap_bytes": 917504,
+      "extra_work": 47841280,
+      "tight_edge_states": 3188,
+      "verified_metrics": {
+        "peak_bytes": 917504,
+        "recompute_cost": 47841280,
+        "forward_cost": 158662656,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "40d87b8ac485422b35aca138542c378c4de71ffe26a47aec07d67591fd942989",
+      "certificate_file": "cap14.json"
+    },
+    {
+      "cap_units": 15,
+      "peak_cap_bytes": 983040,
+      "extra_work": 43646976,
+      "tight_edge_states": 3991,
+      "verified_metrics": {
+        "peak_bytes": 983040,
+        "recompute_cost": 43646976,
+        "forward_cost": 154468352,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "92c21f41d0a79ff8b0fdfe54115c4df631dcbcbec9d2f6be56390aa56594180c",
+      "certificate_file": "cap15.json"
+    },
+    {
+      "cap_units": 16,
+      "peak_cap_bytes": 1048576,
+      "extra_work": 39452672,
+      "tight_edge_states": 3661,
+      "verified_metrics": {
+        "peak_bytes": 1048576,
+        "recompute_cost": 39452672,
+        "forward_cost": 150274048,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "7d24fe87f22c9a930eff2ec4f78137cf62b4f40e7d70fe6d9aada9483db88f3d",
+      "certificate_file": "cap16.json"
+    },
+    {
+      "cap_units": 17,
+      "peak_cap_bytes": 1114112,
+      "extra_work": 35258368,
+      "tight_edge_states": 4146,
+      "verified_metrics": {
+        "peak_bytes": 1114112,
+        "recompute_cost": 35258368,
+        "forward_cost": 146079744,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "fa99125ca2bedc9c0c3e81b38c7a7cf63b214a2140583ecee0428ac6d4bec0cc",
+      "certificate_file": "cap17.json"
+    },
+    {
+      "cap_units": 18,
+      "peak_cap_bytes": 1179648,
+      "extra_work": 31064064,
+      "tight_edge_states": 4124,
+      "verified_metrics": {
+        "peak_bytes": 1179648,
+        "recompute_cost": 31064064,
+        "forward_cost": 141885440,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "da2b014fcb7e02bf76c745d33d0ccfde1c6f3d920e915c72cf88cfe7ff4778b1",
+      "certificate_file": "cap18.json"
+    },
+    {
+      "cap_units": 19,
+      "peak_cap_bytes": 1245184,
+      "extra_work": 26869760,
+      "tight_edge_states": 5947,
+      "verified_metrics": {
+        "peak_bytes": 1245184,
+        "recompute_cost": 26869760,
+        "forward_cost": 137691136,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "93ac94965df437c450e62dca66d711d4ad2b7ea9808f9c240558c5cac386393c",
+      "certificate_file": "cap19.json",
+      "original_budget_replays": [
+        27705344
+      ]
+    },
+    {
+      "cap_units": 20,
+      "peak_cap_bytes": 1310720,
+      "extra_work": 22675456,
+      "tight_edge_states": 4207,
+      "verified_metrics": {
+        "peak_bytes": 1310720,
+        "recompute_cost": 22675456,
+        "forward_cost": 133496832,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "09e3ec26b0f730cab3666abe6237e9267a59f960cbc4a3c31c94df249e0381b2",
+      "certificate_file": "cap20.json"
+    },
+    {
+      "cap_units": 21,
+      "peak_cap_bytes": 1376256,
+      "extra_work": 18481152,
+      "tight_edge_states": 3967,
+      "verified_metrics": {
+        "peak_bytes": 1376256,
+        "recompute_cost": 18481152,
+        "forward_cost": 129302528,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "a23bceb6551fb00c52718c6930f2b8e7b49e976a3576a50f023d571834325902",
+      "certificate_file": "cap21.json"
+    },
+    {
+      "cap_units": 22,
+      "peak_cap_bytes": 1441792,
+      "extra_work": 14286848,
+      "tight_edge_states": 4027,
+      "verified_metrics": {
+        "peak_bytes": 1441792,
+        "recompute_cost": 14286848,
+        "forward_cost": 125108224,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "c5c3165a1c0854f9a2ce07617a8ad62dd46352f1d2a8fc1907a3c5b32cbf6609",
+      "certificate_file": "cap22.json"
+    },
+    {
+      "cap_units": 23,
+      "peak_cap_bytes": 1507328,
+      "extra_work": 10092544,
+      "tight_edge_states": 4984,
+      "verified_metrics": {
+        "peak_bytes": 1507328,
+        "recompute_cost": 10092544,
+        "forward_cost": 120913920,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "76c8d72286e6c64f3626afaa686e2089f2edc5c862bc5c0df65ae2e8bc521f14",
+      "certificate_file": "cap23.json"
+    },
+    {
+      "cap_units": 24,
+      "peak_cap_bytes": 1572864,
+      "extra_work": 7995392,
+      "tight_edge_states": 4984,
+      "verified_metrics": {
+        "peak_bytes": 1572864,
+        "recompute_cost": 7995392,
+        "forward_cost": 118816768,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "31d618236a78053f6d441002b6a3d18f32118f41bf40a7b5676617b4ef96a0d8",
+      "certificate_file": "cap24.json"
+    },
+    {
+      "cap_units": 25,
+      "peak_cap_bytes": 1638400,
+      "extra_work": 5898240,
+      "tight_edge_states": 4872,
+      "verified_metrics": {
+        "peak_bytes": 1638400,
+        "recompute_cost": 5898240,
+        "forward_cost": 116719616,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "08e61303219db2ac0f57a353bf8e87c4508bae16d47640a83d4c88ef3ed23358",
+      "certificate_file": "cap25.json"
+    },
+    {
+      "cap_units": 26,
+      "peak_cap_bytes": 1703936,
+      "extra_work": 5373952,
+      "tight_edge_states": 4872,
+      "verified_metrics": {
+        "peak_bytes": 1703936,
+        "recompute_cost": 5373952,
+        "forward_cost": 116195328,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "72bbfc142efa429546298a09c2d59d36f813061d6d589c3f2aff3224cb14bbc8",
+      "certificate_file": "cap26.json"
+    },
+    {
+      "cap_units": 27,
+      "peak_cap_bytes": 1769472,
+      "extra_work": 3637248,
+      "tight_edge_states": 4872,
+      "verified_metrics": {
+        "peak_bytes": 1769472,
+        "recompute_cost": 3637248,
+        "forward_cost": 114458624,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "807222d4c566c98e9e9097f60621e9d1a0964cd0e493c4727d7540afe27ac81c",
+      "certificate_file": "cap27.json"
+    },
+    {
+      "cap_units": 28,
+      "peak_cap_bytes": 1835008,
+      "extra_work": 3112960,
+      "tight_edge_states": 4872,
+      "verified_metrics": {
+        "peak_bytes": 1835008,
+        "recompute_cost": 3112960,
+        "forward_cost": 113934336,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "c0bfb0ed683b800d6015887bcd5990f5d68741905d49f42aa40269dd14b583ac",
+      "certificate_file": "cap28.json"
+    },
+    {
+      "cap_units": 29,
+      "peak_cap_bytes": 1900544,
+      "extra_work": 1376256,
+      "tight_edge_states": 2738,
+      "verified_metrics": {
+        "peak_bytes": 1900544,
+        "recompute_cost": 1376256,
+        "forward_cost": 112197632,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "10aa8f896318692da2965e8423e10c8f99f529703d78bca80a1665e503be0cb0",
+      "certificate_file": "cap29.json"
+    },
+    {
+      "cap_units": 30,
+      "peak_cap_bytes": 1966080,
+      "extra_work": 851968,
+      "tight_edge_states": 2738,
+      "verified_metrics": {
+        "peak_bytes": 1966080,
+        "recompute_cost": 851968,
+        "forward_cost": 111673344,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "38e4d3f9c03b23cf4bae70210e2da4e3fa5e36e42165458912ede21962102685",
+      "certificate_file": "cap30.json"
+    },
+    {
+      "cap_units": 31,
+      "peak_cap_bytes": 2031616,
+      "extra_work": 770048,
+      "tight_edge_states": 2738,
+      "verified_metrics": {
+        "peak_bytes": 2031616,
+        "recompute_cost": 770048,
+        "forward_cost": 111591424,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "69d3edc6395e8008e6b865602363be7c74adbeccc739d76fed8c58acf1dcc622",
+      "certificate_file": "cap31.json"
+    },
+    {
+      "cap_units": 32,
+      "peak_cap_bytes": 2097152,
+      "extra_work": 688128,
+      "tight_edge_states": 2738,
+      "verified_metrics": {
+        "peak_bytes": 2097152,
+        "recompute_cost": 688128,
+        "forward_cost": 111509504,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "105d96554b6265ad75841764344683db57b39779fcb674a838c79db3ba0c9ed4",
+      "certificate_file": "cap32.json"
+    },
+    {
+      "cap_units": 33,
+      "peak_cap_bytes": 2162688,
+      "extra_work": 606208,
+      "tight_edge_states": 2073,
+      "verified_metrics": {
+        "peak_bytes": 2162688,
+        "recompute_cost": 606208,
+        "forward_cost": 111427584,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "28f400de4a29ad594b92557014b2e104a9665ad879631fb8118e1618daf612d9",
+      "certificate_file": "cap33.json"
+    },
+    {
+      "cap_units": 34,
+      "peak_cap_bytes": 2228224,
+      "extra_work": 327680,
+      "tight_edge_states": 2730,
+      "verified_metrics": {
+        "peak_bytes": 2228224,
+        "recompute_cost": 327680,
+        "forward_cost": 111149056,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "198be992830388c5bdf64dd1464ca989b5ed780b6c63a559918d877379c91302",
+      "certificate_file": "cap34.json"
+    },
+    {
+      "cap_units": 35,
+      "peak_cap_bytes": 2293760,
+      "extra_work": 245760,
+      "tight_edge_states": 2730,
+      "verified_metrics": {
+        "peak_bytes": 2293760,
+        "recompute_cost": 245760,
+        "forward_cost": 111067136,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "cb0d5c46f9fb757cb43b0a41ce61e4b6b5324e9781254ebe7f6b1c47f3731834",
+      "certificate_file": "cap35.json"
+    },
+    {
+      "cap_units": 36,
+      "peak_cap_bytes": 2359296,
+      "extra_work": 163840,
+      "tight_edge_states": 2730,
+      "verified_metrics": {
+        "peak_bytes": 2359296,
+        "recompute_cost": 163840,
+        "forward_cost": 110985216,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "ce6726f175de7b12e27ae1cec0399e9cb3b6b53d3c364c2729769cb88e5275a6",
+      "certificate_file": "cap36.json"
+    },
+    {
+      "cap_units": 37,
+      "peak_cap_bytes": 2424832,
+      "extra_work": 81920,
+      "tight_edge_states": 2069,
+      "verified_metrics": {
+        "peak_bytes": 2424832,
+        "recompute_cost": 81920,
+        "forward_cost": 110903296,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "e01b0ec164322fcd8bd4b907e112b256f13eebe4d4564756277e2844d17289dc",
+      "certificate_file": "cap37.json"
+    },
+    {
+      "cap_units": 38,
+      "peak_cap_bytes": 2490368,
+      "extra_work": 0,
+      "tight_edge_states": 2061,
+      "verified_metrics": {
+        "peak_bytes": 2490368,
+        "recompute_cost": 0,
+        "forward_cost": 110821376,
+        "backward_cost": 221642752
+      },
+      "actions_sha256": "54b9f00281c84aa5718684ed30bea6ed882c3fc90b310e750b8eb326733df808",
+      "certificate_file": "cap38.json"
+    }
+  ],
+  "negative_controls": [
+    "changed frozen graph rejected",
+    "oversized23u table at20u rejected",
+    "checkpoint dropped before reader rejected"
+  ],
+  "reused_audited_back_tables": true,
+  "seconds": 13.67436699999962,
+  "saturation": {
+    "full_local_units": 23,
+    "backward_local_units": 21,
+    "full_training_zero_units": 20
+  },
+  "limits": {
+    "aggregate_seconds": 120,
+    "backward_states": 200000,
+    "backward_seconds": 30,
+    "full_records": 500000,
+    "full_seconds": 15,
+    "tight_states": 200000
+  },
+  "scope": "all29full auxiliary Pareto upper points; original four budgets also replayed; no standalone global optimality claim",
+  "evidence": "author-checked; same-author-team review and scientific acceptance pending"
+}

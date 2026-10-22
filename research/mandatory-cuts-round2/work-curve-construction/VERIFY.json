@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-22T00:29:00Z",
+  "graph_sha256": "49253c00a0941d94630e5323343af6e2d19e7317f26864fc19e01bc782bc638b",
+  "commands": [
+    "python3 -B research/mandatory-cuts-round2/work-curve-construction/replay.py --out SCRATCH",
+    "run(repo,out,shared=(audited_table_directory,audited_bound_result))",
+    "python3 -B verify_all.py"
+  ],
+  "session_execution": "All runs used session sandbox-exec network/write-denying profile and Python -B.",
+  "results": {
+    "full_certificates_per_mode": 29,
+    "standalone_seconds": 16.312470166012645,
+    "shared_seconds": 13.67436699999962,
+    "identical_action_digests": true,
+    "original_fixed_budgets_replayed": 4,
+    "zero_work_cap_units": 38,
+    "negative_controls": [
+      "changed frozen graph rejected",
+      "oversized23u table at20u rejected",
+      "checkpoint dropped before reader rejected"
+    ],
+    "core_verify_seconds": 2.115
+  },
+  "limits": {
+    "aggregate_seconds": 120,
+    "backward_states": 200000,
+    "backward_seconds": 30,
+    "full_records": 500000,
+    "full_seconds": 15,
+    "tight_states": 200000
+  },
+  "platform": {
+    "system": "darwin",
+    "machine": "arm64",
+    "python": "3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 17.0.0 (clang-1700.0.13.3)]",
+    "dependencies": "standard library only"
+  },
+  "evidence": "Author checked; same-author-team implementation review. Scientific review and acceptance pending.",
+  "scope": "Constructive auxiliary curve; global equality requires the separate bound and joint replay. No added original-case wins.",
+  "parent_helpers": "Existing local regional_exact, compose_schedule, and ten-unit-proof/pattern_db; no PR14 runtime dependency."
+}

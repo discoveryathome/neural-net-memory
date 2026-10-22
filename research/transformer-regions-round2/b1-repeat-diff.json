@@ -1,0 +1,26 @@
+[
+  {
+    "node": "b0_norm1",
+    "before": 3,
+    "after": 2,
+    "work_delta": -40960
+  },
+  {
+    "node": "b0_k",
+    "before": 2,
+    "after": 1,
+    "work_delta": -2097152
+  },
+  {
+    "node": "b0_scores",
+    "before": 1,
+    "after": 2,
+    "work_delta": 524288
+  },
+  {
+    "node": "b0_probs",
+    "before": 1,
+    "after": 2,
+    "work_delta": 40960
+  }
+]

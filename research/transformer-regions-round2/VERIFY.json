@@ -1,0 +1,90 @@
+{
+  "schema": "research-verification/v1",
+  "status": "PASS",
+  "evidence_level": "author-checked",
+  "verified_at": "2026-10-22T00:01:09.158662+00:00",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "independent_review": false,
+  "frozen_records_changed": false,
+  "commands": [
+    {
+      "command": "python3 research/transformer-regions-round2/verify_result.py --reconstruct",
+      "result": "PASS:2 strict fixed-budget peak gains;1 strict secondary-work gain with exact negative boundary;2 prior exact fixed-cap exclusions and structural b2 floor",
+      "log_sha256": "2421c584f82679e00b9f07ab47e4616f4379808b3d78fe2e9671f592221d655b"
+    },
+    {
+      "command": "python3 -m unittest discover -s research/transformer-regions-round2 -p 'test_*.py' -v",
+      "result": "PASS:14 tests, including25 tiny controls, new one-block work boundary, inherited PR6 b4 reproduction",
+      "log_sha256": "8388bd56e057257891a1410f5ad2fb9938f0b6b2f7889cd191378a67cf025d44"
+    },
+    {
+      "command": "python3 verify_all.py",
+      "result": "PASS:23 root tests;60 rows;418 baseline certificates;25 tiny optima;8 catalogue controls",
+      "log_sha256": "50455e284c42e056253dd1b9a44445d7f4aaff978d2df661f70005a64a455f1b"
+    },
+    {
+      "command": "python3 research/transformer-regions-round2/work-curve/replay.py --out SCRATCH",
+      "result": "PASS eleven exact Pareto points",
+      "log_sha256": "5c945c8735b2889abcd2156dc06570d35b0e6e57025aef1bccf3c06d86c22737"
+    }
+  ],
+  "negative_controls": [
+    "Changed frozen graph",
+    "Retention cache globally charged",
+    "Malformed/duplicate/unknown retention sets",
+    "Early checkpoint drop causing missing dependency",
+    "Optimistic peak and recomputation claims",
+    "Wrong externally supplied budget",
+    "False bound and missing barrier",
+    "State limit never returns an optimum"
+  ],
+  "not_checked": [
+    "Independent code/scientific review or maintainer acceptance",
+    "Full global optimality for four-block transformer",
+    "Independent review of the b4 exclusion in separate PR13",
+    "Native modern-solver comparison, autograd/export fidelity, GPU or total training-memory measurements"
+  ],
+  "artifacts_sha256": {
+    "README.md": "65458ea9dcb098c94e1083bbb01fcd0b82f29bc556834227d1a31c38eb04f55c",
+    "SOURCES.json": "044c055b1c8b4c49d9c791498f40090e8dbc8e91a14759bd958960aaeb2441ad",
+    "TASK.json": "00bc8b425a8e19be019d00fefeb4ade247b1ab240c6b70b1012db0e822934a82",
+    "b1-author-review.json": "97749a6eede968fadeafc6c3a5daaaff567c295006357e5b6173bbd1f11362cf",
+    "b1-known-work-baseline.json": "30a23f409c02d089bada07ca639c364cb31d0eb3f9f8bf310622b54d25b6ef0d",
+    "b1-repeat-diff.json": "f0afbf9ef7e6ffd5832fef6c8af0f9ca258e488e8bd4d8ddb183950d2ca84b8c",
+    "b2-reset-cut.json": "00a3772e55799f5f8e0faa58894c1ae185f06049b2f37169b7b947a5c9281e29",
+    "certificates/transformer-b1-t32-b26615808-p294912-minwork.json": "86bbc795e6fd723cf1e961fb72cdb6de96b9e276bd6991c9284e590cf038a988",
+    "certificates/transformer-b1-t32-cap327680-minwork.json": "4686769163389464eed291bd7a14fb3e5464477eedc813d7a6360429b931042a",
+    "certificates/transformer-b1-t32-cap360448-minwork.json": "1aef221be03e466b76584ed22bc89bcbc076b22c52441c3d457e79d5245fec79",
+    "certificates/transformer-b2-t64-b110821376-p655360.json": "4e04ce792f28b2451511b9781f80ffd6492ddb7e1fce92c767f5bb66465338a4",
+    "certificates/transformer-b2-t64-b27705344-p1245184.json": "1b7840bf50c26e3ac7ebffafe61d1c334cfa68565ebad45a372b3fa482d5dc60",
+    "compose_schedule.py": "c1fab376ee723d8f4fae35c600634705275da22e06fcb77183e6873b7f0cd839",
+    "experiments.jsonl": "2e32ce75d37a4eefc8877154d16d83efffa2b2a05b5e58a8d7879f0363620cf9",
+    "logs/secondary-extension-replay.log": "2421c584f82679e00b9f07ab47e4616f4379808b3d78fe2e9671f592221d655b",
+    "logs/secondary-extension-tests.log": "8388bd56e057257891a1410f5ad2fb9938f0b6b2f7889cd191378a67cf025d44",
+    "proposed-frontiers.json": "bf9e26e107f75ff1e7f8e922e3944579ccd1e0eaf282da5e39fe1ea5d9e68484",
+    "regional_exact.py": "0a6848a76242b0ad06ecda812984413fe9244f80db6456f708f3be8b7dc88109",
+    "reset_cut.py": "fba7f704e62e86308f983f700ced2623b6ebf5b07f35fac034eea88a730d0f4b",
+    "test_regions.py": "81363e20e1b11a20ec527f197e77b6af91b123ee8f8ce1f9368b3bdb4df3eea2",
+    "test_result.py": "a002fabc67ed9f3c39cb4f0950509c1909aa14f1e89a2811d7a9f9f957f77ecc",
+    "verify_result.py": "de9a4060dc15f78fbf22739203d589fea2776ee02097a87a82a0cd41cadd7b01",
+    "work-curve/.gitignore": "f5c10da83055c0c3e72f3167971d1916e443dc90390e32b42844552cc37b81e0",
+    "work-curve/EXPECTED.json": "a28b24a11cf3249e9e073daf51ed1ea0dab0f5ed7ea2af1b2e113c00935377f4",
+    "work-curve/README.md": "71da2bee4ada9061c5aa137efeeadbfaea28b4947ad316e796c0addc391689c8",
+    "work-curve/author-review.json": "13c15b796ec92a48a00bc478f08f5c289a4849c59fd49199680c74e1bcf5c4b5",
+    "work-curve/parent-replay.log": "5c945c8735b2889abcd2156dc06570d35b0e6e57025aef1bccf3c06d86c22737",
+    "work-curve/replay.py": "5051d4e18581180317d86e5b1452be5ea961e727ef9900bedccaaa5c3c7edae7"
+  },
+  "secondary_work_result": {
+    "peak_bytes": 294912,
+    "old_work": 24854528,
+    "new_work": 23281664,
+    "negative_budget": 23281663,
+    "evidence": "full fixed-cap Dijkstra; same author team"
+  },
+  "one_block_curve": {
+    "points": 11,
+    "positive": "full verifier PASS",
+    "negative": "10 exhausted work-minus-one calls",
+    "evidence": "same author team; outside review pending"
+  }
+}

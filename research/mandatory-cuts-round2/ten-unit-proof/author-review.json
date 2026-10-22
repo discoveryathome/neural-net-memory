@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "scope": "same-author-team read-only mathematical cut/PDB mapping review and separate regenerated execution; not independent scientific validation",
+  "proof_observations": [
+    "The first b1_gelu requires exactly the first26 nodes seen and forbids terminal firsts and all backwards before the cut. Forced up/gelu plus immutablex leave at most one unit; all19 possible small-cache seeds are included.",
+    "Every explicit single drop and legal repeated forward is included; phase preserves whether down has ever been seen. Firstdown and firstres2 are free, all old ancestors are fully charged.",
+    "Block0 output-demand and block1 terminal/backward costs concern disjoint owned forward sets. Both local inputs are permanently available and standing fixed bytes charge global immutablex; thus each local projection is favorable.",
+    "At firstres2, all first forwards have happened and the output is live. Immediate loss is favorable, so its postloss PDB bound suffices to reject that boundary. No omitted future preloss action can rescue a rejected boundary.",
+    "Bellman plus tight-goal audits establish exact local tables. Negative budget exhaustion leaves no admissible complete trace in this favorable cut relaxation, while the legal full positive witness supplies the matching upper bound."
+  ],
+  "sources": {
+    "micro_preloss.py": "1ed163b1839ab684894996e4d374ddbc8a2b7d66446a1ea5532887a3d0bec966",
+    "pdb_audit.py": "1c0612aa9c9930cf48a4060f3b870eca6605f1e353e90297f8a20622b164d1cc",
+    "replay.py": "c631c68b6162d22463ad65e7340a0c85247d8824f53d4819266f3960dfed3f6d",
+    "output_demand_db.py": "8b80b6ce5420b51188fbfb167f87c49fa04699c7b09cb13ae3e093df570de5f5",
+    "pattern_db.py": "db7a1786b5d57c833e623dafe161cfb896d3a30511ccb0d73d6f55d4aa3e1f01",
+    "terminal_phase_db.py": "30310410539bee5449dd8c1c302283791a7e58df4c4f36faf4324a57037700a7"
+  },
+  "replicated": {
+    "audits": {
+      "backward": {
+        "valid_states": 38262,
+        "edges": 276119
+      },
+      "demand": {
+        "valid_states": 5610,
+        "edges": 40857
+      },
+      "terminal": {
+        "valid_states": 5034,
+        "edges": 34724,
+        "tight_goal_states": 416
+      }
+    },
+    "table_forgeries_rejected": 9,
+    "witness_forgeries_rejected": 4,
+    "actual_owned_checks": 46,
+    "closure_statuses": [
+      {
+        "budget": 106725376,
+        "status": "OPEN_LOSS_BOUNDARY",
+        "states": 1009,
+        "expanded": 795
+      },
+      {
+        "budget": 106725375,
+        "status": "EXHAUSTED",
+        "states": 2463,
+        "expanded": 2463
+      }
+    ],
+    "positive_metrics": {
+      "peak_bytes": 655360,
+      "recompute_cost": 106725376,
+      "forward_cost": 217546752,
+      "backward_cost": 221642752
+    }
+  }
+}

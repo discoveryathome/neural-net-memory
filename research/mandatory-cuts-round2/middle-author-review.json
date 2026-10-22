@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "metrics": {
+    "peak_bytes": 851968,
+    "recompute_cost": 52035584,
+    "forward_cost": 162856960,
+    "backward_cost": 221642752
+  },
+  "mapping": {
+    "status": "OPTIMAL",
+    "mapped_interval_charge": 52035584,
+    "actual_cost": 52035584,
+    "events": 47
+  },
+  "replay_source_sha256": "ef1a39d6e3d4ef6f824fcf1efe99ed634860e2f13e4899af27fc98a8dfb74e00",
+  "witness_sha256": "9cba104e24fe4a051ddd25a380c4b23f2622c1caa6ac12ade9b9a69bc2ccb76e",
+  "scope": "Read-only same-author-team middle witness/verifier/mapping cross-check. Exact negative solve is parent executed; unchanged reviewed formulation and new replay boundary are sound."
+}

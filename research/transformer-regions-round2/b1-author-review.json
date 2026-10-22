@@ -1,0 +1,102 @@
+{
+  "kind": "b1_secondary_extension_review",
+  "status": "PASS",
+  "scope": "Read-only same-author-team source and provenance review; not independent scientific validation.",
+  "file_sha256": {
+    "verify_result.py": "b0b6eed1b283d49439f200e008e57a01d7a7b991da6665bb5654b5e2e0f7db65",
+    "test_result.py": "a002fabc67ed9f3c39cb4f0950509c1909aa14f1e89a2811d7a9f9f957f77ecc",
+    "regional_exact.py": "0a6848a76242b0ad06ecda812984413fe9244f80db6456f708f3be8b7dc88109",
+    "README.md": "045845e441a09b3cab3287f2b2305fde90ba133bd838bd8e09a9560ab815ed82",
+    "VERIFY.json": "95e901d79c16ca7db5d255002356bd3285ac6773cfd04132e62a33e008328226",
+    "TASK.json": "00bc8b425a8e19be019d00fefeb4ade247b1ab240c6b70b1012db0e822934a82",
+    "proposed-frontiers.json": "bf9e26e107f75ff1e7f8e922e3944579ccd1e0eaf282da5e39fe1ea5d9e68484",
+    "b1-known-work-baseline.json": "30a23f409c02d089bada07ca639c364cb31d0eb3f9f8bf310622b54d25b6ef0d",
+    "b1-repeat-diff.json": "f0afbf9ef7e6ffd5832fef6c8af0f9ca258e488e8bd4d8ddb183950d2ca84b8c",
+    "certificates/transformer-b1-t32-b26615808-p294912-minwork.json": "86bbc795e6fd723cf1e961fb72cdb6de96b9e276bd6991c9284e590cf038a988"
+  },
+  "preround_audit_sha256": "1e880abdc7c8f45e0c3e227e324674cadc6736530a30ec7233ae0e3222618577",
+  "prior_best": {
+    "path": "research/trial-30m/certificates/transformer-b1-t32-b26615808-p294912.json",
+    "pointer": "$",
+    "blob_sha256": "35bde6e10b92c659fde23b7ce64bb2007325c4fc7a38ffd3cfd2b7fb98486171",
+    "certificate_sha256": "dc0d22160e6ac98c5d89dae1a665d1d74934bb9ba3fad48887c086f37e55617d",
+    "graph": "transformer-b1-t32",
+    "declared_budget": 26615808,
+    "peak_bytes": 294912,
+    "recompute_cost": 24854528,
+    "forward_cost": 51470336,
+    "backward_cost": 53231616
+  },
+  "new_work": 23281664,
+  "work_saved": 1572864,
+  "reconstructed_replay": {
+    "b2_universal_floor": 655360,
+    "evidence_level": "author-checked",
+    "reconstructed": true,
+    "results": [
+      {
+        "backward_cost": 221642752,
+        "before_peak": 1310720,
+        "budget": 27705344,
+        "forward_cost": 137691136,
+        "graph": "transformer-b2-t64",
+        "peak_bytes": 1245184,
+        "recompute_cost": 26869760
+      },
+      {
+        "backward_cost": 221642752,
+        "before_peak": 720896,
+        "budget": 110821376,
+        "forward_cost": 217546752,
+        "graph": "transformer-b2-t64",
+        "peak_bytes": 655360,
+        "recompute_cost": 106725376
+      },
+      {
+        "backward_cost": 53231616,
+        "before_work": 24854528,
+        "budget": 26615808,
+        "exact_minimum_work": 23281664,
+        "forward_cost": 49897472,
+        "graph": "transformer-b1-t32",
+        "objective": "recompute at fixed peak",
+        "peak_bytes": 294912,
+        "recompute_cost": 23281664
+      },
+      {
+        "budget": 6653952,
+        "graph": "transformer-b1-t32",
+        "minimum_work_at_rejected_cap": 7725056,
+        "peak_optimum": 393216,
+        "rejected_cap": 360448,
+        "scope": "full frozen graph fixed-cap exact Dijkstra; author checked"
+      },
+      {
+        "budget": 13307904,
+        "graph": "transformer-b1-t32",
+        "minimum_work_at_rejected_cap": 15851520,
+        "peak_optimum": 360448,
+        "rejected_cap": 327680,
+        "scope": "full frozen graph fixed-cap exact Dijkstra; author checked"
+      }
+    ],
+    "status": "PASS"
+  },
+  "tests": {
+    "passed": 14,
+    "log_sha256": "1ef501b2669cbb9f9bb1b672d142f39f3d49e7e4b6fc6ca48496c6e602ba05ba"
+  },
+  "findings": [],
+  "reasoning": [
+    "One-block graph has14nodes, so regional_exact covers the complete graph and every legal forward/drop/backward order.",
+    "Dijkstra objective charges only already-seen repeated forwards; state includes live,seen,done,loss. Minimum-cost label dominance is valid for identical states.",
+    "No heuristic, fixed first order or finite action horizon restricts the exact domain. A resource limit raises Limited; it cannot return infeasibility.",
+    "Positive reconstruction matches the exact saved action list. Budget23281663 exhaustion independently reran through both reconstruction and unit test.",
+    "Peak294912 is already mandatory from simultaneous UP4+GELU4+immutableinput1. The work extension is counted once despite reuse under the higher original budget.",
+    "Strongest prior9u certificate is the lower-budget24,854,528 result, not the weaker27,910,144 high-budget predecessor. Both baseline-file entries independently verified with own declared budgets.",
+    "Repeat delta is one fewer K recomputation, one extra SCORES, one fewer NORM1 and one extra PROBS; net saving1,572,864."
+  ],
+  "not_checked": [
+    "No additional whole-repository verification was repeated; parent already ran the required full checks."
+  ]
+}

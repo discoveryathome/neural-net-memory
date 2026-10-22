@@ -1,0 +1,1735 @@
+{
+  "status": "PASS",
+  "solver": "9.15.6755",
+  "graph_sha256": "49253c00a0941d94630e5323343af6e2d19e7317f26864fc19e01bc782bc638b",
+  "cases": [
+    {
+      "witness": "positive-witness.json",
+      "metrics": {
+        "peak_bytes": 1245184,
+        "recompute_cost": 26869760,
+        "forward_cost": 137691136,
+        "backward_cost": 221642752
+      },
+      "mapping": {
+        "status": "OPTIMAL",
+        "mapped_interval_charge": 26869760,
+        "actual_cost": 26869760,
+        "events": 47
+      },
+      "positive": {
+        "status": "OPTIMAL",
+        "cap": 1245184,
+        "budget": 26869760,
+        "events": 47,
+        "seconds": 2.8904527080012485,
+        "solver": "OR-Tools 9.15.6755",
+        "workers": 1,
+        "time_limit_seconds": 30,
+        "strategy": "core",
+        "qk_backward_cut": true,
+        "persistent_allocations": true,
+        "solver_memory_limit_mb": 300,
+        "naive_newnode_rule": false,
+        "scope": "ordered necessary-event relaxation; feasible result is not a legal schedule",
+        "certified_global_lower_bound": 26869760,
+        "raw_best_bound": 26869760.0,
+        "relaxation_work": 26869760,
+        "live": [
+          1,
+          22,
+          54,
+          110,
+          198,
+          390,
+          774,
+          1798,
+          3334,
+          7430,
+          13574,
+          25862,
+          369926,
+          795910,
+          1713414,
+          3155206,
+          6300934,
+          12592390,
+          29369606,
+          54535430,
+          121644294,
+          222307590,
+          155198726,
+          20980998,
+          54535430,
+          20980998,
+          12592390,
+          4203782,
+          9478,
+          2090246,
+          1041670,
+          648454,
+          124166,
+          25862,
+          9478,
+          1286,
+          3334,
+          1287,
+          775,
+          263,
+          15,
+          111,
+          47,
+          39,
+          7,
+          1,
+          0
+        ],
+        "regen": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          33554432,
+          0,
+          8388608,
+          0,
+          0,
+          2080768,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2048,
+          1,
+          512,
+          0,
+          8,
+          112,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "negative": {
+        "status": "INFEASIBLE",
+        "cap": 1245184,
+        "budget": 26869759,
+        "events": 47,
+        "seconds": 2.9126484580338,
+        "solver": "OR-Tools 9.15.6755",
+        "workers": 1,
+        "time_limit_seconds": 30,
+        "strategy": "core",
+        "qk_backward_cut": true,
+        "persistent_allocations": true,
+        "solver_memory_limit_mb": 300,
+        "naive_newnode_rule": false,
+        "scope": "ordered necessary-event relaxation; feasible result is not a legal schedule",
+        "certified_global_lower_bound": null,
+        "raw_best_bound": 0.0
+      },
+      "exact_minimum_additional_work": 26869760,
+      "scope": "fixed transformer-b2-t64 at peak1245184; arbitrary earlier recomputation included"
+    },
+    {
+      "witness": "middle-witness.json",
+      "metrics": {
+        "peak_bytes": 851968,
+        "recompute_cost": 52035584,
+        "forward_cost": 162856960,
+        "backward_cost": 221642752
+      },
+      "mapping": {
+        "status": "OPTIMAL",
+        "mapped_interval_charge": 52035584,
+        "actual_cost": 52035584,
+        "events": 47
+      },
+      "positive": {
+        "status": "OPTIMAL",
+        "cap": 851968,
+        "budget": 52035584,
+        "events": 47,
+        "seconds": 1.4490738339954987,
+        "solver": "OR-Tools 9.15.6755",
+        "workers": 1,
+        "time_limit_seconds": 30,
+        "strategy": "core",
+        "qk_backward_cut": true,
+        "persistent_allocations": true,
+        "solver_memory_limit_mb": 300,
+        "naive_newnode_rule": false,
+        "scope": "ordered necessary-event relaxation; feasible result is not a legal schedule",
+        "certified_global_lower_bound": 52035584,
+        "raw_best_bound": 52035584.0,
+        "relaxation_work": 52035584,
+        "live": [
+          1,
+          22,
+          48,
+          104,
+          192,
+          384,
+          768,
+          1792,
+          3328,
+          6400,
+          12544,
+          24832,
+          368896,
+          794880,
+          1712384,
+          3154176,
+          6299904,
+          12591360,
+          29368576,
+          54534400,
+          121643264,
+          222306560,
+          155197696,
+          20979968,
+          54534400,
+          20979968,
+          12591360,
+          4202752,
+          8448,
+          2089216,
+          1040640,
+          647424,
+          123136,
+          24832,
+          8448,
+          256,
+          3840,
+          1792,
+          769,
+          257,
+          15,
+          111,
+          47,
+          39,
+          7,
+          1,
+          0
+        ],
+        "regen": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          33554432,
+          0,
+          8388608,
+          0,
+          0,
+          2080768,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3584,
+          0,
+          1,
+          0,
+          14,
+          112,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "negative": {
+        "status": "INFEASIBLE",
+        "cap": 851968,
+        "budget": 52035583,
+        "events": 47,
+        "seconds": 1.4446805419865996,
+        "solver": "OR-Tools 9.15.6755",
+        "workers": 1,
+        "time_limit_seconds": 30,
+        "strategy": "core",
+        "qk_backward_cut": true,
+        "persistent_allocations": true,
+        "solver_memory_limit_mb": 300,
+        "naive_newnode_rule": false,
+        "scope": "ordered necessary-event relaxation; feasible result is not a legal schedule",
+        "certified_global_lower_bound": null,
+        "raw_best_bound": 0.0
+      },
+      "exact_minimum_additional_work": 52035584,
+      "scope": "fixed transformer-b2-t64 at peak851968; arbitrary earlier recomputation included"
+    },
+    {
+      "witness": "ten-unit-proof/positive-witness.json",
+      "metrics": {
+        "backward_cost": 221642752,
+        "forward_cost": 217546752,
+        "peak_bytes": 655360,
+        "recompute_cost": 106725376
+      },
+      "exact_minimum_additional_work": 106725376,
+      "positive": {
+        "status": "VERIFIED_FULL_SCHEDULE"
+      },
+      "negative": {
+        "status": "EXHAUSTED",
+        "budget": 106725375,
+        "states": 2463
+      },
+      "scope": "fixed peak655360; necessary first-GELU cut, all individual preloss drops and forwards"
+    }
+  ],
+  "ten_unit_proof": {
+    "actual_owned_controls": {
+      "first_gelu_prefix_work": 0,
+      "metrics": {
+        "backward_cost": 221642752,
+        "forward_cost": 217546752,
+        "peak_bytes": 655360,
+        "recompute_cost": 106725376
+      },
+      "per_block_checks": 46,
+      "states": 23
+    },
+    "audits": {
+      "backward": {
+        "edges": 276119,
+        "valid_states": 38262
+      },
+      "demand": {
+        "edges": 40857,
+        "valid_states": 5610
+      },
+      "terminal": {
+        "edges": 34724,
+        "tight_goal_states": 416,
+        "valid_states": 5034
+      }
+    },
+    "binary_sha256": {
+      "backward": "e46ce6bcb25889424f9e82368d01c3fe6af5ec1168a2033ae59c9c20c3e13f27",
+      "demand": "1bfd1c3408b670e1067f477f57c0e9eaffda3198a4d57a52e5c114f6a89378b5",
+      "terminal": "c5c62b1704c6a596d73c4dc3827b0334dba37a4fa31196bcee772b70ad00648b"
+    },
+    "cap_bytes": 655360,
+    "closures": [
+      {
+        "budget": 106725376,
+        "cap_bytes": 655360,
+        "expanded": 795,
+        "generated": 5236,
+        "graph_sha256": "49253c00a0941d94630e5323343af6e2d19e7317f26864fc19e01bc782bc638b",
+        "loss_boundaries": 1,
+        "minimum_boundary_total": 106725376,
+        "open_boundary": {
+          "cost": 21315584,
+          "live": 239214592,
+          "lower": 85409792,
+          "phase": 1
+        },
+        "pruned": 1858,
+        "scope": "All one-node drops and legal old forwards; favorable critical-cut initial states; charged old work and free first terminal forwards; exact local distances supply disjoint continuation lower bounds.",
+        "seconds": 0.007978042005561292,
+        "seeds": 19,
+        "source_sha256": "1ed163b1839ab684894996e4d374ddbc8a2b7d66446a1ea5532887a3d0bec966",
+        "states": 1009,
+        "status": "OPEN_LOSS_BOUNDARY",
+        "table_sha256": {
+          "backward": "e46ce6bcb25889424f9e82368d01c3fe6af5ec1168a2033ae59c9c20c3e13f27",
+          "demand": "1bfd1c3408b670e1067f477f57c0e9eaffda3198a4d57a52e5c114f6a89378b5",
+          "terminal": "c5c62b1704c6a596d73c4dc3827b0334dba37a4fa31196bcee772b70ad00648b"
+        }
+      },
+      {
+        "budget": 106725375,
+        "cap_bytes": 655360,
+        "expanded": 2463,
+        "generated": 16754,
+        "graph_sha256": "49253c00a0941d94630e5323343af6e2d19e7317f26864fc19e01bc782bc638b",
+        "loss_boundaries": 0,
+        "minimum_boundary_total": null,
+        "open_boundary": null,
+        "pruned": 5999,
+        "scope": "All one-node drops and legal old forwards; favorable critical-cut initial states; charged old work and free first terminal forwards; exact local distances supply disjoint continuation lower bounds.",
+        "seconds": 0.02642595797078684,
+        "seeds": 19,
+        "source_sha256": "1ed163b1839ab684894996e4d374ddbc8a2b7d66446a1ea5532887a3d0bec966",
+        "states": 2463,
+        "status": "EXHAUSTED",
+        "table_sha256": {
+          "backward": "e46ce6bcb25889424f9e82368d01c3fe6af5ec1168a2033ae59c9c20c3e13f27",
+          "demand": "1bfd1c3408b670e1067f477f57c0e9eaffda3198a4d57a52e5c114f6a89378b5",
+          "terminal": "c5c62b1704c6a596d73c4dc3827b0334dba37a4fa31196bcee772b70ad00648b"
+        }
+      }
+    ],
+    "evidence": "author-checked only; same-author-team review does not constitute independent scientific validation",
+    "exact_minimum_additional_work": 106725376,
+    "graph_sha256": "49253c00a0941d94630e5323343af6e2d19e7317f26864fc19e01bc782bc638b",
+    "highest_budget_reuse": {
+      "budget": 221642752,
+      "new_work": 106725376,
+      "old_work": 213614592,
+      "separate_construction": false,
+      "verified": true
+    },
+    "negative_tables": [
+      {
+        "change": "overclaim_goal",
+        "status": "REJECTED",
+        "table": "backward"
+      },
+      {
+        "change": "underclaim",
+        "status": "REJECTED",
+        "table": "backward"
+      },
+      {
+        "change": "foreign_local_cost",
+        "status": "REJECTED",
+        "table": "backward"
+      },
+      {
+        "change": "foreign_full_hash",
+        "status": "REJECTED",
+        "table": "demand"
+      },
+      {
+        "change": "underclaim",
+        "status": "REJECTED",
+        "table": "demand"
+      },
+      {
+        "change": "wrong_cost_unit",
+        "status": "REJECTED",
+        "table": "demand"
+      },
+      {
+        "change": "overclaim",
+        "status": "REJECTED",
+        "table": "terminal"
+      },
+      {
+        "change": "phase0_down_live",
+        "status": "REJECTED",
+        "table": "terminal"
+      },
+      {
+        "change": "mismatched_cap",
+        "status": "REJECTED",
+        "table": "terminal"
+      }
+    ],
+    "negative_witnesses": [
+      {
+        "change": "foreign_graph_cost",
+        "reason": "graph hash mismatch",
+        "status": "REJECTED"
+      },
+      {
+        "change": "underclaimed_work",
+        "reason": "incorrect claims: claimed {'peak_bytes': 655360, 'recompute_cost': 106725375, 'forward_cost': 217546752, 'backward_cost': 221642752}, actual {'peak_bytes': 655360, 'recompute_cost': 106725376, 'forward_cost': 217546752, 'backward_cost': 221642752}",
+        "status": "REJECTED"
+      },
+      {
+        "change": "one_below_budget",
+        "reason": "step 145: recomputation budget exceeded",
+        "status": "REJECTED"
+      },
+      {
+        "change": "omitted_regeneration",
+        "reason": "step 50: missing forward dependency",
+        "status": "REJECTED"
+      }
+    ],
+    "positive_metrics": {
+      "backward_cost": 221642752,
+      "forward_cost": 217546752,
+      "peak_bytes": 655360,
+      "recompute_cost": 106725376
+    },
+    "status": "PASS"
+  },
+  "complete_work_curve": {
+    "schema": "b2-work-curve/v1",
+    "status": "PASS",
+    "graph_sha256": "49253c00a0941d94630e5323343af6e2d19e7317f26864fc19e01bc782bc638b",
+    "unit_bytes": 65536,
+    "rows": [
+      {
+        "cap_units": 10,
+        "peak_cap_bytes": 655360,
+        "lower_work": 106725376,
+        "extra_work": 106725376,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 655360,
+          "recompute_cost": 106725376,
+          "forward_cost": 217546752,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "bd0e21c11dd65236ca27479a1db0bc0745a145859a12af87d1da366762e4942a",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 655360,
+            "recompute_cost": 106725376,
+            "forward_cost": 217546752,
+            "backward_cost": 221642752
+          },
+          "current_r": 1,
+          "future_minimum_m": 1,
+          "owned_remaining": [
+            55721984,
+            51003392
+          ],
+          "identity_sensitive_bounds": [
+            55721984,
+            51003392
+          ],
+          "factored_actual_case": [
+            55721984,
+            51003392
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 11,
+        "peak_cap_bytes": 720896,
+        "lower_work": 85409792,
+        "extra_work": 85409792,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 720896,
+          "recompute_cost": 85409792,
+          "forward_cost": 196231168,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "172ffd37c2973192863f136950680505fab9a06f6ff74f65197d52467d8b7d79",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 720896,
+            "recompute_cost": 85409792,
+            "forward_cost": 196231168,
+            "backward_cost": 221642752
+          },
+          "current_r": 1,
+          "future_minimum_m": 1,
+          "owned_remaining": [
+            51527680,
+            33882112
+          ],
+          "identity_sensitive_bounds": [
+            51527680,
+            33882112
+          ],
+          "factored_actual_case": [
+            51527680,
+            33882112
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 12,
+        "peak_cap_bytes": 786432,
+        "lower_work": 64962560,
+        "extra_work": 64962560,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 786432,
+          "recompute_cost": 64962560,
+          "forward_cost": 175783936,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "82d2dc41a29d60910f48c88a364de6fef99d5b2f5030276bd8832c5b82c428d6",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 786432,
+            "recompute_cost": 64962560,
+            "forward_cost": 175783936,
+            "backward_cost": 221642752
+          },
+          "current_r": 1,
+          "future_minimum_m": 1,
+          "owned_remaining": [
+            47333376,
+            17629184
+          ],
+          "identity_sensitive_bounds": [
+            47333376,
+            17629184
+          ],
+          "factored_actual_case": [
+            47333376,
+            17629184
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 13,
+        "peak_cap_bytes": 851968,
+        "lower_work": 52035584,
+        "extra_work": 52035584,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 851968,
+          "recompute_cost": 52035584,
+          "forward_cost": 162856960,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "08ad7f3ee83e7f843469676195df100ced3eb7de0153b3936af3080532bfafd8",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 851968,
+            "recompute_cost": 52035584,
+            "forward_cost": 162856960,
+            "backward_cost": 221642752
+          },
+          "current_r": 2,
+          "future_minimum_m": 2,
+          "owned_remaining": [
+            34406400,
+            17629184
+          ],
+          "identity_sensitive_bounds": [
+            34406400,
+            17629184
+          ],
+          "factored_actual_case": [
+            34406400,
+            17629184
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 14,
+        "peak_cap_bytes": 917504,
+        "lower_work": 47841280,
+        "extra_work": 47841280,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 917504,
+          "recompute_cost": 47841280,
+          "forward_cost": 158662656,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "40d87b8ac485422b35aca138542c378c4de71ffe26a47aec07d67591fd942989",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 917504,
+            "recompute_cost": 47841280,
+            "forward_cost": 158662656,
+            "backward_cost": 221642752
+          },
+          "current_r": 2,
+          "future_minimum_m": 2,
+          "owned_remaining": [
+            34406400,
+            13434880
+          ],
+          "identity_sensitive_bounds": [
+            34406400,
+            13434880
+          ],
+          "factored_actual_case": [
+            34406400,
+            13434880
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 15,
+        "peak_cap_bytes": 983040,
+        "lower_work": 43646976,
+        "extra_work": 43646976,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 983040,
+          "recompute_cost": 43646976,
+          "forward_cost": 154468352,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "92c21f41d0a79ff8b0fdfe54115c4df631dcbcbec9d2f6be56390aa56594180c",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 983040,
+            "recompute_cost": 43646976,
+            "forward_cost": 154468352,
+            "backward_cost": 221642752
+          },
+          "current_r": 2,
+          "future_minimum_m": 2,
+          "owned_remaining": [
+            34406400,
+            9240576
+          ],
+          "identity_sensitive_bounds": [
+            34406400,
+            9240576
+          ],
+          "factored_actual_case": [
+            34406400,
+            9240576
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 16,
+        "peak_cap_bytes": 1048576,
+        "lower_work": 39452672,
+        "extra_work": 39452672,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 1048576,
+          "recompute_cost": 39452672,
+          "forward_cost": 150274048,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "7d24fe87f22c9a930eff2ec4f78137cf62b4f40e7d70fe6d9aada9483db88f3d",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 1048576,
+            "recompute_cost": 39452672,
+            "forward_cost": 150274048,
+            "backward_cost": 221642752
+          },
+          "current_r": 2,
+          "future_minimum_m": 2,
+          "owned_remaining": [
+            34406400,
+            5046272
+          ],
+          "identity_sensitive_bounds": [
+            34406400,
+            5046272
+          ],
+          "factored_actual_case": [
+            34406400,
+            5046272
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 17,
+        "peak_cap_bytes": 1114112,
+        "lower_work": 35258368,
+        "extra_work": 35258368,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 1114112,
+          "recompute_cost": 35258368,
+          "forward_cost": 146079744,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "fa99125ca2bedc9c0c3e81b38c7a7cf63b214a2140583ecee0428ac6d4bec0cc",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 1114112,
+            "recompute_cost": 35258368,
+            "forward_cost": 146079744,
+            "backward_cost": 221642752
+          },
+          "current_r": 3,
+          "future_minimum_m": 3,
+          "owned_remaining": [
+            30212096,
+            5046272
+          ],
+          "identity_sensitive_bounds": [
+            30212096,
+            5046272
+          ],
+          "factored_actual_case": [
+            30212096,
+            5046272
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 18,
+        "peak_cap_bytes": 1179648,
+        "lower_work": 31064064,
+        "extra_work": 31064064,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 1179648,
+          "recompute_cost": 31064064,
+          "forward_cost": 141885440,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "da2b014fcb7e02bf76c745d33d0ccfde1c6f3d920e915c72cf88cfe7ff4778b1",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 1179648,
+            "recompute_cost": 31064064,
+            "forward_cost": 141885440,
+            "backward_cost": 221642752
+          },
+          "current_r": 4,
+          "future_minimum_m": 4,
+          "owned_remaining": [
+            26017792,
+            5046272
+          ],
+          "identity_sensitive_bounds": [
+            26017792,
+            5046272
+          ],
+          "factored_actual_case": [
+            26017792,
+            5046272
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 19,
+        "peak_cap_bytes": 1245184,
+        "lower_work": 26869760,
+        "extra_work": 26869760,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 1245184,
+          "recompute_cost": 26869760,
+          "forward_cost": 137691136,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "93ac94965df437c450e62dca66d711d4ad2b7ea9808f9c240558c5cac386393c",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 1245184,
+            "recompute_cost": 26869760,
+            "forward_cost": 137691136,
+            "backward_cost": 221642752
+          },
+          "current_r": 5,
+          "future_minimum_m": 5,
+          "owned_remaining": [
+            21823488,
+            5046272
+          ],
+          "identity_sensitive_bounds": [
+            21823488,
+            5046272
+          ],
+          "factored_actual_case": [
+            21823488,
+            5046272
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 20,
+        "peak_cap_bytes": 1310720,
+        "lower_work": 22675456,
+        "extra_work": 22675456,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 1310720,
+          "recompute_cost": 22675456,
+          "forward_cost": 133496832,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "09e3ec26b0f730cab3666abe6237e9267a59f960cbc4a3c31c94df249e0381b2",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 1310720,
+            "recompute_cost": 22675456,
+            "forward_cost": 133496832,
+            "backward_cost": 221642752
+          },
+          "current_r": 6,
+          "future_minimum_m": 6,
+          "owned_remaining": [
+            17629184,
+            5046272
+          ],
+          "identity_sensitive_bounds": [
+            17629184,
+            5046272
+          ],
+          "factored_actual_case": [
+            17629184,
+            5046272
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 21,
+        "peak_cap_bytes": 1376256,
+        "lower_work": 18481152,
+        "extra_work": 18481152,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 1376256,
+          "recompute_cost": 18481152,
+          "forward_cost": 129302528,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "a23bceb6551fb00c52718c6930f2b8e7b49e976a3576a50f023d571834325902",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 1376256,
+            "recompute_cost": 18481152,
+            "forward_cost": 129302528,
+            "backward_cost": 221642752
+          },
+          "current_r": 7,
+          "future_minimum_m": 7,
+          "owned_remaining": [
+            13434880,
+            5046272
+          ],
+          "identity_sensitive_bounds": [
+            13434880,
+            5046272
+          ],
+          "factored_actual_case": [
+            13434880,
+            5046272
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 22,
+        "peak_cap_bytes": 1441792,
+        "lower_work": 14286848,
+        "extra_work": 14286848,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 1441792,
+          "recompute_cost": 14286848,
+          "forward_cost": 125108224,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "c5c3165a1c0854f9a2ce07617a8ad62dd46352f1d2a8fc1907a3c5b32cbf6609",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 1441792,
+            "recompute_cost": 14286848,
+            "forward_cost": 125108224,
+            "backward_cost": 221642752
+          },
+          "current_r": 8,
+          "future_minimum_m": 8,
+          "owned_remaining": [
+            9240576,
+            5046272
+          ],
+          "identity_sensitive_bounds": [
+            9240576,
+            5046272
+          ],
+          "factored_actual_case": [
+            9240576,
+            5046272
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 23,
+        "peak_cap_bytes": 1507328,
+        "lower_work": 10092544,
+        "extra_work": 10092544,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 1507328,
+          "recompute_cost": 10092544,
+          "forward_cost": 120913920,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "76c8d72286e6c64f3626afaa686e2089f2edc5c862bc5c0df65ae2e8bc521f14",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 1507328,
+            "recompute_cost": 10092544,
+            "forward_cost": 120913920,
+            "backward_cost": 221642752
+          },
+          "current_r": 9,
+          "future_minimum_m": 9,
+          "owned_remaining": [
+            5046272,
+            5046272
+          ],
+          "identity_sensitive_bounds": [
+            5046272,
+            5046272
+          ],
+          "factored_actual_case": [
+            5046272,
+            5046272
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 24,
+        "peak_cap_bytes": 1572864,
+        "lower_work": 7995392,
+        "extra_work": 7995392,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 1572864,
+          "recompute_cost": 7995392,
+          "forward_cost": 118816768,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "31d618236a78053f6d441002b6a3d18f32118f41bf40a7b5676617b4ef96a0d8",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 1572864,
+            "recompute_cost": 7995392,
+            "forward_cost": 118816768,
+            "backward_cost": 221642752
+          },
+          "current_r": 9,
+          "future_minimum_m": 9,
+          "owned_remaining": [
+            5046272,
+            2949120
+          ],
+          "identity_sensitive_bounds": [
+            5046272,
+            2949120
+          ],
+          "factored_actual_case": [
+            5046272,
+            2949120
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 25,
+        "peak_cap_bytes": 1638400,
+        "lower_work": 5898240,
+        "extra_work": 5898240,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 1638400,
+          "recompute_cost": 5898240,
+          "forward_cost": 116719616,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "08e61303219db2ac0f57a353bf8e87c4508bae16d47640a83d4c88ef3ed23358",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 1638400,
+            "recompute_cost": 5898240,
+            "forward_cost": 116719616,
+            "backward_cost": 221642752
+          },
+          "current_r": 10,
+          "future_minimum_m": 10,
+          "owned_remaining": [
+            2949120,
+            2949120
+          ],
+          "identity_sensitive_bounds": [
+            2949120,
+            2949120
+          ],
+          "factored_actual_case": [
+            2949120,
+            2949120
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 26,
+        "peak_cap_bytes": 1703936,
+        "lower_work": 5373952,
+        "extra_work": 5373952,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 1703936,
+          "recompute_cost": 5373952,
+          "forward_cost": 116195328,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "72bbfc142efa429546298a09c2d59d36f813061d6d589c3f2aff3224cb14bbc8",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 1703936,
+            "recompute_cost": 5373952,
+            "forward_cost": 116195328,
+            "backward_cost": 221642752
+          },
+          "current_r": 10,
+          "future_minimum_m": 10,
+          "owned_remaining": [
+            2949120,
+            2424832
+          ],
+          "identity_sensitive_bounds": [
+            2949120,
+            2424832
+          ],
+          "factored_actual_case": [
+            2949120,
+            2424832
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 27,
+        "peak_cap_bytes": 1769472,
+        "lower_work": 3637248,
+        "extra_work": 3637248,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 1769472,
+          "recompute_cost": 3637248,
+          "forward_cost": 114458624,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "807222d4c566c98e9e9097f60621e9d1a0964cd0e493c4727d7540afe27ac81c",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 1769472,
+            "recompute_cost": 3637248,
+            "forward_cost": 114458624,
+            "backward_cost": 221642752
+          },
+          "current_r": 10,
+          "future_minimum_m": 10,
+          "owned_remaining": [
+            2949120,
+            688128
+          ],
+          "identity_sensitive_bounds": [
+            2949120,
+            688128
+          ],
+          "factored_actual_case": [
+            2949120,
+            688128
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 28,
+        "peak_cap_bytes": 1835008,
+        "lower_work": 3112960,
+        "extra_work": 3112960,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 1835008,
+          "recompute_cost": 3112960,
+          "forward_cost": 113934336,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "c0bfb0ed683b800d6015887bcd5990f5d68741905d49f42aa40269dd14b583ac",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 1835008,
+            "recompute_cost": 3112960,
+            "forward_cost": 113934336,
+            "backward_cost": 221642752
+          },
+          "current_r": 10,
+          "future_minimum_m": 10,
+          "owned_remaining": [
+            2949120,
+            163840
+          ],
+          "identity_sensitive_bounds": [
+            2949120,
+            163840
+          ],
+          "factored_actual_case": [
+            2949120,
+            163840
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 29,
+        "peak_cap_bytes": 1900544,
+        "lower_work": 1376256,
+        "extra_work": 1376256,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 1900544,
+          "recompute_cost": 1376256,
+          "forward_cost": 112197632,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "10aa8f896318692da2965e8423e10c8f99f529703d78bca80a1665e503be0cb0",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 1900544,
+            "recompute_cost": 1376256,
+            "forward_cost": 112197632,
+            "backward_cost": 221642752
+          },
+          "current_r": 12,
+          "future_minimum_m": 12,
+          "owned_remaining": [
+            688128,
+            688128
+          ],
+          "identity_sensitive_bounds": [
+            688128,
+            688128
+          ],
+          "factored_actual_case": [
+            688128,
+            688128
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 30,
+        "peak_cap_bytes": 1966080,
+        "lower_work": 851968,
+        "extra_work": 851968,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 1966080,
+          "recompute_cost": 851968,
+          "forward_cost": 111673344,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "38e4d3f9c03b23cf4bae70210e2da4e3fa5e36e42165458912ede21962102685",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 1966080,
+            "recompute_cost": 851968,
+            "forward_cost": 111673344,
+            "backward_cost": 221642752
+          },
+          "current_r": 12,
+          "future_minimum_m": 12,
+          "owned_remaining": [
+            688128,
+            163840
+          ],
+          "identity_sensitive_bounds": [
+            688128,
+            163840
+          ],
+          "factored_actual_case": [
+            688128,
+            163840
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 31,
+        "peak_cap_bytes": 2031616,
+        "lower_work": 770048,
+        "extra_work": 770048,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 2031616,
+          "recompute_cost": 770048,
+          "forward_cost": 111591424,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "69d3edc6395e8008e6b865602363be7c74adbeccc739d76fed8c58acf1dcc622",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 2031616,
+            "recompute_cost": 770048,
+            "forward_cost": 111591424,
+            "backward_cost": 221642752
+          },
+          "current_r": 12,
+          "future_minimum_m": 12,
+          "owned_remaining": [
+            688128,
+            81920
+          ],
+          "identity_sensitive_bounds": [
+            688128,
+            81920
+          ],
+          "factored_actual_case": [
+            688128,
+            81920
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 32,
+        "peak_cap_bytes": 2097152,
+        "lower_work": 688128,
+        "extra_work": 688128,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 2097152,
+          "recompute_cost": 688128,
+          "forward_cost": 111509504,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "105d96554b6265ad75841764344683db57b39779fcb674a838c79db3ba0c9ed4",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 2097152,
+            "recompute_cost": 688128,
+            "forward_cost": 111509504,
+            "backward_cost": 221642752
+          },
+          "current_r": 12,
+          "future_minimum_m": 12,
+          "owned_remaining": [
+            688128,
+            0
+          ],
+          "identity_sensitive_bounds": [
+            688128,
+            0
+          ],
+          "factored_actual_case": [
+            688128,
+            0
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 33,
+        "peak_cap_bytes": 2162688,
+        "lower_work": 606208,
+        "extra_work": 606208,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 2162688,
+          "recompute_cost": 606208,
+          "forward_cost": 111427584,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "28f400de4a29ad594b92557014b2e104a9665ad879631fb8118e1618daf612d9",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 2162688,
+            "recompute_cost": 606208,
+            "forward_cost": 111427584,
+            "backward_cost": 221642752
+          },
+          "current_r": 13,
+          "future_minimum_m": 13,
+          "owned_remaining": [
+            606208,
+            0
+          ],
+          "identity_sensitive_bounds": [
+            606208,
+            0
+          ],
+          "factored_actual_case": [
+            606208,
+            0
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 34,
+        "peak_cap_bytes": 2228224,
+        "lower_work": 327680,
+        "extra_work": 327680,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 2228224,
+          "recompute_cost": 327680,
+          "forward_cost": 111149056,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "198be992830388c5bdf64dd1464ca989b5ed780b6c63a559918d877379c91302",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 2228224,
+            "recompute_cost": 327680,
+            "forward_cost": 111149056,
+            "backward_cost": 221642752
+          },
+          "current_r": 16,
+          "future_minimum_m": 16,
+          "owned_remaining": [
+            163840,
+            163840
+          ],
+          "identity_sensitive_bounds": [
+            163840,
+            163840
+          ],
+          "factored_actual_case": [
+            163840,
+            163840
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 35,
+        "peak_cap_bytes": 2293760,
+        "lower_work": 245760,
+        "extra_work": 245760,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 2293760,
+          "recompute_cost": 245760,
+          "forward_cost": 111067136,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "cb0d5c46f9fb757cb43b0a41ce61e4b6b5324e9781254ebe7f6b1c47f3731834",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 2293760,
+            "recompute_cost": 245760,
+            "forward_cost": 111067136,
+            "backward_cost": 221642752
+          },
+          "current_r": 16,
+          "future_minimum_m": 16,
+          "owned_remaining": [
+            163840,
+            81920
+          ],
+          "identity_sensitive_bounds": [
+            163840,
+            81920
+          ],
+          "factored_actual_case": [
+            163840,
+            81920
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 36,
+        "peak_cap_bytes": 2359296,
+        "lower_work": 163840,
+        "extra_work": 163840,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 2359296,
+          "recompute_cost": 163840,
+          "forward_cost": 110985216,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "ce6726f175de7b12e27ae1cec0399e9cb3b6b53d3c364c2729769cb88e5275a6",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 2359296,
+            "recompute_cost": 163840,
+            "forward_cost": 110985216,
+            "backward_cost": 221642752
+          },
+          "current_r": 16,
+          "future_minimum_m": 16,
+          "owned_remaining": [
+            163840,
+            0
+          ],
+          "identity_sensitive_bounds": [
+            163840,
+            0
+          ],
+          "factored_actual_case": [
+            163840,
+            0
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 37,
+        "peak_cap_bytes": 2424832,
+        "lower_work": 81920,
+        "extra_work": 81920,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 2424832,
+          "recompute_cost": 81920,
+          "forward_cost": 110903296,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "e01b0ec164322fcd8bd4b907e112b256f13eebe4d4564756277e2844d17289dc",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 2424832,
+            "recompute_cost": 81920,
+            "forward_cost": 110903296,
+            "backward_cost": 221642752
+          },
+          "current_r": 17,
+          "future_minimum_m": 17,
+          "owned_remaining": [
+            81920,
+            0
+          ],
+          "identity_sensitive_bounds": [
+            81920,
+            0
+          ],
+          "factored_actual_case": [
+            81920,
+            0
+          ],
+          "prefix_work": 0
+        }
+      },
+      {
+        "cap_units": 38,
+        "peak_cap_bytes": 2490368,
+        "lower_work": 0,
+        "extra_work": 0,
+        "gap": 0,
+        "exact_fixed_cap_work": true,
+        "verified_metrics": {
+          "peak_bytes": 2490368,
+          "recompute_cost": 0,
+          "forward_cost": 110821376,
+          "backward_cost": 221642752
+        },
+        "actions_sha256": "54b9f00281c84aa5718684ed30bea6ed882c3fc90b310e750b8eb326733df808",
+        "actual_owned_control": {
+          "metrics": {
+            "peak_bytes": 2490368,
+            "recompute_cost": 0,
+            "forward_cost": 110821376,
+            "backward_cost": 221642752
+          },
+          "current_r": 18,
+          "future_minimum_m": 18,
+          "owned_remaining": [
+            0,
+            0
+          ],
+          "identity_sensitive_bounds": [
+            0,
+            0
+          ],
+          "factored_actual_case": [
+            0,
+            0
+          ],
+          "prefix_work": 0
+        }
+      }
+    ],
+    "exact_caps": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "exact_points": 29,
+    "verified_constructive_points": 29,
+    "universal_peak_floor": {
+      "peak_units": 10,
+      "peak_bytes": 655360,
+      "credited_reset_cut_sha256": "853feb5ef0ece1b7f733eab402f9cec0adc946b2be851d39b4000f8aaae5079d"
+    },
+    "minimum_zero_additional_work_peak_bytes": 2490368,
+    "lower_audited_edges": 12856059,
+    "lower_negative_tables": [
+      {
+        "table": "backward",
+        "change": "overclaim_goal",
+        "status": "REJECTED"
+      },
+      {
+        "table": "backward",
+        "change": "underclaim",
+        "status": "REJECTED"
+      },
+      {
+        "table": "backward",
+        "change": "foreign_local_cost",
+        "status": "REJECTED"
+      },
+      {
+        "table": "demand",
+        "change": "foreign_full_hash",
+        "status": "REJECTED"
+      },
+      {
+        "table": "demand",
+        "change": "underclaim",
+        "status": "REJECTED"
+      },
+      {
+        "table": "demand",
+        "change": "wrong_cost_unit",
+        "status": "REJECTED"
+      },
+      {
+        "table": "terminal",
+        "change": "overclaim",
+        "status": "REJECTED"
+      },
+      {
+        "table": "terminal",
+        "change": "phase0_down_live",
+        "status": "REJECTED"
+      },
+      {
+        "table": "terminal",
+        "change": "mismatched_cap",
+        "status": "REJECTED"
+      },
+      {
+        "change": "cap22_values_aliased_as_cap23_rehashed",
+        "status": "REJECTED"
+      }
+    ],
+    "lower_negative_witnesses": [
+      {
+        "change": "foreign_graph_cost",
+        "status": "REJECTED",
+        "reason": "graph hash mismatch"
+      },
+      {
+        "change": "underclaim",
+        "status": "REJECTED",
+        "reason": "incorrect claims: claimed {'peak_bytes': 655360, 'recompute_cost': 106725375, 'forward_cost': 217546752, 'backward_cost': 221642752}, actual {'peak_bytes': 655360, 'recompute_cost': 106725376, 'forward_cost': 217546752, 'backward_cost': 221642752}"
+      },
+      {
+        "change": "one_below_work",
+        "status": "REJECTED",
+        "reason": "step 145: recomputation budget exceeded"
+      },
+      {
+        "change": "missing_regeneration",
+        "status": "REJECTED",
+        "reason": "step 50: missing forward dependency"
+      }
+    ],
+    "upper_negative_controls": [
+      "changed frozen graph rejected",
+      "oversized23u table at20u rejected",
+      "checkpoint dropped before reader rejected"
+    ],
+    "nineteen_roots": {
+      "roots": 19,
+      "minimum": 106725376
+    },
+    "additional_fixed_benchmark_wins_from_curve": 0,
+    "scope": "Complete fixed-memory work frontier:29 global minima at caps10..38, universal10u structural floor, zero work from38u upward. Legal peaks are integral65536byte units. Auxiliary curve points are not additional fixed benchmark wins.",
+    "evidence": "author-checked only; same-author-team reviews do not constitute independent scientific validation"
+  },
+  "evidence": "author-checked only"
+}

@@ -1,0 +1,10 @@
+test_30_tiny_exact_optima_and_trace_mappings (test_interval_relaxation.Controls.test_30_tiny_exact_optima_and_trace_mappings) ... ok
+test_90_parallel_branch_exact_optima_and_mappings (test_interval_relaxation.Controls.test_90_parallel_branch_exact_optima_and_mappings) ... ok
+test_integer_work_above_float_exact_range (test_interval_relaxation.Controls.test_integer_work_above_float_exact_range) ... ok
+test_prefetch_counterexample (test_interval_relaxation.Controls.test_prefetch_counterexample) ... ok
+test_rejects_unordered_pivots (test_interval_relaxation.Controls.test_rejects_unordered_pivots) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.684s
+
+OK

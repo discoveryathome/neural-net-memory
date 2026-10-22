@@ -1,0 +1,87 @@
+{
+  "model": "activation-memory/v1",
+  "graph_id": "prefetched-parallel-control",
+  "graph_sha256": "da08def75ce279281108f73a37c7a9f667a976a5c8521fe09b8bde5edc2eca29",
+  "budget": 0,
+  "method": "explicit-prefetch-counterexample",
+  "metadata": {},
+  "actions": [
+    {
+      "op": "forward",
+      "node": "a"
+    },
+    {
+      "op": "forward",
+      "node": "v"
+    },
+    {
+      "op": "forward",
+      "node": "q"
+    },
+    {
+      "op": "forward",
+      "node": "k"
+    },
+    {
+      "op": "drop",
+      "node": "a"
+    },
+    {
+      "op": "forward",
+      "node": "s"
+    },
+    {
+      "op": "drop",
+      "node": "q"
+    },
+    {
+      "op": "drop",
+      "node": "k"
+    },
+    {
+      "op": "forward",
+      "node": "c"
+    },
+    {
+      "op": "drop",
+      "node": "v"
+    },
+    {
+      "op": "drop",
+      "node": "s"
+    },
+    {
+      "op": "loss"
+    },
+    {
+      "op": "backward",
+      "node": "c"
+    },
+    {
+      "op": "backward",
+      "node": "s"
+    },
+    {
+      "op": "backward",
+      "node": "v"
+    },
+    {
+      "op": "backward",
+      "node": "k"
+    },
+    {
+      "op": "backward",
+      "node": "q"
+    },
+    {
+      "op": "backward",
+      "node": "a"
+    }
+  ],
+  "claims": {
+    "peak_bytes": 9,
+    "recompute_cost": 0,
+    "forward_cost": 6,
+    "backward_cost": 6
+  }
+}

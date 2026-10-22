@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-22T00:28:31.415092+00:00",
+  "evidence": "parent same-author-team source review; not outside scientific review",
+  "findings": [],
+  "scope": "29-point b2 constructive mapping and audited-table reuse; full replay recorded separately",
+  "checks": [
+    "All4096 useful retained masks receive concrete forward-allocation profiles; one global entry checkpoint charged",
+    "C-1-owned final cap and earlier whole capC cover standingglobalinput plus retainedoutsidebytes",
+    "Derived23u full-live saturation and21u backward saturation; smaller requestedcap cannot alias23u",
+    "Tight backward plans and exactfull final plans concatenate fullforward/loss/backward traces",
+    "Everycap10..38 uses exactrow-work budget with fullunchangedverifier and exactpeakassertion",
+    "All four originalfixedbudgets are explicitly retagged and replayed, includinghighestreuse",
+    "Sharedtablesbindfullgraph,localnode/input fields,cap,live/done layouts,integercostunit and auditedbinaryhash",
+    "Constructoralone makes no global lowerclaim; independent lower joining remainsnecessary"
+  ],
+  "files": {
+    "b2_curve_constructor.py": "1964fdbf37232bae346b997fd2e9e4263845abc85925856b7e2573da1edf0a03",
+    "replay.py": "e3badc7c17e7c271b70c4a938083350134751c7ea5bc5edbc1a69bd4079bdbac"
+  }
+}

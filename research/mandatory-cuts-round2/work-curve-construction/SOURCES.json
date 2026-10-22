@@ -1,0 +1,29 @@
+{
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "graph_semantic_sha256": "49253c00a0941d94630e5323343af6e2d19e7317f26864fc19e01bc782bc638b",
+  "seed": "dafc4be0863b7654352ffb2ba4a4d2df",
+  "sha256": {
+    "MODEL.md": "356237ec6ce9efa5a99a87043ff556d7128eb0abacf8420dd003189d99cc596e",
+    "benchmarks/graphs/transformer-b2-t64.json": "9a22f91c618e7728f160a1d22f2aef717be80a15d4ba08b17c0965d14e716565",
+    "research/mandatory-cuts-round2/compose_schedule.py": "c1fab376ee723d8f4fae35c600634705275da22e06fcb77183e6873b7f0cd839",
+    "research/mandatory-cuts-round2/regional_exact.py": "0a6848a76242b0ad06ecda812984413fe9244f80db6456f708f3be8b7dc88109",
+    "research/mandatory-cuts-round2/ten-unit-proof/pattern_db.py": "db7a1786b5d57c833e623dafe161cfb896d3a30511ccb0d73d6f55d4aa3e1f01",
+    "research/mandatory-cuts-round2/work-curve-construction/.gitignore": "bdda27b07dc184f105e5309dd7680f3bf05d33d3d982184c36c83e89123f2cd6",
+    "research/mandatory-cuts-round2/work-curve-construction/EXPECTED.json": "840622a17f0eb05d3d4002b1ec33ed0960c36dc7dcb81ce8e0e74c20e8657c61",
+    "research/mandatory-cuts-round2/work-curve-construction/NOTES.md": "878b8d11a023cd2756e40c5697c4dd733511496da14c88084ee9fcd264ef8107",
+    "research/mandatory-cuts-round2/work-curve-construction/VERIFY.json": "0fd40a3db9da4f5adcb274508f95ffec4af2b6139448d988ce4cc29455822f17",
+    "research/mandatory-cuts-round2/work-curve-construction/b2_curve_constructor.py": "1964fdbf37232bae346b997fd2e9e4263845abc85925856b7e2573da1edf0a03",
+    "research/mandatory-cuts-round2/work-curve-construction/evidence/core-verify.log": "628edf6080ca62a3dc1a62a0284948fa4610e87c9a01ae959b1ef65dd00e328e",
+    "research/mandatory-cuts-round2/work-curve-construction/evidence/parent-author-review.json": "724002bc2886dd155abf137001e9f956f45b4eb84445bc1b7159a7160d56d24b",
+    "research/mandatory-cuts-round2/work-curve-construction/evidence/shared-measurements.jsonl": "1623b16b346d9b905112ca84e0f05832457d329f70571d1bb48704c9eeedc750",
+    "research/mandatory-cuts-round2/work-curve-construction/evidence/shared-results.json": "484365cbd8842c896923a5a87bb5ff994caa200f8e150d5d3d244107f7bb8e30",
+    "research/mandatory-cuts-round2/work-curve-construction/evidence/shared.log": "9be34a50a01b599384b53beb0fa16ea6a42c666f5463fc553c3256fd717d05d1",
+    "research/mandatory-cuts-round2/work-curve-construction/evidence/standalone-measurements.jsonl": "9f7ee0db9c179322d316002d81d0763e2b4458b405b3b307117a5b1a3fc9d10b",
+    "research/mandatory-cuts-round2/work-curve-construction/evidence/standalone-results.json": "bae57858745fd2e8026404a1a955dd81b914ff47dad74c24bc2eb3e8955a66be",
+    "research/mandatory-cuts-round2/work-curve-construction/evidence/standalone.log": "ac3129f11a37969fdbc4aded45b2e8d19b52d4b6e021c2abed4912cd15df7023",
+    "research/mandatory-cuts-round2/work-curve-construction/replay.py": "e3badc7c17e7c271b70c4a938083350134751c7ea5bc5edbc1a69bd4079bdbac",
+    "search.py": "7e321741e941d239392d2cf0e646c7ea05823a8f81dd2b4379300775c660ad63",
+    "verifier.py": "104e5e63d1cdb95355153144666292125d64806ee7bf149d0af714b2a47e1015"
+  },
+  "attribution": "Doug Colkitt / @Mister-Meeseeks model/verifier/trial; PR6/PR10 regional search/composition; parent PR12 PDB proof; same-author-team b4 allocation adapted locally; Codex AI for @0xqtpie."
+}

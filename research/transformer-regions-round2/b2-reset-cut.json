@@ -1,0 +1,78 @@
+{
+  "schema": "last-barrier-cut/v1",
+  "model": "activation-memory/v1",
+  "graph_id": "transformer-b2-t64",
+  "graph_sha256": "49253c00a0941d94630e5323343af6e2d19e7317f26864fc19e01bc782bc638b",
+  "cap_rejected_bytes": 589824,
+  "lower_bound_bytes": 655360,
+  "allocation_quantum_bytes": 65536,
+  "target": "b1_residual2",
+  "barriers": [
+    "b0_gelu",
+    "b1_gelu"
+  ],
+  "resets": [
+    {
+      "barrier": "b0_gelu",
+      "live_after": [
+        "b0_gelu",
+        "b0_up",
+        "x"
+      ],
+      "reachable_without_barriers": [
+        "b0_context",
+        "b0_down",
+        "b0_gelu",
+        "b0_k",
+        "b0_norm1",
+        "b0_norm2",
+        "b0_probs",
+        "b0_proj",
+        "b0_q",
+        "b0_residual1",
+        "b0_residual2",
+        "b0_scores",
+        "b0_up",
+        "b0_v",
+        "b1_context",
+        "b1_k",
+        "b1_norm1",
+        "b1_norm2",
+        "b1_probs",
+        "b1_proj",
+        "b1_q",
+        "b1_residual1",
+        "b1_scores",
+        "b1_up",
+        "b1_v",
+        "x"
+      ]
+    },
+    {
+      "barrier": "b1_gelu",
+      "live_after": [
+        "b1_gelu",
+        "b1_up",
+        "x"
+      ],
+      "reachable_without_barriers": [
+        "b0_context",
+        "b0_k",
+        "b0_norm1",
+        "b0_norm2",
+        "b0_probs",
+        "b0_proj",
+        "b0_q",
+        "b0_residual1",
+        "b0_scores",
+        "b0_up",
+        "b0_v",
+        "b1_down",
+        "b1_gelu",
+        "b1_up",
+        "x"
+      ]
+    }
+  ],
+  "scope": "Forward-allocation lower bound at every recomputation budget; author-checked mathematical argument, not a schedule witness"
+}

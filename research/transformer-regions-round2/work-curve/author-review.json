@@ -1,0 +1,129 @@
+{
+  "schema": "same-author-team-review/v1",
+  "status": "PASS",
+  "reviewer": "Codex MLP/native worker within the same AI-assisted author team",
+  "findings": [],
+  "checked_utc": "2026-10-22T00:17:20Z",
+  "scope": "read-only mathematical completeness, root/import paths, every positive/negative query, limits, grid coverage, GELU floor and zero-work saturation; separate same-code replay",
+  "files": {
+    "transformers/research/transformer-regions-round2/work-curve/replay.py": "5051d4e18581180317d86e5b1452be5ea961e727ef9900bedccaaa5c3c7edae7",
+    "transformers/research/transformer-regions-round2/work-curve/EXPECTED.json": "a28b24a11cf3249e9e073daf51ed1ea0dab0f5ed7ea2af1b2e113c00935377f4",
+    "transformers/research/transformer-regions-round2/work-curve/README.md": "71da2bee4ada9061c5aa137efeeadbfaea28b4947ad316e796c0addc391689c8",
+    "transformers/research/transformer-regions-round2/regional_exact.py": "0a6848a76242b0ad06ecda812984413fe9244f80db6456f708f3be8b7dc88109",
+    "transformers/verifier.py": "104e5e63d1cdb95355153144666292125d64806ee7bf149d0af714b2a47e1015",
+    "transformers/benchmarks/graphs/transformer-b1-t32.json": "6ef3a2c0b40d9f83f6ccb822043ffe162781569dd3333958c7f1e7a2ecba43e6"
+  },
+  "checks": [
+    "ROOT=P.parents[2] from work-curve directory resolves to the transformers repository, with regional_exact imported from its parent package",
+    "Raw frozen graph hash is checked against the parent source manifest; graph input quantum and UP/GELU bytes/dependency are asserted",
+    "Full Dijkstra retains live/seen/done/loss and every legal individual drop, dependency-ready first/repeated forward, loss and consumer-ready saved-read backward; no first-order or normalization restriction",
+    "All repeated costs are nonnegative; minimum-cost labels per complete Markov state are sufficient; ties need no re-expansion",
+    "Positive budget53231616 exceeds every returned optimum; every better path is included under that ceiling",
+    "Each of10 nonzero prices has a complete work-minus1 query returning None only after queue exhaustion; Limited raises and aborts replay",
+    "Exactly caps9..19 are checked, all actual peaks equal their caps, and work prices decrease strictly",
+    "Below9 units first GELU requires immutable1+UP4+output4 before drops; intermediate byte caps floor to the unit grid",
+    "At19 a full verified zero-work certificate supplies all larger-cap upper bounds; nonnegative work supplies their lower bounds; no state-graph alias at19 is claimed"
+  ],
+  "replay_command": "sandbox-exec -f SESSION/research.sb /opt/homebrew/bin/python3 -B transformers/research/transformer-regions-round2/work-curve/replay.py --out mlp-work/b1-curve-review-replay",
+  "replay_result": {
+    "status": "PASS",
+    "graph_sha256": "2d2cab8d86ee8d6397bb33c363b826908dbfa204309a64f7882ca106186068fc",
+    "rows": [
+      {
+        "cap_units": 9,
+        "peak_bytes": 294912,
+        "minimum_work": 23281664,
+        "negative": "EXHAUSTED",
+        "states": 72403,
+        "seconds": 0.6064617910305969
+      },
+      {
+        "cap_units": 10,
+        "peak_bytes": 327680,
+        "minimum_work": 15851520,
+        "negative": "EXHAUSTED",
+        "states": 100252,
+        "seconds": 0.8603780419798568
+      },
+      {
+        "cap_units": 11,
+        "peak_bytes": 360448,
+        "minimum_work": 7725056,
+        "negative": "EXHAUSTED",
+        "states": 123434,
+        "seconds": 1.0262158749974333
+      },
+      {
+        "cap_units": 12,
+        "peak_bytes": 393216,
+        "minimum_work": 5627904,
+        "negative": "EXHAUSTED",
+        "states": 170351,
+        "seconds": 2.0067598330206238
+      },
+      {
+        "cap_units": 13,
+        "peak_bytes": 425984,
+        "minimum_work": 3530752,
+        "negative": "EXHAUSTED",
+        "states": 197224,
+        "seconds": 2.3166337909642607
+      },
+      {
+        "cap_units": 14,
+        "peak_bytes": 458752,
+        "minimum_work": 1433600,
+        "negative": "EXHAUSTED",
+        "states": 267405,
+        "seconds": 2.8641885420074686
+      },
+      {
+        "cap_units": 15,
+        "peak_bytes": 491520,
+        "minimum_work": 868352,
+        "negative": "EXHAUSTED",
+        "states": 252464,
+        "seconds": 2.879282832960598
+      },
+      {
+        "cap_units": 16,
+        "peak_bytes": 524288,
+        "minimum_work": 344064,
+        "negative": "EXHAUSTED",
+        "states": 261374,
+        "seconds": 2.858969790977426
+      },
+      {
+        "cap_units": 17,
+        "peak_bytes": 557056,
+        "minimum_work": 81920,
+        "negative": "EXHAUSTED",
+        "states": 276794,
+        "seconds": 2.716103082988411
+      },
+      {
+        "cap_units": 18,
+        "peak_bytes": 589824,
+        "minimum_work": 40960,
+        "negative": "EXHAUSTED",
+        "states": 281097,
+        "seconds": 2.670764166978188
+      },
+      {
+        "cap_units": 19,
+        "peak_bytes": 622592,
+        "minimum_work": 0,
+        "negative": "nonnegative work",
+        "states": 216289,
+        "seconds": 1.2982457500183955
+      }
+    ],
+    "scope": "complete frozen one-block memory/work Pareto curve",
+    "evidence": "author-checked only"
+  },
+  "replay_log_sha256": "690d82d9bb73756d3c584ed424f7042bc89afd3e6923f1497002f48f8ba13751",
+  "positive_queries": 11,
+  "exhausted_negative_queries": 10,
+  "largest_positive_state_map": 281097,
+  "limitation": "same-author-team source review and same-code process replication; not independent scientific validation or maintainer acceptance"
+}

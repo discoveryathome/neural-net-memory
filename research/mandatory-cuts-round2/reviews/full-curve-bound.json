@@ -1,0 +1,176 @@
+{
+  "status": "PASS",
+  "findings": [],
+  "review": "Same-author-team read-only implementation/theorem review; not independent scientific acceptance",
+  "checked_utc": "2026-10-22T00:31:34Z",
+  "source_sha256": {
+    "research/mandatory-cuts-round2/work-curve-bound/controls.py": "89647bbc6320277c6ca94472dc7dfaa2745e94fd2e89a35a69d031e863ee33db",
+    "research/mandatory-cuts-round2/work-curve-bound/replay.py": "04c6166a2f560242bf40a92e6b6dc06638bdbdcc11cf438cd23a4b80a722a831",
+    "research/mandatory-cuts-round2/work-curve-bound/factor_bound.py": "f2b820e41329c8948455e133b8c2c29403172a086b7a921e565feddffe930d45",
+    "research/mandatory-cuts-round2/work-curve-bound/joint_replay.py": "e5ba3ec15fa92eadc978c9dcda941d081b34259be52a827bdaa8d75ca2ef7c0e",
+    "research/mandatory-cuts-round2/work-curve-bound/README.md": "c435f98b994b52585186ec3415eac5d7a71341f1c977c0de19950c0f13f41cb5",
+    "research/mandatory-cuts-round2/work-curve-bound/EXPECTED.json": "5b9937b9bf7e6c83f57962533143fedd6edf3d9b3fe034540556dc300f8fcf59",
+    "research/mandatory-cuts-round2/reset_cut.py": "fba7f704e62e86308f983f700ced2623b6ebf5b07f35fac034eea88a730d0f4b",
+    "research/mandatory-cuts-round2/b2-reset-cut.json": "00a3772e55799f5f8e0faa58894c1ae185f06049b2f37169b7b947a5c9281e29",
+    "research/mandatory-cuts-round2/ten-unit-proof/pattern_db.py": "db7a1786b5d57c833e623dafe161cfb896d3a30511ccb0d73d6f55d4aa3e1f01",
+    "research/mandatory-cuts-round2/ten-unit-proof/output_demand_db.py": "8b80b6ce5420b51188fbfb167f87c49fa04699c7b09cb13ae3e093df570de5f5",
+    "research/mandatory-cuts-round2/ten-unit-proof/terminal_phase_db.py": "30310410539bee5449dd8c1c302283791a7e58df4c4f36faf4324a57037700a7",
+    "research/mandatory-cuts-round2/ten-unit-proof/pdb_audit.py": "1c0612aa9c9930cf48a4060f3b870eca6605f1e353e90297f8a20622b164d1cc"
+  },
+  "reviewed_checks": [
+    "Frozen graph hash and exact second-block renaming bind the owned-cost projection.",
+    "First final GELU dependency closure is exactly26nodes; final down/residual2 unseen and loss/backwards impossible.",
+    "One earlier owner has0<=m<=r<=C-9; m is attained before the final norm1 saved read and persists until every final-block backward completes.",
+    "max(current D,E(m)) does not double-count owned work; earlier and final costs are disjoint. Independently minimizing identities is favorable.",
+    "Phase0 terminal rows include forced UP/GELU and free first terminal outputs, with all repeats charged and arbitrary drops/order retained.",
+    "All14-owned22 plus fixed input1 gives exact23u action-graph saturation; backward12-owned20 gives21u. Global cap/size allowances are not clipped.",
+    "Auditor binding checks actual frozen fields; every public generated table is hash-pinned and forward-edge/Bellman/tight-path audited before reuse.",
+    "Rehashed semantic forgeries target wrong graph/cost/phase/capacity/goal and false22-as23 saturation; full-witness forgeries use unchanged verifier.",
+    "Joint replay joins all29 exact work values to full legal witnesses and separately checks both actual owned components.",
+    "Zero38 plus positive bound37 and monotonic feasible sets gives minimum zero-work memory. The unchanged credited PR10 reset classifier is recomputed and checked to exclude9u at every finite work budget, independently of terminal9 feasibility."
+  ],
+  "executed": {
+    "all45_metadata_and_raw_hash_bindings": true,
+    "literal29_bound_recalculations": [
+      [
+        10,
+        106725376
+      ],
+      [
+        11,
+        85409792
+      ],
+      [
+        12,
+        64962560
+      ],
+      [
+        13,
+        52035584
+      ],
+      [
+        14,
+        47841280
+      ],
+      [
+        15,
+        43646976
+      ],
+      [
+        16,
+        39452672
+      ],
+      [
+        17,
+        35258368
+      ],
+      [
+        18,
+        31064064
+      ],
+      [
+        19,
+        26869760
+      ],
+      [
+        20,
+        22675456
+      ],
+      [
+        21,
+        18481152
+      ],
+      [
+        22,
+        14286848
+      ],
+      [
+        23,
+        10092544
+      ],
+      [
+        24,
+        7995392
+      ],
+      [
+        25,
+        5898240
+      ],
+      [
+        26,
+        5373952
+      ],
+      [
+        27,
+        3637248
+      ],
+      [
+        28,
+        3112960
+      ],
+      [
+        29,
+        1376256
+      ],
+      [
+        30,
+        851968
+      ],
+      [
+        31,
+        770048
+      ],
+      [
+        32,
+        688128
+      ],
+      [
+        33,
+        606208
+      ],
+      [
+        34,
+        327680
+      ],
+      [
+        35,
+        245760
+      ],
+      [
+        36,
+        163840
+      ],
+      [
+        37,
+        81920
+      ],
+      [
+        38,
+        0
+      ]
+    ],
+    "tiny_controls": {
+      "random_direct_comparisons": 64,
+      "input_forgeries": [
+        "wrong_prefix",
+        "negative_cost",
+        "missing_cap"
+      ]
+    },
+    "nineteen_roots": {
+      "roots": 19,
+      "minimum": 106725376
+    },
+    "old_certificate_metrics": {
+      "peak_bytes": 1310720,
+      "recompute_cost": 26804224,
+      "forward_cost": 137625600,
+      "backward_cost": 221642752
+    },
+    "joint_receipt_rows_checked": 29,
+    "reset_source_byte_identical_to_PR10": true,
+    "universal_peak_floor_bytes": 655360,
+    "reset_proof_freshly_recomputed": true
+  },
+  "execution_scope": "Did not repeat13M table-edge audit or full29-certificate reconstruction; inspected auditor/kernel/join source and existing successful receipts, reran only cheap literal/table-binding/root controls. Parent fresh joint replay remains separate evidence."
+}

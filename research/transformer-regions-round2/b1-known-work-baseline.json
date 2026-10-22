@@ -1,0 +1,24 @@
+{
+  "graph": "transformer-b1-t32",
+  "cap": 294912,
+  "valid_known_at_cap": 2,
+  "best": [
+    {
+      "path": "research/trial-30m/certificates/transformer-b1-t32-b26615808-p294912.json",
+      "sha256": "35bde6e10b92c659fde23b7ce64bb2007325c4fc7a38ffd3cfd2b7fb98486171",
+      "peak_bytes": 294912,
+      "recompute_cost": 24854528,
+      "forward_cost": 51470336,
+      "backward_cost": 53231616
+    },
+    {
+      "path": "research/trial-30m/certificates/transformer-b1-t32-b53231616-p294912.json",
+      "sha256": "e7a8cf0fa5bd0dbee24bde00e061fdf82ac055d39c57e1322e2902df3471cc12",
+      "peak_bytes": 294912,
+      "recompute_cost": 27910144,
+      "forward_cost": 54525952,
+      "backward_cost": 53231616
+    }
+  ],
+  "invalid": []
+}

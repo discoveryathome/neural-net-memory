@@ -1,0 +1,1 @@
+{"status": "PASS", "solver": "9.15.6755", "cases": [{"peak": 1245184, "minimum_work": 26869760, "positive": "OPTIMAL", "negative": "INFEASIBLE"}, {"peak": 851968, "minimum_work": 52035584, "positive": "OPTIMAL", "negative": "INFEASIBLE"}]}
