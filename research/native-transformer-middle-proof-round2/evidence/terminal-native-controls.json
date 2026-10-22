@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "controls": 16,
+  "scope": "native integration against separately audited exact terminal-phase values, both preloss phases",
+  "source_sha256": "bed8aa9152e26e9f2b3283c6b77ac91405e95cce26ff6dfaa0e042fb69acfa8b",
+  "table_sha256": "f294de6a1bd14aac3e27fc3527e308dbac5bcd5c602a2b701bff68c7ef4279e9",
+  "seconds": 0.055218666966538876,
+  "rows": [
+    {
+      "phase": 0,
+      "live": [],
+      "expected": 121536512,
+      "native": 121536512,
+      "states": 51
+    },
+    {
+      "phase": 0,
+      "live": [
+        "b0_context"
+      ],
+      "expected": 78774272,
+      "native": 78774272,
+      "states": 23
+    },
+    {
+      "phase": 0,
+      "live": [
+        "b0_residual1"
+      ],
+      "expected": 77692928,
+      "native": 77692928,
+      "states": 16
+    },
+    {
+      "phase": 0,
+      "live": [
+        "b0_up",
+        "b0_gelu"
+      ],
+      "expected": 112099328,
+      "native": 112099328,
+      "states": 31
+    },
+    {
+      "phase": 0,
+      "live": [
+        "b0_residual1",
+        "b0_up",
+        "b0_gelu"
+      ],
+      "expected": 42926080,
+      "native": 42926080,
+      "states": 13
+    },
+    {
+      "phase": 0,
+      "live": [
+        "b0_gelu"
+      ],
+      "expected": 112099328,
+      "native": 112099328,
+      "states": 29
+    },
+    {
+      "phase": 0,
+      "live": [
+        "b0_q",
+        "b0_k"
+      ],
+      "expected": 104759296,
+      "native": 104759296,
+      "states": 53
+    },
+    {
+      "phase": 0,
+      "live": [
+        "b0_norm2"
+      ],
+      "expected": 112984064,
+      "native": 112984064,
+      "states": 28
+    },
+    {
+      "phase": 1,
+      "live": [],
+      "expected": 155090944,
+      "native": 155090944,
+      "states": 51
+    },
+    {
+      "phase": 1,
+      "live": [
+        "b0_context"
+      ],
+      "expected": 112328704,
+      "native": 112328704,
+      "states": 23
+    },
+    {
+      "phase": 1,
+      "live": [
+        "b0_residual1"
+      ],
+      "expected": 111247360,
+      "native": 111247360,
+      "states": 16
+    },
+    {
+      "phase": 1,
+      "live": [
+        "b0_up",
+        "b0_gelu"
+      ],
+      "expected": 145653760,
+      "native": 145653760,
+      "states": 31
+    },
+    {
+      "phase": 1,
+      "live": [
+        "b0_residual1",
+        "b0_up",
+        "b0_gelu"
+      ],
+      "expected": 76480512,
+      "native": 76480512,
+      "states": 13
+    },
+    {
+      "phase": 1,
+      "live": [
+        "b0_gelu"
+      ],
+      "expected": 145653760,
+      "native": 145653760,
+      "states": 29
+    },
+    {
+      "phase": 1,
+      "live": [
+        "b0_q",
+        "b0_k"
+      ],
+      "expected": 138313728,
+      "native": 138313728,
+      "states": 53
+    },
+    {
+      "phase": 1,
+      "live": [
+        "b0_norm2"
+      ],
+      "expected": 146538496,
+      "native": 146538496,
+      "states": 28
+    }
+  ]
+}

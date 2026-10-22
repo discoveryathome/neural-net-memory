@@ -1,0 +1,21 @@
+{"progress_labels": 50000, "edges": 3680979, "seconds": 14.561145083978772}
+{"progress_labels": 100000, "edges": 7625444, "seconds": 27.093559959030244}
+{"progress_labels": 150000, "edges": 11179388, "seconds": 41.641445917019155}
+{"progress_labels": 200000, "edges": 14717371, "seconds": 56.229005708999466}
+{"progress_labels": 250000, "edges": 19602940, "seconds": 75.41777487500804}
+{"progress_labels": 300000, "edges": 24489372, "seconds": 95.6876221250277}
+{"progress_labels": 350000, "edges": 28189992, "seconds": 110.80280512501486}
+{"progress_labels": 400000, "edges": 32642596, "seconds": 126.67757504200563}
+{"progress_labels": 450000, "edges": 38344465, "seconds": 145.17526787501993}
+{"progress_labels": 500000, "edges": 43970759, "seconds": 162.1518431250006}
+{"progress_labels": 550000, "edges": 49257033, "seconds": 177.48003441700712}
+{"progress_labels": 600000, "edges": 55338369, "seconds": 194.6413857919979}
+{"progress_labels": 650000, "edges": 59189867, "seconds": 206.6009482499794}
+{"progress_labels": 700000, "edges": 64061187, "seconds": 220.90665662498213}
+{"progress_labels": 750000, "edges": 67618136, "seconds": 234.69105837499956}
+{"progress_labels": 800000, "edges": 71047805, "seconds": 247.0042068340117}
+{"progress_labels": 850000, "edges": 74157175, "seconds": 258.18200666701887}
+{"progress_labels": 900000, "edges": 76563834, "seconds": 268.05760733399075}
+{"progress_labels": 950000, "edges": 80520848, "seconds": 279.7405421669828}
+{"progress_labels": 1000000, "edges": 82448703, "seconds": 288.1056866250001}
+{"status": "PASS", "scope": "closed reduced-state certificate; author-team implementation cross-check", "checked_labels": 1002736, "total_labels": 1002736, "edges_checked": 82502307, "absent_targets_pruned": 59268838, "region_E": [155123712, 111280128, 77529088, 69140480, 60915712, 52396032, 43974656, 35586048, 27197440, 27197440, 27197440, 27197440], "baseline_cache": "CacheInfo(hits=52797035, misses=10667584, maxsize=262144, currsize=262144)", "region_cache": "CacheInfo(hits=7016056, misses=3185172, maxsize=131072, currsize=131072)", "labels_sha256": "4abe94dc64298436da6af9db8707b0b55178cdc9c8de6501d66a293ed5bf1b5d", "seconds": 288.4292860000278}

@@ -1,0 +1,25 @@
+{
+  "schema": "research-task/v1",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "seed": "dafc4be0863b7654352ffb2ba4a4d2df",
+  "session_start_utc": "2026-10-21T22:37:20Z",
+  "new_research_cutoff_utc": "2026-10-22T01:37:20Z",
+  "session_deadline_utc": "2026-10-22T02:37:20Z",
+  "model": "activation-memory/v1",
+  "graph": "transformer-b4-t128",
+  "graph_sha256": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+  "budget": 956301312,
+  "prior_upper_peak_bytes": 1441792,
+  "prior_lower_bound_bytes": 1179648,
+  "proposed_lower_bound_bytes": 1441792,
+  "proposed_optimum_peak_bytes": 1441792,
+  "result_type": "new computational lower bound matching existing upper; no new primary witness",
+  "evidence": "author-checked; separately authored implementation checks within the same AI-assisted author team; independent scientific review and maintainer acceptance pending",
+  "ownership": "new research package only; frozen model, graph, core verifier and accepted records unchanged",
+  "authorization": "parent coordinates authorized publication; this worker creates no GitHub writes",
+  "credit": [
+    "Doug Colkitt / DougColkitt / @Mister-Meeseeks: original project, model, graph, verifier and trial solver",
+    "Prior retention-transfer / PR6: known13 control, regional exact solver and local-pattern antecedent",
+    "Codex author team: native dynamic search, critical-cut proof, separately authored Python closure checker, pattern database generator and audits, cross-agent implementation review"
+  ]
+}

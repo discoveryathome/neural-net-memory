@@ -1,0 +1,1 @@
+{"status": "PASS", "forged_proofs_rejected": [{"control": "initial seed mislabeled as costing one unit", "status": "REJECTED"}, {"control": "restricted demand domain presented as exhaustive", "status": "REJECTED"}, {"control": "changed pattern value with original digest", "status": "REJECTED"}]}

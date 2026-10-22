@@ -1,0 +1,88 @@
+{
+  "graph_sha256": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+  "positive_file_sha256": "e80ea162c52098697991793f8eb52c9c7bd9e7348639505bf2e8b369cc76f671",
+  "native_source_sha256": "067fc6e7272a5145be1910d0a0268f4e56c4ff4f4bcd851228dda4fd89a8c957",
+  "table_binary_sha256": {
+    "b4-backward-pdb-cap9": "93ebed09daff951d1fe9ebcfee099879ca1b2f07f09e1a315db3e2f80254eb8b",
+    "b4-output-demand-pdb-cap9": "806a346fb434ff0df288615680935e3a4aca1d3d64cc674436c413e0157a96ab",
+    "b4-terminal-phase-pdb-cap9": "c19fb01dee30f1dd65e628e5fc0e3280da7d962992ff5b569163f728812e074f",
+    "b4-backward-pdb-cap10": "5a66a501384823793f9afb4529f7619465e199f869dd6ab98dec1d537c107a76",
+    "b4-output-demand-pdb-cap10": "676dc852e9abf92a460760763df6f4e33551eab7fa769244937ccbd3a39f79bc",
+    "b4-terminal-phase-pdb-cap10": "6ec53acd481eca7879b557064481c5f2c8757d93d63ec79c4264a354bfff9fc6",
+    "b4-backward-pdb-cap11": "e48ed0271ffbd28b5c267591fca82eeaeec06b1a696911c747ddaa05a559566b",
+    "b4-output-demand-pdb-cap11": "2d76ddd1dc9ba7099408673d2d329a808390d43d9b5ca593f7b8bbbf0a40bc09",
+    "b4-terminal-phase-pdb-cap11": "249780b445f43f336853c7d72f0a3136630e54ce8527e8ed7622c1771b92fb10",
+    "b4-backward-pdb-cap12": "a4fcff1b2db6d60bc0e37ad7212e9ddbf7c1b64bbcc2c03efe542e6ad523acd9",
+    "b4-output-demand-pdb-cap12": "7eba73845111f3fa98d6a76232cb155341e608ac42f8cdfd3c2792675a81c722",
+    "b4-terminal-phase-pdb-cap12": "f294de6a1bd14aac3e27fc3527e308dbac5bcd5c602a2b701bff68c7ef4279e9",
+    "b4-backward-pdb-cap13": "2566df7c876c48c7b8aa4699d9e6e7664943d89ac0ee7c2171fb5fb25d88ac90",
+    "b4-output-demand-pdb-cap13": "fa680180039378bea727097b952fff65fb1db1a2158295524b8609beff10b39e",
+    "b4-terminal-phase-pdb-cap13": "9fe76a2778ad3016df92a954f1a4eef80897042cf0f94a0f7b9e9e079f099b93",
+    "b4-backward-pdb-cap14": "b56b79e297a6ee71587264e001ac92ff7d5da7578369045215182e123c44106a",
+    "b4-output-demand-pdb-cap14": "cfe6eecb72a5ba346cd4af4d0ef564864429b64d6397b802446a24fec6cb3501",
+    "b4-terminal-phase-pdb-cap14": "34adff67a6c4b87c8d904dc62854ebefec397fa4fcde722a2ecfc1118afcff4c"
+  },
+  "strict_budget": 421494783,
+  "minimum_work": 421494784,
+  "peak_units": 13,
+  "unit_bytes": 131072,
+  "seed_count": 83007,
+  "small_optional_values": 38,
+  "big_optional_values": 14,
+  "native": {
+    "status": "EXHAUSTED_FIXED_ORDER",
+    "records": 360884,
+    "states": 172238,
+    "generated": 17855417,
+    "expanded": 348134,
+    "queue": 0,
+    "closed_label_rows": 172238
+  },
+  "observed_closed_labels_sha256": "86858f8b53f188d9755af4b17ba881b29a5f08ea2c910f2f7affc2fd6e7f5dbb",
+  "observed_input_sha256": "bc5d4acc4222f7ec82ffb53759e8674b445933af6025f53cefb4c524386e16a6",
+  "base_v20_sha256": "f0c625698939c3ed409b0262fce3fef10ea3477f717c4fdbb9ee684f3031a0ff",
+  "master_seed": "dafc4be0863b7654352ffb2ba4a4d2df",
+  "base": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "cases": {
+    "13": {
+      "cap_units": 13,
+      "strict_budget": 421494783,
+      "minimum_work": 421494784,
+      "seed_count": 83007,
+      "positive_file": "positive-witness.json",
+      "positive_file_sha256": "e80ea162c52098697991793f8eb52c9c7bd9e7348639505bf2e8b369cc76f671",
+      "original_budget": 478150656,
+      "native": {
+        "status": "EXHAUSTED_FIXED_ORDER",
+        "records": 360884,
+        "states": 172238,
+        "generated": 17855417,
+        "expanded": 348134,
+        "queue": 0,
+        "closed_label_rows": 172238
+      },
+      "observed_dump_sha256": "86858f8b53f188d9755af4b17ba881b29a5f08ea2c910f2f7affc2fd6e7f5dbb"
+    },
+    "14": {
+      "cap_units": 14,
+      "strict_budget": 355270655,
+      "minimum_work": 355270656,
+      "seed_count": 585481,
+      "positive_file": "positive-cap14.json",
+      "positive_file_sha256": "effa5bc0980039b4b620cf1e4df620d9be06f22199bbc540968a4be56a23d2cf",
+      "original_budget": 355270656,
+      "native": {
+        "status": "EXHAUSTED_FIXED_ORDER",
+        "records": 2037,
+        "states": 1783,
+        "generated": 70479,
+        "expanded": 2002,
+        "queue": 0,
+        "closed_label_rows": 1783
+      },
+      "observed_dump_sha256": "1a80daa52eca4c4640551aa166e6e687feff0f8fea8c1984284d1d55f8764e44"
+    }
+  },
+  "validated_predecessor_native_source_sha256": "8db19e0a339e208cb5bcf2c12600ebc224b979a1df53831f6337f0415902f6a9",
+  "comment_only_program_body_sha256": "efaa764c84fa7f42b2bb63a4d2872f36286d8aa5537969e47fd66ba64d8231f3"
+}

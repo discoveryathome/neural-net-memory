@@ -1,0 +1,125 @@
+{
+  "schema": "research-verification/v1",
+  "status": "PASS",
+  "checked_utc": "2026-10-21T23:24:24Z",
+  "platform": "macOS-15.5-arm64-arm-64bit-Mach-O",
+  "command": "sandbox-exec -f SESSION/research.sb /opt/homebrew/bin/python3 -B research/native-transformer-proof-round2/replay.py",
+  "final_core_command": "sandbox-exec -f SESSION/research.sb /opt/homebrew/bin/python3 -B verify_all.py",
+  "integrated_replay": {
+    "status": "PASS",
+    "evidence": "author-checked; separate implementation checks within the author team; scientific acceptance pending",
+    "graph_sha256": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+    "budget": 956301312,
+    "excluded_peak_bytes": 1310720,
+    "matching_upper_peak_bytes": 1441792,
+    "upper_recompute_cost": 737935360,
+    "compiler": "/Library/Developer/CommandLineTools/usr/bin/clang++",
+    "flags": [
+      "-isysroot",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG"
+    ],
+    "python": "3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 17.0.0 (clang-1700.0.13.3)]",
+    "seconds": 33.963194750016555,
+    "native": {
+      "status": "EXHAUSTED_FIXED_ORDER",
+      "records": 637601,
+      "states": 419463,
+      "expanded": 419463,
+      "generated": 10474740,
+      "dominated": 9356323,
+      "pruned": 480855,
+      "seconds": 1.133690625,
+      "queue": 0,
+      "weight": 1,
+      "max_first_progress": 57,
+      "max_backward_done": 6,
+      "maxrss_bytes": 61964288,
+      "min_initial_h": 606633984,
+      "max_initial_h": 673775616,
+      "min_initial_h_live": 13510798882119680,
+      "minimum_frontier_f": null,
+      "closed_label_rows": 419463,
+      "layers": [
+        [
+          54,
+          0,
+          85923,
+          85923
+        ],
+        [
+          55,
+          0,
+          87916,
+          87916
+        ],
+        [
+          57,
+          1,
+          43627,
+          43627
+        ],
+        [
+          57,
+          2,
+          44172,
+          44172
+        ],
+        [
+          57,
+          3,
+          48743,
+          48743
+        ],
+        [
+          57,
+          4,
+          52924,
+          52924
+        ],
+        [
+          57,
+          6,
+          56158,
+          56158
+        ]
+      ]
+    },
+    "closure": {
+      "status": "PASS",
+      "scope": "closed reduced-state certificate; author-team implementation cross-check",
+      "checked_labels": 419463,
+      "total_labels": 419463,
+      "edges_checked": 10474740,
+      "absent_targets_pruned": 461695,
+      "labels_sha256": "06a3e7b5c590a4af3c7625ca6b732496dacaece3989e3929b20f094761ad9243",
+      "seconds": 25.19144491601037
+    },
+    "source_sha256": "260efd1a66778ef317345fd56c984bdc06bca8c88243cab326a551dc70c9942c",
+    "executable_sha256": "0f952d396e314993b12a308f31fdeef3ca1e5e0e087f65492799ce84f2f0821e",
+    "labels_sha256": "06a3e7b5c590a4af3c7625ca6b732496dacaece3989e3929b20f094761ad9243"
+  },
+  "controls": {
+    "random_unreduced_oracle_comparisons": 720,
+    "tiny_positive_controls": 25,
+    "proof_forgeries_rejected": 3,
+    "pdb_semantic_forgeries_per_capacity": 17,
+    "pdb_direct_dijkstra_controls_per_capacity": 8,
+    "capacities_checked_units": [
+      10,
+      13
+    ]
+  },
+  "compiler": "Apple Clang C++17; explicit macOS SDK; flags recorded in replay result",
+  "boundedness": {
+    "proof_max_records": 1000000,
+    "proof_seconds": 30,
+    "native_rss_guard_mib": 1200,
+    "closed_label_rows": 419463
+  },
+  "limitation": "12-unit original row remains unresolved; finite time/record/weighted/restricted failures imply no impossibility",
+  "core_verify_log": "evidence/final-verify-all.log",
+  "core_verify_log_sha256": "77bc58d5c6badd3cb69cdbd3a694d48752b2cd1c027c0c2580368d19e1ee1d6f"
+}

@@ -1,0 +1,122 @@
+{
+  "status": "candidate computational exclusion; author-team checks pending",
+  "graph": "transformer-b4-t128",
+  "cap_bytes": 1310720,
+  "recompute_budget": 956301312,
+  "initial_states": 39,
+  "initial_event": "first b3_gelu allocation; full remaining two first forwards retained",
+  "format": "raw little-endian rows, 3 uint64: LP=(progress<<56)|live, done, minimum cost; no header",
+  "closed_label_rows": 419463,
+  "closed_label_bytes": 10067112,
+  "platform": "macOS-15.5-arm64-arm-64bit-Mach-O",
+  "compiler": "/Library/Developer/CommandLineTools/usr/bin/clang++",
+  "compiler_flags": [
+    "-isysroot",
+    "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG"
+  ],
+  "files": {
+    "source": {
+      "path": "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/global-transformer-work/macro_search-v10.cpp",
+      "sha256": "ac53562de6902804e28321eba103f6880a3e305247e976c89d09ccfe26e6c968"
+    },
+    "binary": {
+      "path": "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/global-transformer-work/macro_search-dump",
+      "sha256": "e7e77c452afcd02b38936ad03a60914d51a7770602dee061a4cdfdda9c9618d7"
+    },
+    "input": {
+      "path": "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/global-transformer-work/transformer-b4-t128-p1310720-b956301312-w1.0-d0-favorable-s1000000-1792624221922170000.input",
+      "sha256": "fecbc2cbc41d1a2afa6bbf5675c42658f91aa2d8a943429aee285508da36d796"
+    },
+    "closed_labels": {
+      "path": "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/global-transformer-work/cap10-closed-labels.bin",
+      "sha256": "06a3e7b5c590a4af3c7625ca6b732496dacaece3989e3929b20f094761ad9243"
+    },
+    "native_result": {
+      "path": "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/global-transformer-work/cap10-closed-v10.native.json",
+      "sha256": "1ea4b266bb4bac249056f40636c58846f9c8abaa52022d2576924f931659f0c0"
+    },
+    "backward_pdb": {
+      "path": "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/transformer-work/b4-backward-pdb-cap10.bin",
+      "sha256": "5a66a501384823793f9afb4529f7619465e199f869dd6ab98dec1d537c107a76"
+    },
+    "backward_metadata": {
+      "path": "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/transformer-work/b4-backward-pdb-cap10.json",
+      "sha256": "6361c5c9343f9ef04b21bead79cf7bfca9a2b2c7e329d9bef1925cbd9efeb24e"
+    },
+    "demand_pdb": {
+      "path": "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/transformer-work/b4-output-demand-pdb-cap10.bin",
+      "sha256": "676dc852e9abf92a460760763df6f4e33551eab7fa769244937ccbd3a39f79bc"
+    },
+    "demand_metadata": {
+      "path": "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/transformer-work/b4-output-demand-pdb-cap10.json",
+      "sha256": "f4411dd5d58a468f1a6a9bb00139b323ab03c11504873eef0111de98a344a8ce"
+    }
+  },
+  "result": {
+    "status": "EXHAUSTED_FIXED_ORDER",
+    "records": 637601,
+    "states": 419463,
+    "expanded": 419463,
+    "generated": 10474740,
+    "dominated": 9356323,
+    "pruned": 480855,
+    "seconds": 1.103825459,
+    "queue": 0,
+    "weight": 1,
+    "max_first_progress": 57,
+    "max_backward_done": 6,
+    "maxrss_bytes": 62013440,
+    "min_initial_h": 606633984,
+    "max_initial_h": 673775616,
+    "min_initial_h_live": 13510798882119680,
+    "minimum_frontier_f": null,
+    "closed_label_rows": 419463,
+    "layers": [
+      [
+        54,
+        0,
+        85923,
+        85923
+      ],
+      [
+        55,
+        0,
+        87916,
+        87916
+      ],
+      [
+        57,
+        1,
+        43627,
+        43627
+      ],
+      [
+        57,
+        2,
+        44172,
+        44172
+      ],
+      [
+        57,
+        3,
+        48743,
+        48743
+      ],
+      [
+        57,
+        4,
+        52924,
+        52924
+      ],
+      [
+        57,
+        6,
+        56158,
+        56158
+      ]
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "source_sha256": "e4e9ea7ae1cfb51e635ffd637481c6b04c8d43ac14362c5b805b640ef8a5ae97",
+  "scope": "exact tiny arbitrary-drop oracle and unchanged-verifier accepted certificates; initial removal overcharges an intermediate but is exact for output without own consumers",
+  "rows": [
+    {
+      "control": "intermediate",
+      "late_drop_minwork": 2,
+      "immediate_drop_minwork": 12,
+      "states": 31,
+      "actions_after_cut": [
+        {
+          "op": "forward",
+          "node": "b"
+        },
+        {
+          "op": "drop",
+          "node": "a"
+        },
+        {
+          "op": "forward",
+          "node": "c"
+        },
+        {
+          "op": "loss"
+        },
+        {
+          "op": "drop",
+          "node": "c"
+        },
+        {
+          "op": "backward",
+          "node": "c"
+        },
+        {
+          "op": "backward",
+          "node": "b"
+        },
+        {
+          "op": "drop",
+          "node": "b"
+        },
+        {
+          "op": "backward",
+          "node": "a"
+        }
+      ]
+    },
+    {
+      "control": "output",
+      "late_drop_minwork": 12,
+      "immediate_drop_minwork": 12,
+      "states": 32,
+      "actions_after_cut": [
+        {
+          "op": "drop",
+          "node": "c"
+        },
+        {
+          "op": "forward",
+          "node": "a"
+        },
+        {
+          "op": "forward",
+          "node": "b"
+        },
+        {
+          "op": "drop",
+          "node": "a"
+        },
+        {
+          "op": "forward",
+          "node": "c"
+        },
+        {
+          "op": "loss"
+        },
+        {
+          "op": "drop",
+          "node": "c"
+        },
+        {
+          "op": "backward",
+          "node": "c"
+        },
+        {
+          "op": "backward",
+          "node": "b"
+        },
+        {
+          "op": "drop",
+          "node": "b"
+        },
+        {
+          "op": "backward",
+          "node": "a"
+        }
+      ]
+    }
+  ]
+}

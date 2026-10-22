@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "scope": "same author-team isolated compile/replay of original critical-GELU cap12 v16 with common-endpoint occupancy bound",
+  "source_sha256": "e3f7cbaabc480e07aca401994618309ed7fd967c52f2b7bae3717451c12c1959",
+  "binary_sha256": "822cf5e2ac32cbfdd98b1e2a76492af26787e05e8c9b2b5bb9cc2d9c1d09d2e4",
+  "input_sha256": "c04d4d89152550163b85953228350df7da37aa744c58d9fed9e6030ed72222cb",
+  "elapsed": 21.29164483299246,
+  "result": {
+    "status": "EXHAUSTED_FIXED_ORDER",
+    "records": 1274821,
+    "states": 1002736,
+    "expanded": 1002736,
+    "generated": 82502307,
+    "dominated": 19570815,
+    "pruned": 61657976,
+    "seconds": 21.125465625,
+    "queue": 0,
+    "weight": 1,
+    "max_first_progress": 57,
+    "max_backward_done": 29,
+    "maxrss_bytes": 190693376,
+    "min_initial_h": 462716928,
+    "max_initial_h": 577470464,
+    "min_initial_h_live": 14636698793148672,
+    "minimum_frontier_f": null,
+    "layers": [
+      [
+        54,
+        0,
+        47440,
+        47440
+      ],
+      [
+        55,
+        0,
+        22676,
+        22676
+      ],
+      [
+        57,
+        1,
+        11102,
+        11102
+      ],
+      [
+        57,
+        2,
+        172683,
+        172683
+      ],
+      [
+        57,
+        3,
+        96406,
+        96406
+      ],
+      [
+        57,
+        4,
+        30913,
+        30913
+      ],
+      [
+        57,
+        6,
+        372093,
+        372093
+      ],
+      [
+        57,
+        7,
+        93560,
+        93560
+      ],
+      [
+        57,
+        9,
+        40141,
+        40141
+      ],
+      [
+        57,
+        10,
+        113230,
+        113230
+      ],
+      [
+        57,
+        13,
+        592,
+        592
+      ],
+      [
+        57,
+        15,
+        1382,
+        1382
+      ],
+      [
+        57,
+        17,
+        160,
+        160
+      ],
+      [
+        57,
+        20,
+        121,
+        121
+      ],
+      [
+        57,
+        21,
+        36,
+        36
+      ],
+      [
+        57,
+        24,
+        199,
+        199
+      ],
+      [
+        57,
+        29,
+        2,
+        2
+      ]
+    ]
+  },
+  "compile_command": [
+    "/Library/Developer/CommandLineTools/usr/bin/clang++",
+    "-isysroot",
+    "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+    "-std=c++17",
+    "-O2",
+    "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/resnet-work/native-review/v16/macro_search-v16.cpp",
+    "-o",
+    "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/resnet-work/native-review/v16/native"
+  ],
+  "run_command": [
+    "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/resnet-work/native-review/v16/native",
+    "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/resnet-work/native-review/v16/critical-cap12.input",
+    "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/transformer-work/b4-backward-pdb-cap12.bin",
+    "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/transformer-work/b4-output-demand-pdb-cap12.bin",
+    "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/transformer-work/b4-terminal-phase-pdb-cap12.bin",
+    "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/transformer-work"
+  ],
+  "compared_fields": [
+    "status",
+    "records",
+    "states",
+    "expanded",
+    "generated",
+    "dominated",
+    "pruned",
+    "queue",
+    "weight",
+    "max_first_progress",
+    "max_backward_done",
+    "min_initial_h",
+    "max_initial_h",
+    "min_initial_h_live",
+    "minimum_frontier_f",
+    "layers"
+  ]
+}

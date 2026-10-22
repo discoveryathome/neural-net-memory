@@ -1,0 +1,37 @@
+PASS: 12 deterministic graphs; 60 challenges
+test_all_baselines_legal (test_verifier.VerifierTests.test_all_baselines_legal) ... ok
+test_backward_order (test_verifier.VerifierTests.test_backward_order) ... ok
+test_bad_graphs (test_verifier.VerifierTests.test_bad_graphs) ... ok
+test_budget_bound_against_exact_optima (test_verifier.VerifierTests.test_budget_bound_against_exact_optima) ... ok
+test_claim_peak_and_cost (test_verifier.VerifierTests.test_claim_peak_and_cost) ... ok
+test_duplicate_keys (test_verifier.VerifierTests.test_duplicate_keys) ... ok
+test_exact_hand_optimum (test_verifier.VerifierTests.test_exact_hand_optimum) ... ok
+test_exact_limit_never_claims_optimum (test_verifier.VerifierTests.test_exact_limit_never_claims_optimum) ... ok
+test_forbidden_recompute (test_verifier.VerifierTests.test_forbidden_recompute) ... ok
+test_hand_accounting (test_verifier.VerifierTests.test_hand_accounting) ... ok
+test_hash_binding_and_budget_binding (test_verifier.VerifierTests.test_hash_binding_and_budget_binding) ... ok
+test_invalid_actions (test_verifier.VerifierTests.test_invalid_actions) ... ok
+test_missing_backward_dependency (test_verifier.VerifierTests.test_missing_backward_dependency) ... ok
+test_missing_forward_dependency (test_verifier.VerifierTests.test_missing_forward_dependency) ... ok
+test_multiple_sinks_required_at_loss (test_verifier.VerifierTests.test_multiple_sinks_required_at_loss) ... ok
+test_no_bool_metric_or_budget (test_verifier.VerifierTests.test_no_bool_metric_or_budget) ... ok
+test_random_small_dags_exact_vs_certificates (test_verifier.VerifierTests.test_random_small_dags_exact_vs_certificates) ... ok
+test_recompute_budget_and_cost (test_verifier.VerifierTests.test_recompute_budget_and_cost) ... ok
+test_seed_reproducibility (test_verifier.VerifierTests.test_seed_reproducibility) ... ok
+test_simultaneous_input_output (test_verifier.VerifierTests.test_simultaneous_input_output) ... ok
+test_bound_contradicting_witness_is_rejected (test_working_frontier.WorkingFrontierTests.test_bound_contradicting_witness_is_rejected) ... ok
+test_incorrect_proposal_metrics_are_rejected (test_working_frontier.WorkingFrontierTests.test_incorrect_proposal_metrics_are_rejected) ... ok
+test_known_results_and_solved_rows_are_inherited (test_working_frontier.WorkingFrontierTests.test_known_results_and_solved_rows_are_inherited) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.265s
+
+OK
+PASS: 60 frontier rows; 418 baseline certificates; exact optimality recomputed
+PASS: square-root segmentation on lengths 16, 64, 256
+PASS: discovery-yield summary and exhaustive segment-width baseline coverage
+PASS: dominance solver matches all 25 tiny exact optima and fails safely at a state limit
+{"status": "PASS", "checked_rows": 60, "open_rows": 21, "evidence": "author-checked; bound proofs require separate review"}
+PASS: 8 primary-source index entries; this checks metadata, not literature conclusions
+PASS: all 8 catalogue first_step positive controls
+PASS: complete offline pilot verification in 2.349s

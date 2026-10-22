@@ -1,0 +1,22 @@
+{
+  "schema": "middle-package-author-team-readonly-review/v1",
+  "status": "PASS",
+  "scope": "README reduction/PDB/region prose, v16-to-packaged native source delta, driver table bindings, five portable PDB sources",
+  "reviewed_sha256": {
+    "README.md": "6223bf3599cd4b71667b3a9443bf37b740e6a7a5c8025f0bd348fb546001aaae",
+    "native_search.cpp": "1ed9b3cc27c4266b386614e27b85bd9b95a1ef6c52012d9ad3e6cb65679ac45f",
+    "native_driver.py": "03711293f53d49ce11d48672dc86ae243a515ddddb772dbcada247a28729b790",
+    "pdb/pattern_db.py": "db7a1786b5d57c833e623dafe161cfb896d3a30511ccb0d73d6f55d4aa3e1f01",
+    "pdb/output_demand_db.py": "8b80b6ce5420b51188fbfb167f87c49fa04699c7b09cb13ae3e093df570de5f5",
+    "pdb/terminal_phase_db.py": "30310410539bee5449dd8c1c302283791a7e58df4c4f36faf4324a57037700a7",
+    "pdb/replay_pdb.py": "d7452cb5696b8c62068e23feb9b8dca322615e473f15aaaccf11bfa264142748",
+    "pdb/replay_terminal.py": "b27adcaea9873a7a2b45597badbfc534b617d6e059337e54a9472c52d30b9042"
+  },
+  "does_not_cover": [
+    "final replay orchestration",
+    "parent closed-label checker and full closure verification",
+    "independent scientific or maintainer review"
+  ],
+  "findings": [],
+  "resolved_finding": "Lower-cap canonical binary filename assertion present; exact C++ consumed paths are now bound."
+}

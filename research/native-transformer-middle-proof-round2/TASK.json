@@ -1,0 +1,55 @@
+{
+  "schema": "research-task/v1",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "seed": "dafc4be0863b7654352ffb2ba4a4d2df",
+  "session_start_utc": "2026-10-21T22:37:20Z",
+  "new_research_cutoff_utc": "2026-10-22T01:37:20Z",
+  "session_deadline_utc": "2026-10-22T02:37:20Z",
+  "model": "activation-memory/v1",
+  "graph": "transformer-b4-t128",
+  "graph_sha256": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+  "budget": 478150656,
+  "base_records_upper_peak_bytes": 1835008,
+  "base_records_lower_bound_bytes": 1179648,
+  "existing_pr6_upper_peak_bytes": 1703936,
+  "existing_pr6_upper_extra_work": 421494784,
+  "excluded_peak_bytes": 1572864,
+  "proposed_lower_bound_bytes": 1703936,
+  "proposed_optimum_peak_bytes": 1703936,
+  "result_type": "new computational lower bound matching an existing upper; no new primary witness",
+  "evidence": "author-checked; separately authored implementation checks and cross-agent reviews within the same AI-assisted author team; independent scientific review and maintainer acceptance pending",
+  "ownership": "new research package only; frozen model, graph, core verifier and accepted records unchanged",
+  "authorization": "parent coordinates authorized publication; this worker creates no GitHub writes",
+  "credit": [
+    "Doug Colkitt / DougColkitt / @Mister-Meeseeks: original project, model, graph, verifier and trial solver",
+    "Prior retention-transfer / PR6: matching 13-unit certificate and regional exact antecedents",
+    "High-budget native proof / PR11: copied backward/output-demand source and unreduced control antecedents; no external PR dependency",
+    "Codex author team: native dynamic search, critical-cut and recursive region-minimum proof, separately authored Python closure checker, pattern generators/auditors, replication and cross-agent implementation review"
+  ],
+  "work_optimum_extension": {
+    "caps_in_131072_byte_units": [
+      13,
+      14
+    ],
+    "minimum_work": [
+      421494784,
+      355270656
+    ],
+    "strict_exclusions": [
+      421494783,
+      355270655
+    ],
+    "scope": "Global necessary-cut work lower bounds and existing matching whole witnesses, no additional original benchmark win",
+    "method": "Nested per-owner minimum occupancy capacities plus separately authored closed-label checker",
+    "evidence": "author-checked; same-author-team reviews; external scientific review pending"
+  },
+  "auxiliary12_exact_budget": {
+    "cap_bytes": 1572864,
+    "source_allowance": 600000000,
+    "exact_allowance": 540246016,
+    "original_middle_allowance": 478150656,
+    "fits_original_middle_allowance": false,
+    "extra_original_benchmark_wins": 0,
+    "source_actions_unchanged": true
+  }
+}

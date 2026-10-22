@@ -1,0 +1,111 @@
+{
+  "params": {
+    "graph": "transformer-b4-t128",
+    "cap": 1572864,
+    "budget": 478150656,
+    "states": 10000000,
+    "seconds": 120,
+    "demand_mode": 0,
+    "weight": 1,
+    "source_sha256": "84563c801869e5e7a339615130d3355a724803089b9dcf50937efc77c2d5ed2e",
+    "binary_sha256": "7dd847f4fc5f11aec99af814779e552106ba8d57571286a31e98a6d3ac951cdc",
+    "input_sha256": "4a05009ce4fedb31606afab52d9084a18c2ec7bdd75eeffed7b5e610bf2e732a",
+    "input": "transformer-b4-t128-p1572864-b478150656-w1.0-d0-favorable-s10000000-1792624978307882000.input",
+    "terminal_pdb_sha256": "f294de6a1bd14aac3e27fc3527e308dbac5bcd5c602a2b701bff68c7ef4279e9",
+    "utc": "2026-10-21T23:27:49Z",
+    "scope": "unrestricted original critical-GELU favorable tail; cost-only representation, no positive witness emitted; queue diagnostic is not a global unresolved-work bound"
+  },
+  "result": {
+    "status": "TIME_LIMIT",
+    "records": 8705358,
+    "states": 8705358,
+    "expanded": 4560215,
+    "generated": 484483786,
+    "dominated": 183449406,
+    "pruned": 288905007,
+    "seconds": 120.000078417,
+    "queue": 6475425,
+    "weight": 1,
+    "max_first_progress": 57,
+    "max_backward_done": 15,
+    "maxrss_bytes": 778027008,
+    "min_initial_h": 420610048,
+    "max_initial_h": 577470464,
+    "min_initial_h_live": 14636698793148672,
+    "minimum_frontier_f": 464715776,
+    "layers": [
+      [
+        54,
+        0,
+        2396037,
+        941155
+      ],
+      [
+        55,
+        0,
+        855241,
+        689712
+      ],
+      [
+        57,
+        1,
+        741827,
+        325543
+      ],
+      [
+        57,
+        2,
+        1531123,
+        818946
+      ],
+      [
+        57,
+        3,
+        388592,
+        129735
+      ],
+      [
+        57,
+        4,
+        666534,
+        325072
+      ],
+      [
+        57,
+        6,
+        1604325,
+        995576
+      ],
+      [
+        57,
+        7,
+        432573,
+        291515
+      ],
+      [
+        57,
+        9,
+        6673,
+        2674
+      ],
+      [
+        57,
+        10,
+        24051,
+        10820
+      ],
+      [
+        57,
+        15,
+        58368,
+        29467
+      ],
+      [
+        57,
+        17,
+        14,
+        0
+      ]
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "independent local mandatory-drop price, arbitrary pre-drop forward/drop prefetch; continuation uses separately audited exact output-demand table",
+  "source_sha256": "c5f15db4593124057472c086322a5e81328b94e2217e2251c8028dac4f33e394",
+  "graph_sha256": "765ca94b0229f73ef39054e796337b0e0696841830e0af386469fa074f76c32b",
+  "demand_sha256": "7eba73845111f3fa98d6a76232cb155341e608ac42f8cdfd3c2792675a81c722",
+  "rows": [
+    {
+      "node": "b0_residual1",
+      "initial_ordinary_demand": 111280128,
+      "drop_before_consume": {
+        "cost": 119701504,
+        "expanded": 1823,
+        "states": 2127,
+        "seconds": 0.005254084011539817
+      }
+    },
+    {
+      "node": "b0_residual2",
+      "initial_ordinary_demand": 112099328,
+      "drop_before_consume": {
+        "cost": 155123712,
+        "expanded": 2504,
+        "states": 2520,
+        "seconds": 0.006977292010560632
+      }
+    }
+  ]
+}

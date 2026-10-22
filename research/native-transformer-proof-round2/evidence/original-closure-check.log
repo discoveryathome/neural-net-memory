@@ -1,0 +1,1 @@
+{"status": "PASS", "scope": "closed reduced-state certificate; author-team implementation cross-check", "checked_labels": 419463, "total_labels": 419463, "edges_checked": 10474740, "absent_targets_pruned": 461695, "labels_sha256": "06a3e7b5c590a4af3c7625ca6b732496dacaece3989e3929b20f094761ad9243", "seconds": 23.714353000046685}

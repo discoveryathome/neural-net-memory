@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "command": "python3 -B research/native-transformer-middle-proof-round2/work-optimum/replay.py --out WRITABLE_OUTPUT",
+  "python": "3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "compiler": "/Library/Developer/CommandLineTools/usr/bin/clang++",
+  "flags": [
+    "-isysroot",
+    "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+    "-std=c++17",
+    "-O2"
+  ],
+  "seconds": 83.20434145798208,
+  "limits": {
+    "native_records": 1000000,
+    "native_seconds": 30,
+    "table_states": 200000,
+    "table_seconds": 15
+  },
+  "cases": [
+    {
+      "cap_units": 13,
+      "minimum_work": 421494784,
+      "peak_bytes": 1703936,
+      "strict_budget": 421494783,
+      "roots": 83007,
+      "labels": 172238,
+      "edges": 9683670,
+      "dump_sha256": "86858f8b53f188d9755af4b17ba881b29a5f08ea2c910f2f7affc2fd6e7f5dbb",
+      "actual_h_reference_states": 200,
+      "semantic_proof_forgeries_rejected": 9,
+      "upper_forgeries_rejected": [
+        "underclaim",
+        "one_below",
+        "omitted_repeated_forward"
+      ],
+      "positive_full_metrics": {
+        "peak_bytes": 1703936,
+        "recompute_cost": 421494784,
+        "forward_cost": 899645440,
+        "backward_cost": 956301312
+      }
+    },
+    {
+      "cap_units": 14,
+      "minimum_work": 355270656,
+      "peak_bytes": 1835008,
+      "strict_budget": 355270655,
+      "roots": 585481,
+      "labels": 1783,
+      "edges": 68618,
+      "dump_sha256": "1a80daa52eca4c4640551aa166e6e687feff0f8fea8c1984284d1d55f8764e44",
+      "actual_h_reference_states": 190,
+      "semantic_proof_forgeries_rejected": 9,
+      "upper_forgeries_rejected": [
+        "underclaim",
+        "one_below",
+        "omitted_repeated_forward"
+      ],
+      "positive_full_metrics": {
+        "peak_bytes": 1835008,
+        "recompute_cost": 355270656,
+        "forward_cost": 833421312,
+        "backward_cost": 956301312
+      }
+    }
+  ],
+  "total_audited_table_edges": 2042879,
+  "table_semantic_forgeries_rejected": {
+    "backward": 9,
+    "demand": 8,
+    "terminal": 8
+  },
+  "normalization_oracle_cases": 960,
+  "generic_nested_cases": 240,
+  "source_sha256": {
+    "native_search.cpp": "067fc6e7272a5145be1910d0a0268f4e56c4ff4f4bcd851228dda4fd89a8c957",
+    "replay.py": "3c1a915b18ddcf2b10f87355550165ae0dff05fe24da78a5d5b43d1cdb2bcbf1",
+    "actual_controls.py": "94f9da20b06e916da808e4761a8903f205b1f8fc7eef23680739bd10c1165931",
+    "negative_controls.py": "e7d4fe27a39c60aa721565119afe3e3ff44a96d5a39a69b435e11537993132db",
+    "check_closed.py": "9f46332717495b9892e659d1200e6b666bf90880ac92e3d40156e58ac5b6bd44",
+    "EXPECTED.json": "ac73e39572a1b218844de6058ffb26c68afe7d1d89654aef2e957cc1416c55b6",
+    "PROOF.md": "fc552d7a53535b38486b629a00356032ed47d4fdf02bafc5cecb3273ab664c1e",
+    "positive-witness.json": "e80ea162c52098697991793f8eb52c9c7bd9e7348639505bf2e8b369cc76f671",
+    "positive-cap14.json": "effa5bc0980039b4b620cf1e4df620d9be06f22199bbc540968a4be56a23d2cf",
+    "checker-review.json": "e27661d266128ac04ed6f0ac95016cb98b552224353c8bc2ce6074e342a63c5c",
+    "reviews/mlp-c13-author-team-review.json": "5eac0cd41496661697894182755ef8fd99375ce4126189d4b8236e4847a64a9c"
+  },
+  "full_result_sha256": "21e23d3e8d37cdf99a3b96aad3ed74047059c9367b35f3928b150165e30f33b5",
+  "full_log_sha256": "056227d68756b632b170dd2c0f09d8fef3114e45f1586be3a3e140f44d4e37d4",
+  "scope": "Two necessary-cut-domain exclusions with separately authored full label/edge checking and matching unchanged-verifier whole witnesses; fixed-cap work minima, not additional original peak wins",
+  "evidence": "Codex generated and author-checked. Separately authored checks are within one author team, not independent human/scientific validation.",
+  "tested_native_predecessor_sha256": "8db19e0a339e208cb5bcf2c12600ebc224b979a1df53831f6337f0415902f6a9",
+  "comment_only_cleanup": {
+    "status": "PROGRAM_BODY_BYTE_IDENTICAL",
+    "final_native_source_sha256": "067fc6e7272a5145be1910d0a0268f4e56c4ff4f4bcd851228dda4fd89a8c957",
+    "program_body_sha256": "efaa764c84fa7f42b2bb63a4d2872f36286d8aa5537969e47fd66ba64d8231f3",
+    "scope": "Only four leading comments changed after the final full replay; no mathematical/transition code changed. Parent will perform final whole replay before publication."
+  }
+}

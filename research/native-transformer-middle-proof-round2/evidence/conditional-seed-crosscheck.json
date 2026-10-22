@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "pointwise_seeds": 9178,
+  "quantities_per_seed": 3,
+  "source_sha256": "06ffedb63e46586467944f9dd815d1a461feba5d7432a020858790bcbb04e771",
+  "primary_source_sha256": "4015811f38fed6c934352d749ff4e0d1be2c6bc33ca82def13072e30f1ceed68",
+  "independent_source": "transformer-work/price_conditional_seeds_independent.py"
+}

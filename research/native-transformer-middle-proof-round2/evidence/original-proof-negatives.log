@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "name": "restricted demand mode",
+      "status": "REJECTED",
+      "failure": "AssertionError: restricted-demand search is not a proof"
+    },
+    {
+      "name": "raise a required zero-cost seed label",
+      "status": "REJECTED",
+      "failure": "AssertionError"
+    },
+    {
+      "name": "changed terminal table bytes",
+      "status": "REJECTED",
+      "failure": "AssertionError"
+    }
+  ],
+  "changed_seed_row": 1001309
+}

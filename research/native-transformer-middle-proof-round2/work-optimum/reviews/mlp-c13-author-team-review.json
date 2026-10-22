@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "findings": [],
+  "review": "Same-author-team focused read-only admissibility/source/input review; no independent scientific acceptance",
+  "checked_utc": "2026-10-22T00:41:51Z",
+  "source_sha256": {
+    "resnet-work/cap13-new/native/macro_search-nested-dump.cpp": "8db19e0a339e208cb5bcf2c12600ebc224b979a1df53831f6337f0415902f6a9",
+    "global-transformer-work/macro_search-v20.cpp": "f0c625698939c3ed409b0262fce3fef10ea3477f717c4fdbb9ee684f3031a0ff",
+    "resnet-work/cap13-new/native/all-critical-roots.input": "bc5d4acc4222f7ec82ffb53759e8674b445933af6025f53cefb4c524386e16a6",
+    "resnet-work/cap13-new/native/run_native.py": "651f3b81ddd4441b107409bf25904646fa36fdc294025952e724ef852f59a7ad",
+    "resnet-work/cap13-new/native/all-critical-roots-RECEIPT.json": "e6716954fcb8e6cbcc9eb34bb1132320a0c342cfc2f1ef34576117a8124a6b82",
+    "resnet-work/cap13-new/native/heuristic-controls.json": "4011d19ec9c8bb77870def1e2b90d1d3ae9b0fc6491e5324892c56b35699e495",
+    "resnet-work/cap13-new/check_native.py": "ac6036727b8ff196c72a655f414edc6f4f6673de180053c3a2a56b6a952dc4de",
+    "resnet-work/cap13-new/native/tables/b4-backward-pdb-cap9.json": "bd0b4033db445c0b0c2eeec32a85eb955bcb42c22d5cdd6e5f4540a6558969a3",
+    "resnet-work/cap13-new/native/tables/b4-output-demand-pdb-cap9.json": "165c160d6c680d732006b162c92339a7a4356aa5cd2a37c4067cc180d502e560",
+    "resnet-work/cap13-new/native/tables/b4-terminal-phase-pdb-cap9.json": "0979260fe4650a0fd9053b9a11a9337982076a7ff285aca048f29a2716d4b57e",
+    "resnet-work/cap13-new/native/tables/b4-backward-pdb-cap10.json": "43cf5df755bb722549a09c03b3ccab220b811572cdf3a25a4b74c8ada17c771e",
+    "resnet-work/cap13-new/native/tables/b4-output-demand-pdb-cap10.json": "86c1b2a9e4147411b1e5ee2eda8ab34d1ea6b8bfa52cb532474a5e7178d61f88",
+    "resnet-work/cap13-new/native/tables/b4-terminal-phase-pdb-cap10.json": "42fd140c6c79831463452756224066fac9b24979d7ed9cbdeaebeb0fbcd1995d",
+    "resnet-work/cap13-new/native/tables/b4-backward-pdb-cap11.json": "4bc66d27969362075fb8ea15b6e835805695e48f3d866df50ce019a3b552f514",
+    "resnet-work/cap13-new/native/tables/b4-output-demand-pdb-cap11.json": "f3c9f2652d73118a36c7d5610f201ddf6e1c772cf1ac692d0d9c3786e34aa3d0",
+    "resnet-work/cap13-new/native/tables/b4-terminal-phase-pdb-cap11.json": "54188e7dc7aad21215b84645fc31b432225dd1a287ae0f1bdf20f390a3cf29e7",
+    "resnet-work/cap13-new/native/tables/b4-backward-pdb-cap12.json": "bb97eac4544ba8edabff5219adcd376168fde913c877fdf984f1d3dc5066050b",
+    "resnet-work/cap13-new/native/tables/b4-output-demand-pdb-cap12.json": "74476c53eddde174f2cbb2e4e38885f95c1b725a53dcf52d4b0fabfdad5349f7",
+    "resnet-work/cap13-new/native/tables/b4-terminal-phase-pdb-cap12.json": "22437215259235521c98a407c33d5470b0c8d9648f492ab64609385ba46aeaf4",
+    "resnet-work/cap13-new/native/tables/b4-backward-pdb-cap13.json": "2aa1a7ffe3870f1228b4c77ec9c4fb88298c5525704c0cff54d98172443d8628",
+    "resnet-work/cap13-new/native/tables/b4-output-demand-pdb-cap13.json": "d2f5210b1056b007436425bf1a1086bae51a5ab8a498a4935c5f68773c065d72",
+    "resnet-work/cap13-new/native/tables/b4-terminal-phase-pdb-cap13.json": "27724e160153590487e9bcaad0e8c4f62349a478043e356e54fcee49f81bd5a7"
+  },
+  "reviewed_checks": [
+    "The first final GELU is a necessary no-backward cut with exactly54seen ancestors. Only down/residual2 remain unseen and their first order is forced; arbitrary pre-cut first orders map to the same seen set.",
+    "All83007roots exactlycover38one-unit subsets of size0..4 and14singlefour-unit values beside forcedUP/GELU andstandingx. Prefix work is relaxed tozero, never subtracted fromtail.",
+    "Highest unfinished targetj has norm1undone. Each earlier block has no own backward byconsumerchain; nativeguard explicitlychecksall14firstsseen/noearlierdone. The current r countsall14ownedvalues, includingdown/output.",
+    "Each earlier m_i ranges overstates until immediatelybeforeitsOWN next-block norm1 savedread. For earlierownerb, all i<b minima persist through its own complete backwardprojection. ProjectedD andE at C-prefixminima are therefore valid at current andminimumstates.",
+    "The ascending-owner minconvolution retains onlysumminima; max(oldownedbound,D_current,E_minimum) combines lowerbounds onthatSAMEownerswork. Differentownerssum disjointcostsets.",
+    "Targetactualdone back12table is used onlyafterloss; prelossphase table coversall14 targetcosts withfree terminalFIRSTS. Earlier pendingoutputdemandsusefull14D, preserving savedread semantics.",
+    "Projectedcaps below9 use theLARGERcap9 relaxation; both finiteprices andINF remainadmissible. Allminimumsizes0..currentowned areincluded, includingcached4uvalues.",
+    "All15actualbinarypaths arecanonical; frozenlocalfields/caps/layouts/donemasks/costunit32768/rawhashes matchfullyauditedpublictables. The exactinputunit is131072bytes.",
+    "Native transition/normalization blocks are unchanged fromv20. Eagerbackwards do notconsumeallocations; savedreadsancestorcondition validatesdone-forward omission/deadclosure; inclusionminimalpreallocationevictions coverdelayed-drop representatives.",
+    "Weighted queue20 is onlyan explorationorder. Complete closedlabels andvalidbudgetpruning, not first-goalpriority, justify a negative result; resource caps never establishglobalexclusion.",
+    "PositivePR6 fullcertificate isunchanged andverifies421494784 at13u. Togetherwith the separatelychecked closed-label exhaustion at421494783, the necessarycut mapping yields exactglobalfixedcapwork."
+  ],
+  "executed": {
+    "complete_seedset_equality": 83007,
+    "table_bindings": 15,
+    "input_rows_bound_to_frozen_graph": 56,
+    "transition_and_normalization_text_unchanged": true,
+    "all_closed_label_domain_states": 172238,
+    "active_block_counts": {
+      "3": 63637,
+      "2": 8664,
+      "1": 67
+    },
+    "positive_metrics": {
+      "peak_bytes": 1703936,
+      "recompute_cost": 421494784,
+      "forward_cost": 899645440,
+      "backward_cost": 956301312
+    },
+    "actual_heuristic_control_states_read": 200
+  },
+  "advisories": [
+    "The scratch wrapper does not enforce canonical lower binary_file names or derive main costunits. Observed canonical input/binaries are validated here; the public driver/checker must enforce both bindings. This does not invalidate this pinned computation."
+  ],
+  "execution_scope": "No native compile/search or9.68Mclosed-edge audit repeated. Parent reports separate fullclosedcheckerPASS. This review checks theoremallfuturestates, exactinput/fullseedset, all15rawtablebindings, unchangedtransitioncode, all172238labeldomains andexistingactual-h controls."
+}

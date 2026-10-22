@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "same author-team incremental source/lemma review and isolated replay; closed-label checker remains separate",
+  "sha256": {
+    "V16-REGION-REVIEW.md": "36290e92e52b365290e1cdd9fdf9d37b6f8be7d5e6922bf5cdc2b63e2e80b81a",
+    "replay_v16.py": "2efc0869d76a7bfe0bc90f5ec3defe53d9740d9f376453b2880df887ec11f95b",
+    "v16/replay-receipt.json": "b645a77a6860cdef1371663fc441d251917c63d66537c135dd6831ce1111361b",
+    "../test_generic_region_bounds.py": "81642101b8bd43fd748b74b2d2f573835c30d4671744c3e8d930bc34b8c38d68",
+    "../test_generic_region_bounds.json": "5ac01b5887ff2b0efd4a8c6d969975eabd425be9f0bc673b9f77e59ce4c53e00",
+    "../compare_region_prices.json": "0ca1847dd0e515c17928ee18bad1cda1f8682c8717c5e0a52dbd43f118fc3f8a",
+    "../compare_nested_prices.json": "7fad362ef1734cef22b5866ba34cb40d9b6f6a4aaec62d8bdb4e45071c9bb6d3"
+  },
+  "findings": []
+}

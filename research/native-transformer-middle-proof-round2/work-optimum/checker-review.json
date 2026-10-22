@@ -1,0 +1,197 @@
+{
+  "status": "PASS",
+  "reviewer": "Codex transformer-family agent; same-author-team, not independent scientific review",
+  "timestamp": "2026-10-22T00:44:15Z",
+  "scope": "Separate Python closed-edge verification and mathematical mapping review for explicit cap13/14 minimum-work cases; native queue/search is not trusted.",
+  "source_sha256": {
+    "check_closed.py": "9f46332717495b9892e659d1200e6b666bf90880ac92e3d40156e58ac5b6bd44",
+    "native_search.cpp": "8db19e0a339e208cb5bcf2c12600ebc224b979a1df53831f6337f0415902f6a9",
+    "positive-witness.json": "e80ea162c52098697991793f8eb52c9c7bd9e7348639505bf2e8b369cc76f671",
+    "credited_parent_check_closed.py": "2ecf1291269dbf3c8bb7024dec1edaf209340e01c41d029f06804056b9072fd3",
+    "validated_private_v20.cpp": "f0c625698939c3ed409b0262fce3fef10ea3477f717c4fdbb9ee684f3031a0ff",
+    "positive-cap14.json": "effa5bc0980039b4b620cf1e4df620d9be06f22199bbc540968a4be56a23d2cf"
+  },
+  "findings": [],
+  "native_diff_review": "Compared frozen source to validated v20: transition generation, minimal evictions, eager normalization, cost affordability, reopening and goal tests unchanged. Changes are projected-cap demand/E lookup, initial-h diagnostics, dump output and argc allowance.",
+  "root_coverage": {
+    "first_seen_ancestor_nodes": 54,
+    "remaining_firsts": [
+      "b3_down",
+      "b3_residual2"
+    ],
+    "remaining_first_order": "forced by dependency",
+    "forced_units": 8,
+    "immutable_units": 1,
+    "unit_candidates": 38,
+    "big_candidates": 14,
+    "formula": "sum_b choose(14,b)*sum_(k=0..C\u22129\u22124b) choose(38,k)",
+    "cases": {
+      "13": {
+        "optional_unit_budget": 4,
+        "small_subset_states": 82993,
+        "big_optional_states": 14,
+        "total": 83007
+      },
+      "14": {
+        "optional_unit_budget": 5,
+        "small_subset_states": 584935,
+        "big_optional_states": 546,
+        "total": 585481
+      }
+    },
+    "prefix_repeat_cost_granted_free": true,
+    "unrestricted_old_forward_mode": 0
+  },
+  "nested_theorem_review": [
+    "For earlier i<active, minimum endpoint is immediately BEFORE its OWN next-norm1 saved output read; no own backward precedes it.",
+    "Those endpoints are ordered later-to-earlier by consumer readiness; earlier minima persist through every later owner entire output-demand/backward projection.",
+    "Owner b uses capacity max(9,C\u2212sum(previous minima)); current D and minimum-state E are combined with old owned bound using max, not summed.",
+    "Active owner uses actual phase-aware terminal or backward done/live state at max(9,C\u2212sum(all minima)); floor9 only grants extra capacity.",
+    "Standing local input charges immutable globalx; each actual block entry is free and all other outside allocations ignored, both favorable.",
+    "Forward cost ownership is disjoint across14-node blocks; sum owned maxima and max with baseline avoid double counting.",
+    "Guard requires all prior firsts seen, prior BWs untouched, active first12 seen and norm1 pending, and preloss final output unseen or loss already sealed.",
+    "Checker scans E independently over every local mask and Cartesian-enumerates minima; native uses prefix min-convolution."
+  ],
+  "normalization_review": [
+    "Loss can be sealed immediately once allfirsts/sink exist because loss/BWs allocate nothing and spend no forward work.",
+    "Eager saved-read-ready BWs only remove future obligations; fixed-point Python closure differs from native reverse-topological pass.",
+    "Dead-future values and forwards of completed backward nodes cannot help remaining saved reads, which belong to self/ancestors.",
+    "Individual free drops can be delayed until allocation; all inclusion-minimal nondependency evictions suffice by live-superset dominance.",
+    "With1/4unit activations every deficit\u22644; a minimal eviction is one4unit value or exactlydeficit1unit values. Python combinations enumerate independently of native DFS."
+  ],
+  "closed_certificate": {
+    "13": {
+      "cap_units": 13,
+      "strict_budget": 421494783,
+      "minimum_work": 421494784,
+      "cut_roots": 83007,
+      "checked_labels": 172238,
+      "edges_checked": 9683670,
+      "absent_targets_pruned": 7581229,
+      "input_sha256": "bc5d4acc4222f7ec82ffb53759e8674b445933af6025f53cefb4c524386e16a6",
+      "labels_sha256": "86858f8b53f188d9755af4b17ba881b29a5f08ea2c910f2f7affc2fd6e7f5dbb",
+      "seconds": 40.946673166996334,
+      "all_labels_normalized": true,
+      "no_affordable_goal": true,
+      "every_root_dominated_or_admissibly_pruned": true,
+      "every_edge_dominated_or_admissibly_pruned": true
+    },
+    "14": {
+      "cap_units": 14,
+      "strict_budget": 355270655,
+      "minimum_work": 355270656,
+      "cut_roots": 585481,
+      "checked_labels": 1783,
+      "edges_checked": 68618,
+      "absent_targets_pruned": 61455,
+      "input_sha256": "e08e33b78f432fec871b000fc92e737827674a4aba267331b3267a36725164bc",
+      "labels_sha256": "1a80daa52eca4c4640551aa166e6e687feff0f8fea8c1984284d1d55f8764e44",
+      "seconds": 5.775831917009782,
+      "all_labels_normalized": true,
+      "no_affordable_goal": true,
+      "every_root_dominated_or_admissibly_pruned": true,
+      "every_edge_dominated_or_admissibly_pruned": true
+    }
+  },
+  "semantic_negative_controls": [
+    {
+      "cap_units": 13,
+      "change": "raise_tight_target_cost",
+      "status": "REJECTED",
+      "reason": "('edge violates label closure', (4108412127323099136, 54043195528445952), 32768, 32769)",
+      "raw_sha256": "b3eeefe5d0ee5950de53f02c895a7b252cc1f70b3e95e03f8a720da645eb7091"
+    },
+    {
+      "cap_units": 13,
+      "change": "omit_tight_nonseed_target",
+      "status": "REJECTED",
+      "reason": "('uncovered edge', (4108412127323099136, 54043195528445952), 32768)",
+      "raw_sha256": "45045fc6b8851b1aa44ef1d8fb6b067fdeed4f959feac568b938ae0a7df9dd36"
+    },
+    {
+      "cap_units": 13,
+      "change": "append_goal",
+      "status": "REJECTED",
+      "reason": "certificate contains a feasible goal",
+      "raw_sha256": "b0ad95c6d7ebf584fe2d30c7818792b11dd20b03bf6e336c60aea66e8556628e"
+    },
+    {
+      "cap_units": 14,
+      "change": "raise_tight_target_cost",
+      "status": "REJECTED",
+      "reason": "('edge violates label closure', (3986530129579872257, 0), 8552448, 8552449)",
+      "raw_sha256": "2bf8859be3d8b9dd63d8afe45d1071686a299de39e26ccb309286390a50f3fbe"
+    },
+    {
+      "cap_units": 14,
+      "change": "omit_tight_nonseed_target",
+      "status": "REJECTED",
+      "reason": "('uncovered edge', (3986530129579872257, 0), 8552448)",
+      "raw_sha256": "7172520d5723f3d0b4e03fe696f199f5466b488eacea1c986125db9c636b4ab3"
+    },
+    {
+      "cap_units": 14,
+      "change": "append_goal",
+      "status": "REJECTED",
+      "reason": "certificate contains a feasible goal",
+      "raw_sha256": "651f9bac7ff62cc57a437254dc25c3f7253639b6f132eb45f10c906d3bdddccd"
+    }
+  ],
+  "positive_boundary": {
+    "13": {
+      "metrics": {
+        "peak_bytes": 1703936,
+        "recompute_cost": 421494784,
+        "forward_cost": 899645440,
+        "backward_cost": 956301312
+      },
+      "original_budget": 478150656,
+      "retagged_exact_budget": 421494784,
+      "first_gelu_prefix_work": 0,
+      "one_below_rejected": "step 289: recomputation budget exceeded",
+      "original_metadata_preserved": true,
+      "positive_file_sha256": "e80ea162c52098697991793f8eb52c9c7bd9e7348639505bf2e8b369cc76f671"
+    },
+    "14": {
+      "metrics": {
+        "peak_bytes": 1835008,
+        "recompute_cost": 355270656,
+        "forward_cost": 833421312,
+        "backward_cost": 956301312
+      },
+      "original_budget": 355270656,
+      "retagged_exact_budget": 355270656,
+      "first_gelu_prefix_work": 0,
+      "one_below_rejected": "step 271: recomputation budget exceeded",
+      "original_metadata_preserved": true,
+      "positive_file_sha256": "effa5bc0980039b4b620cf1e4df620d9be06f22199bbc540968a4be56a23d2cf"
+    }
+  },
+  "private_replay": "Run check_closed.py --repo REPO --input CASE.input --labels CASE.bin --tables TABLEDIR --out RECEIPT, separately for the two pinned cases; API check(repo,input,label,tables,sample=None).",
+  "scope_limits": [
+    "Author-checked activation-memory/v1 evidence; no independent scientific acceptance, GPU/runtime/exporter/SOTA claim.",
+    "Full public replay must regenerate/audit18tables, regenerate both native labels, repeat both complete closures and verify both positives. Prepared native status alone is not the proof.",
+    "These proofs close work optimality of existing cap13/cap14 points; they are not additional original fixed benchmark construction or peak wins."
+  ],
+  "table_binary_sha256": {
+    "b4-backward-pdb-cap9": "93ebed09daff951d1fe9ebcfee099879ca1b2f07f09e1a315db3e2f80254eb8b",
+    "b4-output-demand-pdb-cap9": "806a346fb434ff0df288615680935e3a4aca1d3d64cc674436c413e0157a96ab",
+    "b4-terminal-phase-pdb-cap9": "c19fb01dee30f1dd65e628e5fc0e3280da7d962992ff5b569163f728812e074f",
+    "b4-backward-pdb-cap10": "5a66a501384823793f9afb4529f7619465e199f869dd6ab98dec1d537c107a76",
+    "b4-output-demand-pdb-cap10": "676dc852e9abf92a460760763df6f4e33551eab7fa769244937ccbd3a39f79bc",
+    "b4-terminal-phase-pdb-cap10": "6ec53acd481eca7879b557064481c5f2c8757d93d63ec79c4264a354bfff9fc6",
+    "b4-backward-pdb-cap11": "e48ed0271ffbd28b5c267591fca82eeaeec06b1a696911c747ddaa05a559566b",
+    "b4-output-demand-pdb-cap11": "2d76ddd1dc9ba7099408673d2d329a808390d43d9b5ca593f7b8bbbf0a40bc09",
+    "b4-terminal-phase-pdb-cap11": "249780b445f43f336853c7d72f0a3136630e54ce8527e8ed7622c1771b92fb10",
+    "b4-backward-pdb-cap12": "a4fcff1b2db6d60bc0e37ad7212e9ddbf7c1b64bbcc2c03efe542e6ad523acd9",
+    "b4-output-demand-pdb-cap12": "7eba73845111f3fa98d6a76232cb155341e608ac42f8cdfd3c2792675a81c722",
+    "b4-terminal-phase-pdb-cap12": "f294de6a1bd14aac3e27fc3527e308dbac5bcd5c602a2b701bff68c7ef4279e9",
+    "b4-backward-pdb-cap13": "2566df7c876c48c7b8aa4699d9e6e7664943d89ac0ee7c2171fb5fb25d88ac90",
+    "b4-output-demand-pdb-cap13": "fa680180039378bea727097b952fff65fb1db1a2158295524b8609beff10b39e",
+    "b4-terminal-phase-pdb-cap13": "9fe76a2778ad3016df92a954f1a4eef80897042cf0f94a0f7b9e9e079f099b93",
+    "b4-backward-pdb-cap14": "b56b79e297a6ee71587264e001ac92ff7d5da7578369045215182e123c44106a",
+    "b4-output-demand-pdb-cap14": "cfe6eecb72a5ba346cd4af4d0ef564864429b64d6397b802446a24fec6cb3501",
+    "b4-terminal-phase-pdb-cap14": "34adff67a6c4b87c8d904dc62854ebefec397fa4fcde722a2ecfc1118afcff4c"
+  },
+  "derived_cost_unit": 32768
+}

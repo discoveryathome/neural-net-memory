@@ -1,0 +1,5 @@
+{"certificate_sha256": "65820e497e3766f686aa303ae2147da58822abbbb73273b50c465febaa81f2b8", "control": 0, "kind": "recursive_active_region_trace", "states_checked": 185, "status": "PASS"}
+{"certificate_sha256": "653604e30989cce5f61efeae5688db15b48ea9577e9a32c0901161b07b4f1ba8", "control": 1, "kind": "recursive_active_region_trace", "states_checked": 233, "status": "PASS"}
+{"certificate_sha256": "5cfb27fdd53d3ec31eb7871a0ada24806e7e197845228c6a645fc5672c871122", "control": 2, "kind": "recursive_active_region_trace", "states_checked": 416, "status": "PASS"}
+{"certificate_sha256": "8c437c23a81910aad6ec8aa9ee634af90da5d492e4318ab960c03194ca45990c", "control": 3, "kind": "recursive_active_region_trace", "states_checked": 296, "status": "PASS"}
+{"kind": "recursive_active_region_done", "legal_traces": 4, "max_gain_over_baseline": 76906496, "per_block_actual_case_checks": 4520, "states_by_active_stage": {"1": 301, "2": 362, "3": 467}, "states_checked": 1130, "status": "PASS"}

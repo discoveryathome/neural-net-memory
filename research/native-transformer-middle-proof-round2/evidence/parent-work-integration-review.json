@@ -1,0 +1,37 @@
+{
+  "schema": "same-author-team-integration-review/v1",
+  "status": "PASS",
+  "checked_at": "2026-10-22T00:52:57.779049+00:00",
+  "scope": "Read-only root PR13 integration review, source pins and metadata; does not rerun native searches or full edge closures.",
+  "findings": [],
+  "author_team": "Same author team; no scientific independence claim.",
+  "checks": {
+    "core_files": 6,
+    "package_files": 74,
+    "child_source_pins": 11,
+    "default_both_work_closures": true,
+    "prepare_only_propagates_incomplete": true,
+    "fresh_subprocess_avoids_check_closed_module_collision": true,
+    "absolute_package_and_repo_paths": true,
+    "untracked_checker_and_review_pinned": true,
+    "standalone_case_metrics_consistent": true,
+    "original_peak_claim_unchanged": true,
+    "final_native_program_body_byte_identical": true
+  },
+  "program_body_sha256": "efaa764c84fa7f42b2bb63a4d2872f36286d8aa5537969e47fd66ba64d8231f3",
+  "snapshot_sha256": {
+    "README.md": "2773cc09783d7ce7dff76a7b82111d0fe44b89b16d4780053fe7e4b80eac9e79",
+    "TASK.json": "8afb97a2515fa7ca7f32c9bc4f9ccdf90be5322b565ee9bdbdde347f0bd77e9c",
+    "replay.py": "39860ba5cfb703408be4d23d2258cb86c8d4b9fef2c947426e77850f7b09b4d2",
+    "SOURCE.json": "35fc5ac66cc279055b2d22fb957f722a287a7fea10532865da20b215b73496c8",
+    "VERIFY.json": "bebeabd505e7bb1cdab655f243589b6e45bc0b930e8b89aed309e9ccb160d135",
+    "work-optimum/replay.py": "3c1a915b18ddcf2b10f87355550165ae0dff05fe24da78a5d5b43d1cdb2bcbf1",
+    "work-optimum/VERIFY.json": "b676e7726ddb52589a8578b26801a13b8012776ff0fd201525592f921cc6e12a",
+    "work-optimum/check_closed.py": "9f46332717495b9892e659d1200e6b666bf90880ac92e3d40156e58ac5b6bd44",
+    "work-optimum/checker-review.json": "e27661d266128ac04ed6f0ac95016cb98b552224353c8bc2ce6074e342a63c5c"
+  },
+  "git_status_snapshot": " M research/native-transformer-middle-proof-round2/README.md\n M research/native-transformer-middle-proof-round2/SOURCE.json\n M research/native-transformer-middle-proof-round2/TASK.json\n M research/native-transformer-middle-proof-round2/VERIFY.json\n M research/native-transformer-middle-proof-round2/replay.py\n?? research/native-transformer-middle-proof-round2/work-optimum/check_closed.py\n?? research/native-transformer-middle-proof-round2/work-optimum/checker-review.json\n",
+  "pending": [
+    "Parent combined replay and final manifest regeneration/commit are outside this read-only review. Root VERIFY explicitly marks the combined extension replay pending."
+  ]
+}

@@ -1,0 +1,677 @@
+{
+  "schema": "research-verification/v1",
+  "status": "PASS",
+  "checked_utc": "2026-10-22T01:16:44.112616+00:00",
+  "platform": "macOS-15.5-arm64-arm-64bit-Mach-O",
+  "command": "sandbox-exec -f SESSION/research.sb /opt/homebrew/bin/python3 -B research/native-transformer-middle-proof-round2/replay.py",
+  "final_core_command": "sandbox-exec -f SESSION/research.sb /opt/homebrew/bin/python3 -B verify_all.py",
+  "controls": {
+    "random_unreduced_oracle_comparisons": 720,
+    "tiny_positive_controls": 25,
+    "proof_forgeries_rejected": 4,
+    "pattern_controls": {
+      "backward_demand_direct": 8,
+      "terminal_direct": 31,
+      "backward_demand_forgeries": 17,
+      "terminal_forgeries": 32
+    },
+    "generic_region_controls": {
+      "status": "PASS",
+      "cases": 240,
+      "finite_global_cases": 240,
+      "unchanged_verifier_tail_controls": 240,
+      "all_local_caps": "1..each global cap, all four live masks and all three backward ideals",
+      "actual_owned_component_checks": 834,
+      "max_global_states": 318,
+      "local_queries": 89648,
+      "seconds": 0.3872123339679092,
+      "scope": "unreduced global all-seen tails and independent exact local Dijkstra; same author-team math stress test"
+    },
+    "recursive_actual_legal_traces": 4,
+    "recursive_actual_states": 1130,
+    "recursive_actual_per_block_comparisons": 4520,
+    "active_stage_state_counts": {
+      "1": 301,
+      "2": 362,
+      "3": 467
+    }
+  },
+  "boundedness": {
+    "proof_max_records": 10000000,
+    "proof_seconds": 120,
+    "native_rss_guard_mib": 1200,
+    "closed_label_rows": 1002736,
+    "generated_reduced_edges": 82502307
+  },
+  "proof_tables": {
+    "backward_caps": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "terminal_caps": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "output_demand_caps": [
+      12
+    ]
+  },
+  "limitation": "mathematical reduction and projection lemmas require scientific review; all experimental time/record/restricted failures imply no impossibility",
+  "core_verify_log": "evidence/final-verify-all.log",
+  "core_verify_log_sha256": "8920876c05ea4ae862ef2c1414352df1949ace8b20b3b48ec136c51d579b6f2d",
+  "work_optimum_extension": {
+    "status": "PASS",
+    "source": "work-optimum/VERIFY.json",
+    "scope": "Exact work minima421494784/355270656 at13/14units; no new original peak win",
+    "same_author_team": true,
+    "standalone_receipt_sha256": "b676e7726ddb52589a8578b26801a13b8012776ff0fd201525592f921cc6e12a",
+    "audited_tables": 18,
+    "audited_table_edges": 2042879,
+    "closed_labels": [
+      172238,
+      1783
+    ],
+    "checked_closed_edges": [
+      9683670,
+      68618
+    ],
+    "semantic_proof_forgeries": 18,
+    "parent_combined_seconds": 389.6338947080076,
+    "parent_combined_log": "evidence/parent-work-combined-replay.log",
+    "parent_combined_log_sha256": "6df28c9b53b5ac24cfc3f869284ada07f4e36f3f4a12f42df75449e153fe99dc",
+    "parent_integration_review": "evidence/parent-work-integration-review.json",
+    "parent_integration_review_sha256": "acd238687cda3272d9e56cbd2303de56be4d7f3086ee7e0d0e278b5dfe76d064"
+  },
+  "pre_work_extension_replay": {
+    "status": "PASS",
+    "evidence": "author-checked; separately authored implementation checks within one AI-assisted author team; scientific acceptance pending",
+    "graph_sha256": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+    "budget": 478150656,
+    "excluded_peak_bytes": 1572864,
+    "matching_upper_peak_bytes": 1703936,
+    "upper_recompute_cost": 421494784,
+    "compiler": "/Library/Developer/CommandLineTools/usr/bin/clang++",
+    "flags": [
+      "-isysroot",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG"
+    ],
+    "python": "3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 17.0.0 (clang-1700.0.13.3)]",
+    "seconds": 319.6246890829643,
+    "native": {
+      "status": "EXHAUSTED_FIXED_ORDER",
+      "records": 1274821,
+      "states": 1002736,
+      "expanded": 1002736,
+      "generated": 82502307,
+      "dominated": 19570815,
+      "pruned": 61657976,
+      "seconds": 22.885930167,
+      "queue": 0,
+      "weight": 1,
+      "max_first_progress": 57,
+      "max_backward_done": 29,
+      "maxrss_bytes": 189153280,
+      "min_initial_h": 462716928,
+      "max_initial_h": 577470464,
+      "min_initial_h_live": 14636698793148672,
+      "minimum_frontier_f": null,
+      "closed_label_rows": 1002736,
+      "layers": [
+        [
+          54,
+          0,
+          47440,
+          47440
+        ],
+        [
+          55,
+          0,
+          22676,
+          22676
+        ],
+        [
+          57,
+          1,
+          11102,
+          11102
+        ],
+        [
+          57,
+          2,
+          172683,
+          172683
+        ],
+        [
+          57,
+          3,
+          96406,
+          96406
+        ],
+        [
+          57,
+          4,
+          30913,
+          30913
+        ],
+        [
+          57,
+          6,
+          372093,
+          372093
+        ],
+        [
+          57,
+          7,
+          93560,
+          93560
+        ],
+        [
+          57,
+          9,
+          40141,
+          40141
+        ],
+        [
+          57,
+          10,
+          113230,
+          113230
+        ],
+        [
+          57,
+          13,
+          592,
+          592
+        ],
+        [
+          57,
+          15,
+          1382,
+          1382
+        ],
+        [
+          57,
+          17,
+          160,
+          160
+        ],
+        [
+          57,
+          20,
+          121,
+          121
+        ],
+        [
+          57,
+          21,
+          36,
+          36
+        ],
+        [
+          57,
+          24,
+          199,
+          199
+        ],
+        [
+          57,
+          29,
+          2,
+          2
+        ]
+      ]
+    },
+    "closure": {
+      "status": "PASS",
+      "scope": "closed reduced-state certificate; author-team implementation cross-check",
+      "checked_labels": 1002736,
+      "total_labels": 1002736,
+      "edges_checked": 82502307,
+      "absent_targets_pruned": 59268838,
+      "region_E": [
+        155123712,
+        111280128,
+        77529088,
+        69140480,
+        60915712,
+        52396032,
+        43974656,
+        35586048,
+        27197440,
+        27197440,
+        27197440,
+        27197440
+      ],
+      "baseline_cache": "CacheInfo(hits=52797035, misses=10667584, maxsize=262144, currsize=262144)",
+      "region_cache": "CacheInfo(hits=7016056, misses=3185172, maxsize=131072, currsize=131072)",
+      "labels_sha256": "4abe94dc64298436da6af9db8707b0b55178cdc9c8de6501d66a293ed5bf1b5d",
+      "seconds": 284.8581496250117
+    },
+    "source_sha256": "1ed9b3cc27c4266b386614e27b85bd9b95a1ef6c52012d9ad3e6cb65679ac45f",
+    "executable_sha256": "2e263df4a26d4a533d559e0d550467498bd9aefdfb4f4bcc552376b2976d92f5",
+    "labels_sha256": "4abe94dc64298436da6af9db8707b0b55178cdc9c8de6501d66a293ed5bf1b5d"
+  },
+  "integrated_replay": {
+    "auxiliary12": {
+      "actions_sha256": "a932d63be4175bd310751e85b40b0d130005aa4553146c6737b460d901096312",
+      "evidence": "author-checked auxiliary construction; no additional original benchmark win",
+      "exact_allowance": 540246016,
+      "identical_actions": true,
+      "metrics": {
+        "backward_cost": 956301312,
+        "forward_cost": 1018396672,
+        "peak_bytes": 1572864,
+        "recompute_cost": 540246016
+      },
+      "original_budget_rejected": "step 295: recomputation budget exceeded",
+      "original_middle_allowance": 478150656,
+      "source_allowance": 600000000,
+      "status": "PASS"
+    },
+    "work_optima": {
+      "status": "PASS",
+      "cases": [
+        {
+          "cap_units": 13,
+          "peak_bytes": 1703936,
+          "minimum_work": 421494784,
+          "strict_excluded_budget": 421494783,
+          "seed_count": 83007,
+          "dump_sha256": "86858f8b53f188d9755af4b17ba881b29a5f08ea2c910f2f7affc2fd6e7f5dbb"
+        },
+        {
+          "cap_units": 14,
+          "peak_bytes": 1835008,
+          "minimum_work": 355270656,
+          "strict_excluded_budget": 355270655,
+          "seed_count": 585481,
+          "dump_sha256": "1a80daa52eca4c4640551aa166e6e687feff0f8fea8c1984284d1d55f8764e44"
+        }
+      ],
+      "table_audited_edges": 2042879,
+      "result_file": "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/parent-middle-final-with-auxiliary/work-optimum/RESULTS.json"
+    },
+    "status": "PASS",
+    "evidence": "author-checked; separately authored implementation checks within one AI-assisted author team; scientific acceptance pending",
+    "graph_sha256": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+    "budget": 478150656,
+    "excluded_peak_bytes": 1572864,
+    "matching_upper_peak_bytes": 1703936,
+    "upper_recompute_cost": 421494784,
+    "compiler": "/Library/Developer/CommandLineTools/usr/bin/clang++",
+    "flags": [
+      "-isysroot",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG"
+    ],
+    "python": "3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 17.0.0 (clang-1700.0.13.3)]",
+    "seconds": 387.358890750038,
+    "native": {
+      "status": "EXHAUSTED_FIXED_ORDER",
+      "records": 1274821,
+      "states": 1002736,
+      "expanded": 1002736,
+      "generated": 82502307,
+      "dominated": 19570815,
+      "pruned": 61657976,
+      "seconds": 20.197133458,
+      "queue": 0,
+      "weight": 1,
+      "max_first_progress": 57,
+      "max_backward_done": 29,
+      "maxrss_bytes": 205455360,
+      "min_initial_h": 462716928,
+      "max_initial_h": 577470464,
+      "min_initial_h_live": 14636698793148672,
+      "minimum_frontier_f": null,
+      "closed_label_rows": 1002736,
+      "layers": [
+        [
+          54,
+          0,
+          47440,
+          47440
+        ],
+        [
+          55,
+          0,
+          22676,
+          22676
+        ],
+        [
+          57,
+          1,
+          11102,
+          11102
+        ],
+        [
+          57,
+          2,
+          172683,
+          172683
+        ],
+        [
+          57,
+          3,
+          96406,
+          96406
+        ],
+        [
+          57,
+          4,
+          30913,
+          30913
+        ],
+        [
+          57,
+          6,
+          372093,
+          372093
+        ],
+        [
+          57,
+          7,
+          93560,
+          93560
+        ],
+        [
+          57,
+          9,
+          40141,
+          40141
+        ],
+        [
+          57,
+          10,
+          113230,
+          113230
+        ],
+        [
+          57,
+          13,
+          592,
+          592
+        ],
+        [
+          57,
+          15,
+          1382,
+          1382
+        ],
+        [
+          57,
+          17,
+          160,
+          160
+        ],
+        [
+          57,
+          20,
+          121,
+          121
+        ],
+        [
+          57,
+          21,
+          36,
+          36
+        ],
+        [
+          57,
+          24,
+          199,
+          199
+        ],
+        [
+          57,
+          29,
+          2,
+          2
+        ]
+      ]
+    },
+    "closure": {
+      "status": "PASS",
+      "scope": "closed reduced-state certificate; author-team implementation cross-check",
+      "checked_labels": 1002736,
+      "total_labels": 1002736,
+      "edges_checked": 82502307,
+      "absent_targets_pruned": 59268838,
+      "region_E": [
+        155123712,
+        111280128,
+        77529088,
+        69140480,
+        60915712,
+        52396032,
+        43974656,
+        35586048,
+        27197440,
+        27197440,
+        27197440,
+        27197440
+      ],
+      "baseline_cache": "CacheInfo(hits=52797035, misses=10667584, maxsize=262144, currsize=262144)",
+      "region_cache": "CacheInfo(hits=7016056, misses=3185172, maxsize=131072, currsize=131072)",
+      "labels_sha256": "4abe94dc64298436da6af9db8707b0b55178cdc9c8de6501d66a293ed5bf1b5d",
+      "seconds": 272.67902854201384
+    },
+    "source_sha256": "1ed9b3cc27c4266b386614e27b85bd9b95a1ef6c52012d9ad3e6cb65679ac45f",
+    "executable_sha256": "2e263df4a26d4a533d559e0d550467498bd9aefdfb4f4bcc552376b2976d92f5",
+    "labels_sha256": "4abe94dc64298436da6af9db8707b0b55178cdc9c8de6501d66a293ed5bf1b5d"
+  },
+  "pre_exact_auxiliary_replay": {
+    "work_optima": {
+      "status": "PASS",
+      "cases": [
+        {
+          "cap_units": 13,
+          "peak_bytes": 1703936,
+          "minimum_work": 421494784,
+          "strict_excluded_budget": 421494783,
+          "seed_count": 83007,
+          "dump_sha256": "86858f8b53f188d9755af4b17ba881b29a5f08ea2c910f2f7affc2fd6e7f5dbb"
+        },
+        {
+          "cap_units": 14,
+          "peak_bytes": 1835008,
+          "minimum_work": 355270656,
+          "strict_excluded_budget": 355270655,
+          "seed_count": 585481,
+          "dump_sha256": "1a80daa52eca4c4640551aa166e6e687feff0f8fea8c1984284d1d55f8764e44"
+        }
+      ],
+      "table_audited_edges": 2042879,
+      "result_file": "/Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/parent-middle-with-work-final/work-optimum/RESULTS.json"
+    },
+    "status": "PASS",
+    "evidence": "author-checked; separately authored implementation checks within one AI-assisted author team; scientific acceptance pending",
+    "graph_sha256": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+    "budget": 478150656,
+    "excluded_peak_bytes": 1572864,
+    "matching_upper_peak_bytes": 1703936,
+    "upper_recompute_cost": 421494784,
+    "compiler": "/Library/Developer/CommandLineTools/usr/bin/clang++",
+    "flags": [
+      "-isysroot",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG"
+    ],
+    "python": "3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 17.0.0 (clang-1700.0.13.3)]",
+    "seconds": 389.6338947080076,
+    "native": {
+      "status": "EXHAUSTED_FIXED_ORDER",
+      "records": 1274821,
+      "states": 1002736,
+      "expanded": 1002736,
+      "generated": 82502307,
+      "dominated": 19570815,
+      "pruned": 61657976,
+      "seconds": 20.288345583,
+      "queue": 0,
+      "weight": 1,
+      "max_first_progress": 57,
+      "max_backward_done": 29,
+      "maxrss_bytes": 205504512,
+      "min_initial_h": 462716928,
+      "max_initial_h": 577470464,
+      "min_initial_h_live": 14636698793148672,
+      "minimum_frontier_f": null,
+      "closed_label_rows": 1002736,
+      "layers": [
+        [
+          54,
+          0,
+          47440,
+          47440
+        ],
+        [
+          55,
+          0,
+          22676,
+          22676
+        ],
+        [
+          57,
+          1,
+          11102,
+          11102
+        ],
+        [
+          57,
+          2,
+          172683,
+          172683
+        ],
+        [
+          57,
+          3,
+          96406,
+          96406
+        ],
+        [
+          57,
+          4,
+          30913,
+          30913
+        ],
+        [
+          57,
+          6,
+          372093,
+          372093
+        ],
+        [
+          57,
+          7,
+          93560,
+          93560
+        ],
+        [
+          57,
+          9,
+          40141,
+          40141
+        ],
+        [
+          57,
+          10,
+          113230,
+          113230
+        ],
+        [
+          57,
+          13,
+          592,
+          592
+        ],
+        [
+          57,
+          15,
+          1382,
+          1382
+        ],
+        [
+          57,
+          17,
+          160,
+          160
+        ],
+        [
+          57,
+          20,
+          121,
+          121
+        ],
+        [
+          57,
+          21,
+          36,
+          36
+        ],
+        [
+          57,
+          24,
+          199,
+          199
+        ],
+        [
+          57,
+          29,
+          2,
+          2
+        ]
+      ]
+    },
+    "closure": {
+      "status": "PASS",
+      "scope": "closed reduced-state certificate; author-team implementation cross-check",
+      "checked_labels": 1002736,
+      "total_labels": 1002736,
+      "edges_checked": 82502307,
+      "absent_targets_pruned": 59268838,
+      "region_E": [
+        155123712,
+        111280128,
+        77529088,
+        69140480,
+        60915712,
+        52396032,
+        43974656,
+        35586048,
+        27197440,
+        27197440,
+        27197440,
+        27197440
+      ],
+      "baseline_cache": "CacheInfo(hits=52797035, misses=10667584, maxsize=262144, currsize=262144)",
+      "region_cache": "CacheInfo(hits=7016056, misses=3185172, maxsize=131072, currsize=131072)",
+      "labels_sha256": "4abe94dc64298436da6af9db8707b0b55178cdc9c8de6501d66a293ed5bf1b5d",
+      "seconds": 274.9381062499597
+    },
+    "source_sha256": "1ed9b3cc27c4266b386614e27b85bd9b95a1ef6c52012d9ad3e6cb65679ac45f",
+    "executable_sha256": "2e263df4a26d4a533d559e0d550467498bd9aefdfb4f4bcc552376b2976d92f5",
+    "labels_sha256": "4abe94dc64298436da6af9db8707b0b55178cdc9c8de6501d66a293ed5bf1b5d"
+  },
+  "auxiliary12_exact_budget": {
+    "status": "PASS",
+    "scope": "Same source actions, stored600000000allowance and explicit540246016allowance; original478150656rejects actualwork; no additional original benchmark win",
+    "source_trace_sha256": "ac13fd9bf91202661b265c97b6f84cac55c6ad509afd5ecd525d660ed86a2c6b",
+    "actions_sha256": "a932d63be4175bd310751e85b40b0d130005aa4553146c6737b460d901096312",
+    "final_combined_log": "evidence/final-with-auxiliary-replay.log",
+    "final_combined_log_sha256": "4726c5fc2bed122e9b355e7f5f0a0c24a6e7080c22c8abc48cdae559c5cd4bf8",
+    "same_team_review": "evidence/auxiliary12-packaging-review.json",
+    "same_team_review_sha256": "9404d162b4d1f6efacd79edf255611b15c5c35f6340b90f753b87c511d6c681d"
+  }
+}

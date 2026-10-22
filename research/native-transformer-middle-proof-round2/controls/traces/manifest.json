@@ -1,0 +1,46 @@
+[
+  {
+    "file": "auxiliary-12u-retimed.json",
+    "raw_sha256": "ac13fd9bf91202661b265c97b6f84cac55c6ad509afd5ecd525d660ed86a2c6b",
+    "certificate_sha256": "65820e497e3766f686aa303ae2147da58822abbbb73273b50c465febaa81f2b8",
+    "claims": {
+      "peak_bytes": 1572864,
+      "recompute_cost": 540246016,
+      "forward_cost": 1018396672,
+      "backward_cost": 956301312
+    }
+  },
+  {
+    "file": "known-11u.json",
+    "raw_sha256": "5e8a7f4babe79275c023821210a4ecd80a9ffd620c25145c7cbe93d751948a4a",
+    "certificate_sha256": "653604e30989cce5f61efeae5688db15b48ea9577e9a32c0901161b07b4f1ba8",
+    "claims": {
+      "peak_bytes": 1441792,
+      "recompute_cost": 737935360,
+      "forward_cost": 1216086016,
+      "backward_cost": 956301312
+    }
+  },
+  {
+    "file": "cache-control-1.json",
+    "raw_sha256": "b0a17540f19c2d0986d4b95c1dc36cd5e6cd262e2584967516ed67edb1a00bd3",
+    "certificate_sha256": "5cfb27fdd53d3ec31eb7871a0ada24806e7e197845228c6a645fc5672c871122",
+    "claims": {
+      "peak_bytes": 1572864,
+      "recompute_cost": 1599995904,
+      "forward_cost": 2078146560,
+      "backward_cost": 956301312
+    }
+  },
+  {
+    "file": "cache-control-5.json",
+    "raw_sha256": "dcee9dec8610c5d750d25041120f004614c6bd5f3cad0eea306c74fcc4c88f58",
+    "certificate_sha256": "8c437c23a81910aad6ec8aa9ee634af90da5d492e4318ab960c03194ca45990c",
+    "claims": {
+      "peak_bytes": 1572864,
+      "recompute_cost": 1591181312,
+      "forward_cost": 2069331968,
+      "backward_cost": 956301312
+    }
+  }
+]

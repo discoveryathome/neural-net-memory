@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "scope": "same author-team read-only checker logic review, parent executed full closure check separately",
+  "checker_sha256": "9852d4ee08b1e36e7058862fd527d31077a006614adb9907e3a2dbad10b42273",
+  "review_sha256": "57d4a8daedcbea81294c9e3ed1f59c6d3a40e040ff262ff3cc63f703af7bc528",
+  "findings": []
+}
