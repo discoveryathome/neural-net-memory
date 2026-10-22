@@ -1,0 +1,24 @@
+[
+  {
+    "graph": "resnet-b4-c32",
+    "budget": 605552640,
+    "peak_bytes": 1048576,
+    "prior_work": 605421568,
+    "new_work": 378339328,
+    "saved_work": 227082240,
+    "object": "research/resnet-frontier-round2/certificates/resnet-b4-c32-b605552640-minwork.json",
+    "sha256": "243bbd6a23d66676ea6c73d42d4e2c119292741de530de53476f57ce1778606d",
+    "exact_minimum_work_at_peak": true
+  },
+  {
+    "graph": "resnet-b4-c32",
+    "budget": 302776320,
+    "peak_bytes": 1310720,
+    "prior_work": 302645248,
+    "new_work": 189136896,
+    "saved_work": 113508352,
+    "object": "research/resnet-frontier-round2/certificates/resnet-b4-c32-b302776320-minwork.json",
+    "sha256": "a1bb6d0312f795808967cd5b143e38aa6a2c59c91467b860b76b52eb4f0fe273",
+    "exact_minimum_work_at_peak": true
+  }
+]

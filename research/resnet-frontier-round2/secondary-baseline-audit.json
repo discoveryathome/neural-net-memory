@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "base": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "previous_pr6_head": "fc0ec8f85197bd4662a4882249b58c03d51364e8",
+  "unique_json_blobs": 966,
+  "verified_certificate_occurrences": 421,
+  "invalid": [],
+  "rows": [
+    {
+      "graph": "resnet-b4-c32",
+      "cap_units": 4,
+      "peak_cap_bytes": 1048576,
+      "new_work": 378339328,
+      "old_best_work": 605421568,
+      "old_best_peak_bytes": 1048576,
+      "old_sources": [
+        {
+          "revision": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+          "path": "certificates/search/resnet-b4-c32/seed20261024-b605552640.json"
+        },
+        {
+          "revision": "fc0ec8f85197bd4662a4882249b58c03d51364e8",
+          "path": "certificates/search/resnet-b4-c32/seed20261024-b605552640.json"
+        }
+      ],
+      "old_pointer": "$",
+      "strict_work_gain": true,
+      "ties": false,
+      "worse": false
+    },
+    {
+      "graph": "resnet-b4-c32",
+      "cap_units": 5,
+      "peak_cap_bytes": 1310720,
+      "new_work": 189136896,
+      "old_best_work": 302645248,
+      "old_best_peak_bytes": 1310720,
+      "old_sources": [
+        {
+          "revision": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+          "path": "certificates/search/resnet-b4-c32/seed20261021-b302776320.json"
+        },
+        {
+          "revision": "fc0ec8f85197bd4662a4882249b58c03d51364e8",
+          "path": "certificates/search/resnet-b4-c32/seed20261021-b302776320.json"
+        }
+      ],
+      "old_pointer": "$",
+      "strict_work_gain": true,
+      "ties": false,
+      "worse": false
+    }
+  ],
+  "scope": "Every matching full certificate in exact base and prior PR6 trees; own declared budgets verified before peak filtering; auxiliary work curves have no original challenge-budget filter",
+  "source_sha256": "c24c117a41be12e798f014ae4a545a84250587117567de7d491e368ad2a52db5",
+  "graphs": {
+    "transformer-b1-t32": "2d2cab8d86ee8d6397bb33c363b826908dbfa204309a64f7882ca106186068fc",
+    "transformer-b2-t64": "49253c00a0941d94630e5323343af6e2d19e7317f26864fc19e01bc782bc638b",
+    "transformer-b4-t128": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+    "resnet-b4-c32": "fe120b9dbba356bf53b6042ad7174fd2506df22906c017502008405f9c0f354f"
+  },
+  "evidence": "author-checked only"
+}

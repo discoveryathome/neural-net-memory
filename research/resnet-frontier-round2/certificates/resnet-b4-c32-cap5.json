@@ -1,0 +1,362 @@
+{
+  "model": "activation-memory/v1",
+  "graph_id": "resnet-b4-c32",
+  "graph_sha256": "fe120b9dbba356bf53b6042ad7174fd2506df22906c017502008405f9c0f354f",
+  "budget": 189136896,
+  "method": "chain-fixed-cap-exact",
+  "metadata": {
+    "status": "OPTIMAL",
+    "minimum_recompute_cost": 189136896,
+    "states": 7308,
+    "logical_states": 6859,
+    "expanded": 5509,
+    "pruned": 18259,
+    "seconds": 0.043444624985568225,
+    "cap": 1310720,
+    "budget": 605552640,
+    "astar": true,
+    "lower_bound_pruning": true,
+    "global_for_chain_domain": true,
+    "search_budget": 605552640,
+    "witness_budget": 189136896
+  },
+  "actions": [
+    {
+      "op": "forward",
+      "node": "b0_conv1"
+    },
+    {
+      "op": "forward",
+      "node": "b0_relu1"
+    },
+    {
+      "op": "drop",
+      "node": "b0_conv1"
+    },
+    {
+      "op": "forward",
+      "node": "b0_conv2"
+    },
+    {
+      "op": "forward",
+      "node": "b0_add"
+    },
+    {
+      "op": "drop",
+      "node": "b0_conv2"
+    },
+    {
+      "op": "forward",
+      "node": "b0_relu2"
+    },
+    {
+      "op": "drop",
+      "node": "b0_add"
+    },
+    {
+      "op": "forward",
+      "node": "b1_conv1"
+    },
+    {
+      "op": "forward",
+      "node": "b1_relu1"
+    },
+    {
+      "op": "drop",
+      "node": "b1_conv1"
+    },
+    {
+      "op": "forward",
+      "node": "b1_conv2"
+    },
+    {
+      "op": "drop",
+      "node": "b0_relu1"
+    },
+    {
+      "op": "forward",
+      "node": "b1_add"
+    },
+    {
+      "op": "drop",
+      "node": "b1_conv2"
+    },
+    {
+      "op": "forward",
+      "node": "b1_relu2"
+    },
+    {
+      "op": "drop",
+      "node": "b1_add"
+    },
+    {
+      "op": "forward",
+      "node": "b2_conv1"
+    },
+    {
+      "op": "drop",
+      "node": "b1_relu1"
+    },
+    {
+      "op": "forward",
+      "node": "b2_relu1"
+    },
+    {
+      "op": "drop",
+      "node": "b2_conv1"
+    },
+    {
+      "op": "forward",
+      "node": "b2_conv2"
+    },
+    {
+      "op": "drop",
+      "node": "b2_relu1"
+    },
+    {
+      "op": "forward",
+      "node": "b2_add"
+    },
+    {
+      "op": "drop",
+      "node": "b2_conv2"
+    },
+    {
+      "op": "forward",
+      "node": "b2_relu2"
+    },
+    {
+      "op": "drop",
+      "node": "b2_add"
+    },
+    {
+      "op": "forward",
+      "node": "b3_conv1"
+    },
+    {
+      "op": "drop",
+      "node": "b0_relu2"
+    },
+    {
+      "op": "forward",
+      "node": "b3_relu1"
+    },
+    {
+      "op": "drop",
+      "node": "b3_conv1"
+    },
+    {
+      "op": "forward",
+      "node": "b3_conv2"
+    },
+    {
+      "op": "drop",
+      "node": "b3_relu1"
+    },
+    {
+      "op": "forward",
+      "node": "b3_add"
+    },
+    {
+      "op": "drop",
+      "node": "b3_conv2"
+    },
+    {
+      "op": "forward",
+      "node": "b3_relu2"
+    },
+    {
+      "op": "loss"
+    },
+    {
+      "op": "backward",
+      "node": "b3_relu2"
+    },
+    {
+      "op": "backward",
+      "node": "b3_add"
+    },
+    {
+      "op": "drop",
+      "node": "b3_add"
+    },
+    {
+      "op": "drop",
+      "node": "b3_relu2"
+    },
+    {
+      "op": "forward",
+      "node": "b3_conv1"
+    },
+    {
+      "op": "forward",
+      "node": "b3_relu1"
+    },
+    {
+      "op": "backward",
+      "node": "b3_conv2"
+    },
+    {
+      "op": "backward",
+      "node": "b3_relu1"
+    },
+    {
+      "op": "backward",
+      "node": "b3_conv1"
+    },
+    {
+      "op": "backward",
+      "node": "b2_relu2"
+    },
+    {
+      "op": "backward",
+      "node": "b2_add"
+    },
+    {
+      "op": "drop",
+      "node": "b2_relu2"
+    },
+    {
+      "op": "drop",
+      "node": "b3_conv1"
+    },
+    {
+      "op": "drop",
+      "node": "b3_relu1"
+    },
+    {
+      "op": "forward",
+      "node": "b0_conv1"
+    },
+    {
+      "op": "forward",
+      "node": "b0_relu1"
+    },
+    {
+      "op": "drop",
+      "node": "b0_conv1"
+    },
+    {
+      "op": "forward",
+      "node": "b2_conv1"
+    },
+    {
+      "op": "forward",
+      "node": "b2_relu1"
+    },
+    {
+      "op": "backward",
+      "node": "b2_conv2"
+    },
+    {
+      "op": "backward",
+      "node": "b2_relu1"
+    },
+    {
+      "op": "backward",
+      "node": "b2_conv1"
+    },
+    {
+      "op": "backward",
+      "node": "b1_relu2"
+    },
+    {
+      "op": "backward",
+      "node": "b1_add"
+    },
+    {
+      "op": "drop",
+      "node": "b1_relu2"
+    },
+    {
+      "op": "drop",
+      "node": "b2_conv1"
+    },
+    {
+      "op": "drop",
+      "node": "b2_relu1"
+    },
+    {
+      "op": "forward",
+      "node": "b0_conv2"
+    },
+    {
+      "op": "forward",
+      "node": "b0_add"
+    },
+    {
+      "op": "drop",
+      "node": "b0_conv2"
+    },
+    {
+      "op": "forward",
+      "node": "b0_relu2"
+    },
+    {
+      "op": "drop",
+      "node": "b0_add"
+    },
+    {
+      "op": "forward",
+      "node": "b1_conv1"
+    },
+    {
+      "op": "forward",
+      "node": "b1_relu1"
+    },
+    {
+      "op": "backward",
+      "node": "b1_conv2"
+    },
+    {
+      "op": "backward",
+      "node": "b1_relu1"
+    },
+    {
+      "op": "backward",
+      "node": "b1_conv1"
+    },
+    {
+      "op": "backward",
+      "node": "b0_relu2"
+    },
+    {
+      "op": "backward",
+      "node": "b0_add"
+    },
+    {
+      "op": "backward",
+      "node": "b0_conv2"
+    },
+    {
+      "op": "backward",
+      "node": "b0_relu1"
+    },
+    {
+      "op": "backward",
+      "node": "b0_conv1"
+    },
+    {
+      "op": "drop",
+      "node": "b0_relu1"
+    },
+    {
+      "op": "drop",
+      "node": "b0_relu2"
+    },
+    {
+      "op": "drop",
+      "node": "b1_conv1"
+    },
+    {
+      "op": "drop",
+      "node": "b1_relu1"
+    }
+  ],
+  "claims": {
+    "peak_bytes": 1310720,
+    "recompute_cost": 189136896,
+    "forward_cost": 491913216,
+    "backward_cost": 605552640
+  }
+}

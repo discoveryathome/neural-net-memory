@@ -1,0 +1,48 @@
+{
+  "base": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "seed": "dafc4be0863b7654352ffb2ba4a4d2df",
+  "assignment": "Explicit user broad fronts; parent assigned ResNet-family retention/recomputation research",
+  "start": "2026-10-21T22:37:20Z",
+  "cutoff": "2026-10-22T01:37:20Z",
+  "graph": "resnet-b4-c32",
+  "graph_sha256": "fe120b9dbba356bf53b6042ad7174fd2506df22906c017502008405f9c0f354f",
+  "question": "Can exact forced-chain minimum-work scheduling settle the open peak cells and improve recomputation at any original fixed peak?",
+  "method": "Forced-chain A*; eager zero-allocation backward normalization; dependency-closed mandatory regeneration lower bound",
+  "domain": "Exact activation-memory/v1 schedules on DAGs whose direct edges force serial first-forward and backward orders; arbitrary legal drops and regeneration",
+  "price": "Uniform 262144-byte allocations and immutable x imply strict cap targets 7,5,4 allocations. Every missing saved activation and each missing dependency cut must execute at least once, charging all seen operations. No work omitted.",
+  "overlap": "trial-30m solved b2 via cost/peak dominance; b4 B=75694080 exceeded500000 labels. New fixed-cap/compressed-chain state, admissible ancestor closure and forced backward reduction.",
+  "success": "Strict fixed-budget witness, or exact fixed-cap infeasibility with proof and cross-controls",
+  "first_control": "Unchanged verifier on b2 and b4 incumbent; exhaustive tiny chain/residual comparisons",
+  "resources": "Start700000 records,120seconds, one process; no job over500MB or2M states without parent coordination",
+  "evidence": "author-checked; no GPU or external SOTA claim",
+  "final_outcome": "Complete b4 minimum-work staircase; three formerly open fixed-budget cells settled; two37.5% secondary work improvements at unchanged original peaks; no strict primary peak improvement",
+  "final_resource_caps": {
+    "records_per_call": 250000,
+    "seconds_per_call": 30
+  },
+  "final_method": "Chain-state exact fixed-cap A* with greedy backward normalization, dead activation pruning, dependency-closed lower bound; separate original exact and unpruned controls",
+  "secondary_work_gains": [
+    {
+      "graph": "resnet-b4-c32",
+      "budget": 605552640,
+      "peak_bytes": 1048576,
+      "prior_work": 605421568,
+      "new_work": 378339328,
+      "saved_work": 227082240,
+      "object": "research/resnet-frontier-round2/certificates/resnet-b4-c32-b605552640-minwork.json",
+      "sha256": "7650b9fec14af47e0b0247bb4ac6b6ce4ae8359c84f93c4762d85216a988da6f",
+      "exact_minimum_work_at_peak": true
+    },
+    {
+      "graph": "resnet-b4-c32",
+      "budget": 302776320,
+      "peak_bytes": 1310720,
+      "prior_work": 302645248,
+      "new_work": 189136896,
+      "saved_work": 113508352,
+      "object": "research/resnet-frontier-round2/certificates/resnet-b4-c32-b302776320-minwork.json",
+      "sha256": "11825c904d6bac0c1246b758d04613d6e55c109ab3c40e77d517fa73cb13af6c",
+      "exact_minimum_work_at_peak": true
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "evidence_level": "same-author-team AI cross-review;not independent scientific acceptance",
+  "source_sha256": "330903e3c5b314bad80259e83c6ef1ff662c6e5d20be7c0cb847a0e2a2e825f8",
+  "random_differential_cases": 270,
+  "fixed_resnet_controls": [
+    {
+      "cap": 1048576,
+      "budget": 378339328,
+      "result": 378339328,
+      "expected": 378339328,
+      "status": "PASS",
+      "stats": {
+        "states": 10431,
+        "expanded": 10421,
+        "seconds": 0.03814262500964105
+      },
+      "seconds": 0.03843741602031514
+    },
+    {
+      "cap": 1048576,
+      "budget": 378339327,
+      "result": null,
+      "expected": null,
+      "status": "PASS",
+      "stats": {
+        "states": 10342,
+        "expanded": 10342,
+        "seconds": 0.03787337499670684
+      },
+      "seconds": 0.03818454098654911
+    },
+    {
+      "cap": 1310720,
+      "budget": 189136896,
+      "result": 189136896,
+      "expected": 189136896,
+      "status": "PASS",
+      "stats": {
+        "states": 57555,
+        "expanded": 57551,
+        "seconds": 0.26873683294979855
+      },
+      "seconds": 0.27032841701293364
+    },
+    {
+      "cap": 1310720,
+      "budget": 189136895,
+      "result": null,
+      "expected": null,
+      "status": "PASS",
+      "stats": {
+        "states": 57145,
+        "expanded": 57145,
+        "seconds": 0.2622593749547377
+      },
+      "seconds": 0.26391320797847584
+    }
+  ],
+  "maxrss_bytes": 41730048,
+  "seconds": 0.6547096249996684,
+  "limitations": "Generic control limit does not imply infeasibility;higher staircase points rely on reviewed solver and its existing tests."
+}

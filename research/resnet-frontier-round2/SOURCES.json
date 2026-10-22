@@ -1,0 +1,124 @@
+{
+  "schema": "research-sources/v1",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "repository_inputs": [
+    {
+      "path": "MODEL.md",
+      "sha256": "356237ec6ce9efa5a99a87043ff556d7128eb0abacf8420dd003189d99cc596e",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/MODEL.md"
+    },
+    {
+      "path": "benchmarks/graphs/resnet-b2-c32.json",
+      "sha256": "0247cc90815488e762b79d131eec3779b0cdf022962c553e449dbfacc1d65ec8",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/benchmarks/graphs/resnet-b2-c32.json"
+    },
+    {
+      "path": "benchmarks/graphs/resnet-b4-c32.json",
+      "sha256": "35ada9172d58fb658934fca69b41ffaabf55da896901f3f9ed1dcb732b3e8984",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/benchmarks/graphs/resnet-b4-c32.json"
+    },
+    {
+      "path": "records/working-frontiers.json",
+      "sha256": "88cb5c9edd9c9905ae4b24b79ce6affdac8495c7babd7c13d2ea8a83a6292cb8",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/records/working-frontiers.json"
+    },
+    {
+      "path": "research/resnet-frontier-round2/README.md",
+      "sha256": "ea1c8281d52c67a61131bc050f8d792892fb15d6b924eb239e26eecefc43a98d"
+    },
+    {
+      "path": "research/resnet-frontier-round2/RESULTS.json",
+      "sha256": "44d6075d5655b7d4229d8e7f3a43d840a1147ee75870de2394f2aa96cb53817b"
+    },
+    {
+      "path": "research/resnet-frontier-round2/SECONDARY-WORK.json",
+      "sha256": "ee1370e76e8f7792884194accbbbf92f9f619c2d99a6b3378dd2bb0b80fd84ab"
+    },
+    {
+      "path": "research/resnet-frontier-round2/TASK.json",
+      "sha256": "f890bc73a75a21a22f1e01436d710caf819ca7b93906a2d4bcf271515a5cb312"
+    },
+    {
+      "path": "research/resnet-frontier-round2/VERIFY.json",
+      "sha256": "e4661da52770c80e6bcddd735aaf734c40fc2611b31e5794910e80c069d42dfc"
+    },
+    {
+      "path": "research/resnet-frontier-round2/certificates/resnet-b4-c32-b302776320-minwork.json",
+      "sha256": "a1bb6d0312f795808967cd5b143e38aa6a2c59c91467b860b76b52eb4f0fe273"
+    },
+    {
+      "path": "research/resnet-frontier-round2/certificates/resnet-b4-c32-b605552640-minwork.json",
+      "sha256": "243bbd6a23d66676ea6c73d42d4e2c119292741de530de53476f57ce1778606d"
+    },
+    {
+      "path": "research/resnet-frontier-round2/chain_exact.py",
+      "sha256": "330903e3c5b314bad80259e83c6ef1ff662c6e5d20be7c0cb847a0e2a2e825f8"
+    },
+    {
+      "path": "research/resnet-frontier-round2/logs/secondary-extension-replay.log",
+      "sha256": "9abaeadb79c909302405e3d8186991b7f25bd023606a3e0a0294efc1890c46e1"
+    },
+    {
+      "path": "research/resnet-frontier-round2/logs/secondary-extension-tests.log",
+      "sha256": "f1fc20c0f0e6b9435a3543e91c2f41de7e3b12cf63eee60704613d06548b2217"
+    },
+    {
+      "path": "research/resnet-frontier-round2/proposed-frontiers.json",
+      "sha256": "aef569c62a2f34b13712d7edc6adc3f5e65bd64a9fcf6b410e94979124946d6a"
+    },
+    {
+      "path": "research/resnet-frontier-round2/reference_fixed_cap.py",
+      "sha256": "ed985824363ea8a3db9dccea306d88acfe8935685e1874907df9b58d87faefde"
+    },
+    {
+      "path": "research/resnet-frontier-round2/secondary-baseline-audit.json",
+      "sha256": "90d54a97b7c3c02e615171257771db6e61f4e55bdf28d4dcec44b81c27701694"
+    },
+    {
+      "path": "research/resnet-frontier-round2/test_chain_exact.py",
+      "sha256": "b7e7c6059cf59974a9306a1298ed0ce6b09d096c52fb62adfb81d655fe63b8e5"
+    },
+    {
+      "path": "research/resnet-frontier-round2/verify_result.py",
+      "sha256": "0eea9ef681fb505ff15902f0a9b55cf5bd8426bb42d8ce56d73028c286bd7882"
+    },
+    {
+      "path": "research/trial-30m/REPORT.md",
+      "sha256": "94a03ce8608d96b3adfb11fbd721b74bd94ed05c8d71cc2e3e9ddc4c8f114615",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/research/trial-30m/REPORT.md"
+    },
+    {
+      "path": "research/trial-30m/candidates.json",
+      "sha256": "b19afbf27211cdfa6ecda1cdfba75bdc97c5b88a7d23e1623de8fbc8496d5974",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/research/trial-30m/candidates.json"
+    },
+    {
+      "path": "research/trial-30m/dominance_exact.py",
+      "sha256": "b4790c07735cbc09fbfabadb061c845a9353559c59e0c045bcdb7e63edbb1235",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/research/trial-30m/dominance_exact.py"
+    },
+    {
+      "path": "search.py",
+      "sha256": "7e321741e941d239392d2cf0e646c7ea05823a8f81dd2b4379300775c660ad63",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/search.py"
+    },
+    {
+      "path": "verifier.py",
+      "sha256": "104e5e63d1cdb95355153144666292125d64806ee7bf149d0af714b2a47e1015",
+      "url": "https://github.com/discoveryathome/neural-net-memory/blob/a95cc1588fc57a07cfcf5a350206825e6f5b4b52/verifier.py"
+    }
+  ],
+  "credit": [
+    "Doug Colkitt (@Mister-Meeseeks), original project, model, verifier, predecessor schedules and trial research",
+    "Parallel MLP Codex worker, separately authored generic explicit-state reference control; copied unchanged in reference_fixed_cap.py",
+    "Codex AI for @0xqtpie, chain-state specialization, exact searches, proof, differential controls and package; author-checked only"
+  ],
+  "methodological_context": [
+    {
+      "url": "https://github.com/discoveryathome/neural-net-memory/pull/6",
+      "title": "Prior retention-transfer regional fixed-cap solver",
+      "scope": "Methodological context only; no source copied; no global theorem borrowed"
+    }
+  ],
+  "external_solver_dependency": null
+}

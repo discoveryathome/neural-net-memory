@@ -1,0 +1,87 @@
+{
+  "evidence": "author-checked",
+  "successful": [
+    "Original b4 low-budget incumbent standalone verifier PASS",
+    "All three strict-improvement fixed-cap domains exhausted as INFEASIBLE",
+    "Complete b4 cap4..10 minimum-work staircase found with <=60677 immutable records",
+    "Threshold-minus-one domains exhausted by verification replay",
+    "Unpruned Dijkstra confirmed cap4/cap5 thresholds at4625/21163 records",
+    "120 seeded nonuniform tiny-chain/budget differential pairs and eligible fixed tiny rows pass",
+    "Parallel MLP generic unnormalized explicit-state Dijkstra matches full b4 cap4 exactcost378339328, high-budget cap4 exclusion and mid-budget cap5 exclusion"
+  ],
+  "limited": [
+    {
+      "method": "unpruned Dijkstra",
+      "graph": "resnet-b4-c32",
+      "cap": 2097152,
+      "budget": 605552640,
+      "max_states": 250000,
+      "seconds_limit": 30,
+      "outcome": "LIMITED after250000 immutable records; no conclusion",
+      "observed_seconds": 1.112653209012933
+    },
+    {
+      "method": "generic original minimax differential test",
+      "issue": "initial test-selection condition included workload ResNet-b2 rows",
+      "outcome": "interrupted; final test selection explicitly requires synthetic tiny family; no result used"
+    },
+    {
+      "method": "parallel MLP generic unnormalized explicit-state Dijkstra",
+      "graph": "resnet-b4-c32",
+      "cap": 1835008,
+      "budget": 75694080,
+      "max_states": 200000,
+      "seconds_limit": 30,
+      "outcome": "LIMITED200000 states; no conclusion"
+    }
+  ],
+  "resources": {
+    "largest_successful_search_records": 60677,
+    "largest_limited_search_records": 250000,
+    "no_install": true,
+    "network_denied": true,
+    "no_GPU": true,
+    "maximum_allowed_records_per_final_replay": 250000
+  },
+  "generic_reference_controls": [
+    {
+      "cap": 1048576,
+      "budget": 605552640,
+      "cost": 378339328,
+      "stats": {
+        "states": 11364,
+        "expanded": 11015,
+        "seconds": 0.04902116605080664
+      },
+      "status": "MATCH"
+    },
+    {
+      "cap": 1048576,
+      "budget": 302776320,
+      "cost": null,
+      "stats": {
+        "states": 8019,
+        "expanded": 8019,
+        "seconds": 0.03055274998769164
+      },
+      "status": "MATCH"
+    },
+    {
+      "cap": 1310720,
+      "budget": 151388160,
+      "cost": null,
+      "stats": {
+        "states": 44846,
+        "expanded": 44846,
+        "seconds": 0.19671966700116172
+      },
+      "status": "MATCH"
+    },
+    {
+      "cap": 1835008,
+      "budget": 75694080,
+      "status": "LIMITED",
+      "reason": "state cap"
+    }
+  ]
+}

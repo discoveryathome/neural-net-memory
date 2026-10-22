@@ -1,0 +1,5 @@
+{"kind": "random_differential", "status": "PASS", "cases": 270, "seconds": 0.04305383301107213}
+{"cap": 1048576, "budget": 378339328, "result": 378339328, "expected": 378339328, "status": "PASS", "stats": {"states": 10431, "expanded": 10421, "seconds": 0.03814262500964105}, "seconds": 0.03843741602031514}
+{"cap": 1048576, "budget": 378339327, "result": null, "expected": null, "status": "PASS", "stats": {"states": 10342, "expanded": 10342, "seconds": 0.03787337499670684}, "seconds": 0.03818454098654911}
+{"cap": 1310720, "budget": 189136896, "result": 189136896, "expected": 189136896, "status": "PASS", "stats": {"states": 57555, "expanded": 57551, "seconds": 0.26873683294979855}, "seconds": 0.27032841701293364}
+{"cap": 1310720, "budget": 189136895, "result": null, "expected": null, "status": "PASS", "stats": {"states": 57145, "expanded": 57145, "seconds": 0.2622593749547377}, "seconds": 0.26391320797847584}

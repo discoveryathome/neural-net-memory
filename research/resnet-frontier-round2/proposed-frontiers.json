@@ -1,0 +1,72 @@
+[
+  {
+    "graph": "resnet-b4-c32",
+    "budget": 75694080,
+    "peak_bytes": 2097152,
+    "lower_bound": 2097152,
+    "previous_lower_bound": 1048576,
+    "optimal": true,
+    "bound_method": "exact-chain-fixed-cap-staircase",
+    "bound_source": "research/resnet-frontier-round2/README.md",
+    "object": "certificates/frontier/resnet-b4-c32-b75694080.json",
+    "sha256": "c797589ec8a5f1a5f356eae868d35a9a9c84eb390c6644f92225848d834e9d5a",
+    "recompute_cost": 75628544,
+    "evidence_level": [
+      "author-checked"
+    ],
+    "acceptance": "proposal; independent review and maintainer acceptance pending"
+  },
+  {
+    "graph": "resnet-b4-c32",
+    "budget": 151388160,
+    "peak_bytes": 1572864,
+    "lower_bound": 1572864,
+    "previous_lower_bound": 1048576,
+    "optimal": true,
+    "bound_method": "exact-chain-fixed-cap-staircase",
+    "bound_source": "research/resnet-frontier-round2/README.md",
+    "object": "certificates/frontier/resnet-b4-c32-b151388160.json",
+    "sha256": "efb54ca659a5ef13449c3cff512e4f2667ec0ff1a672be4e83654eb596d33bba",
+    "recompute_cost": 151257088,
+    "evidence_level": [
+      "author-checked"
+    ],
+    "acceptance": "proposal; independent review and maintainer acceptance pending"
+  },
+  {
+    "graph": "resnet-b4-c32",
+    "budget": 302776320,
+    "peak_bytes": 1310720,
+    "lower_bound": 1310720,
+    "previous_lower_bound": 1048576,
+    "optimal": true,
+    "bound_method": "exact-chain-fixed-cap-staircase",
+    "bound_source": "research/resnet-frontier-round2/README.md",
+    "object": "research/resnet-frontier-round2/certificates/resnet-b4-c32-b302776320-minwork.json",
+    "sha256": "a1bb6d0312f795808967cd5b143e38aa6a2c59c91467b860b76b52eb4f0fe273",
+    "recompute_cost": 189136896,
+    "evidence_level": [
+      "author-checked"
+    ],
+    "acceptance": "proposal; independent review and maintainer acceptance pending",
+    "previous_recompute_cost": 302645248,
+    "secondary_work_gain": true
+  },
+  {
+    "graph": "resnet-b4-c32",
+    "budget": 605552640,
+    "peak_bytes": 1048576,
+    "lower_bound": 1048576,
+    "optimal": true,
+    "bound_method": "exact-chain-fixed-cap-staircase",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "acceptance": "proposal; independent review and maintainer acceptance pending",
+    "object": "research/resnet-frontier-round2/certificates/resnet-b4-c32-b605552640-minwork.json",
+    "sha256": "243bbd6a23d66676ea6c73d42d4e2c119292741de530de53476f57ce1778606d",
+    "recompute_cost": 378339328,
+    "previous_recompute_cost": 605421568,
+    "secondary_work_gain": true
+  }
+]

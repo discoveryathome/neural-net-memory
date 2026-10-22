@@ -1,0 +1,337 @@
+{
+  "model": "activation-memory/v1",
+  "graph": "resnet-b4-c32",
+  "graph_sha256": "fe120b9dbba356bf53b6042ad7174fd2506df22906c017502008405f9c0f354f",
+  "evidence_level": "author-checked",
+  "local_allocation_lower_bound": 1048576,
+  "staircase": [
+    {
+      "allocations": 4,
+      "cap_bytes": 1048576,
+      "minimum_recompute_cost": 378339328,
+      "certificate": "research/resnet-frontier-round2/certificates/resnet-b4-c32-cap4.json",
+      "certificate_sha256": "3dfa598cb099a097f32227ff78c6954b65c7cf59fff5740387939112b5da6f89",
+      "search": {
+        "status": "OPTIMAL",
+        "minimum_recompute_cost": 378339328,
+        "states": 3827,
+        "logical_states": 3659,
+        "expanded": 3550,
+        "pruned": 8375,
+        "seconds": 0.025369917042553425,
+        "cap": 1048576,
+        "budget": 605552640,
+        "astar": true,
+        "lower_bound_pruning": true,
+        "global_for_chain_domain": true
+      },
+      "threshold_minus_one": {
+        "status": "INFEASIBLE",
+        "states": 3576,
+        "logical_states": 3424,
+        "expanded": 3424,
+        "pruned": 8199,
+        "seconds": 0.023330124968197197,
+        "cap": 1048576,
+        "budget": 378339327,
+        "astar": true,
+        "lower_bound_pruning": true,
+        "global_for_chain_domain": true
+      }
+    },
+    {
+      "allocations": 5,
+      "cap_bytes": 1310720,
+      "minimum_recompute_cost": 189136896,
+      "certificate": "research/resnet-frontier-round2/certificates/resnet-b4-c32-cap5.json",
+      "certificate_sha256": "99fbea0d258def56049b1faa866a4a8437b0463348a7f1fca814424092ebd012",
+      "search": {
+        "status": "OPTIMAL",
+        "minimum_recompute_cost": 189136896,
+        "states": 7308,
+        "logical_states": 6859,
+        "expanded": 5509,
+        "pruned": 18259,
+        "seconds": 0.043444624985568225,
+        "cap": 1310720,
+        "budget": 605552640,
+        "astar": true,
+        "lower_bound_pruning": true,
+        "global_for_chain_domain": true
+      },
+      "threshold_minus_one": {
+        "status": "INFEASIBLE",
+        "states": 5279,
+        "logical_states": 4983,
+        "expanded": 4983,
+        "pruned": 17821,
+        "seconds": 0.04476604197407141,
+        "cap": 1310720,
+        "budget": 189136895,
+        "astar": true,
+        "lower_bound_pruning": true,
+        "global_for_chain_domain": true
+      }
+    },
+    {
+      "allocations": 6,
+      "cap_bytes": 1572864,
+      "minimum_recompute_cost": 151257088,
+      "certificate": "research/resnet-frontier-round2/certificates/resnet-b4-c32-cap6.json",
+      "certificate_sha256": "a2be133a6eebc9de3353184e8b8884a0630924fcfbea179931e5b31229d8b50e",
+      "search": {
+        "status": "OPTIMAL",
+        "minimum_recompute_cost": 151257088,
+        "states": 21515,
+        "logical_states": 19169,
+        "expanded": 13888,
+        "pruned": 59754,
+        "seconds": 0.1285795000148937,
+        "cap": 1572864,
+        "budget": 605552640,
+        "astar": true,
+        "lower_bound_pruning": true,
+        "global_for_chain_domain": true
+      },
+      "threshold_minus_one": {
+        "status": "INFEASIBLE",
+        "states": 14538,
+        "logical_states": 13400,
+        "expanded": 13400,
+        "pruned": 63850,
+        "seconds": 0.15368954197037965,
+        "cap": 1572864,
+        "budget": 151257087,
+        "astar": true,
+        "lower_bound_pruning": true,
+        "global_for_chain_domain": true
+      }
+    },
+    {
+      "allocations": 7,
+      "cap_bytes": 1835008,
+      "minimum_recompute_cost": 113442816,
+      "certificate": "research/resnet-frontier-round2/certificates/resnet-b4-c32-cap7.json",
+      "certificate_sha256": "6468801bdc625a284b4e574cf8fb77998d306b65550890ff337c14c9cd7d0356",
+      "search": {
+        "status": "OPTIMAL",
+        "minimum_recompute_cost": 113442816,
+        "states": 45691,
+        "logical_states": 39353,
+        "expanded": 24444,
+        "pruned": 127156,
+        "seconds": 0.26651133300038055,
+        "cap": 1835008,
+        "budget": 605552640,
+        "astar": true,
+        "lower_bound_pruning": true,
+        "global_for_chain_domain": true
+      },
+      "threshold_minus_one": {
+        "status": "INFEASIBLE",
+        "states": 25748,
+        "logical_states": 23488,
+        "expanded": 23488,
+        "pruned": 140099,
+        "seconds": 0.3377730419742875,
+        "cap": 1835008,
+        "budget": 113442815,
+        "astar": true,
+        "lower_bound_pruning": true,
+        "global_for_chain_domain": true
+      }
+    },
+    {
+      "allocations": 8,
+      "cap_bytes": 2097152,
+      "minimum_recompute_cost": 75628544,
+      "certificate": "research/resnet-frontier-round2/certificates/resnet-b4-c32-cap8.json",
+      "certificate_sha256": "b7d3b5c11fba39030048053578e9267d4a403003261455b0384916df2c28916d",
+      "search": {
+        "status": "OPTIMAL",
+        "minimum_recompute_cost": 75628544,
+        "states": 60677,
+        "logical_states": 52160,
+        "expanded": 25665,
+        "pruned": 151373,
+        "seconds": 0.3258611669880338,
+        "cap": 2097152,
+        "budget": 605552640,
+        "astar": true,
+        "lower_bound_pruning": true,
+        "global_for_chain_domain": true
+      },
+      "threshold_minus_one": {
+        "status": "INFEASIBLE",
+        "states": 26037,
+        "logical_states": 24244,
+        "expanded": 24244,
+        "pruned": 173672,
+        "seconds": 0.40910337498644367,
+        "cap": 2097152,
+        "budget": 75628543,
+        "astar": true,
+        "lower_bound_pruning": true,
+        "global_for_chain_domain": true
+      }
+    },
+    {
+      "allocations": 9,
+      "cap_bytes": 2359296,
+      "minimum_recompute_cost": 37814272,
+      "certificate": "research/resnet-frontier-round2/certificates/resnet-b4-c32-cap9.json",
+      "certificate_sha256": "cdd491ff9a3cd4d06e215b4e74384a9cc4e28f7943369834ae2f58795a299ac3",
+      "search": {
+        "status": "OPTIMAL",
+        "minimum_recompute_cost": 37814272,
+        "states": 44029,
+        "logical_states": 39698,
+        "expanded": 12415,
+        "pruned": 72806,
+        "seconds": 0.18643483298365027,
+        "cap": 2359296,
+        "budget": 605552640,
+        "astar": true,
+        "lower_bound_pruning": true,
+        "global_for_chain_domain": true
+      },
+      "threshold_minus_one": {
+        "status": "INFEASIBLE",
+        "states": 11219,
+        "logical_states": 11041,
+        "expanded": 11041,
+        "pruned": 90842,
+        "seconds": 0.19788420904660597,
+        "cap": 2359296,
+        "budget": 37814271,
+        "astar": true,
+        "lower_bound_pruning": true,
+        "global_for_chain_domain": true
+      }
+    },
+    {
+      "allocations": 10,
+      "cap_bytes": 2621440,
+      "minimum_recompute_cost": 0,
+      "certificate": "research/resnet-frontier-round2/certificates/resnet-b4-c32-cap10.json",
+      "certificate_sha256": "f1d972caf1a0dc58d8127d7af4671cfb072d0c96ff18f39ecc1fe15f1efd1b39",
+      "search": {
+        "status": "OPTIMAL",
+        "minimum_recompute_cost": 0,
+        "states": 3743,
+        "logical_states": 3706,
+        "expanded": 569,
+        "pruned": 2323,
+        "seconds": 0.010469208005815744,
+        "cap": 2621440,
+        "budget": 605552640,
+        "astar": true,
+        "lower_bound_pruning": true,
+        "global_for_chain_domain": true
+      }
+    }
+  ],
+  "fixed_budget_consequences": [
+    {
+      "graph": "resnet-b4-c32",
+      "budget": 0,
+      "peak_bytes": 2621440,
+      "prior_lower_bound": 2621440,
+      "previously_open": false,
+      "conclusion": "unchanged witness meets exact computational optimum"
+    },
+    {
+      "graph": "resnet-b4-c32",
+      "budget": 75694080,
+      "peak_bytes": 2097152,
+      "prior_lower_bound": 1048576,
+      "previously_open": true,
+      "conclusion": "unchanged witness meets exact computational optimum"
+    },
+    {
+      "graph": "resnet-b4-c32",
+      "budget": 151388160,
+      "peak_bytes": 1572864,
+      "prior_lower_bound": 1048576,
+      "previously_open": true,
+      "conclusion": "unchanged witness meets exact computational optimum"
+    },
+    {
+      "graph": "resnet-b4-c32",
+      "budget": 302776320,
+      "peak_bytes": 1310720,
+      "prior_lower_bound": 1048576,
+      "previously_open": true,
+      "conclusion": "unchanged witness meets exact computational optimum"
+    },
+    {
+      "graph": "resnet-b4-c32",
+      "budget": 605552640,
+      "peak_bytes": 1048576,
+      "prior_lower_bound": 1048576,
+      "previously_open": false,
+      "conclusion": "unchanged witness meets exact computational optimum"
+    }
+  ],
+  "smaller_resnet_controls": [
+    {
+      "status": "INFEASIBLE",
+      "states": 56,
+      "logical_states": 52,
+      "expanded": 52,
+      "pruned": 115,
+      "seconds": 0.00024508300703018904,
+      "cap": 1048576,
+      "budget": 37847040,
+      "astar": true,
+      "lower_bound_pruning": true,
+      "global_for_chain_domain": true
+    },
+    {
+      "status": "OPTIMAL",
+      "minimum_recompute_cost": 75628544,
+      "states": 182,
+      "logical_states": 170,
+      "expanded": 150,
+      "pruned": 320,
+      "seconds": 0.0006951250252313912,
+      "cap": 1048576,
+      "budget": 75694080,
+      "astar": true,
+      "lower_bound_pruning": true,
+      "global_for_chain_domain": true
+    }
+  ],
+  "resource_caps": {
+    "states_per_call": 250000,
+    "seconds_per_call": 30
+  },
+  "environment": {
+    "python": "3.13.3",
+    "platform": "macOS-15.5-arm64-arm-64bit-Mach-O"
+  },
+  "secondary_work_gains": [
+    {
+      "graph": "resnet-b4-c32",
+      "budget": 605552640,
+      "peak_bytes": 1048576,
+      "prior_work": 605421568,
+      "new_work": 378339328,
+      "saved_work": 227082240,
+      "object": "research/resnet-frontier-round2/certificates/resnet-b4-c32-b605552640-minwork.json",
+      "sha256": "243bbd6a23d66676ea6c73d42d4e2c119292741de530de53476f57ce1778606d",
+      "exact_minimum_work_at_peak": true
+    },
+    {
+      "graph": "resnet-b4-c32",
+      "budget": 302776320,
+      "peak_bytes": 1310720,
+      "prior_work": 302645248,
+      "new_work": 189136896,
+      "saved_work": 113508352,
+      "object": "research/resnet-frontier-round2/certificates/resnet-b4-c32-b302776320-minwork.json",
+      "sha256": "a1bb6d0312f795808967cd5b143e38aa6a2c59c91467b860b76b52eb4f0fe273",
+      "exact_minimum_work_at_peak": true
+    }
+  ]
+}

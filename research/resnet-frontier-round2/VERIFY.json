@@ -1,0 +1,78 @@
+{
+  "schema": "research-verification/v1",
+  "evidence_level": "author-checked",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "checked_at": "2026-10-22T00:30:52.386471+00:00",
+  "commands": [
+    {
+      "command": "sandbox-exec -f research.sb /opt/homebrew/bin/python3 -B resnets/research/resnet-frontier-round2/verify_result.py",
+      "cwd": "session-root",
+      "result": "PASS",
+      "log": "logs/replay.log"
+    },
+    {
+      "command": "sandbox-exec -f research.sb /opt/homebrew/bin/python3 -B -m unittest discover -s resnets/research/resnet-frontier-round2 -p 'test_*.py' -v",
+      "cwd": "session-root",
+      "result": "PASS (6 test methods;120 seeded random chain/budget pairs, original tiny controls, unpruned minimum-work cross-checks)",
+      "log": "logs/tests.log"
+    },
+    {
+      "command": "env PYTHONDONTWRITEBYTECODE=1 sandbox-exec -f research.sb /opt/homebrew/bin/python3 -B resnets/verify_all.py",
+      "cwd": "session-root",
+      "result": "PASS entire unchanged original suite",
+      "log": "logs/verify-all.log"
+    },
+    {
+      "command": "python3 -B research/resnet-frontier-round2/verify_result.py",
+      "result": "PASS all7positive/6negative exact boundaries and2retaggedoriginal-budgetworkgains",
+      "log": "logs/secondary-extension-replay.log"
+    }
+  ],
+  "results": {
+    "staircase_points": 7,
+    "threshold_minus_one_exhaustions": 6,
+    "formerly_open_cells_settled": 3,
+    "strict_fixed_budget_peak_improvements": 0,
+    "maximum_positive_search_records": 60677,
+    "maximum_final_replay_records_per_call": 250000,
+    "strict_fixed_peak_work_improvements": 2
+  },
+  "not_checked": [
+    "Independent scientific review of proof/implementation",
+    "Maintainer acceptance or record reconciliation",
+    "Exporter/operator fidelity",
+    "Hardware memory, gradients, workspaces or latency",
+    "Graph/model variants outside the declared forced-chain domain"
+  ],
+  "log_sha256": {
+    "logs/verify-all.log": "a2671b7640e04aaee06f25d70d8070b92921d22f22aba42b8973e4565522f27d",
+    "logs/tests.log": "d954fb740c4b79852620a85ad32367eeabde7ddbbf50540ef7f025d35bfb2ece",
+    "logs/replay.log": "c1e9788c6fed1dff4ae23d2c32e80c5b282243ba4431f0330e07c6cadd28f45c",
+    "logs/secondary-extension-replay.log": "9abaeadb79c909302405e3d8186991b7f25bd023606a3e0a0294efc1890c46e1",
+    "logs/secondary-extension-tests.log": "f1fc20c0f0e6b9435a3543e91c2f41de7e3b12cf63eee60704613d06548b2217"
+  },
+  "secondary_work_gains": [
+    {
+      "graph": "resnet-b4-c32",
+      "budget": 605552640,
+      "peak_bytes": 1048576,
+      "prior_work": 605421568,
+      "new_work": 378339328,
+      "saved_work": 227082240,
+      "object": "research/resnet-frontier-round2/certificates/resnet-b4-c32-b605552640-minwork.json",
+      "sha256": "243bbd6a23d66676ea6c73d42d4e2c119292741de530de53476f57ce1778606d",
+      "exact_minimum_work_at_peak": true
+    },
+    {
+      "graph": "resnet-b4-c32",
+      "budget": 302776320,
+      "peak_bytes": 1310720,
+      "prior_work": 302645248,
+      "new_work": 189136896,
+      "saved_work": 113508352,
+      "object": "research/resnet-frontier-round2/certificates/resnet-b4-c32-b302776320-minwork.json",
+      "sha256": "a1bb6d0312f795808967cd5b143e38aa6a2c59c91467b860b76b52eb4f0fe273",
+      "exact_minimum_work_at_peak": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+test_120_nonuniform_random_chain_budget_pairs (test_chain_exact.Differential.test_120_nonuniform_random_chain_budget_pairs) ... ok
+test_all_tiny_chain_controls (test_chain_exact.Differential.test_all_tiny_chain_controls) ... ok
+test_b2_resnet_settled_controls (test_chain_exact.Differential.test_b2_resnet_settled_controls) ... ok
+test_resource_and_domain_fail_closed (test_chain_exact.Differential.test_resource_and_domain_fail_closed) ... ok
+test_transient_output_allocation (test_chain_exact.Differential.test_transient_output_allocation) ... ok
+test_unnormalized_full_resnet_controls (test_chain_exact.Differential.test_unnormalized_full_resnet_controls) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.394s
+
+OK
