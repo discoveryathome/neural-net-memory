@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-22T00:38:15Z",
+  "commands": [
+    "python3 -B research/mlp-frontier-round2/work-curve/replay.py --out SCRATCH",
+    "python3 -B verify_all.py"
+  ],
+  "results": {
+    "verified_cap_points": 94,
+    "nondominated_steps": 34,
+    "work_minus_one_exclusions": 92,
+    "original_budget_replays": 10,
+    "seconds": 33.301854042045306,
+    "limits": {
+      "states_per_query": 250000,
+      "seconds_per_query": 30,
+      "aggregate_seconds": 120
+    }
+  },
+  "session_execution": "Every project run used sandbox-exec session network-denying/write-confined profile and Python -B.",
+  "evidence": "Author-checked; same-author-team review and scientific acceptance pending",
+  "platform": {
+    "system": "darwin",
+    "machine": "arm64",
+    "python": "3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 17.0.0 (clang-1700.0.13.3)]"
+  }
+}

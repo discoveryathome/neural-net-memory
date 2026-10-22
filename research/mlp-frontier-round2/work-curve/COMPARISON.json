@@ -1,0 +1,1933 @@
+{
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "pre_round_inputs": [
+    {
+      "path": "certificates/frontier/mlp-b8-b17039360.json",
+      "sha256": "fb7ce59c97c1a13f71118e5c271022b114d1a545fd9975b9d1006d708a8ac9f1",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 65536,
+        "recompute_cost": 8650752,
+        "forward_cost": 25690112,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/frontier/mlp-b4-b4259840.json",
+      "sha256": "8f8393467a1c57421410e5529f7838ee17e120422c094fd5bcded467d9c90f7e",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 53248,
+        "recompute_cost": 3244032,
+        "forward_cost": 11763712,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/frontier/mlp-b4-b0.json",
+      "sha256": "f85643b6c5e94188d455e3bc8c7401d1172e434089df605773144e128989d648",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 0,
+        "forward_cost": 8519680,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/frontier/mlp-b8-b8519680.json",
+      "sha256": "c0ff7413373ca4fd9f25fad60405317a87eeb6762ef6c379480f9a7c49b0b0df",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 69632,
+        "recompute_cost": 7569408,
+        "forward_cost": 24608768,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/frontier/mlp-b4-b17039360.json",
+      "sha256": "0b7eee6d40db43025bfa61edd2164a1ca814568fdd6fe1d5d502ee9e0287439b",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 45056,
+        "recompute_cost": 11698176,
+        "forward_cost": 20217856,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/frontier/mlp-b8-b4259840.json",
+      "sha256": "bcf7550bab54ddfed7b290d5d5150f110446a1d43649f28dca2a6715f920cd70",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 167936,
+        "recompute_cost": 3342336,
+        "forward_cost": 20381696,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/frontier/mlp-b8-b0.json",
+      "sha256": "0ca6d7d36e45ef979098fca9d636b3701b70ff1e7a798929109bacb50a1d0fb9",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 299008,
+        "recompute_cost": 0,
+        "forward_cost": 17039360,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/frontier/mlp-b8-b34078720.json",
+      "sha256": "f2da88edc6ff135c6285d8a082c6f6e225eff92db29bce03654d26dbb8662af0",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 61440,
+        "recompute_cost": 22347776,
+        "forward_cost": 39387136,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/frontier/mlp-b4-b8519680.json",
+      "sha256": "61d3853937884256cf8ede213e1f53a96cf068aefd07f38af78044cc4039b916",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 49152,
+        "recompute_cost": 4325376,
+        "forward_cost": 12845056,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/frontier/mlp-b4-b2129920.json",
+      "sha256": "b7a3c25cd40a3eb7338c94006384eb0b9f9b22e599a0293d6ca444c26d0ca623",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 98304,
+        "recompute_cost": 1146880,
+        "forward_cost": 9666560,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/selective-save-expensive.json",
+      "sha256": "942b120bc6ad1c2f4a97687f3774a7c8d3426aae0fa2cb89f8472d9b9b676881",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 102400,
+        "recompute_cost": 131072,
+        "forward_cost": 8650752,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/checkpoint-sequential-3.json",
+      "sha256": "6d280cbad509641885ce810e31ff24f9f5f90f734001054bd884cf24986fdf26",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 53248,
+        "recompute_cost": 3244032,
+        "forward_cost": 11763712,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/segment-1.json",
+      "sha256": "79bdc1a9c6bd0e6fc2af5c55af9adca4181402cdadc30ede013da42b62e8b391",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 0,
+        "forward_cost": 8519680,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/checkpoint-sequential-2.json",
+      "sha256": "45818165c904e4284c7a08026586a2a5bb5b0cd23232a67d91b39848c48e979f",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 94208,
+        "recompute_cost": 4227072,
+        "forward_cost": 12746752,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/checkpoint-sequential-9.json",
+      "sha256": "c1672ce3c50ce0ed86233bfacf63dd569540128fe64eb7e13263cc4d626b7def",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 110592,
+        "recompute_cost": 5341184,
+        "forward_cost": 13860864,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/segment-7.json",
+      "sha256": "23c6df13ef83c271dcd849937e10b5008ad10c58b76b9e84d975ff3196ec1df7",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 77824,
+        "recompute_cost": 6422528,
+        "forward_cost": 14942208,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/checkpoint-sequential-11.json",
+      "sha256": "5bbe10e2e2d4d5a7e93aa6825f6b06aa924e2e319042e5d148324f6072c79714",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 131072,
+        "recompute_cost": 7438336,
+        "forward_cost": 15958016,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/checkpoint-sequential-5.json",
+      "sha256": "7b64fdf439eae0037413626f58a54be909f925bdce2e77ce927f2b0c7bbb41f4",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 61440,
+        "recompute_cost": 6356992,
+        "forward_cost": 14876672,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/segment-12.json",
+      "sha256": "3cf5fbb6360d2ec61917c8cb65a518fc78f7bb96cd86bca29fb6be03823e3520",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 147456,
+        "recompute_cost": 7471104,
+        "forward_cost": 15990784,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/checkpoint-sequential-4.json",
+      "sha256": "cc40766fd8a86bf320397bd36550eba57ff0c815f466e3569da7ba0b7947a343",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 77824,
+        "recompute_cost": 4259840,
+        "forward_cost": 12779520,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/checkpoint-sequential-10.json",
+      "sha256": "50425a7577f54b24ba2696a342138257403617f77338ef950ac81ce8b810638c",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 114688,
+        "recompute_cost": 6389760,
+        "forward_cost": 14909440,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/segment-6.json",
+      "sha256": "7b132597399e5bc02158759b7d89248ba4e9d6c29afb16f42f0b3332a47d3ff5",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 77824,
+        "recompute_cost": 6422528,
+        "forward_cost": 14942208,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/checkpoint-sequential-8.json",
+      "sha256": "aa324189c85d753a2391876f1d10f03a233f6594825ee76a084b8ab45b5ed885",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 94208,
+        "recompute_cost": 5308416,
+        "forward_cost": 13828096,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/recompute-on-demand.json",
+      "sha256": "7c712e3f4eafb2199256a7968f2211fc12daa67f36621b59afcec5cc5999d3c1",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 36864,
+        "recompute_cost": 46858240,
+        "forward_cost": 55377920,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/segment-5.json",
+      "sha256": "a8dd1628822b69068f755460f9ac79e1d52fe6ef313d3b1bfab28336302f09c5",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 61440,
+        "recompute_cost": 6389760,
+        "forward_cost": 14909440,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/segment-10.json",
+      "sha256": "8df647c188eea0a57d82aa6b7b23f062352dfd2c2212ee849b97b191876c21f7",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 114688,
+        "recompute_cost": 6422528,
+        "forward_cost": 14942208,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/segment-9.json",
+      "sha256": "156fc9c8d979ae2b3c5e0b4d1effa20bc1c6fc180d469b1cf0dd7741a7a9748f",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 110592,
+        "recompute_cost": 6422528,
+        "forward_cost": 14942208,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/checkpoint-sequential-7.json",
+      "sha256": "f002606f0c7cc1e250bab1d8d3efde73b716385316e5dcbcfc18285290364d47",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 77824,
+        "recompute_cost": 4259840,
+        "forward_cost": 12779520,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/checkpoint-sequential-6.json",
+      "sha256": "c13ced67fd014709227b5f156926acfc88c17ab51a586f3339d37b0a14250a4f",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 81920,
+        "recompute_cost": 3211264,
+        "forward_cost": 11730944,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/segment-8.json",
+      "sha256": "8a19a0eff5f05f16aad365d98de4f1b5b20de8e5b4b0b0612afcae3fa918b6d5",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 94208,
+        "recompute_cost": 7438336,
+        "forward_cost": 15958016,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/segment-11.json",
+      "sha256": "ff0f689a6abf47b755cc3f8bc033c23ed5dbe145381f2b562c8ae50a2c8ac0f4",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 131072,
+        "recompute_cost": 7438336,
+        "forward_cost": 15958016,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/segment-4.json",
+      "sha256": "58b7de58b27ec7171b9807580f610f26a10f86cccf5cd37492702ab76bd5920c",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 73728,
+        "recompute_cost": 6389760,
+        "forward_cost": 14909440,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/checkpoint-sequential-12.json",
+      "sha256": "f3fe505da99d806740372531f26267c5b957cb7d6eb9fbfe5716a080e2fbbc70",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 0,
+        "forward_cost": 8519680,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/checkpoint-sequential-1.json",
+      "sha256": "aa73b666ab329d16736bebe55307f5679afae4b88e1e6192ba1904c07c977fbf",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 0,
+        "forward_cost": 8519680,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/segment-3.json",
+      "sha256": "50deb28f4cef6d39be5bc1f842c44bb97329a85ed425eb964dcb9faf67d47f5a",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 49152,
+        "recompute_cost": 4325376,
+        "forward_cost": 12845056,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/segment-2.json",
+      "sha256": "8b3476296d3dc8d29fbb208a978594d2980af56d4c22f92f62685758bc5ae441",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 94208,
+        "recompute_cost": 4259840,
+        "forward_cost": 12779520,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b4/eager.json",
+      "sha256": "94c9251a73044cf641c0dbe063b657bba3aa5794cee1039f88e2515ef5fc52e0",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 0,
+        "forward_cost": 8519680,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/selective-save-expensive.json",
+      "sha256": "a05986940a4c3eec0fc333d76c1dfd3323ebad348c8ba3add41117490f207494",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 184320,
+        "recompute_cost": 262144,
+        "forward_cost": 17301504,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-3.json",
+      "sha256": "0612dfdce695da968bba98b3c089d90d28d02f8a02768949b82fbb90bc533f94",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 69632,
+        "recompute_cost": 7569408,
+        "forward_cost": 24608768,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-14.json",
+      "sha256": "ddc335ec6fc577e4a0fa7fded61c53c61a0a13cebf39c2b04bf6846e30298ef0",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 167936,
+        "recompute_cost": 15958016,
+        "forward_cost": 32997376,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-21.json",
+      "sha256": "5ca2401ae180a5a3c6f8ce3aec04629216c5b68ac19924fbbdd3b2750bf2c3cc",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 258048,
+        "recompute_cost": 13860864,
+        "forward_cost": 30900224,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-22.json",
+      "sha256": "0b41c27a5b2d8f10d79bdd9c2e1fa946eb464b65116a7557a99ffa3815ea8912",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 262144,
+        "recompute_cost": 14942208,
+        "forward_cost": 31981568,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-1.json",
+      "sha256": "4b7124f00ced9922649e851381637d36ad4ee53a5fdd73a12c83480ee6a1ba85",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 299008,
+        "recompute_cost": 0,
+        "forward_cost": 17039360,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-17.json",
+      "sha256": "d2a144bb7dd102860a10abea9413b78193cc8fc84495acc36cd69745f7a5e60b",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 204800,
+        "recompute_cost": 11698176,
+        "forward_cost": 28737536,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-18.json",
+      "sha256": "4f6b59cf4ef4f025125843cb13a8f9d090a1ecd680acd5a0254f07fbcd5dece6",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 221184,
+        "recompute_cost": 14942208,
+        "forward_cost": 31981568,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-19.json",
+      "sha256": "2fe317d70600b7c7496468710eb8e1897d4681df462cb61bf6274a7425e2b057",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 225280,
+        "recompute_cost": 14942208,
+        "forward_cost": 31981568,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-16.json",
+      "sha256": "6ad010787af2d03efb4a667ebde087ec6861cc34f4a77fc7c345fd43277092df",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 188416,
+        "recompute_cost": 10649600,
+        "forward_cost": 27688960,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-23.json",
+      "sha256": "6a183623b973fee7d9dbb76cffe1080d924b6cff8db7e1e29b844ffc6e399dad",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 278528,
+        "recompute_cost": 15958016,
+        "forward_cost": 32997376,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-20.json",
+      "sha256": "a0623eba4b22ac961a2db2c48ee9c81223c9d3a4245ac7779e2206c00d8e7f60",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 241664,
+        "recompute_cost": 13828096,
+        "forward_cost": 30867456,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-15.json",
+      "sha256": "53a69486fd7cf78b47deecb84318507de24fc21664cc7f085fe5977e6ebce32e",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 184320,
+        "recompute_cost": 14942208,
+        "forward_cost": 31981568,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-2.json",
+      "sha256": "8c8463e9d7c6090084252e0e38a733d898f7b4102a086354492a47668e2a7326",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 167936,
+        "recompute_cost": 8486912,
+        "forward_cost": 25526272,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-9.json",
+      "sha256": "7b1e07ae9bd61c0a2868f79e55ab06d4f199bda28f05bb79f8151a81c130ed41",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 114688,
+        "recompute_cost": 10682368,
+        "forward_cost": 27721728,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-24.json",
+      "sha256": "57251ebcf24b60c81b48b08b9c21496dde99af4ad1e984d03fc07e0fb32ee914",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 294912,
+        "recompute_cost": 15990784,
+        "forward_cost": 33030144,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-7.json",
+      "sha256": "1c1e498be6c2b55394d3bc75b6318aa2ed79515ffabdfece14bc8bbfb66fe022",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 110592,
+        "recompute_cost": 13860864,
+        "forward_cost": 30900224,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-11.json",
+      "sha256": "a361b00200ffe98a94509c3ffa8d53b86b50d075645e05dbe10417495a6c32a3",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 135168,
+        "recompute_cost": 14876672,
+        "forward_cost": 31916032,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-5.json",
+      "sha256": "70e0426c22e8639d16f0c6c7f4bf91cf8f832595e7a623afa7e9f8bfb26a9e39",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 98304,
+        "recompute_cost": 11698176,
+        "forward_cost": 28737536,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-12.json",
+      "sha256": "31cc56400ed7c42d802502c7b4a7d1ba7afcd8aa4b948da1bf7cf2ab7e2866b0",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 14942208,
+        "forward_cost": 31981568,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-13.json",
+      "sha256": "2ae3e2d02376e5d35b2064930a50172405b7d5e00541da765dceb96f6ded57c9",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 14942208,
+        "forward_cost": 31981568,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-4.json",
+      "sha256": "dcd983300a6256157348609e26117d274b9ccdb0dac58616e11a4606d58b342c",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 114688,
+        "recompute_cost": 10649600,
+        "forward_cost": 27688960,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-10.json",
+      "sha256": "87212e372fca46d6689a7c876eee217cb92c0283d7d7e824347b7c020d35eeb0",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 131072,
+        "recompute_cost": 12779520,
+        "forward_cost": 29818880,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-6.json",
+      "sha256": "ffeeb175e39bdeac2b617356cccec5714c8543941bf5f08ae2ad0956edd80219",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 86016,
+        "recompute_cost": 12845056,
+        "forward_cost": 29884416,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-8.json",
+      "sha256": "75b727a02bc29721cee805797be2d89b273a0036a63ad751d657c8f1ddd6bb54",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 131072,
+        "recompute_cost": 10616832,
+        "forward_cost": 27656192,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/recompute-on-demand.json",
+      "sha256": "bdee9d4830cab7e870dc347048f627996d6088c28843572950ff360db0fd09df",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 36864,
+        "recompute_cost": 195952640,
+        "forward_cost": 212992000,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-13.json",
+      "sha256": "8e1bc18f82e1dda8f0d58d60cf44f56e218b59955af26490168e0b9d5300bc24",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 8519680,
+        "forward_cost": 25559040,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-5.json",
+      "sha256": "4e051ae865fb6dcff3a3579c83441af82f7a4f7f18cd028207ca3ce9dd2e9e42",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 94208,
+        "recompute_cost": 13828096,
+        "forward_cost": 30867456,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-10.json",
+      "sha256": "9923e8be3eda9aaac803026f304384e97fd4041e2363e5d378d6c727b1f6f5f0",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 131072,
+        "recompute_cost": 14909440,
+        "forward_cost": 31948800,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-9.json",
+      "sha256": "424238f9f8b70c8998769450ecfb88297ac5d9eb9f4aedbb5c662e431231e044",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 114688,
+        "recompute_cost": 13893632,
+        "forward_cost": 30932992,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-7.json",
+      "sha256": "9185e018cacf87f1877b9ea0b0bb8325cd84ea44f34a0250a5cc288713c8abf4",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 110592,
+        "recompute_cost": 12779520,
+        "forward_cost": 29818880,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-6.json",
+      "sha256": "16f830ddca52e2862eb25d4e976434d5c1ddc794007f2626d0237a34a9200287",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 90112,
+        "recompute_cost": 9633792,
+        "forward_cost": 26673152,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-8.json",
+      "sha256": "8de7ad11ffec9b893a9bc044baabb0caaaff9e7cc58a9280600f53e72e0ad509",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 126976,
+        "recompute_cost": 14909440,
+        "forward_cost": 31948800,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-11.json",
+      "sha256": "2984edc2aede19ff8d5287cba407c6b97b24595f0a8a2ca7aa71c1f94e2c532d",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 135168,
+        "recompute_cost": 14909440,
+        "forward_cost": 31948800,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-24.json",
+      "sha256": "77044f4e1f4609a1fecb016b5ea6cc8751ef75973c7d09d3c1becb35bc467d83",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 299008,
+        "recompute_cost": 0,
+        "forward_cost": 17039360,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-4.json",
+      "sha256": "da75339eecfa1c6523aadfcf1fc75a875bd267510b3992af0c29beae2a49f576",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 110592,
+        "recompute_cost": 12779520,
+        "forward_cost": 29818880,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-12.json",
+      "sha256": "1c628bcdd87994e9dee09f5539e0e3f2cae1518227a8447ea021f35ac982c1c9",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 155648,
+        "recompute_cost": 7471104,
+        "forward_cost": 24510464,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-23.json",
+      "sha256": "4d8db0144614a19167f1f83b307bc2d30dd9d9566fffeffe6e14e98d8bef78a0",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 278528,
+        "recompute_cost": 15958016,
+        "forward_cost": 32997376,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-16.json",
+      "sha256": "bbdae7704b1c6407ab0c91d9f79d09cfb619f1661b6e3c4034405ac1737762c8",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 188416,
+        "recompute_cost": 14942208,
+        "forward_cost": 31981568,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-19.json",
+      "sha256": "2cffcbfaba580c89bdab051bc7cb3905c667926d46a95b2c734f57b76ffc2084",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 225280,
+        "recompute_cost": 12779520,
+        "forward_cost": 29818880,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-1.json",
+      "sha256": "7f7eced1e670befbd0c22832b43bfdb38075a44b977b9ea37e38c4e4c805ca87",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 299008,
+        "recompute_cost": 0,
+        "forward_cost": 17039360,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-15.json",
+      "sha256": "b23751f7e2a4cd8735cffce94fcc5aefb2655e41bb89ccb0170f63a70260465e",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 184320,
+        "recompute_cost": 9601024,
+        "forward_cost": 26640384,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-3.json",
+      "sha256": "2760f60ead97f07ba49233d7eb3510881143b6acb7039b872b4d65ca0276e80f",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 65536,
+        "recompute_cost": 8650752,
+        "forward_cost": 25690112,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-20.json",
+      "sha256": "a140cff2f3ab992c87ca63ca3d50c0daf7e933fefa35e01fc5b94247339a5fba",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 241664,
+        "recompute_cost": 15958016,
+        "forward_cost": 32997376,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-21.json",
+      "sha256": "9ce727426e707e3666ffd185d7a559940652d0a17fe106c3c5894ec7275cf7ae",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 258048,
+        "recompute_cost": 14942208,
+        "forward_cost": 31981568,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-2.json",
+      "sha256": "0e5b7e4c838011d60700c6b729ad8b9a92be1c2f7600c46a18bd01090020100f",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 167936,
+        "recompute_cost": 8519680,
+        "forward_cost": 25559040,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-14.json",
+      "sha256": "558c2357fe35b4cb31925a85bfbbe0f24fe9e8f4bff6d85a3f20f864c95785de",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 167936,
+        "recompute_cost": 9568256,
+        "forward_cost": 26607616,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-18.json",
+      "sha256": "9e74b862f22c0f8a1beb5b439bb667e762b02bbd643d2870af639ecf7d775a40",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 221184,
+        "recompute_cost": 11730944,
+        "forward_cost": 28770304,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/segment-17.json",
+      "sha256": "8180ad81164731bf0d5b7ff066e7cec645107c344bf8bbd59a80ecce3c66b587",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 204800,
+        "recompute_cost": 15958016,
+        "forward_cost": 32997376,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/checkpoint-sequential-22.json",
+      "sha256": "5585e84b32a286ec73fe4e4c77716aee1bf90eb702a50761b4e95b4c77cdd77a",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 262144,
+        "recompute_cost": 14909440,
+        "forward_cost": 31948800,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/baselines/mlp-b8/eager.json",
+      "sha256": "24411928519184a2bb6a2304799d43740bfca48a4f7d0d1714e80eb232b53a5b",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 299008,
+        "recompute_cost": 0,
+        "forward_cost": 17039360,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261020-b0.json",
+      "sha256": "26d517282d3643ecf899b7316c950c5596125233e5fc84da47e1e3836e7000ac",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 0,
+        "forward_cost": 8519680,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261021-b0.json",
+      "sha256": "7ebea7ae5783f7bd0d7aaabcea29992a7260558f7e7a29d19c50bcafb1d59f35",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 0,
+        "forward_cost": 8519680,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261023-b4259840.json",
+      "sha256": "418f96d7768d7b1021691f4d9eaade4e97cfefb7034352b10f60016f6093503e",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 81920,
+        "recompute_cost": 3244032,
+        "forward_cost": 11763712,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261021-b2129920.json",
+      "sha256": "b7a3c25cd40a3eb7338c94006384eb0b9f9b22e599a0293d6ca444c26d0ca623",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 98304,
+        "recompute_cost": 1146880,
+        "forward_cost": 9666560,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261025-b8519680.json",
+      "sha256": "b8345e6b9ef0c984df6ae7ebe2222b14e8639d3462b9257bb0c8d1c908661930",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 49152,
+        "recompute_cost": 7438336,
+        "forward_cost": 15958016,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261023-b0.json",
+      "sha256": "3a32fa31f93be6c3e1057084a071b17528fb428554a22245480a82efc6638e5a",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 0,
+        "forward_cost": 8519680,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261021-b8519680.json",
+      "sha256": "9fc8e0a492e37a09e5d87362a85a2df6ac4f6bc8b559ed20d0521da861e7195a",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 49152,
+        "recompute_cost": 7438336,
+        "forward_cost": 15958016,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261025-b2129920.json",
+      "sha256": "593a78cecd3b47578c6d5ad0a9cd1ab95353f99fc062423fe3da539aab1166c1",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 98304,
+        "recompute_cost": 1146880,
+        "forward_cost": 9666560,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261022-b0.json",
+      "sha256": "35d81ab37c1eba19bc23f199b2e00c52fca3f93578fabfb093235aefe2e45a8d",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 0,
+        "forward_cost": 8519680,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261022-b2129920.json",
+      "sha256": "5be47a4f63753e68ba0823b87e1694f1f62b867a041f001fbc43c68cade283d9",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 98304,
+        "recompute_cost": 1179648,
+        "forward_cost": 9699328,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261022-b8519680.json",
+      "sha256": "fe480b011f94241e8c3f1a2b172f71143bd6a4145c2c742585f78bcbf933ecbd",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 49152,
+        "recompute_cost": 7438336,
+        "forward_cost": 15958016,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261020-b4259840.json",
+      "sha256": "9e24aa6d336dfd8dc1cf52a7da934eafcf9f9f6710eb2768d16a9754038011a9",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 81920,
+        "recompute_cost": 3276800,
+        "forward_cost": 11796480,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261024-b4259840.json",
+      "sha256": "c0ba782c8163ec5cc4a8be13913039d8cb17682bf566766b1847ffa5b56ddcb4",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 81920,
+        "recompute_cost": 3244032,
+        "forward_cost": 11763712,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261024-b17039360.json",
+      "sha256": "d23836d9160958cf0310dc9073af15494c058c89178dd808c622d4573ee6af78",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 45056,
+        "recompute_cost": 11698176,
+        "forward_cost": 20217856,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261023-b8519680.json",
+      "sha256": "929e85ea5ed1478e20d9cbe41d1adc1fa4feede3c1f5f13751cd8c25c9a9b45f",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 49152,
+        "recompute_cost": 7438336,
+        "forward_cost": 15958016,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261023-b2129920.json",
+      "sha256": "83acc939da6ef4b3a72da2033c646507a2ad3d786d172db5291192219ec65a47",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 98304,
+        "recompute_cost": 1146880,
+        "forward_cost": 9666560,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261025-b4259840.json",
+      "sha256": "c29fcc5845516ffea8c78dd1f93d50256aa47b53c6e99b170bf023165f75af53",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 81920,
+        "recompute_cost": 3244032,
+        "forward_cost": 11763712,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261023-b17039360.json",
+      "sha256": "c052d34216962536be82af3e7bf0ea1179354dfe7aa6d50e0a7c3b28ceaeb8c8",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 45056,
+        "recompute_cost": 11698176,
+        "forward_cost": 20217856,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261021-b4259840.json",
+      "sha256": "cc7c49ad3d259d5d32b2020e74aee1a30c04c0bd594e8eeab1042973786de8e1",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 81920,
+        "recompute_cost": 3244032,
+        "forward_cost": 11763712,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261022-b17039360.json",
+      "sha256": "14b6097de1787f738bcebba63dd14cdb8a89301c3baf63821aa99301720f85bf",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 45056,
+        "recompute_cost": 11698176,
+        "forward_cost": 20217856,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261022-b4259840.json",
+      "sha256": "d7a6df3504632600bb5f0046711dd4c0a53989735bd8ceab12a2e9fa4e69c4a0",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 81920,
+        "recompute_cost": 3276800,
+        "forward_cost": 11796480,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261024-b2129920.json",
+      "sha256": "3676a5c67b6547b4271498d6a53a57fd6c4aff0e8a398dd28bddd5a6a1754aa3",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 98304,
+        "recompute_cost": 1179648,
+        "forward_cost": 9699328,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261020-b8519680.json",
+      "sha256": "6390ec75f58ebcbaabf309d3e840c36235e9fb4c44b6324f47886bbb90a20340",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 49152,
+        "recompute_cost": 7438336,
+        "forward_cost": 15958016,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261025-b17039360.json",
+      "sha256": "a1eaa061394e3fc42a98c75cf22f8ff9bc237c2cdc999e3e0e06e2a77fd12888",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 45056,
+        "recompute_cost": 11698176,
+        "forward_cost": 20217856,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261024-b8519680.json",
+      "sha256": "a3b629d31e46d7aa56e2ef1528f921a2e1b313533e903c4f87da07f7301f8c36",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 49152,
+        "recompute_cost": 7438336,
+        "forward_cost": 15958016,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261020-b2129920.json",
+      "sha256": "7c611869d13b36b95549c3cababe795d22d2bb26ae5ab57e3b01c607f33cdd14",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 98304,
+        "recompute_cost": 1179648,
+        "forward_cost": 9699328,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261024-b0.json",
+      "sha256": "c8dc5e50dad63d63ba4f38a8ec0a20c97df0374faf7d03999a96aa344db0055d",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 0,
+        "forward_cost": 8519680,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261020-b17039360.json",
+      "sha256": "0b7eee6d40db43025bfa61edd2164a1ca814568fdd6fe1d5d502ee9e0287439b",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 45056,
+        "recompute_cost": 11698176,
+        "forward_cost": 20217856,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261021-b17039360.json",
+      "sha256": "0878646f5fb379a95bbe65c2f7149376e7719cf8d0452ce62d284dea6f702a5c",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 45056,
+        "recompute_cost": 11698176,
+        "forward_cost": 20217856,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b4/seed20261025-b0.json",
+      "sha256": "3477cadb0a4f93c6fc6d0bcfe4d7a9446c08e525ecf770d0ce7f5989fd528b3a",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 0,
+        "forward_cost": 8519680,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261020-b0.json",
+      "sha256": "e37ba49369e6f7209a84cfdbdf3b506049944ddeaa42453fb2eed37c9dad0c63",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 299008,
+        "recompute_cost": 0,
+        "forward_cost": 17039360,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261023-b34078720.json",
+      "sha256": "a14bfdff2369663f7a3e5c0908167df432a49894eb7246363208fdf795e3c278",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 77824,
+        "recompute_cost": 32997376,
+        "forward_cost": 50036736,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261024-b34078720.json",
+      "sha256": "48efc1c53a2a03da121a3a4be19aaed0dc8160450796e9c255f6916ab36aa69b",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 77824,
+        "recompute_cost": 32997376,
+        "forward_cost": 50036736,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261025-b34078720.json",
+      "sha256": "d3c6b1e93edecff898d0bb41b3e5ae5b4ccd33d71789ebdfef501a6dc104d1ec",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 77824,
+        "recompute_cost": 32997376,
+        "forward_cost": 50036736,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261022-b34078720.json",
+      "sha256": "f2da88edc6ff135c6285d8a082c6f6e225eff92db29bce03654d26dbb8662af0",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 61440,
+        "recompute_cost": 22347776,
+        "forward_cost": 39387136,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261021-b0.json",
+      "sha256": "ebe68a0e7d404b64573e7edb453cdd001a924a0cd5c023f3bf124c8e74559b4d",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 299008,
+        "recompute_cost": 0,
+        "forward_cost": 17039360,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261020-b34078720.json",
+      "sha256": "9e355dafb2c796696c2ae44a6c6a2649841685e53be7e0178a844be7718de8fe",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 81920,
+        "recompute_cost": 33193984,
+        "forward_cost": 50233344,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261023-b4259840.json",
+      "sha256": "c1bcd9c4c48696585789b0cf43377d3ac2f11a21fc4a03ceb8c4e39428b16127",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 176128,
+        "recompute_cost": 3407872,
+        "forward_cost": 20447232,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261025-b8519680.json",
+      "sha256": "214c0e3a30b33d87c78322fd50b71995e3fd0258732f56939e2b1e2afd7b65b7",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 7634944,
+        "forward_cost": 24674304,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261023-b0.json",
+      "sha256": "ab31bffc1234feac65517d446a63403a91e84d9b3e542e466eda0bb3685fe48b",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 299008,
+        "recompute_cost": 0,
+        "forward_cost": 17039360,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261021-b8519680.json",
+      "sha256": "677e8e08a15f01f494e1b5c38bc009a3810f43cae52f58381ec6eb84295efe5a",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 8519680,
+        "forward_cost": 25559040,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261022-b0.json",
+      "sha256": "941de7bbcddc45390bf8031d435038c958b911cd770883b4fe16161adb270814",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 299008,
+        "recompute_cost": 0,
+        "forward_cost": 17039360,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261022-b8519680.json",
+      "sha256": "fe83568c0ed709220a0ba278d45e4339fe7e63832053a14ff69c191b61f8506b",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 131072,
+        "recompute_cost": 7569408,
+        "forward_cost": 24608768,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261020-b4259840.json",
+      "sha256": "82c5249e0db0e5389f3ffc603f624c66b4f2b09787cd1a76a27904f2daf96de9",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 180224,
+        "recompute_cost": 3342336,
+        "forward_cost": 20381696,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261021-b34078720.json",
+      "sha256": "a613db06d803e23c4ed7515564c2a59422a5a4e50b2dfa84238fb829f795045d",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 65536,
+        "recompute_cost": 34013184,
+        "forward_cost": 51052544,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261024-b4259840.json",
+      "sha256": "443ff940666655e423745fa5e041497effd32ace033fcef46997d79914cad2ca",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 176128,
+        "recompute_cost": 3375104,
+        "forward_cost": 20414464,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261024-b17039360.json",
+      "sha256": "0709fb4088d91559068b484486451a7ff35b38511a3d062413daf51ecafd48cf",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 106496,
+        "recompute_cost": 16056320,
+        "forward_cost": 33095680,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261023-b8519680.json",
+      "sha256": "3096f71105debbf7ac29e3f8f0e1a7638cf18ac77e6442e747c5a446fd2d4143",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 151552,
+        "recompute_cost": 7602176,
+        "forward_cost": 24641536,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261025-b4259840.json",
+      "sha256": "e72224b2870e0841cb8d2d6b804a2f9da44e9c034073aae8d9769a6633f7eb08",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 176128,
+        "recompute_cost": 3375104,
+        "forward_cost": 20414464,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261023-b17039360.json",
+      "sha256": "aedc47f71984100a6842086108576913d7deecb2873f85901686d8c504d4d8c2",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 114688,
+        "recompute_cost": 16154624,
+        "forward_cost": 33193984,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261021-b4259840.json",
+      "sha256": "4ee955226758ade250ada0cc1839f032b3d91dbb15a9fa0bfd154819f738d7cd",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 196608,
+        "recompute_cost": 3276800,
+        "forward_cost": 20316160,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261022-b17039360.json",
+      "sha256": "122938be0f099cddc8f37ef16ecdca5d4fbac7a8ca8b2d20f60260618cca876a",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 77824,
+        "recompute_cost": 15990784,
+        "forward_cost": 33030144,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261022-b4259840.json",
+      "sha256": "bcf7550bab54ddfed7b290d5d5150f110446a1d43649f28dca2a6715f920cd70",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 167936,
+        "recompute_cost": 3342336,
+        "forward_cost": 20381696,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261020-b8519680.json",
+      "sha256": "f2c4f33b3f907044e9e82cfc271924707e6e97af36f1f282e9ac8dae838ff70b",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 147456,
+        "recompute_cost": 7536640,
+        "forward_cost": 24576000,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261025-b17039360.json",
+      "sha256": "6ead33cdc756459011ffac0f0280f3747425f358a05d643e2363429fa6e371eb",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 102400,
+        "recompute_cost": 16089088,
+        "forward_cost": 33128448,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261024-b8519680.json",
+      "sha256": "0bf25c5b42f8a2b5e2a0189c067ac994c27ea4e6aebb817ab61c7ac6f86b66ec",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 143360,
+        "recompute_cost": 7602176,
+        "forward_cost": 24641536,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261024-b0.json",
+      "sha256": "417d63b48dc5b835bb2e827925a18595ab270e77200007a8e142db06a272ac2a",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 299008,
+        "recompute_cost": 0,
+        "forward_cost": 17039360,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261020-b17039360.json",
+      "sha256": "92b3f6ed8fe723bbb85553a4d001673d2fd61d519c40d56427ff35b7387c13de",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 114688,
+        "recompute_cost": 16023552,
+        "forward_cost": 33062912,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261021-b17039360.json",
+      "sha256": "a97904573490522e2acdd105634a339feda6f9397dc0dc52a7667dce4ab3ba5d",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 81920,
+        "recompute_cost": 14876672,
+        "forward_cost": 31916032,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "certificates/search/mlp-b8/seed20261025-b0.json",
+      "sha256": "a7b49b27968745271241785ed943534d635ebf60e81cf7d8d599dbb3c3714a06",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 299008,
+        "recompute_cost": 0,
+        "forward_cost": 17039360,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "research/trial-30m/certificates/mlp-b4-b8519680-p45056.json",
+      "sha256": "39998715b74c7a03dccca5997bc94858c5beb9befa688cd15f7a688d944c7be2",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 45056,
+        "recompute_cost": 6422528,
+        "forward_cost": 14942208,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "research/trial-30m/certificates/mlp-b8-b4259840-p163840.json",
+      "sha256": "53119b1c132f9d032cb58102b381e34ac56846278da522b7a8aeb9501ae1bc99",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 163840,
+        "recompute_cost": 3342336,
+        "forward_cost": 20381696,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "research/trial-30m/certificates/mlp-b4-b17039360-p40960.json",
+      "sha256": "999fa9b615e1402c0e3188c56a7ae6b9d9c3119fc90201ce68302eb774e0c345",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 40960,
+        "recompute_cost": 8552448,
+        "forward_cost": 17072128,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "research/trial-30m/certificates/mlp-b8-b4259840-p135168.json",
+      "sha256": "339a2561527d9e7f0c1f46d09d938b6f19860071b3ea1f8936455d4c0d15a720",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 135168,
+        "recompute_cost": 3375104,
+        "forward_cost": 20414464,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "research/trial-30m/certificates/mlp-b8-b17039360-p57344.json",
+      "sha256": "8dd9ce55ce34e873ae251bb791132ce5584bad37063bcc4bd953a5eac3e7d6bf",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 57344,
+        "recompute_cost": 12877824,
+        "forward_cost": 29917184,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "research/trial-30m/certificates/mlp-b8-b34078720-p49152.json",
+      "sha256": "125da66d7923f4514a386ca08af4478baeb8001480b52612195adb3d5ecadb9d",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 49152,
+        "recompute_cost": 17137664,
+        "forward_cost": 34177024,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "research/trial-30m/certificates/mlp-b8-b4259840-p147456.json",
+      "sha256": "11eab5313a226a0553e162f2cd26541deae2741f9f469c6b7ab40a19b57e8f7b",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 147456,
+        "recompute_cost": 3375104,
+        "forward_cost": 20414464,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "research/trial-30m/certificates/mlp-b8-b17039360-p53248.json",
+      "sha256": "73a053b98293549b641b0322188d2653649e72c69d7ddb183121eb60174655f8",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 53248,
+        "recompute_cost": 15007744,
+        "forward_cost": 32047104,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "research/trial-30m/certificates/mlp-b8-b17039360-p61440.json",
+      "sha256": "317b2dd0e9c7096fbc9c3d56c49eb424be4be848d68568c6748327e4b0fb9464",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 61440,
+        "recompute_cost": 9732096,
+        "forward_cost": 26771456,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "research/trial-30m/certificates/mlp-b8-b34078720-p53248.json",
+      "sha256": "5dd767a5ca783d8dd16c5b3eb2afb68e257cd6640aed4b73f468fd631cfd0108",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 53248,
+        "recompute_cost": 32997376,
+        "forward_cost": 50036736,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "research/trial-30m/certificates/mlp-b8-b34078720-p45056.json",
+      "sha256": "7d04d63e6e9854bf6225dfb1e2c48c571d7dfc7a4bc25fec5e18670d65a44ae3",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 45056,
+        "recompute_cost": 31981568,
+        "forward_cost": 49020928,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "research/trial-30m/certificates/mlp-b4-b2129920-p86016.json",
+      "sha256": "4f48f0b04dbb5e5aa0a582f12134459f6ed506d9fb8add22e58d290bee497724",
+      "graph": "mlp-b4",
+      "metrics": {
+        "peak_bytes": 86016,
+        "recompute_cost": 1146880,
+        "forward_cost": 9666560,
+        "backward_cost": 17039360
+      }
+    },
+    {
+      "path": "research/trial-30m/certificates/mlp-b8-b4259840-p159744.json",
+      "sha256": "2d0f44b6454387e9caa87c6b25950c03d537bc61bb1c6cd9390a5ed023adccc4",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 159744,
+        "recompute_cost": 3375104,
+        "forward_cost": 20414464,
+        "backward_cost": 34078720
+      }
+    },
+    {
+      "path": "research/trial-30m/certificates/mlp-b8-b34078720-p57344.json",
+      "sha256": "790ccdaa024d59cfa7d36fd87a2d113b8fd458f2cb54368d3792a8d2258e1b65",
+      "graph": "mlp-b8",
+      "metrics": {
+        "peak_bytes": 57344,
+        "recompute_cost": 28737536,
+        "forward_cost": 45776896,
+        "backward_cost": 34078720
+      }
+    }
+  ],
+  "old_nondominated_curves": {
+    "mlp-b4": [
+      {
+        "cap_units": 9,
+        "old_work": 46858240,
+        "exact_work": 21299200,
+        "already_priced_in_parent_cap9_diagnostic": true
+      },
+      {
+        "cap_units": 10,
+        "old_work": 8552448,
+        "exact_work": 8552448,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 11,
+        "old_work": 6422528,
+        "exact_work": 6422528,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 12,
+        "old_work": 4325376,
+        "exact_work": 4292608,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 13,
+        "old_work": 3244032,
+        "exact_work": 3244032,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 20,
+        "old_work": 3211264,
+        "exact_work": 2195456,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 21,
+        "old_work": 1146880,
+        "exact_work": 1146880,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 25,
+        "old_work": 131072,
+        "exact_work": 98304,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 37,
+        "old_work": 0,
+        "exact_work": 0,
+        "already_priced_in_parent_cap9_diagnostic": false
+      }
+    ],
+    "mlp-b8": [
+      {
+        "cap_units": 9,
+        "old_work": 195952640,
+        "exact_work": 93716480,
+        "already_priced_in_parent_cap9_diagnostic": true
+      },
+      {
+        "cap_units": 11,
+        "old_work": 31981568,
+        "exact_work": 21364736,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 12,
+        "old_work": 17137664,
+        "exact_work": 17137664,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 13,
+        "old_work": 15007744,
+        "exact_work": 15007744,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 14,
+        "old_work": 12877824,
+        "exact_work": 11829248,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 15,
+        "old_work": 9732096,
+        "exact_work": 9699328,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 16,
+        "old_work": 8650752,
+        "exact_work": 8617984,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 17,
+        "old_work": 7569408,
+        "exact_work": 7569408,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 33,
+        "old_work": 3375104,
+        "exact_work": 3375104,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 40,
+        "old_work": 3342336,
+        "exact_work": 2326528,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 45,
+        "old_work": 262144,
+        "exact_work": 229376,
+        "already_priced_in_parent_cap9_diagnostic": false
+      },
+      {
+        "cap_units": 73,
+        "old_work": 0,
+        "exact_work": 0,
+        "already_priced_in_parent_cap9_diagnostic": false
+      }
+    ]
+  },
+  "PR6": {
+    "source_manifest_sha256": "41d9713bc41665ff5b3f4553ebebdedb93f1d94659996396e242d3868a920512",
+    "certificates": [
+      {
+        "file": "transformer-b4-t128-b478150656-p1703936.json",
+        "sha256": "e80ea162c52098697991793f8eb52c9c7bd9e7348639505bf2e8b369cc76f671",
+        "graph_id": "transformer-b4-t128"
+      }
+    ],
+    "MLP_certificates": 0
+  },
+  "additional_original_fixed_case_wins": 0,
+  "cap9_diagnostic_work_gains_already_in_parent": true,
+  "scope": "Historical comparison only; all inputs existed at the pinned pre-round base, plus the supplied PR6 package. No newly generated or parent PR7 certificates are historical inputs."
+}

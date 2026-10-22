@@ -1,0 +1,95 @@
+{
+  "schema": "research-verification/v1",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "evidence_level": "author-checked",
+  "model": "activation-memory/v1",
+  "checked_at_utc": "2026-10-21T22:45:13Z",
+  "commands": [
+    {
+      "name": "unit_and_differential",
+      "command": "sandbox-exec -f /Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/research.sb /opt/homebrew/bin/python3 -B /Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/mlps/research/mlp-frontier-round2/test_chain_exact.py",
+      "exit_code": 0,
+      "log": "research/mlp-frontier-round2/logs/final-tests.log",
+      "log_sha256": "61fef6f523f57d530cead02be6ed37066bb88f9634053c903c5386cdacfff1aa",
+      "result": "6 tests PASS;800 randomized comparisons and10 original minimax comparisons; six mutated certificates rejected"
+    },
+    {
+      "name": "exact_replay",
+      "command": "sandbox-exec -f /Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/research.sb /opt/homebrew/bin/python3 -B /Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/mlps/research/mlp-frontier-round2/replay.py",
+      "exit_code": 0,
+      "log": "research/mlp-frontier-round2/logs/final-replay.log",
+      "log_sha256": "6c11b9b2299cd60203a0f966b86719312bd7c671b3a1617ebb1755f026f341e5",
+      "result": "10 original rows;8 formerly open rows closed;1 strict peak improvement;all10 exclusion searches also exhausted by generic unnormalized implementation"
+    },
+    {
+      "name": "unchanged_verifier",
+      "command": "sandbox-exec -f /Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/research.sb /opt/homebrew/bin/python3 -B /Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/mlps/verifier.py /Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/mlps/benchmarks/graphs/mlp-b8.json /Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/mlps/research/mlp-frontier-round2/certificates/mlp-b8-b34078720-p40960.json --budget 34078720",
+      "exit_code": 0,
+      "log": "research/mlp-frontier-round2/logs/final-witness.log",
+      "log_sha256": "ba62e2d6ee40ee7f7746984002942fb42402e28fd053aac362e8062d510d156b",
+      "result": "PASS:peak40960,recompute34078720"
+    },
+    {
+      "name": "full_core_suite",
+      "command": "sandbox-exec -f /Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/research.sb /opt/homebrew/bin/python3 -B /Users/qt/Documents/Codex/2026-10-21/fetch-https-discoveryathome-org-v0-contribute/work/neural-net-memory-round2-20261021T223720Z/mlps/verify_all.py",
+      "exit_code": 0,
+      "log": "research/mlp-frontier-round2/logs/final-verify-all.log",
+      "log_sha256": "6019eb2d461b28a49d8c01a55aa60461e8293199f2a32a655d740a4ce033c763",
+      "result": "PASS:60 rows,418 baselines,25 tiny optima,negative controls and complete offline suite;working record remains21 open because proposals are not applied"
+    }
+  ],
+  "resource_observation": {
+    "full_replay_seconds": 3.247305457945913,
+    "maxrss_bytes": 93978624,
+    "context": "uncontrolled local wall time;other research may run concurrently"
+  },
+  "sandbox": {
+    "profile_sha256": "d10c4d6121de8d8267e406743d89f1161ea284550fcfd3dfb242715a17c122ca",
+    "network": "denied",
+    "writes": "session-only",
+    "reads": "session and explicit prior solver-dependency path;no credentials or home files"
+  },
+  "cross_agent_review": {
+    "reviewer": "ResNet sibling Codex agent",
+    "evidence": "same-author-team AI implementation cross-review;not independent scientific acceptance",
+    "result": "PASS after finite-time validation fix",
+    "scope": "normalization, packed links, admissible pruning;separately authored general chain A* matched all8 proposed rows and negative caps",
+    "artifacts": [
+      {
+        "path": "research/mlp-frontier-round2/reviews/resnet-agent-cross-mlp-results.json",
+        "sha256": "5038a411d79dfa7b14c61f27cd829ff3d713c60abbf6761e97d0d40d54709dfd"
+      },
+      {
+        "path": "research/mlp-frontier-round2/reviews/resnet-agent-cross-mlp.log",
+        "sha256": "ddb8727a6381657e4258055e58f1cdf0274394954396f3761cfd795d9d67a058"
+      }
+    ]
+  },
+  "not_checked": [
+    "Independent human/scientific proof review",
+    "Maintainer acceptance",
+    "External modern solver or source-paper comparison",
+    "Real training/exporter saved-tensor fidelity",
+    "GPU memory/runtime",
+    "General branching DAG optimality",
+    "Machine-checked proof"
+  ],
+  "complete_work_curves": {
+    "scope": "94 positive caps,92 work-minus-one exclusions,34 nondominated steps,10 original-budget replays",
+    "entrypoint": "research/mlp-frontier-round2/replay.py invokes work-curve/replay.py in a temporary directory",
+    "evidence": "Author-checked; separately authored same-team review, not independent scientific acceptance",
+    "recorded_child_evidence": "research/mlp-frontier-round2/work-curve/evidence/results.json",
+    "parent_fresh_replay": {
+      "status": "PASS",
+      "python": "3.9.6",
+      "command": "python3 -B research/mlp-frontier-round2/replay.py",
+      "exit_code": 0,
+      "log": "research/mlp-frontier-round2/logs/full-curve-integration-py39.log",
+      "log_sha256": "3a9965a42500b9e20c72ac4efbdb5fdd82dd994c1db2772796696ecdb38416b7",
+      "seconds": 53.422144208,
+      "child_seconds": 48.542267458,
+      "maxrss_bytes": 118030336,
+      "scope": "Original fixed-row checks plus94cap points,92work-minus-one exclusions,34steps,10original-budget replays"
+    }
+  }
+}

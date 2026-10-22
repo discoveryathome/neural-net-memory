@@ -1,0 +1,36 @@
+{"fixture": 0, "cases": 16, "elapsed": 0.0013424999779090285}
+{"fixture": 1, "cases": 32, "elapsed": 0.003831624984741211}
+{"fixture": 2, "cases": 48, "elapsed": 0.008595791994594038}
+{"fixture": 3, "cases": 64, "elapsed": 0.01380474999314174}
+{"fixture": 4, "cases": 80, "elapsed": 0.020673374994657934}
+{"fixture": 5, "cases": 96, "elapsed": 0.02235445799306035}
+{"fixture": 6, "cases": 112, "elapsed": 0.024903249985072762}
+{"fixture": 7, "cases": 128, "elapsed": 0.028561083017848432}
+{"fixture": 8, "cases": 144, "elapsed": 0.0347048330004327}
+{"fixture": 9, "cases": 160, "elapsed": 0.04438587499316782}
+{"fixture": 10, "cases": 176, "elapsed": 0.04603224998572841}
+{"fixture": 11, "cases": 192, "elapsed": 0.04859208298148587}
+{"fixture": 12, "cases": 208, "elapsed": 0.051308957976289093}
+{"fixture": 13, "cases": 224, "elapsed": 0.056059124995954335}
+{"fixture": 14, "cases": 240, "elapsed": 0.06246929202461615}
+{"fixture": 15, "cases": 256, "elapsed": 0.06374166702153161}
+{"fixture": 16, "cases": 272, "elapsed": 0.06549700000323355}
+{"fixture": 17, "cases": 288, "elapsed": 0.06789162498898804}
+{"fixture": 18, "cases": 304, "elapsed": 0.07343595800921321}
+{"fixture": 19, "cases": 320, "elapsed": 0.08554479200392962}
+{"fixture": 20, "cases": 336, "elapsed": 0.08676837501116097}
+{"fixture": 21, "cases": 352, "elapsed": 0.08894370798952878}
+{"fixture": 22, "cases": 368, "elapsed": 0.09191995800938457}
+{"fixture": 23, "cases": 384, "elapsed": 0.09670024999650195}
+{"fixture": 24, "cases": 400, "elapsed": 0.10543083300581202}
+{"fixture": 25, "cases": 416, "elapsed": 0.1072178750182502}
+{"fixture": 26, "cases": 432, "elapsed": 0.10848108300706372}
+{"fixture": 27, "cases": 448, "elapsed": 0.1110598329687491}
+{"fixture": 28, "cases": 464, "elapsed": 0.11508262500865385}
+{"fixture": 29, "cases": 480, "elapsed": 0.1295917080133222}
+{"result": "PASS", "cases": 480, "elapsed": 0.1296107919770293}
+{"control": "mlp-b4", "cap": 36864, "budget": 100000000, "minimum_cost": 21299200, "reference_metadata": {"optimal_at_cap": true, "optimal_for_regional_start_state": true, "scope": "one complete training region", "initial_live": [], "cap": 36864, "states": 531, "expanded": 518, "seconds": 0.0011017079814337194, "backward_only": false, "prefix_actions": 0, "tail_peak_bytes": 36864}}
+{"control": "mlp-b4", "cap": 40960, "budget": 17039360, "minimum_cost": 8552448, "reference_metadata": {"optimal_at_cap": true, "optimal_for_regional_start_state": true, "scope": "one complete training region", "initial_live": [], "cap": 40960, "states": 2014, "expanded": 1926, "seconds": 0.005345583020243794, "backward_only": false, "prefix_actions": 0, "tail_peak_bytes": 40960}}
+{"control": "mlp-b4", "cap": 45056, "budget": 8519680, "minimum_cost": 6422528, "reference_metadata": {"optimal_at_cap": true, "optimal_for_regional_start_state": true, "scope": "one complete training region", "initial_live": [], "cap": 45056, "states": 4385, "expanded": 4075, "seconds": 0.013900749967433512, "backward_only": false, "prefix_actions": 0, "tail_peak_bytes": 45056}}
+{"control": "mlp-b4", "cap": 53248, "budget": 4259840, "minimum_cost": 3244032, "reference_metadata": {"optimal_at_cap": true, "optimal_for_regional_start_state": true, "scope": "one complete training region", "initial_live": [], "cap": 53248, "states": 6716, "expanded": 6464, "seconds": 0.022338041046168655, "backward_only": false, "prefix_actions": 0, "tail_peak_bytes": 53248}}
+{"control": "mlp-b4", "cap": 86016, "budget": 2129920, "minimum_cost": 1146880, "reference_metadata": {"optimal_at_cap": true, "optimal_for_regional_start_state": true, "scope": "one complete training region", "initial_live": [], "cap": 86016, "states": 35375, "expanded": 33557, "seconds": 0.1649919169722125, "backward_only": false, "prefix_actions": 0, "tail_peak_bytes": 86016}}

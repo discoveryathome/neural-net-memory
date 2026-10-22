@@ -1,0 +1,253 @@
+{
+  "model": "activation-memory/v1",
+  "graph_id": "mlp-b4",
+  "graph_sha256": "0c1be2e2d8064bef02ac125c3fca5bc6f8f8c334259a0cb326b63a7be5a8c216",
+  "budget": 8519680,
+  "method": "chain-exact-fixed-cap",
+  "metadata": {
+    "exact_minimum_work_at_cap": true,
+    "cap": 45056,
+    "states": 1124,
+    "expanded": 1121,
+    "seconds": 0.0038250000216066837,
+    "normalization": "eager legal backwards and useless suffix drops",
+    "domain": "strict chain with immediate-parent backward requirements",
+    "state_cap": 500000,
+    "time_cap_seconds": 120
+  },
+  "actions": [
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_up"
+    },
+    {
+      "op": "forward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b1_up"
+    },
+    {
+      "op": "forward",
+      "node": "b1_down"
+    },
+    {
+      "op": "drop",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b2_up"
+    },
+    {
+      "op": "forward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b2_up"
+    },
+    {
+      "op": "forward",
+      "node": "b2_down"
+    },
+    {
+      "op": "drop",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b3_up"
+    },
+    {
+      "op": "drop",
+      "node": "b2_down"
+    },
+    {
+      "op": "forward",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b3_up"
+    },
+    {
+      "op": "forward",
+      "node": "b2_up"
+    },
+    {
+      "op": "drop",
+      "node": "b1_down"
+    },
+    {
+      "op": "forward",
+      "node": "b3_down"
+    },
+    {
+      "op": "loss"
+    },
+    {
+      "op": "drop",
+      "node": "b3_down"
+    },
+    {
+      "op": "backward",
+      "node": "b3_down"
+    },
+    {
+      "op": "drop",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b2_down"
+    },
+    {
+      "op": "drop",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b3_up"
+    },
+    {
+      "op": "backward",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b3_up"
+    },
+    {
+      "op": "backward",
+      "node": "b3_up"
+    },
+    {
+      "op": "drop",
+      "node": "b2_down"
+    },
+    {
+      "op": "forward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b2_down"
+    },
+    {
+      "op": "drop",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b2_up"
+    },
+    {
+      "op": "forward",
+      "node": "b1_up"
+    },
+    {
+      "op": "forward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_down"
+    },
+    {
+      "op": "backward",
+      "node": "b2_up"
+    },
+    {
+      "op": "drop",
+      "node": "b1_down"
+    },
+    {
+      "op": "backward",
+      "node": "b1_down"
+    },
+    {
+      "op": "drop",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b1_up"
+    },
+    {
+      "op": "backward",
+      "node": "b1_up"
+    },
+    {
+      "op": "drop",
+      "node": "b0_down"
+    },
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "backward",
+      "node": "b0_up"
+    }
+  ],
+  "claims": {
+    "peak_bytes": 45056,
+    "recompute_cost": 6422528,
+    "forward_cost": 14942208,
+    "backward_cost": 17039360
+  }
+}

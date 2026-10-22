@@ -1,0 +1,5 @@
+{"graph": "mlp-b8", "cap": 36864, "budget": 34078720, "min_cost": null, "stats": {"states": 1053, "expanded": 1053, "seconds": 0.004122415964957327}, "seconds": 0.004712333029601723, "maxrss_bytes": 17301504}
+{"graph": "mlp-b8", "cap": 40960, "budget": 34078720, "min_cost": 34078720, "stats": {"states": 15952, "expanded": 15947, "seconds": 0.07217987498734146}, "seconds": 0.0727783750044182, "maxrss_bytes": 21463040}
+{"graph": "mlp-b8", "cap": 49152, "budget": 17039360, "min_cost": null, "stats": {"states": 117429, "expanded": 117429, "seconds": 0.7099820000003092}, "seconds": 0.7138225419912487, "maxrss_bytes": 58294272}
+{"graph": "mlp-b8", "cap": 65536, "budget": 8519680, "min_cost": null, "stats": {"states": 17628, "expanded": 17628, "seconds": 0.11570345796644688}, "seconds": 0.11686329101212323, "maxrss_bytes": 58294272}
+{"graph": "mlp-b8", "cap": 131072, "budget": 4259840, "min_cost": null, "stats": {"states": 38015, "expanded": 38015, "seconds": 0.38781733298674226}, "seconds": 0.3902520830160938, "maxrss_bytes": 58294272}

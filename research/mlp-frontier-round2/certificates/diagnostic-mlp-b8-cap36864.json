@@ -1,0 +1,1373 @@
+{
+  "model": "activation-memory/v1",
+  "graph_id": "mlp-b8",
+  "graph_sha256": "8b8d218fc5424929ede29d67422930cf182f80c09623fb7a9a8dcdcd8758a9db",
+  "budget": 200000000,
+  "method": "chain-exact-fixed-cap",
+  "metadata": {
+    "exact_minimum_work_at_cap": true,
+    "cap": 36864,
+    "states": 1127,
+    "expanded": 1127,
+    "seconds": 0.004116582975257188,
+    "normalization": "eager legal backwards and useless suffix drops",
+    "domain": "strict chain with immediate-parent backward requirements",
+    "state_cap": 500000,
+    "time_cap_seconds": 120
+  },
+  "actions": [
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_up"
+    },
+    {
+      "op": "drop",
+      "node": "b0_down"
+    },
+    {
+      "op": "forward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b1_up"
+    },
+    {
+      "op": "forward",
+      "node": "b1_down"
+    },
+    {
+      "op": "drop",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b2_up"
+    },
+    {
+      "op": "drop",
+      "node": "b1_down"
+    },
+    {
+      "op": "forward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b2_up"
+    },
+    {
+      "op": "forward",
+      "node": "b2_down"
+    },
+    {
+      "op": "drop",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b3_up"
+    },
+    {
+      "op": "drop",
+      "node": "b2_down"
+    },
+    {
+      "op": "forward",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b3_up"
+    },
+    {
+      "op": "forward",
+      "node": "b3_down"
+    },
+    {
+      "op": "drop",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b4_up"
+    },
+    {
+      "op": "drop",
+      "node": "b3_down"
+    },
+    {
+      "op": "forward",
+      "node": "b4_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b4_up"
+    },
+    {
+      "op": "forward",
+      "node": "b4_down"
+    },
+    {
+      "op": "drop",
+      "node": "b4_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b5_up"
+    },
+    {
+      "op": "drop",
+      "node": "b4_down"
+    },
+    {
+      "op": "forward",
+      "node": "b5_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b5_up"
+    },
+    {
+      "op": "forward",
+      "node": "b5_down"
+    },
+    {
+      "op": "drop",
+      "node": "b5_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b6_up"
+    },
+    {
+      "op": "drop",
+      "node": "b5_down"
+    },
+    {
+      "op": "forward",
+      "node": "b6_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b6_up"
+    },
+    {
+      "op": "forward",
+      "node": "b6_down"
+    },
+    {
+      "op": "drop",
+      "node": "b6_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b7_up"
+    },
+    {
+      "op": "drop",
+      "node": "b6_down"
+    },
+    {
+      "op": "forward",
+      "node": "b7_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b7_up"
+    },
+    {
+      "op": "forward",
+      "node": "b7_down"
+    },
+    {
+      "op": "loss"
+    },
+    {
+      "op": "drop",
+      "node": "b7_down"
+    },
+    {
+      "op": "backward",
+      "node": "b7_down"
+    },
+    {
+      "op": "drop",
+      "node": "b7_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_up"
+    },
+    {
+      "op": "drop",
+      "node": "b0_down"
+    },
+    {
+      "op": "forward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b1_up"
+    },
+    {
+      "op": "forward",
+      "node": "b1_down"
+    },
+    {
+      "op": "drop",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b2_up"
+    },
+    {
+      "op": "drop",
+      "node": "b1_down"
+    },
+    {
+      "op": "forward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b2_up"
+    },
+    {
+      "op": "forward",
+      "node": "b2_down"
+    },
+    {
+      "op": "drop",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b3_up"
+    },
+    {
+      "op": "drop",
+      "node": "b2_down"
+    },
+    {
+      "op": "forward",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b3_up"
+    },
+    {
+      "op": "forward",
+      "node": "b3_down"
+    },
+    {
+      "op": "drop",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b4_up"
+    },
+    {
+      "op": "drop",
+      "node": "b3_down"
+    },
+    {
+      "op": "forward",
+      "node": "b4_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b4_up"
+    },
+    {
+      "op": "forward",
+      "node": "b4_down"
+    },
+    {
+      "op": "drop",
+      "node": "b4_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b5_up"
+    },
+    {
+      "op": "drop",
+      "node": "b4_down"
+    },
+    {
+      "op": "forward",
+      "node": "b5_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b5_up"
+    },
+    {
+      "op": "forward",
+      "node": "b5_down"
+    },
+    {
+      "op": "drop",
+      "node": "b5_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b6_up"
+    },
+    {
+      "op": "drop",
+      "node": "b5_down"
+    },
+    {
+      "op": "forward",
+      "node": "b6_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b6_up"
+    },
+    {
+      "op": "forward",
+      "node": "b6_down"
+    },
+    {
+      "op": "drop",
+      "node": "b6_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b7_up"
+    },
+    {
+      "op": "backward",
+      "node": "b7_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b7_up"
+    },
+    {
+      "op": "backward",
+      "node": "b7_up"
+    },
+    {
+      "op": "drop",
+      "node": "b6_down"
+    },
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_up"
+    },
+    {
+      "op": "drop",
+      "node": "b0_down"
+    },
+    {
+      "op": "forward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b1_up"
+    },
+    {
+      "op": "forward",
+      "node": "b1_down"
+    },
+    {
+      "op": "drop",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b2_up"
+    },
+    {
+      "op": "drop",
+      "node": "b1_down"
+    },
+    {
+      "op": "forward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b2_up"
+    },
+    {
+      "op": "forward",
+      "node": "b2_down"
+    },
+    {
+      "op": "drop",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b3_up"
+    },
+    {
+      "op": "drop",
+      "node": "b2_down"
+    },
+    {
+      "op": "forward",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b3_up"
+    },
+    {
+      "op": "forward",
+      "node": "b3_down"
+    },
+    {
+      "op": "drop",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b4_up"
+    },
+    {
+      "op": "drop",
+      "node": "b3_down"
+    },
+    {
+      "op": "forward",
+      "node": "b4_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b4_up"
+    },
+    {
+      "op": "forward",
+      "node": "b4_down"
+    },
+    {
+      "op": "drop",
+      "node": "b4_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b5_up"
+    },
+    {
+      "op": "drop",
+      "node": "b4_down"
+    },
+    {
+      "op": "forward",
+      "node": "b5_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b5_up"
+    },
+    {
+      "op": "forward",
+      "node": "b5_down"
+    },
+    {
+      "op": "drop",
+      "node": "b5_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b6_up"
+    },
+    {
+      "op": "drop",
+      "node": "b5_down"
+    },
+    {
+      "op": "forward",
+      "node": "b6_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b6_down"
+    },
+    {
+      "op": "drop",
+      "node": "b6_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b6_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b6_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_up"
+    },
+    {
+      "op": "drop",
+      "node": "b0_down"
+    },
+    {
+      "op": "forward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b1_up"
+    },
+    {
+      "op": "forward",
+      "node": "b1_down"
+    },
+    {
+      "op": "drop",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b2_up"
+    },
+    {
+      "op": "drop",
+      "node": "b1_down"
+    },
+    {
+      "op": "forward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b2_up"
+    },
+    {
+      "op": "forward",
+      "node": "b2_down"
+    },
+    {
+      "op": "drop",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b3_up"
+    },
+    {
+      "op": "drop",
+      "node": "b2_down"
+    },
+    {
+      "op": "forward",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b3_up"
+    },
+    {
+      "op": "forward",
+      "node": "b3_down"
+    },
+    {
+      "op": "drop",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b4_up"
+    },
+    {
+      "op": "drop",
+      "node": "b3_down"
+    },
+    {
+      "op": "forward",
+      "node": "b4_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b4_up"
+    },
+    {
+      "op": "forward",
+      "node": "b4_down"
+    },
+    {
+      "op": "drop",
+      "node": "b4_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b5_up"
+    },
+    {
+      "op": "drop",
+      "node": "b4_down"
+    },
+    {
+      "op": "forward",
+      "node": "b5_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b5_up"
+    },
+    {
+      "op": "forward",
+      "node": "b5_down"
+    },
+    {
+      "op": "backward",
+      "node": "b6_up"
+    },
+    {
+      "op": "drop",
+      "node": "b5_down"
+    },
+    {
+      "op": "backward",
+      "node": "b5_down"
+    },
+    {
+      "op": "drop",
+      "node": "b5_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_up"
+    },
+    {
+      "op": "drop",
+      "node": "b0_down"
+    },
+    {
+      "op": "forward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b1_up"
+    },
+    {
+      "op": "forward",
+      "node": "b1_down"
+    },
+    {
+      "op": "drop",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b2_up"
+    },
+    {
+      "op": "drop",
+      "node": "b1_down"
+    },
+    {
+      "op": "forward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b2_up"
+    },
+    {
+      "op": "forward",
+      "node": "b2_down"
+    },
+    {
+      "op": "drop",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b3_up"
+    },
+    {
+      "op": "drop",
+      "node": "b2_down"
+    },
+    {
+      "op": "forward",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b3_up"
+    },
+    {
+      "op": "forward",
+      "node": "b3_down"
+    },
+    {
+      "op": "drop",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b4_up"
+    },
+    {
+      "op": "drop",
+      "node": "b3_down"
+    },
+    {
+      "op": "forward",
+      "node": "b4_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b4_up"
+    },
+    {
+      "op": "forward",
+      "node": "b4_down"
+    },
+    {
+      "op": "drop",
+      "node": "b4_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b5_up"
+    },
+    {
+      "op": "backward",
+      "node": "b5_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b5_up"
+    },
+    {
+      "op": "backward",
+      "node": "b5_up"
+    },
+    {
+      "op": "drop",
+      "node": "b4_down"
+    },
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_up"
+    },
+    {
+      "op": "drop",
+      "node": "b0_down"
+    },
+    {
+      "op": "forward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b1_up"
+    },
+    {
+      "op": "forward",
+      "node": "b1_down"
+    },
+    {
+      "op": "drop",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b2_up"
+    },
+    {
+      "op": "drop",
+      "node": "b1_down"
+    },
+    {
+      "op": "forward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b2_up"
+    },
+    {
+      "op": "forward",
+      "node": "b2_down"
+    },
+    {
+      "op": "drop",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b3_up"
+    },
+    {
+      "op": "drop",
+      "node": "b2_down"
+    },
+    {
+      "op": "forward",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b3_up"
+    },
+    {
+      "op": "forward",
+      "node": "b3_down"
+    },
+    {
+      "op": "drop",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b4_up"
+    },
+    {
+      "op": "drop",
+      "node": "b3_down"
+    },
+    {
+      "op": "forward",
+      "node": "b4_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b4_down"
+    },
+    {
+      "op": "drop",
+      "node": "b4_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b4_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b4_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_up"
+    },
+    {
+      "op": "drop",
+      "node": "b0_down"
+    },
+    {
+      "op": "forward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b1_up"
+    },
+    {
+      "op": "forward",
+      "node": "b1_down"
+    },
+    {
+      "op": "drop",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b2_up"
+    },
+    {
+      "op": "drop",
+      "node": "b1_down"
+    },
+    {
+      "op": "forward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b2_up"
+    },
+    {
+      "op": "forward",
+      "node": "b2_down"
+    },
+    {
+      "op": "drop",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b3_up"
+    },
+    {
+      "op": "drop",
+      "node": "b2_down"
+    },
+    {
+      "op": "forward",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b3_up"
+    },
+    {
+      "op": "forward",
+      "node": "b3_down"
+    },
+    {
+      "op": "backward",
+      "node": "b4_up"
+    },
+    {
+      "op": "drop",
+      "node": "b3_down"
+    },
+    {
+      "op": "backward",
+      "node": "b3_down"
+    },
+    {
+      "op": "drop",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_up"
+    },
+    {
+      "op": "drop",
+      "node": "b0_down"
+    },
+    {
+      "op": "forward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b1_up"
+    },
+    {
+      "op": "forward",
+      "node": "b1_down"
+    },
+    {
+      "op": "drop",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b2_up"
+    },
+    {
+      "op": "drop",
+      "node": "b1_down"
+    },
+    {
+      "op": "forward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b2_up"
+    },
+    {
+      "op": "forward",
+      "node": "b2_down"
+    },
+    {
+      "op": "drop",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b3_up"
+    },
+    {
+      "op": "backward",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b3_up"
+    },
+    {
+      "op": "backward",
+      "node": "b3_up"
+    },
+    {
+      "op": "drop",
+      "node": "b2_down"
+    },
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_up"
+    },
+    {
+      "op": "drop",
+      "node": "b0_down"
+    },
+    {
+      "op": "forward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b1_up"
+    },
+    {
+      "op": "forward",
+      "node": "b1_down"
+    },
+    {
+      "op": "drop",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b2_up"
+    },
+    {
+      "op": "drop",
+      "node": "b1_down"
+    },
+    {
+      "op": "forward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b2_down"
+    },
+    {
+      "op": "drop",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b2_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_up"
+    },
+    {
+      "op": "drop",
+      "node": "b0_down"
+    },
+    {
+      "op": "forward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b1_up"
+    },
+    {
+      "op": "forward",
+      "node": "b1_down"
+    },
+    {
+      "op": "backward",
+      "node": "b2_up"
+    },
+    {
+      "op": "drop",
+      "node": "b1_down"
+    },
+    {
+      "op": "backward",
+      "node": "b1_down"
+    },
+    {
+      "op": "drop",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_up"
+    },
+    {
+      "op": "backward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b1_up"
+    },
+    {
+      "op": "backward",
+      "node": "b1_up"
+    },
+    {
+      "op": "drop",
+      "node": "b0_down"
+    },
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "backward",
+      "node": "b0_up"
+    }
+  ],
+  "claims": {
+    "peak_bytes": 36864,
+    "recompute_cost": 93716480,
+    "forward_cost": 110755840,
+    "backward_cost": 34078720
+  }
+}

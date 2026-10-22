@@ -1,0 +1,24 @@
+{
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "seed": "dafc4be0863b7654352ffb2ba4a4d2df",
+  "sha256": {
+    "MODEL.md": "356237ec6ce9efa5a99a87043ff556d7128eb0abacf8420dd003189d99cc596e",
+    "benchmarks/graphs/mlp-b4.json": "a79ef876bcf903d9fadf5c6847cf265f923d344876a212065e42cba5d58865a5",
+    "benchmarks/graphs/mlp-b8.json": "1e8cfa7109c20ca446365c6f72f12a8b7acd303da24c0ddd3a83ce922b5b5f08",
+    "research/mlp-frontier-round2/chain_exact.py": "3684feac3e66b40fe16a3e62c8316ac67fdc04bf7b9ebccd2661d262e3858eac",
+    "research/mlp-frontier-round2/work-curve/.gitignore": "bdda27b07dc184f105e5309dd7680f3bf05d33d3d982184c36c83e89123f2cd6",
+    "research/mlp-frontier-round2/work-curve/COMPARISON.json": "9e2b2aa561cf4f9622dde8c84b0066dbde00b40c029d3bd9bb37dfa7eaa482e0",
+    "research/mlp-frontier-round2/work-curve/EXPECTED.json": "d8f8ee07a47702c1f6ee7243c1240c56cbc86be64ab619d95b24132cb4e920b7",
+    "research/mlp-frontier-round2/work-curve/README.md": "b1a08426bd5448af4c789061b016cad380c7e015184a8ea5e37aafd0f34c17da",
+    "research/mlp-frontier-round2/work-curve/VERIFY.json": "04daf62347a4ae5e8184fc5d9a69cc45d7e00a053839e0a8486dd8e7ad44dafd",
+    "research/mlp-frontier-round2/work-curve/evidence/core-verify.log": "48c9395f9e9b79cb966cc44b9571e365afe7d078141e2ca9f5b383612b9f7284",
+    "research/mlp-frontier-round2/work-curve/evidence/measurements.jsonl": "68c2e26de13847ad50cfddbf12e1a90568e02bd25e3ad80fd32a45879bab9120",
+    "research/mlp-frontier-round2/work-curve/evidence/parent-author-review.json": "0a45e1801121790b8700bc6c205a0e1b0fa8be8bb0e3a0905229caf096ba2fb6",
+    "research/mlp-frontier-round2/work-curve/evidence/replay.log": "d841856b4c8e4e6fabf56672a743299322a153ca06213cc4753b0cdd891aa222",
+    "research/mlp-frontier-round2/work-curve/evidence/results.json": "509b7d34d949a654bebd6d0473f5d3cf206792b5575c985045e1e56e28428767",
+    "research/mlp-frontier-round2/work-curve/replay.py": "9b078f849f0519be4eeea3f73a59638da20a3c395f1d86afd527043fee563e9d",
+    "search.py": "7e321741e941d239392d2cf0e646c7ea05823a8f81dd2b4379300775c660ad63",
+    "verifier.py": "104e5e63d1cdb95355153144666292125d64806ee7bf149d0af714b2a47e1015"
+  },
+  "attribution": "Doug Colkitt / @Mister-Meeseeks frozen model/verifier/trial; PR6 regional predecessor; parent exact-chain search; Codex AI for @0xqtpie."
+}

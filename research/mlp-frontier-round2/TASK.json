@@ -1,0 +1,28 @@
+{
+  "task": "exact-mlp-original-budget-frontiers",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "seed": "dafc4be0863b7654352ffb2ba4a4d2df",
+  "model": "activation-memory/v1",
+  "session_start_utc": "2026-10-21T22:37:20Z",
+  "new_research_cutoff_utc": "2026-10-22T01:37:20Z",
+  "scope": "All original mlp-b4 and mlp-b8 budgets; strict peak improvements and exact computational closure. Complete fixed-memory work functions for both MLPs, including all integer caps and zero-work tails; auxiliary points are not extra original benchmark cases.",
+  "method": "Exact minimum-extra-forward-work Dijkstra at a fixed memory cap, specialized to strict immediate-parent chains; a generic unnormalized implementation cross-checks each exclusion cap.",
+  "first_falsifier": "Fully charge mlp-b4 at the favorable mandatory local cap of 36,864 bytes before larger constructions.",
+  "success_test": "Unchanged verifier accepts a lower-peak certificate at an original budget, or complete finite search excludes every smaller peak.",
+  "overlap": "Working targets include all 17 trial improvements. Trial policies and PR 6 retention-transfer exact/regional work are positive controls and credited, not rediscovered as gains.",
+  "limits": {
+    "chain_states": 500000,
+    "generic_states": 200000,
+    "seconds_per_case": 120,
+    "node_count": 30,
+    "rss_limit_policy_bytes": 500000000
+  },
+  "authorization": "Local isolated package only; parent coordinates publication. No core, frozen graph, verifier, or frontier edits.",
+  "evidence_level": "author-checked",
+  "ai_assistance": "Codex",
+  "work_curve_limits": {
+    "states_per_query": 250000,
+    "seconds_per_query": 30,
+    "aggregate_seconds": 120
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-22T00:37:38.210431+00:00",
+  "findings": [],
+  "evidence": "parent same-author-team source and proof review; not outside scientific review",
+  "scope": "all94integercaps,34strictsteps,92work-minus-one exclusions,10originalbudgetreplays",
+  "checks": [
+    "Frozen strict-chain fields bind forced first/backward orders and all-positive original cost domain",
+    "Mandatory firstUP/GELU coexistence plusimmutableinput yields universal9unitfloor independentof finitecap8diagnostic budget",
+    "Each positive exactworkbudget is whole-verifierchecked and eachnonzero work-minus-one call mustfullyexhaust withoutlimit",
+    "Fullintegergrid9..37and9..73 expandedfromstrictsteps coversplateaus; intermediatebytecapsfloorby4096unit",
+    "Zero-workfullpass requiresallancestor savedreads retaineduntilloss; zeroceilings37/73matchfullgraphallocation sums",
+    "Allten originalbudgetsretaggedandchecked; C9diagnostics notdoublecountedasneworiginalcases",
+    "Changedgraph and unsupportedbackwardsaved requirement rejected",
+    "Per-call and120secondaggregatefailclosed; samegraph ROOT/repo binding remainsstandaloneaftercherry-pick"
+  ],
+  "files": {
+    "replay.py": "9b078f849f0519be4eeea3f73a59638da20a3c395f1d86afd527043fee563e9d",
+    "EXPECTED.json": "d8f8ee07a47702c1f6ee7243c1240c56cbc86be64ab619d95b24132cb4e920b7",
+    "README.md": "b1a08426bd5448af4c789061b016cad380c7e015184a8ea5e37aafd0f34c17da"
+  }
+}

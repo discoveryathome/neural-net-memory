@@ -1,0 +1,130 @@
+[
+  {
+    "graph": "mlp-b4",
+    "budget": 2129920,
+    "peak_bytes": 86016,
+    "lower_bound": 86016,
+    "optimal": true,
+    "previous_peak_bytes": 86016,
+    "recompute_cost": 1146880,
+    "bound_method": "exact-chain-fixed-cap-exclusion",
+    "object": "research/mlp-frontier-round2/certificates/mlp-b4-b2129920-p86016.json",
+    "sha256": "8c403619b521b040e6b50cb830125b41af2e42af7b1a52575b6c3bd4d57630b6",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "acceptance": "proposal; independent review and maintainer acceptance pending"
+  },
+  {
+    "graph": "mlp-b4",
+    "budget": 4259840,
+    "peak_bytes": 53248,
+    "lower_bound": 53248,
+    "optimal": true,
+    "previous_peak_bytes": 53248,
+    "recompute_cost": 3244032,
+    "bound_method": "exact-chain-fixed-cap-exclusion",
+    "object": "research/mlp-frontier-round2/certificates/mlp-b4-b4259840-p53248.json",
+    "sha256": "0ea55f520b61302c13bf26fdf1171e775d886ab32e46a33345a56793732ba3f1",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "acceptance": "proposal; independent review and maintainer acceptance pending"
+  },
+  {
+    "graph": "mlp-b4",
+    "budget": 8519680,
+    "peak_bytes": 45056,
+    "lower_bound": 45056,
+    "optimal": true,
+    "previous_peak_bytes": 45056,
+    "recompute_cost": 6422528,
+    "bound_method": "exact-chain-fixed-cap-exclusion",
+    "object": "research/mlp-frontier-round2/certificates/mlp-b4-b8519680-p45056.json",
+    "sha256": "a07cb0b485cf781a56464309baa316112fa5d13dd8c306cc1efe337ca51ccfaf",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "acceptance": "proposal; independent review and maintainer acceptance pending"
+  },
+  {
+    "graph": "mlp-b4",
+    "budget": 17039360,
+    "peak_bytes": 40960,
+    "lower_bound": 40960,
+    "optimal": true,
+    "previous_peak_bytes": 40960,
+    "recompute_cost": 8552448,
+    "bound_method": "exact-chain-fixed-cap-exclusion",
+    "object": "research/mlp-frontier-round2/certificates/mlp-b4-b17039360-p40960.json",
+    "sha256": "ce5daec58164e117f0b2a81231209fa05e70274fe50a127955c5f7b51c7edc67",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "acceptance": "proposal; independent review and maintainer acceptance pending"
+  },
+  {
+    "graph": "mlp-b8",
+    "budget": 4259840,
+    "peak_bytes": 135168,
+    "lower_bound": 135168,
+    "optimal": true,
+    "previous_peak_bytes": 135168,
+    "recompute_cost": 3375104,
+    "bound_method": "exact-chain-fixed-cap-exclusion",
+    "object": "research/mlp-frontier-round2/certificates/mlp-b8-b4259840-p135168.json",
+    "sha256": "fab2de89eb3bf3dbfa7f42db010655642fbaabdca47bc40ccc0edd46690c411f",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "acceptance": "proposal; independent review and maintainer acceptance pending"
+  },
+  {
+    "graph": "mlp-b8",
+    "budget": 8519680,
+    "peak_bytes": 69632,
+    "lower_bound": 69632,
+    "optimal": true,
+    "previous_peak_bytes": 69632,
+    "recompute_cost": 7569408,
+    "bound_method": "exact-chain-fixed-cap-exclusion",
+    "object": "research/mlp-frontier-round2/certificates/mlp-b8-b8519680-p69632.json",
+    "sha256": "9602693ed26161b0728ae19626db9f663d7386f19c8866b5fe8d3c25a64b1c42",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "acceptance": "proposal; independent review and maintainer acceptance pending"
+  },
+  {
+    "graph": "mlp-b8",
+    "budget": 17039360,
+    "peak_bytes": 53248,
+    "lower_bound": 53248,
+    "optimal": true,
+    "previous_peak_bytes": 53248,
+    "recompute_cost": 15007744,
+    "bound_method": "exact-chain-fixed-cap-exclusion",
+    "object": "research/mlp-frontier-round2/certificates/mlp-b8-b17039360-p53248.json",
+    "sha256": "463e0b6c50ca141179b2f9856d915650f882c99f19705878fef02c2d23490402",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "acceptance": "proposal; independent review and maintainer acceptance pending"
+  },
+  {
+    "graph": "mlp-b8",
+    "budget": 34078720,
+    "peak_bytes": 40960,
+    "lower_bound": 40960,
+    "optimal": true,
+    "previous_peak_bytes": 45056,
+    "recompute_cost": 34078720,
+    "bound_method": "exact-chain-fixed-cap-exclusion",
+    "object": "research/mlp-frontier-round2/certificates/mlp-b8-b34078720-p40960.json",
+    "sha256": "2d2372df3565912c3297fa4a3904d15d6f56688efffc9e341737edf454c87539",
+    "evidence_level": [
+      "author-checked"
+    ],
+    "acceptance": "proposal; independent review and maintainer acceptance pending"
+  }
+]

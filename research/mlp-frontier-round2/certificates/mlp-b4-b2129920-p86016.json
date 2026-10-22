@@ -1,0 +1,205 @@
+{
+  "model": "activation-memory/v1",
+  "graph_id": "mlp-b4",
+  "graph_sha256": "0c1be2e2d8064bef02ac125c3fca5bc6f8f8c334259a0cb326b63a7be5a8c216",
+  "budget": 2129920,
+  "method": "chain-exact-fixed-cap",
+  "metadata": {
+    "exact_minimum_work_at_cap": true,
+    "cap": 86016,
+    "states": 314,
+    "expanded": 314,
+    "seconds": 0.001560291973873973,
+    "normalization": "eager legal backwards and useless suffix drops",
+    "domain": "strict chain with immediate-parent backward requirements",
+    "state_cap": 500000,
+    "time_cap_seconds": 120
+  },
+  "actions": [
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_up"
+    },
+    {
+      "op": "forward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_down"
+    },
+    {
+      "op": "drop",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b2_up"
+    },
+    {
+      "op": "forward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b2_down"
+    },
+    {
+      "op": "drop",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b3_up"
+    },
+    {
+      "op": "forward",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b3_down"
+    },
+    {
+      "op": "loss"
+    },
+    {
+      "op": "drop",
+      "node": "b3_down"
+    },
+    {
+      "op": "backward",
+      "node": "b3_down"
+    },
+    {
+      "op": "drop",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b3_up"
+    },
+    {
+      "op": "backward",
+      "node": "b3_up"
+    },
+    {
+      "op": "drop",
+      "node": "b2_down"
+    },
+    {
+      "op": "forward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b2_down"
+    },
+    {
+      "op": "drop",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b2_up"
+    },
+    {
+      "op": "backward",
+      "node": "b2_up"
+    },
+    {
+      "op": "drop",
+      "node": "b1_down"
+    },
+    {
+      "op": "forward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b1_down"
+    },
+    {
+      "op": "drop",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b1_up"
+    },
+    {
+      "op": "backward",
+      "node": "b1_up"
+    },
+    {
+      "op": "drop",
+      "node": "b0_down"
+    },
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "backward",
+      "node": "b0_up"
+    }
+  ],
+  "claims": {
+    "peak_bytes": 86016,
+    "recompute_cost": 1146880,
+    "forward_cost": 9666560,
+    "backward_cost": 17039360
+  }
+}

@@ -1,0 +1,3694 @@
+{
+  "status": "PASS",
+  "schema": "mlp-complete-work-curves/v1",
+  "unit_bytes": 4096,
+  "families": {
+    "mlp-b4": {
+      "graph_sha256": "0c1be2e2d8064bef02ac125c3fca5bc6f8f8c334259a0cb326b63a7be5a8c216",
+      "rows": [
+        {
+          "cap_units": 9,
+          "peak_cap_bytes": 36864,
+          "minimum_work": 21299200,
+          "verified_metrics": {
+            "peak_bytes": 36864,
+            "recompute_cost": 21299200,
+            "forward_cost": 29818880,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 21299200,
+            "exact_minimum_work_at_cap": true,
+            "cap": 36864,
+            "states": 245,
+            "expanded": 245,
+            "seconds": 0.00078037497587502,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 36864,
+            "budget": 21299199,
+            "states": 240,
+            "expanded": 240,
+            "seconds": 0.0007464999798685312,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "cc13f1da23bad6cc4bebfa75c20d2a1eb304b757d47603f3a67e2eda2b43b845",
+          "certificate_file": "mlp-b4-cap9.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 10,
+          "peak_cap_bytes": 40960,
+          "minimum_work": 8552448,
+          "verified_metrics": {
+            "peak_bytes": 40960,
+            "recompute_cost": 8552448,
+            "forward_cost": 17072128,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 8552448,
+            "exact_minimum_work_at_cap": true,
+            "cap": 40960,
+            "states": 663,
+            "expanded": 663,
+            "seconds": 0.0029442079830914736,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 40960,
+            "budget": 8552447,
+            "states": 630,
+            "expanded": 630,
+            "seconds": 0.002043000014964491,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "5a341cb6e6150e52c91b201b004a0642c53cef014497e82b0cb0159bf9b501d4",
+          "certificate_file": "mlp-b4-cap10.json",
+          "original_budget_replays": [
+            17039360
+          ]
+        },
+        {
+          "cap_units": 11,
+          "peak_cap_bytes": 45056,
+          "minimum_work": 6422528,
+          "verified_metrics": {
+            "peak_bytes": 45056,
+            "recompute_cost": 6422528,
+            "forward_cost": 14942208,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 6422528,
+            "exact_minimum_work_at_cap": true,
+            "cap": 45056,
+            "states": 850,
+            "expanded": 850,
+            "seconds": 0.0033721659565344453,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 45056,
+            "budget": 6422527,
+            "states": 752,
+            "expanded": 752,
+            "seconds": 0.0030214579892344773,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "de6ccfea1c31b2ec5e6f2f20709fae2ad9477dedd7c9b1ecc594598259160280",
+          "certificate_file": "mlp-b4-cap11.json",
+          "original_budget_replays": [
+            8519680
+          ]
+        },
+        {
+          "cap_units": 12,
+          "peak_cap_bytes": 49152,
+          "minimum_work": 4292608,
+          "verified_metrics": {
+            "peak_bytes": 49152,
+            "recompute_cost": 4292608,
+            "forward_cost": 12812288,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 4292608,
+            "exact_minimum_work_at_cap": true,
+            "cap": 49152,
+            "states": 367,
+            "expanded": 367,
+            "seconds": 0.0015518749714829028,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 49152,
+            "budget": 4292607,
+            "states": 223,
+            "expanded": 223,
+            "seconds": 0.0008382080122828484,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "17c6fef17ae917bada7c28212d0216ec32367b713ec3b773fc88011abc72272c",
+          "certificate_file": "mlp-b4-cap12.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 13,
+          "peak_cap_bytes": 53248,
+          "minimum_work": 3244032,
+          "verified_metrics": {
+            "peak_bytes": 53248,
+            "recompute_cost": 3244032,
+            "forward_cost": 11763712,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 3244032,
+            "exact_minimum_work_at_cap": true,
+            "cap": 53248,
+            "states": 212,
+            "expanded": 212,
+            "seconds": 0.0008494170033372939,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 53248,
+            "budget": 3244031,
+            "states": 152,
+            "expanded": 152,
+            "seconds": 0.0006937080179341137,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "46c02d7a4e59aac21ecdf62b687274a6acc16947deea86bd39d37acd75766571",
+          "certificate_file": "mlp-b4-cap13.json",
+          "original_budget_replays": [
+            4259840
+          ]
+        },
+        {
+          "cap_units": 14,
+          "peak_cap_bytes": 57344,
+          "minimum_work": 3244032,
+          "verified_metrics": {
+            "peak_bytes": 53248,
+            "recompute_cost": 3244032,
+            "forward_cost": 11763712,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 3244032,
+            "exact_minimum_work_at_cap": true,
+            "cap": 57344,
+            "states": 335,
+            "expanded": 335,
+            "seconds": 0.0013904169900342822,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 57344,
+            "budget": 3244031,
+            "states": 243,
+            "expanded": 243,
+            "seconds": 0.0015341669786721468,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "46c02d7a4e59aac21ecdf62b687274a6acc16947deea86bd39d37acd75766571",
+          "certificate_file": "mlp-b4-cap14.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 15,
+          "peak_cap_bytes": 61440,
+          "minimum_work": 3244032,
+          "verified_metrics": {
+            "peak_bytes": 53248,
+            "recompute_cost": 3244032,
+            "forward_cost": 11763712,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 3244032,
+            "exact_minimum_work_at_cap": true,
+            "cap": 61440,
+            "states": 517,
+            "expanded": 517,
+            "seconds": 0.002605333982501179,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 61440,
+            "budget": 3244031,
+            "states": 366,
+            "expanded": 366,
+            "seconds": 0.0015085830236785114,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "46c02d7a4e59aac21ecdf62b687274a6acc16947deea86bd39d37acd75766571",
+          "certificate_file": "mlp-b4-cap15.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 16,
+          "peak_cap_bytes": 65536,
+          "minimum_work": 3244032,
+          "verified_metrics": {
+            "peak_bytes": 65536,
+            "recompute_cost": 3244032,
+            "forward_cost": 11763712,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 3244032,
+            "exact_minimum_work_at_cap": true,
+            "cap": 65536,
+            "states": 693,
+            "expanded": 693,
+            "seconds": 0.0033291250001639128,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 65536,
+            "budget": 3244031,
+            "states": 451,
+            "expanded": 451,
+            "seconds": 0.002461291034705937,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "b370cd76d199b26dd9fcf3642e896e80866ff7b52d2de1e319fc178c5c3dc14e",
+          "certificate_file": "mlp-b4-cap16.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 17,
+          "peak_cap_bytes": 69632,
+          "minimum_work": 2195456,
+          "verified_metrics": {
+            "peak_bytes": 69632,
+            "recompute_cost": 2195456,
+            "forward_cost": 10715136,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 2195456,
+            "exact_minimum_work_at_cap": true,
+            "cap": 69632,
+            "states": 286,
+            "expanded": 286,
+            "seconds": 0.0013636250514537096,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 69632,
+            "budget": 2195455,
+            "states": 198,
+            "expanded": 198,
+            "seconds": 0.0008367080008611083,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "2c735ecd8a9717e13fc18741befa58fad667c7b4cf57d8c9a6647bbce8dbb120",
+          "certificate_file": "mlp-b4-cap17.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 18,
+          "peak_cap_bytes": 73728,
+          "minimum_work": 2195456,
+          "verified_metrics": {
+            "peak_bytes": 69632,
+            "recompute_cost": 2195456,
+            "forward_cost": 10715136,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 2195456,
+            "exact_minimum_work_at_cap": true,
+            "cap": 73728,
+            "states": 350,
+            "expanded": 350,
+            "seconds": 0.0016107920091599226,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 73728,
+            "budget": 2195455,
+            "states": 248,
+            "expanded": 248,
+            "seconds": 0.0011145409662276506,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "2c735ecd8a9717e13fc18741befa58fad667c7b4cf57d8c9a6647bbce8dbb120",
+          "certificate_file": "mlp-b4-cap18.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 19,
+          "peak_cap_bytes": 77824,
+          "minimum_work": 2195456,
+          "verified_metrics": {
+            "peak_bytes": 69632,
+            "recompute_cost": 2195456,
+            "forward_cost": 10715136,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 2195456,
+            "exact_minimum_work_at_cap": true,
+            "cap": 77824,
+            "states": 487,
+            "expanded": 487,
+            "seconds": 0.002384499995969236,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 77824,
+            "budget": 2195455,
+            "states": 353,
+            "expanded": 353,
+            "seconds": 0.0016341250156983733,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "2c735ecd8a9717e13fc18741befa58fad667c7b4cf57d8c9a6647bbce8dbb120",
+          "certificate_file": "mlp-b4-cap19.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 20,
+          "peak_cap_bytes": 81920,
+          "minimum_work": 2195456,
+          "verified_metrics": {
+            "peak_bytes": 81920,
+            "recompute_cost": 2195456,
+            "forward_cost": 10715136,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 2195456,
+            "exact_minimum_work_at_cap": true,
+            "cap": 81920,
+            "states": 670,
+            "expanded": 670,
+            "seconds": 0.0036827080184593797,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 81920,
+            "budget": 2195455,
+            "states": 448,
+            "expanded": 448,
+            "seconds": 0.0028569590067490935,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "0a81832ac2395edbbd50cb0b0d9909d2f2a0c0a2d7433d80ac08ee89b32fd75e",
+          "certificate_file": "mlp-b4-cap20.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 21,
+          "peak_cap_bytes": 86016,
+          "minimum_work": 1146880,
+          "verified_metrics": {
+            "peak_bytes": 86016,
+            "recompute_cost": 1146880,
+            "forward_cost": 9666560,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 1146880,
+            "exact_minimum_work_at_cap": true,
+            "cap": 86016,
+            "states": 190,
+            "expanded": 190,
+            "seconds": 0.0009782920242287219,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 86016,
+            "budget": 1146879,
+            "states": 129,
+            "expanded": 129,
+            "seconds": 0.0006097499863244593,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "61cd46b2a60b47e180288eb7fbc38ed1929b6e7975f2a5c52919ff666c931a16",
+          "certificate_file": "mlp-b4-cap21.json",
+          "original_budget_replays": [
+            2129920
+          ]
+        },
+        {
+          "cap_units": 22,
+          "peak_cap_bytes": 90112,
+          "minimum_work": 1146880,
+          "verified_metrics": {
+            "peak_bytes": 86016,
+            "recompute_cost": 1146880,
+            "forward_cost": 9666560,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 1146880,
+            "exact_minimum_work_at_cap": true,
+            "cap": 90112,
+            "states": 198,
+            "expanded": 198,
+            "seconds": 0.001058999972883612,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 90112,
+            "budget": 1146879,
+            "states": 141,
+            "expanded": 141,
+            "seconds": 0.0006673749885521829,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "61cd46b2a60b47e180288eb7fbc38ed1929b6e7975f2a5c52919ff666c931a16",
+          "certificate_file": "mlp-b4-cap22.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 23,
+          "peak_cap_bytes": 94208,
+          "minimum_work": 1146880,
+          "verified_metrics": {
+            "peak_bytes": 86016,
+            "recompute_cost": 1146880,
+            "forward_cost": 9666560,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 1146880,
+            "exact_minimum_work_at_cap": true,
+            "cap": 94208,
+            "states": 227,
+            "expanded": 227,
+            "seconds": 0.0012097919825464487,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 94208,
+            "budget": 1146879,
+            "states": 174,
+            "expanded": 174,
+            "seconds": 0.0010242079733870924,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "61cd46b2a60b47e180288eb7fbc38ed1929b6e7975f2a5c52919ff666c931a16",
+          "certificate_file": "mlp-b4-cap23.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 24,
+          "peak_cap_bytes": 98304,
+          "minimum_work": 1146880,
+          "verified_metrics": {
+            "peak_bytes": 98304,
+            "recompute_cost": 1146880,
+            "forward_cost": 9666560,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 1146880,
+            "exact_minimum_work_at_cap": true,
+            "cap": 98304,
+            "states": 314,
+            "expanded": 314,
+            "seconds": 0.0019056249875575304,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 98304,
+            "budget": 1146879,
+            "states": 218,
+            "expanded": 218,
+            "seconds": 0.0012497499701566994,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "2eddc1b3f5c4b5236388295f7cf02254ca75f3cbd7227ca8f466ce1eb2aa0da5",
+          "certificate_file": "mlp-b4-cap24.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 25,
+          "peak_cap_bytes": 102400,
+          "minimum_work": 98304,
+          "verified_metrics": {
+            "peak_bytes": 102400,
+            "recompute_cost": 98304,
+            "forward_cost": 8617984,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 98304,
+            "exact_minimum_work_at_cap": true,
+            "cap": 102400,
+            "states": 47,
+            "expanded": 47,
+            "seconds": 0.00027424999279901385,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 102400,
+            "budget": 98303,
+            "states": 35,
+            "expanded": 35,
+            "seconds": 0.0001787500223144889,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "b457d6d85b399248876b21bd83be8c165e5a7848b1ea77b4f6081e331fd013b8",
+          "certificate_file": "mlp-b4-cap25.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 26,
+          "peak_cap_bytes": 106496,
+          "minimum_work": 98304,
+          "verified_metrics": {
+            "peak_bytes": 102400,
+            "recompute_cost": 98304,
+            "forward_cost": 8617984,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 98304,
+            "exact_minimum_work_at_cap": true,
+            "cap": 106496,
+            "states": 47,
+            "expanded": 47,
+            "seconds": 0.0002637910074554384,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 106496,
+            "budget": 98303,
+            "states": 35,
+            "expanded": 35,
+            "seconds": 0.00017929100431501865,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "b457d6d85b399248876b21bd83be8c165e5a7848b1ea77b4f6081e331fd013b8",
+          "certificate_file": "mlp-b4-cap26.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 27,
+          "peak_cap_bytes": 110592,
+          "minimum_work": 98304,
+          "verified_metrics": {
+            "peak_bytes": 102400,
+            "recompute_cost": 98304,
+            "forward_cost": 8617984,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 98304,
+            "exact_minimum_work_at_cap": true,
+            "cap": 110592,
+            "states": 48,
+            "expanded": 48,
+            "seconds": 0.0002889579627662897,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 110592,
+            "budget": 98303,
+            "states": 36,
+            "expanded": 36,
+            "seconds": 0.0001926660188473761,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "b457d6d85b399248876b21bd83be8c165e5a7848b1ea77b4f6081e331fd013b8",
+          "certificate_file": "mlp-b4-cap27.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 28,
+          "peak_cap_bytes": 114688,
+          "minimum_work": 98304,
+          "verified_metrics": {
+            "peak_bytes": 102400,
+            "recompute_cost": 98304,
+            "forward_cost": 8617984,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 98304,
+            "exact_minimum_work_at_cap": true,
+            "cap": 114688,
+            "states": 61,
+            "expanded": 61,
+            "seconds": 0.00038129196036607027,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 114688,
+            "budget": 98303,
+            "states": 43,
+            "expanded": 43,
+            "seconds": 0.0002597079728730023,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "b457d6d85b399248876b21bd83be8c165e5a7848b1ea77b4f6081e331fd013b8",
+          "certificate_file": "mlp-b4-cap28.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 29,
+          "peak_cap_bytes": 118784,
+          "minimum_work": 65536,
+          "verified_metrics": {
+            "peak_bytes": 118784,
+            "recompute_cost": 65536,
+            "forward_cost": 8585216,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 65536,
+            "exact_minimum_work_at_cap": true,
+            "cap": 118784,
+            "states": 50,
+            "expanded": 50,
+            "seconds": 0.0003028750070370734,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 118784,
+            "budget": 65535,
+            "states": 28,
+            "expanded": 28,
+            "seconds": 0.0002501249546185136,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "b5d31184a76ec481f3c1c7c8dbd1b915a0aef07c057089ec74b25ceda5efd6e2",
+          "certificate_file": "mlp-b4-cap29.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 30,
+          "peak_cap_bytes": 122880,
+          "minimum_work": 65536,
+          "verified_metrics": {
+            "peak_bytes": 118784,
+            "recompute_cost": 65536,
+            "forward_cost": 8585216,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 65536,
+            "exact_minimum_work_at_cap": true,
+            "cap": 122880,
+            "states": 50,
+            "expanded": 50,
+            "seconds": 0.00030870799673721194,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 122880,
+            "budget": 65535,
+            "states": 28,
+            "expanded": 28,
+            "seconds": 0.0001413340214639902,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "b5d31184a76ec481f3c1c7c8dbd1b915a0aef07c057089ec74b25ceda5efd6e2",
+          "certificate_file": "mlp-b4-cap30.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 31,
+          "peak_cap_bytes": 126976,
+          "minimum_work": 65536,
+          "verified_metrics": {
+            "peak_bytes": 118784,
+            "recompute_cost": 65536,
+            "forward_cost": 8585216,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 65536,
+            "exact_minimum_work_at_cap": true,
+            "cap": 126976,
+            "states": 50,
+            "expanded": 50,
+            "seconds": 0.00030104198958724737,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 126976,
+            "budget": 65535,
+            "states": 28,
+            "expanded": 28,
+            "seconds": 0.00014454202027991414,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "b5d31184a76ec481f3c1c7c8dbd1b915a0aef07c057089ec74b25ceda5efd6e2",
+          "certificate_file": "mlp-b4-cap31.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 32,
+          "peak_cap_bytes": 131072,
+          "minimum_work": 65536,
+          "verified_metrics": {
+            "peak_bytes": 118784,
+            "recompute_cost": 65536,
+            "forward_cost": 8585216,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 65536,
+            "exact_minimum_work_at_cap": true,
+            "cap": 131072,
+            "states": 58,
+            "expanded": 58,
+            "seconds": 0.00036804197588935494,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 131072,
+            "budget": 65535,
+            "states": 32,
+            "expanded": 32,
+            "seconds": 0.00017079198732972145,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "b5d31184a76ec481f3c1c7c8dbd1b915a0aef07c057089ec74b25ceda5efd6e2",
+          "certificate_file": "mlp-b4-cap32.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 33,
+          "peak_cap_bytes": 135168,
+          "minimum_work": 32768,
+          "verified_metrics": {
+            "peak_bytes": 135168,
+            "recompute_cost": 32768,
+            "forward_cost": 8552448,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 32768,
+            "exact_minimum_work_at_cap": true,
+            "cap": 135168,
+            "states": 36,
+            "expanded": 36,
+            "seconds": 0.00020945799769833684,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 135168,
+            "budget": 32767,
+            "states": 11,
+            "expanded": 11,
+            "seconds": 5.195802077651024e-05,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "2dbcb4c880f8fc50dd66d61760f1fcc91a35b19473233ed24e79d1b172b2527a",
+          "certificate_file": "mlp-b4-cap33.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 34,
+          "peak_cap_bytes": 139264,
+          "minimum_work": 32768,
+          "verified_metrics": {
+            "peak_bytes": 135168,
+            "recompute_cost": 32768,
+            "forward_cost": 8552448,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 32768,
+            "exact_minimum_work_at_cap": true,
+            "cap": 139264,
+            "states": 36,
+            "expanded": 36,
+            "seconds": 0.00020770798437297344,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 139264,
+            "budget": 32767,
+            "states": 11,
+            "expanded": 11,
+            "seconds": 5.808298010379076e-05,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "2dbcb4c880f8fc50dd66d61760f1fcc91a35b19473233ed24e79d1b172b2527a",
+          "certificate_file": "mlp-b4-cap34.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 35,
+          "peak_cap_bytes": 143360,
+          "minimum_work": 32768,
+          "verified_metrics": {
+            "peak_bytes": 135168,
+            "recompute_cost": 32768,
+            "forward_cost": 8552448,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 32768,
+            "exact_minimum_work_at_cap": true,
+            "cap": 143360,
+            "states": 36,
+            "expanded": 36,
+            "seconds": 0.000208458979614079,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 143360,
+            "budget": 32767,
+            "states": 11,
+            "expanded": 11,
+            "seconds": 5.783297820016742e-05,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "2dbcb4c880f8fc50dd66d61760f1fcc91a35b19473233ed24e79d1b172b2527a",
+          "certificate_file": "mlp-b4-cap35.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 36,
+          "peak_cap_bytes": 147456,
+          "minimum_work": 32768,
+          "verified_metrics": {
+            "peak_bytes": 135168,
+            "recompute_cost": 32768,
+            "forward_cost": 8552448,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 32768,
+            "exact_minimum_work_at_cap": true,
+            "cap": 147456,
+            "states": 38,
+            "expanded": 38,
+            "seconds": 0.00023537501692771912,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 147456,
+            "budget": 32767,
+            "states": 12,
+            "expanded": 12,
+            "seconds": 6.516702705994248e-05,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "2dbcb4c880f8fc50dd66d61760f1fcc91a35b19473233ed24e79d1b172b2527a",
+          "certificate_file": "mlp-b4-cap36.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 37,
+          "peak_cap_bytes": 151552,
+          "minimum_work": 0,
+          "verified_metrics": {
+            "peak_bytes": 151552,
+            "recompute_cost": 0,
+            "forward_cost": 8519680,
+            "backward_cost": 17039360
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 0,
+            "exact_minimum_work_at_cap": true,
+            "cap": 151552,
+            "states": 13,
+            "expanded": 13,
+            "seconds": 7.95419909991324e-05,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": null,
+          "actions_sha256": "059d52cdf74b9d66d36b3b330250229dcf72e73d0bbd7b6bf08414fc7b38e371",
+          "certificate_file": "mlp-b4-cap37.json",
+          "original_budget_replays": [
+            0
+          ]
+        }
+      ],
+      "steps": [
+        [
+          9,
+          21299200
+        ],
+        [
+          10,
+          8552448
+        ],
+        [
+          11,
+          6422528
+        ],
+        [
+          12,
+          4292608
+        ],
+        [
+          13,
+          3244032
+        ],
+        [
+          17,
+          2195456
+        ],
+        [
+          21,
+          1146880
+        ],
+        [
+          25,
+          98304
+        ],
+        [
+          29,
+          65536
+        ],
+        [
+          33,
+          32768
+        ],
+        [
+          37,
+          0
+        ]
+      ],
+      "universal_peak_floor": {
+        "units": 9,
+        "bytes": 36864,
+        "reason": "standing immutable x plus mandatory UP input and GELU output coexist before any drop",
+        "below_floor_search": {
+          "status": "infeasible_at_budget",
+          "cap": 32768,
+          "budget": 1000000000000,
+          "states": 3,
+          "expanded": 3,
+          "seconds": 1.695897663012147e-05,
+          "state_cap": 250000,
+          "time_cap_seconds": 30
+        },
+        "applies_at_every_work_budget": true
+      },
+      "zero_work_cap_units": 37,
+      "zero_work_peak_bytes": 151552,
+      "negative_controls": {
+        "changed_frozen_graph_rejected": true,
+        "unsupported_saved_requirement_rejected": true
+      }
+    },
+    "mlp-b8": {
+      "graph_sha256": "8b8d218fc5424929ede29d67422930cf182f80c09623fb7a9a8dcdcd8758a9db",
+      "rows": [
+        {
+          "cap_units": 9,
+          "peak_cap_bytes": 36864,
+          "minimum_work": 93716480,
+          "verified_metrics": {
+            "peak_bytes": 36864,
+            "recompute_cost": 93716480,
+            "forward_cost": 110755840,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 93716480,
+            "exact_minimum_work_at_cap": true,
+            "cap": 36864,
+            "states": 1127,
+            "expanded": 1127,
+            "seconds": 0.00439466699026525,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 36864,
+            "budget": 93716479,
+            "states": 1122,
+            "expanded": 1122,
+            "seconds": 0.004201500036288053,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "7bc473153ca07eb51cc8f80844f7dd8c20afdcf07c5bfd2de620870d62cf30d5",
+          "certificate_file": "mlp-b8-cap9.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 10,
+          "peak_cap_bytes": 40960,
+          "minimum_work": 34078720,
+          "verified_metrics": {
+            "peak_bytes": 40960,
+            "recompute_cost": 34078720,
+            "forward_cost": 51118080,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 34078720,
+            "exact_minimum_work_at_cap": true,
+            "cap": 40960,
+            "states": 8816,
+            "expanded": 8816,
+            "seconds": 0.043921291013248265,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 40960,
+            "budget": 34078719,
+            "states": 8772,
+            "expanded": 8772,
+            "seconds": 0.046308625023812056,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "99849cd7b149f01e4c574883372a2810d7b1ed5b4326b39a3f1d9541655de142",
+          "certificate_file": "mlp-b8-cap10.json",
+          "original_budget_replays": [
+            34078720
+          ]
+        },
+        {
+          "cap_units": 11,
+          "peak_cap_bytes": 45056,
+          "minimum_work": 21364736,
+          "verified_metrics": {
+            "peak_bytes": 45056,
+            "recompute_cost": 21364736,
+            "forward_cost": 38404096,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 21364736,
+            "exact_minimum_work_at_cap": true,
+            "cap": 45056,
+            "states": 26938,
+            "expanded": 26938,
+            "seconds": 0.15217762504471466,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 45056,
+            "budget": 21364735,
+            "states": 26815,
+            "expanded": 26815,
+            "seconds": 0.1377844589878805,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "c36d8916ada1b851e8c710cb315794188e599532bf7462e8ba7915b7b8803cdb",
+          "certificate_file": "mlp-b8-cap11.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 12,
+          "peak_cap_bytes": 49152,
+          "minimum_work": 17137664,
+          "verified_metrics": {
+            "peak_bytes": 49152,
+            "recompute_cost": 17137664,
+            "forward_cost": 34177024,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 17137664,
+            "exact_minimum_work_at_cap": true,
+            "cap": 49152,
+            "states": 52048,
+            "expanded": 52048,
+            "seconds": 0.30574266699841246,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 49152,
+            "budget": 17137663,
+            "states": 51985,
+            "expanded": 51985,
+            "seconds": 0.30266341695096344,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "dffca6e56eb31df1b788f0e747ad21700615af493cade5782b3a9fb734b2018e",
+          "certificate_file": "mlp-b8-cap12.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 13,
+          "peak_cap_bytes": 53248,
+          "minimum_work": 15007744,
+          "verified_metrics": {
+            "peak_bytes": 53248,
+            "recompute_cost": 15007744,
+            "forward_cost": 32047104,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 15007744,
+            "exact_minimum_work_at_cap": true,
+            "cap": 53248,
+            "states": 73915,
+            "expanded": 73915,
+            "seconds": 0.47482975001912564,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 53248,
+            "budget": 15007743,
+            "states": 73773,
+            "expanded": 73773,
+            "seconds": 0.47136929200496525,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "34d8fb8680e0134c24ba2d95ad8d8fd1a63c1a635029c6fcd5b8e77e0d913269",
+          "certificate_file": "mlp-b8-cap13.json",
+          "original_budget_replays": [
+            17039360
+          ]
+        },
+        {
+          "cap_units": 14,
+          "peak_cap_bytes": 57344,
+          "minimum_work": 11829248,
+          "verified_metrics": {
+            "peak_bytes": 57344,
+            "recompute_cost": 11829248,
+            "forward_cost": 28868608,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 11829248,
+            "exact_minimum_work_at_cap": true,
+            "cap": 57344,
+            "states": 51066,
+            "expanded": 51066,
+            "seconds": 0.35686916700797155,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 57344,
+            "budget": 11829247,
+            "states": 50720,
+            "expanded": 50720,
+            "seconds": 0.3584952079690993,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "b37550885292da21c797af63edbb8d0bc1f2cf5dbdeb680396c0754e3fb4eeb9",
+          "certificate_file": "mlp-b8-cap14.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 15,
+          "peak_cap_bytes": 61440,
+          "minimum_work": 9699328,
+          "verified_metrics": {
+            "peak_bytes": 61440,
+            "recompute_cost": 9699328,
+            "forward_cost": 26738688,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 9699328,
+            "exact_minimum_work_at_cap": true,
+            "cap": 61440,
+            "states": 29216,
+            "expanded": 29216,
+            "seconds": 0.19992387504316866,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 61440,
+            "budget": 9699327,
+            "states": 28735,
+            "expanded": 28735,
+            "seconds": 0.1913764159544371,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "c295ad855991bc807a5fc7751d905171ecc136c49b262502c336089d8178164a",
+          "certificate_file": "mlp-b8-cap15.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 16,
+          "peak_cap_bytes": 65536,
+          "minimum_work": 8617984,
+          "verified_metrics": {
+            "peak_bytes": 65536,
+            "recompute_cost": 8617984,
+            "forward_cost": 25657344,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 8617984,
+            "exact_minimum_work_at_cap": true,
+            "cap": 65536,
+            "states": 26932,
+            "expanded": 26932,
+            "seconds": 0.183783125015907,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 65536,
+            "budget": 8617983,
+            "states": 24915,
+            "expanded": 24915,
+            "seconds": 0.16384812496835366,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "d7fd87d3073ac39f9418f73e0a28d944c35df5df996a8e854277661abe319446",
+          "certificate_file": "mlp-b8-cap16.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 17,
+          "peak_cap_bytes": 69632,
+          "minimum_work": 7569408,
+          "verified_metrics": {
+            "peak_bytes": 69632,
+            "recompute_cost": 7569408,
+            "forward_cost": 24608768,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 7569408,
+            "exact_minimum_work_at_cap": true,
+            "cap": 69632,
+            "states": 20865,
+            "expanded": 20865,
+            "seconds": 0.14247204101411626,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 69632,
+            "budget": 7569407,
+            "states": 20142,
+            "expanded": 20142,
+            "seconds": 0.13481550000142306,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "c979ea9616be39a5a8098e9f878c2aa86aaf5b720595c8de9c0e2c1654176e8e",
+          "certificate_file": "mlp-b8-cap17.json",
+          "original_budget_replays": [
+            8519680
+          ]
+        },
+        {
+          "cap_units": 18,
+          "peak_cap_bytes": 73728,
+          "minimum_work": 7569408,
+          "verified_metrics": {
+            "peak_bytes": 69632,
+            "recompute_cost": 7569408,
+            "forward_cost": 24608768,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 7569408,
+            "exact_minimum_work_at_cap": true,
+            "cap": 73728,
+            "states": 29031,
+            "expanded": 29031,
+            "seconds": 0.21076924999943003,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 73728,
+            "budget": 7569407,
+            "states": 27144,
+            "expanded": 27144,
+            "seconds": 0.189601666003,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "c979ea9616be39a5a8098e9f878c2aa86aaf5b720595c8de9c0e2c1654176e8e",
+          "certificate_file": "mlp-b8-cap18.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 19,
+          "peak_cap_bytes": 77824,
+          "minimum_work": 7569408,
+          "verified_metrics": {
+            "peak_bytes": 69632,
+            "recompute_cost": 7569408,
+            "forward_cost": 24608768,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 7569408,
+            "exact_minimum_work_at_cap": true,
+            "cap": 77824,
+            "states": 42672,
+            "expanded": 42672,
+            "seconds": 0.3218365840148181,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 77824,
+            "budget": 7569407,
+            "states": 39767,
+            "expanded": 39767,
+            "seconds": 0.2931336250039749,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "c979ea9616be39a5a8098e9f878c2aa86aaf5b720595c8de9c0e2c1654176e8e",
+          "certificate_file": "mlp-b8-cap19.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 20,
+          "peak_cap_bytes": 81920,
+          "minimum_work": 7569408,
+          "verified_metrics": {
+            "peak_bytes": 81920,
+            "recompute_cost": 7569408,
+            "forward_cost": 24608768,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 7569408,
+            "exact_minimum_work_at_cap": true,
+            "cap": 81920,
+            "states": 66861,
+            "expanded": 66861,
+            "seconds": 0.5440675000427291,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 81920,
+            "budget": 7569407,
+            "states": 60615,
+            "expanded": 60615,
+            "seconds": 0.4877880829735659,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "c37b8bdd9f4f23ec1944eafd9d881560aa7c32ebc208361532d08f7100ee958b",
+          "certificate_file": "mlp-b8-cap20.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 21,
+          "peak_cap_bytes": 86016,
+          "minimum_work": 6520832,
+          "verified_metrics": {
+            "peak_bytes": 86016,
+            "recompute_cost": 6520832,
+            "forward_cost": 23560192,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 6520832,
+            "exact_minimum_work_at_cap": true,
+            "cap": 86016,
+            "states": 44529,
+            "expanded": 44529,
+            "seconds": 0.36966654198477045,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 86016,
+            "budget": 6520831,
+            "states": 42613,
+            "expanded": 42613,
+            "seconds": 0.3365583330160007,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "b18773f405f3beff72f0d49cbb0549ddea301e005abbb639e548bce7bd818dc3",
+          "certificate_file": "mlp-b8-cap21.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 22,
+          "peak_cap_bytes": 90112,
+          "minimum_work": 6520832,
+          "verified_metrics": {
+            "peak_bytes": 86016,
+            "recompute_cost": 6520832,
+            "forward_cost": 23560192,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 6520832,
+            "exact_minimum_work_at_cap": true,
+            "cap": 90112,
+            "states": 59304,
+            "expanded": 59304,
+            "seconds": 0.5097609999938868,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 90112,
+            "budget": 6520831,
+            "states": 54829,
+            "expanded": 54829,
+            "seconds": 0.5075955000356771,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "b18773f405f3beff72f0d49cbb0549ddea301e005abbb639e548bce7bd818dc3",
+          "certificate_file": "mlp-b8-cap22.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 23,
+          "peak_cap_bytes": 94208,
+          "minimum_work": 6520832,
+          "verified_metrics": {
+            "peak_bytes": 86016,
+            "recompute_cost": 6520832,
+            "forward_cost": 23560192,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 6520832,
+            "exact_minimum_work_at_cap": true,
+            "cap": 94208,
+            "states": 79452,
+            "expanded": 79452,
+            "seconds": 0.7404769589775242,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 94208,
+            "budget": 6520831,
+            "states": 72816,
+            "expanded": 72816,
+            "seconds": 0.6732512500020675,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "b18773f405f3beff72f0d49cbb0549ddea301e005abbb639e548bce7bd818dc3",
+          "certificate_file": "mlp-b8-cap23.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 24,
+          "peak_cap_bytes": 98304,
+          "minimum_work": 6520832,
+          "verified_metrics": {
+            "peak_bytes": 98304,
+            "recompute_cost": 6520832,
+            "forward_cost": 23560192,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 6520832,
+            "exact_minimum_work_at_cap": true,
+            "cap": 98304,
+            "states": 114955,
+            "expanded": 114955,
+            "seconds": 1.1062555420212448,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 98304,
+            "budget": 6520831,
+            "states": 102411,
+            "expanded": 102411,
+            "seconds": 0.9340793750016019,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "4247b8210ba060ffab947adb676a7b1fca27d0a56d6f45665eae9ec400308cf8",
+          "certificate_file": "mlp-b8-cap24.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 25,
+          "peak_cap_bytes": 102400,
+          "minimum_work": 5472256,
+          "verified_metrics": {
+            "peak_bytes": 102400,
+            "recompute_cost": 5472256,
+            "forward_cost": 22511616,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 5472256,
+            "exact_minimum_work_at_cap": true,
+            "cap": 102400,
+            "states": 64000,
+            "expanded": 64000,
+            "seconds": 0.5944175000186078,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 102400,
+            "budget": 5472255,
+            "states": 60561,
+            "expanded": 60561,
+            "seconds": 0.5391183749889024,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "94e2bd72e11f2fa83d7207dfd239646ba3d98e81c8e0e0b1b07f23e961fa1585",
+          "certificate_file": "mlp-b8-cap25.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 26,
+          "peak_cap_bytes": 106496,
+          "minimum_work": 5472256,
+          "verified_metrics": {
+            "peak_bytes": 102400,
+            "recompute_cost": 5472256,
+            "forward_cost": 22511616,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 5472256,
+            "exact_minimum_work_at_cap": true,
+            "cap": 106496,
+            "states": 83739,
+            "expanded": 83739,
+            "seconds": 0.8249486670247279,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 106496,
+            "budget": 5472255,
+            "states": 76763,
+            "expanded": 76763,
+            "seconds": 0.7370436659548432,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "94e2bd72e11f2fa83d7207dfd239646ba3d98e81c8e0e0b1b07f23e961fa1585",
+          "certificate_file": "mlp-b8-cap26.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 27,
+          "peak_cap_bytes": 110592,
+          "minimum_work": 5472256,
+          "verified_metrics": {
+            "peak_bytes": 102400,
+            "recompute_cost": 5472256,
+            "forward_cost": 22511616,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 5472256,
+            "exact_minimum_work_at_cap": true,
+            "cap": 110592,
+            "states": 104959,
+            "expanded": 104959,
+            "seconds": 1.0945885420078412,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 110592,
+            "budget": 5472255,
+            "states": 95000,
+            "expanded": 95000,
+            "seconds": 0.9620515410206281,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "94e2bd72e11f2fa83d7207dfd239646ba3d98e81c8e0e0b1b07f23e961fa1585",
+          "certificate_file": "mlp-b8-cap27.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 28,
+          "peak_cap_bytes": 114688,
+          "minimum_work": 5472256,
+          "verified_metrics": {
+            "peak_bytes": 114688,
+            "recompute_cost": 5472256,
+            "forward_cost": 22511616,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 5472256,
+            "exact_minimum_work_at_cap": true,
+            "cap": 114688,
+            "states": 139939,
+            "expanded": 139939,
+            "seconds": 1.583103957993444,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 114688,
+            "budget": 5472255,
+            "states": 122092,
+            "expanded": 122092,
+            "seconds": 1.2870923340087757,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "b846fee6c70de6add053a47bc1685ce228921b13d65732ea7478ccddef2ffacf",
+          "certificate_file": "mlp-b8-cap28.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 29,
+          "peak_cap_bytes": 118784,
+          "minimum_work": 4423680,
+          "verified_metrics": {
+            "peak_bytes": 118784,
+            "recompute_cost": 4423680,
+            "forward_cost": 21463040,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 4423680,
+            "exact_minimum_work_at_cap": true,
+            "cap": 118784,
+            "states": 60732,
+            "expanded": 60732,
+            "seconds": 0.6292776659829542,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 118784,
+            "budget": 4423679,
+            "states": 56582,
+            "expanded": 56582,
+            "seconds": 0.569287084043026,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "6c14f1096f2e4c491208afa1d34a3ddac3e22e04682c123ed96ee7c283ebbfef",
+          "certificate_file": "mlp-b8-cap29.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 30,
+          "peak_cap_bytes": 122880,
+          "minimum_work": 4423680,
+          "verified_metrics": {
+            "peak_bytes": 118784,
+            "recompute_cost": 4423680,
+            "forward_cost": 21463040,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 4423680,
+            "exact_minimum_work_at_cap": true,
+            "cap": 122880,
+            "states": 78867,
+            "expanded": 78867,
+            "seconds": 0.863823541032616,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 122880,
+            "budget": 4423679,
+            "states": 71843,
+            "expanded": 71843,
+            "seconds": 0.7661817080224864,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "6c14f1096f2e4c491208afa1d34a3ddac3e22e04682c123ed96ee7c283ebbfef",
+          "certificate_file": "mlp-b8-cap30.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 31,
+          "peak_cap_bytes": 126976,
+          "minimum_work": 4423680,
+          "verified_metrics": {
+            "peak_bytes": 118784,
+            "recompute_cost": 4423680,
+            "forward_cost": 21463040,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 4423680,
+            "exact_minimum_work_at_cap": true,
+            "cap": 126976,
+            "states": 95607,
+            "expanded": 95607,
+            "seconds": 1.095713832997717,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 126976,
+            "budget": 4423679,
+            "states": 86139,
+            "expanded": 86139,
+            "seconds": 0.9748835829668678,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "6c14f1096f2e4c491208afa1d34a3ddac3e22e04682c123ed96ee7c283ebbfef",
+          "certificate_file": "mlp-b8-cap31.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 32,
+          "peak_cap_bytes": 131072,
+          "minimum_work": 4423680,
+          "verified_metrics": {
+            "peak_bytes": 131072,
+            "recompute_cost": 4423680,
+            "forward_cost": 21463040,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 4423680,
+            "exact_minimum_work_at_cap": true,
+            "cap": 131072,
+            "states": 119779,
+            "expanded": 119779,
+            "seconds": 1.4358602500287816,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 131072,
+            "budget": 4423679,
+            "states": 102268,
+            "expanded": 102268,
+            "seconds": 1.1744255420053378,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "82f91ba12036cbc886327bbf15979202a41bae92d22ecf8410cb618280b31cb7",
+          "certificate_file": "mlp-b8-cap32.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 33,
+          "peak_cap_bytes": 135168,
+          "minimum_work": 3375104,
+          "verified_metrics": {
+            "peak_bytes": 135168,
+            "recompute_cost": 3375104,
+            "forward_cost": 20414464,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 3375104,
+            "exact_minimum_work_at_cap": true,
+            "cap": 135168,
+            "states": 37630,
+            "expanded": 37630,
+            "seconds": 0.3949401249992661,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 135168,
+            "budget": 3375103,
+            "states": 34315,
+            "expanded": 34315,
+            "seconds": 0.3589359589968808,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "5acd9329629ec5d717b0f30758b98173283194d09e83355150bc2f09691b10b3",
+          "certificate_file": "mlp-b8-cap33.json",
+          "original_budget_replays": [
+            4259840
+          ]
+        },
+        {
+          "cap_units": 34,
+          "peak_cap_bytes": 139264,
+          "minimum_work": 3375104,
+          "verified_metrics": {
+            "peak_bytes": 135168,
+            "recompute_cost": 3375104,
+            "forward_cost": 20414464,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 3375104,
+            "exact_minimum_work_at_cap": true,
+            "cap": 139264,
+            "states": 47926,
+            "expanded": 47926,
+            "seconds": 0.5198653749539517,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 139264,
+            "budget": 3375103,
+            "states": 43411,
+            "expanded": 43411,
+            "seconds": 0.45295570901362225,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "5acd9329629ec5d717b0f30758b98173283194d09e83355150bc2f09691b10b3",
+          "certificate_file": "mlp-b8-cap34.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 35,
+          "peak_cap_bytes": 143360,
+          "minimum_work": 3375104,
+          "verified_metrics": {
+            "peak_bytes": 135168,
+            "recompute_cost": 3375104,
+            "forward_cost": 20414464,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 3375104,
+            "exact_minimum_work_at_cap": true,
+            "cap": 143360,
+            "states": 57668,
+            "expanded": 57668,
+            "seconds": 0.6534072500071488,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 143360,
+            "budget": 3375103,
+            "states": 52098,
+            "expanded": 52098,
+            "seconds": 0.5862647079629824,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "5acd9329629ec5d717b0f30758b98173283194d09e83355150bc2f09691b10b3",
+          "certificate_file": "mlp-b8-cap35.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 36,
+          "peak_cap_bytes": 147456,
+          "minimum_work": 3375104,
+          "verified_metrics": {
+            "peak_bytes": 147456,
+            "recompute_cost": 3375104,
+            "forward_cost": 20414464,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 3375104,
+            "exact_minimum_work_at_cap": true,
+            "cap": 147456,
+            "states": 70639,
+            "expanded": 70639,
+            "seconds": 0.8249394999584183,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 147456,
+            "budget": 3375103,
+            "states": 59094,
+            "expanded": 59094,
+            "seconds": 0.6631642499705777,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "9f9d1129ee55431c5a3c591842f4c000ac2e58c77bf07ebc46ccf388b178dd5d",
+          "certificate_file": "mlp-b8-cap36.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 37,
+          "peak_cap_bytes": 151552,
+          "minimum_work": 2326528,
+          "verified_metrics": {
+            "peak_bytes": 151552,
+            "recompute_cost": 2326528,
+            "forward_cost": 19365888,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 2326528,
+            "exact_minimum_work_at_cap": true,
+            "cap": 151552,
+            "states": 15105,
+            "expanded": 15105,
+            "seconds": 0.15959950000979006,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 151552,
+            "budget": 2326527,
+            "states": 13397,
+            "expanded": 13397,
+            "seconds": 0.14043445902643725,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "2afb11376a52ae97f54eeea53a5f319004aca8f0171b762ad3f9ab82bfa55d25",
+          "certificate_file": "mlp-b8-cap37.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 38,
+          "peak_cap_bytes": 155648,
+          "minimum_work": 2326528,
+          "verified_metrics": {
+            "peak_bytes": 151552,
+            "recompute_cost": 2326528,
+            "forward_cost": 19365888,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 2326528,
+            "exact_minimum_work_at_cap": true,
+            "cap": 155648,
+            "states": 18373,
+            "expanded": 18373,
+            "seconds": 0.2024254580028355,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 155648,
+            "budget": 2326527,
+            "states": 16506,
+            "expanded": 16506,
+            "seconds": 0.17502500000409782,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "2afb11376a52ae97f54eeea53a5f319004aca8f0171b762ad3f9ab82bfa55d25",
+          "certificate_file": "mlp-b8-cap38.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 39,
+          "peak_cap_bytes": 159744,
+          "minimum_work": 2326528,
+          "verified_metrics": {
+            "peak_bytes": 151552,
+            "recompute_cost": 2326528,
+            "forward_cost": 19365888,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 2326528,
+            "exact_minimum_work_at_cap": true,
+            "cap": 159744,
+            "states": 22083,
+            "expanded": 22083,
+            "seconds": 0.2534911669790745,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 159744,
+            "budget": 2326527,
+            "states": 20016,
+            "expanded": 20016,
+            "seconds": 0.22416841698577628,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "2afb11376a52ae97f54eeea53a5f319004aca8f0171b762ad3f9ab82bfa55d25",
+          "certificate_file": "mlp-b8-cap39.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 40,
+          "peak_cap_bytes": 163840,
+          "minimum_work": 2326528,
+          "verified_metrics": {
+            "peak_bytes": 163840,
+            "recompute_cost": 2326528,
+            "forward_cost": 19365888,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 2326528,
+            "exact_minimum_work_at_cap": true,
+            "cap": 163840,
+            "states": 27309,
+            "expanded": 27309,
+            "seconds": 0.33162845799233764,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 163840,
+            "budget": 2326527,
+            "states": 22375,
+            "expanded": 22375,
+            "seconds": 0.2558081249590032,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "4efcf81924207490be081b407149ec1b388eed43bfe7b94622f0201e06986ed2",
+          "certificate_file": "mlp-b8-cap40.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 41,
+          "peak_cap_bytes": 167936,
+          "minimum_work": 1277952,
+          "verified_metrics": {
+            "peak_bytes": 167936,
+            "recompute_cost": 1277952,
+            "forward_cost": 18317312,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 1277952,
+            "exact_minimum_work_at_cap": true,
+            "cap": 167936,
+            "states": 3686,
+            "expanded": 3686,
+            "seconds": 0.04104558296967298,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 167936,
+            "budget": 1277951,
+            "states": 3150,
+            "expanded": 3150,
+            "seconds": 0.0339532500365749,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "9a7602d3cada22260ca7d8f63f3534e5a42104b1b100cf41d784151d84015368",
+          "certificate_file": "mlp-b8-cap41.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 42,
+          "peak_cap_bytes": 172032,
+          "minimum_work": 1277952,
+          "verified_metrics": {
+            "peak_bytes": 167936,
+            "recompute_cost": 1277952,
+            "forward_cost": 18317312,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 1277952,
+            "exact_minimum_work_at_cap": true,
+            "cap": 172032,
+            "states": 4202,
+            "expanded": 4202,
+            "seconds": 0.047414416971150786,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 172032,
+            "budget": 1277951,
+            "states": 3682,
+            "expanded": 3682,
+            "seconds": 0.04014599998481572,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "9a7602d3cada22260ca7d8f63f3534e5a42104b1b100cf41d784151d84015368",
+          "certificate_file": "mlp-b8-cap42.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 43,
+          "peak_cap_bytes": 176128,
+          "minimum_work": 1277952,
+          "verified_metrics": {
+            "peak_bytes": 167936,
+            "recompute_cost": 1277952,
+            "forward_cost": 18317312,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 1277952,
+            "exact_minimum_work_at_cap": true,
+            "cap": 176128,
+            "states": 5031,
+            "expanded": 5031,
+            "seconds": 0.05878383299568668,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 176128,
+            "budget": 1277951,
+            "states": 4471,
+            "expanded": 4471,
+            "seconds": 0.05066270800307393,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "9a7602d3cada22260ca7d8f63f3534e5a42104b1b100cf41d784151d84015368",
+          "certificate_file": "mlp-b8-cap43.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 44,
+          "peak_cap_bytes": 180224,
+          "minimum_work": 1277952,
+          "verified_metrics": {
+            "peak_bytes": 180224,
+            "recompute_cost": 1277952,
+            "forward_cost": 18317312,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 1277952,
+            "exact_minimum_work_at_cap": true,
+            "cap": 180224,
+            "states": 6259,
+            "expanded": 6259,
+            "seconds": 0.07664158398984,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 180224,
+            "budget": 1277951,
+            "states": 5009,
+            "expanded": 5009,
+            "seconds": 0.05939962499542162,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "ebb886929fb932bb744bad2a14e723f85c9fba91d5ef15f34ca974a8c33da975",
+          "certificate_file": "mlp-b8-cap44.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 45,
+          "peak_cap_bytes": 184320,
+          "minimum_work": 229376,
+          "verified_metrics": {
+            "peak_bytes": 184320,
+            "recompute_cost": 229376,
+            "forward_cost": 17268736,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 229376,
+            "exact_minimum_work_at_cap": true,
+            "cap": 184320,
+            "states": 434,
+            "expanded": 434,
+            "seconds": 0.004959500045515597,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 184320,
+            "budget": 229375,
+            "states": 350,
+            "expanded": 350,
+            "seconds": 0.0038459160132333636,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "9da31d1aba3653203af990b79b4a807dc2d90e378477da6a0cbdcdbe22b9f807",
+          "certificate_file": "mlp-b8-cap45.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 46,
+          "peak_cap_bytes": 188416,
+          "minimum_work": 229376,
+          "verified_metrics": {
+            "peak_bytes": 184320,
+            "recompute_cost": 229376,
+            "forward_cost": 17268736,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 229376,
+            "exact_minimum_work_at_cap": true,
+            "cap": 188416,
+            "states": 460,
+            "expanded": 460,
+            "seconds": 0.005311125016305596,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 188416,
+            "budget": 229375,
+            "states": 371,
+            "expanded": 371,
+            "seconds": 0.0040955840377137065,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "9da31d1aba3653203af990b79b4a807dc2d90e378477da6a0cbdcdbe22b9f807",
+          "certificate_file": "mlp-b8-cap46.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 47,
+          "peak_cap_bytes": 192512,
+          "minimum_work": 229376,
+          "verified_metrics": {
+            "peak_bytes": 184320,
+            "recompute_cost": 229376,
+            "forward_cost": 17268736,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 229376,
+            "exact_minimum_work_at_cap": true,
+            "cap": 192512,
+            "states": 550,
+            "expanded": 550,
+            "seconds": 0.006546167016495019,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 192512,
+            "budget": 229375,
+            "states": 441,
+            "expanded": 441,
+            "seconds": 0.005119665991514921,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "9da31d1aba3653203af990b79b4a807dc2d90e378477da6a0cbdcdbe22b9f807",
+          "certificate_file": "mlp-b8-cap47.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 48,
+          "peak_cap_bytes": 196608,
+          "minimum_work": 229376,
+          "verified_metrics": {
+            "peak_bytes": 184320,
+            "recompute_cost": 229376,
+            "forward_cost": 17268736,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 229376,
+            "exact_minimum_work_at_cap": true,
+            "cap": 196608,
+            "states": 641,
+            "expanded": 641,
+            "seconds": 0.008020374982152134,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 196608,
+            "budget": 229375,
+            "states": 504,
+            "expanded": 504,
+            "seconds": 0.005988500022795051,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "9da31d1aba3653203af990b79b4a807dc2d90e378477da6a0cbdcdbe22b9f807",
+          "certificate_file": "mlp-b8-cap48.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 49,
+          "peak_cap_bytes": 200704,
+          "minimum_work": 196608,
+          "verified_metrics": {
+            "peak_bytes": 200704,
+            "recompute_cost": 196608,
+            "forward_cost": 17235968,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 196608,
+            "exact_minimum_work_at_cap": true,
+            "cap": 200704,
+            "states": 608,
+            "expanded": 608,
+            "seconds": 0.007437082997057587,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 200704,
+            "budget": 196607,
+            "states": 473,
+            "expanded": 473,
+            "seconds": 0.005499333026818931,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "51100881f26dbd0090fc500974ee781df9e1cbd315ba382a1cc018a7b6e89179",
+          "certificate_file": "mlp-b8-cap49.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 50,
+          "peak_cap_bytes": 204800,
+          "minimum_work": 196608,
+          "verified_metrics": {
+            "peak_bytes": 200704,
+            "recompute_cost": 196608,
+            "forward_cost": 17235968,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 196608,
+            "exact_minimum_work_at_cap": true,
+            "cap": 204800,
+            "states": 616,
+            "expanded": 616,
+            "seconds": 0.007612208020873368,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 204800,
+            "budget": 196607,
+            "states": 480,
+            "expanded": 480,
+            "seconds": 0.00545262498781085,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "51100881f26dbd0090fc500974ee781df9e1cbd315ba382a1cc018a7b6e89179",
+          "certificate_file": "mlp-b8-cap50.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 51,
+          "peak_cap_bytes": 208896,
+          "minimum_work": 196608,
+          "verified_metrics": {
+            "peak_bytes": 200704,
+            "recompute_cost": 196608,
+            "forward_cost": 17235968,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 196608,
+            "exact_minimum_work_at_cap": true,
+            "cap": 208896,
+            "states": 687,
+            "expanded": 687,
+            "seconds": 0.008640041050966829,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 208896,
+            "budget": 196607,
+            "states": 536,
+            "expanded": 536,
+            "seconds": 0.006351749994792044,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "51100881f26dbd0090fc500974ee781df9e1cbd315ba382a1cc018a7b6e89179",
+          "certificate_file": "mlp-b8-cap51.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 52,
+          "peak_cap_bytes": 212992,
+          "minimum_work": 196608,
+          "verified_metrics": {
+            "peak_bytes": 200704,
+            "recompute_cost": 196608,
+            "forward_cost": 17235968,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 196608,
+            "exact_minimum_work_at_cap": true,
+            "cap": 212992,
+            "states": 834,
+            "expanded": 834,
+            "seconds": 0.010969583003316075,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 212992,
+            "budget": 196607,
+            "states": 627,
+            "expanded": 627,
+            "seconds": 0.007839583966415375,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "51100881f26dbd0090fc500974ee781df9e1cbd315ba382a1cc018a7b6e89179",
+          "certificate_file": "mlp-b8-cap52.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 53,
+          "peak_cap_bytes": 217088,
+          "minimum_work": 163840,
+          "verified_metrics": {
+            "peak_bytes": 217088,
+            "recompute_cost": 163840,
+            "forward_cost": 17203200,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 163840,
+            "exact_minimum_work_at_cap": true,
+            "cap": 217088,
+            "states": 740,
+            "expanded": 740,
+            "seconds": 0.00919120799517259,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 217088,
+            "budget": 163839,
+            "states": 522,
+            "expanded": 522,
+            "seconds": 0.006081291998270899,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "d446d01e897ebb1a4be6af6185cd5ffc934de9bd46030e757b439a018c9e8b4c",
+          "certificate_file": "mlp-b8-cap53.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 54,
+          "peak_cap_bytes": 221184,
+          "minimum_work": 163840,
+          "verified_metrics": {
+            "peak_bytes": 217088,
+            "recompute_cost": 163840,
+            "forward_cost": 17203200,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 163840,
+            "exact_minimum_work_at_cap": true,
+            "cap": 221184,
+            "states": 741,
+            "expanded": 741,
+            "seconds": 0.00927904195850715,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 221184,
+            "budget": 163839,
+            "states": 523,
+            "expanded": 523,
+            "seconds": 0.006087374989874661,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "d446d01e897ebb1a4be6af6185cd5ffc934de9bd46030e757b439a018c9e8b4c",
+          "certificate_file": "mlp-b8-cap54.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 55,
+          "peak_cap_bytes": 225280,
+          "minimum_work": 163840,
+          "verified_metrics": {
+            "peak_bytes": 217088,
+            "recompute_cost": 163840,
+            "forward_cost": 17203200,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 163840,
+            "exact_minimum_work_at_cap": true,
+            "cap": 225280,
+            "states": 775,
+            "expanded": 775,
+            "seconds": 0.009801457985304296,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 225280,
+            "budget": 163839,
+            "states": 551,
+            "expanded": 551,
+            "seconds": 0.007501082960516214,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "d446d01e897ebb1a4be6af6185cd5ffc934de9bd46030e757b439a018c9e8b4c",
+          "certificate_file": "mlp-b8-cap55.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 56,
+          "peak_cap_bytes": 229376,
+          "minimum_work": 163840,
+          "verified_metrics": {
+            "peak_bytes": 217088,
+            "recompute_cost": 163840,
+            "forward_cost": 17203200,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 163840,
+            "exact_minimum_work_at_cap": true,
+            "cap": 229376,
+            "states": 936,
+            "expanded": 936,
+            "seconds": 0.013466041011270136,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 229376,
+            "budget": 163839,
+            "states": 642,
+            "expanded": 642,
+            "seconds": 0.008120917016640306,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "d446d01e897ebb1a4be6af6185cd5ffc934de9bd46030e757b439a018c9e8b4c",
+          "certificate_file": "mlp-b8-cap56.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 57,
+          "peak_cap_bytes": 233472,
+          "minimum_work": 131072,
+          "verified_metrics": {
+            "peak_bytes": 233472,
+            "recompute_cost": 131072,
+            "forward_cost": 17170432,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 131072,
+            "exact_minimum_work_at_cap": true,
+            "cap": 233472,
+            "states": 740,
+            "expanded": 740,
+            "seconds": 0.010135999997146428,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 233472,
+            "budget": 131071,
+            "states": 439,
+            "expanded": 439,
+            "seconds": 0.0050580420065671206,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "a822e0719d45b531be77128c40312e5cf4e4eb0ab3a3cabdab7cae39c5ba0ad1",
+          "certificate_file": "mlp-b8-cap57.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 58,
+          "peak_cap_bytes": 237568,
+          "minimum_work": 131072,
+          "verified_metrics": {
+            "peak_bytes": 233472,
+            "recompute_cost": 131072,
+            "forward_cost": 17170432,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 131072,
+            "exact_minimum_work_at_cap": true,
+            "cap": 237568,
+            "states": 740,
+            "expanded": 740,
+            "seconds": 0.009228416020050645,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 237568,
+            "budget": 131071,
+            "states": 439,
+            "expanded": 439,
+            "seconds": 0.00494533299934119,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "a822e0719d45b531be77128c40312e5cf4e4eb0ab3a3cabdab7cae39c5ba0ad1",
+          "certificate_file": "mlp-b8-cap58.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 59,
+          "peak_cap_bytes": 241664,
+          "minimum_work": 131072,
+          "verified_metrics": {
+            "peak_bytes": 233472,
+            "recompute_cost": 131072,
+            "forward_cost": 17170432,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 131072,
+            "exact_minimum_work_at_cap": true,
+            "cap": 241664,
+            "states": 749,
+            "expanded": 749,
+            "seconds": 0.00943887501489371,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 241664,
+            "budget": 131071,
+            "states": 447,
+            "expanded": 447,
+            "seconds": 0.005077207984868437,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "a822e0719d45b531be77128c40312e5cf4e4eb0ab3a3cabdab7cae39c5ba0ad1",
+          "certificate_file": "mlp-b8-cap59.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 60,
+          "peak_cap_bytes": 245760,
+          "minimum_work": 131072,
+          "verified_metrics": {
+            "peak_bytes": 233472,
+            "recompute_cost": 131072,
+            "forward_cost": 17170432,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 131072,
+            "exact_minimum_work_at_cap": true,
+            "cap": 245760,
+            "states": 868,
+            "expanded": 868,
+            "seconds": 0.01144475000910461,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 245760,
+            "budget": 131071,
+            "states": 510,
+            "expanded": 510,
+            "seconds": 0.005640791030600667,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "a822e0719d45b531be77128c40312e5cf4e4eb0ab3a3cabdab7cae39c5ba0ad1",
+          "certificate_file": "mlp-b8-cap60.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 61,
+          "peak_cap_bytes": 249856,
+          "minimum_work": 98304,
+          "verified_metrics": {
+            "peak_bytes": 249856,
+            "recompute_cost": 98304,
+            "forward_cost": 17137664,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 98304,
+            "exact_minimum_work_at_cap": true,
+            "cap": 249856,
+            "states": 574,
+            "expanded": 574,
+            "seconds": 0.006997165968641639,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 249856,
+            "budget": 98303,
+            "states": 265,
+            "expanded": 265,
+            "seconds": 0.002813416998833418,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "9752f42d1dbdf018f93135523b5050a4a3206c9f39a81a6cbbb8707d7980a6fa",
+          "certificate_file": "mlp-b8-cap61.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 62,
+          "peak_cap_bytes": 253952,
+          "minimum_work": 98304,
+          "verified_metrics": {
+            "peak_bytes": 249856,
+            "recompute_cost": 98304,
+            "forward_cost": 17137664,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 98304,
+            "exact_minimum_work_at_cap": true,
+            "cap": 253952,
+            "states": 574,
+            "expanded": 574,
+            "seconds": 0.007063374971039593,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 253952,
+            "budget": 98303,
+            "states": 265,
+            "expanded": 265,
+            "seconds": 0.0028500420157797635,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "9752f42d1dbdf018f93135523b5050a4a3206c9f39a81a6cbbb8707d7980a6fa",
+          "certificate_file": "mlp-b8-cap62.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 63,
+          "peak_cap_bytes": 258048,
+          "minimum_work": 98304,
+          "verified_metrics": {
+            "peak_bytes": 249856,
+            "recompute_cost": 98304,
+            "forward_cost": 17137664,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 98304,
+            "exact_minimum_work_at_cap": true,
+            "cap": 258048,
+            "states": 575,
+            "expanded": 575,
+            "seconds": 0.007028208987321705,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 258048,
+            "budget": 98303,
+            "states": 266,
+            "expanded": 266,
+            "seconds": 0.0028346659964881837,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "9752f42d1dbdf018f93135523b5050a4a3206c9f39a81a6cbbb8707d7980a6fa",
+          "certificate_file": "mlp-b8-cap63.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 64,
+          "peak_cap_bytes": 262144,
+          "minimum_work": 98304,
+          "verified_metrics": {
+            "peak_bytes": 249856,
+            "recompute_cost": 98304,
+            "forward_cost": 17137664,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 98304,
+            "exact_minimum_work_at_cap": true,
+            "cap": 262144,
+            "states": 632,
+            "expanded": 632,
+            "seconds": 0.00793866696767509,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 262144,
+            "budget": 98303,
+            "states": 295,
+            "expanded": 295,
+            "seconds": 0.0032274589757435024,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "9752f42d1dbdf018f93135523b5050a4a3206c9f39a81a6cbbb8707d7980a6fa",
+          "certificate_file": "mlp-b8-cap64.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 65,
+          "peak_cap_bytes": 266240,
+          "minimum_work": 65536,
+          "verified_metrics": {
+            "peak_bytes": 266240,
+            "recompute_cost": 65536,
+            "forward_cost": 17104896,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 65536,
+            "exact_minimum_work_at_cap": true,
+            "cap": 266240,
+            "states": 324,
+            "expanded": 324,
+            "seconds": 0.003716957988217473,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 266240,
+            "budget": 65535,
+            "states": 106,
+            "expanded": 106,
+            "seconds": 0.0010172500042244792,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "6840d37ab9c42fb46f955a699bd23ee6f16604045bf74e53f8e399f207aaccca",
+          "certificate_file": "mlp-b8-cap65.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 66,
+          "peak_cap_bytes": 270336,
+          "minimum_work": 65536,
+          "verified_metrics": {
+            "peak_bytes": 266240,
+            "recompute_cost": 65536,
+            "forward_cost": 17104896,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 65536,
+            "exact_minimum_work_at_cap": true,
+            "cap": 270336,
+            "states": 324,
+            "expanded": 324,
+            "seconds": 0.003701458976138383,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 270336,
+            "budget": 65535,
+            "states": 106,
+            "expanded": 106,
+            "seconds": 0.0010057089966721833,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "6840d37ab9c42fb46f955a699bd23ee6f16604045bf74e53f8e399f207aaccca",
+          "certificate_file": "mlp-b8-cap66.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 67,
+          "peak_cap_bytes": 274432,
+          "minimum_work": 65536,
+          "verified_metrics": {
+            "peak_bytes": 266240,
+            "recompute_cost": 65536,
+            "forward_cost": 17104896,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 65536,
+            "exact_minimum_work_at_cap": true,
+            "cap": 274432,
+            "states": 324,
+            "expanded": 324,
+            "seconds": 0.0037070830003358424,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 274432,
+            "budget": 65535,
+            "states": 106,
+            "expanded": 106,
+            "seconds": 0.0010084169916808605,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "6840d37ab9c42fb46f955a699bd23ee6f16604045bf74e53f8e399f207aaccca",
+          "certificate_file": "mlp-b8-cap67.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 68,
+          "peak_cap_bytes": 278528,
+          "minimum_work": 65536,
+          "verified_metrics": {
+            "peak_bytes": 266240,
+            "recompute_cost": 65536,
+            "forward_cost": 17104896,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 65536,
+            "exact_minimum_work_at_cap": true,
+            "cap": 278528,
+            "states": 340,
+            "expanded": 340,
+            "seconds": 0.003966499993111938,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 278528,
+            "budget": 65535,
+            "states": 114,
+            "expanded": 114,
+            "seconds": 0.0011221659951843321,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "6840d37ab9c42fb46f955a699bd23ee6f16604045bf74e53f8e399f207aaccca",
+          "certificate_file": "mlp-b8-cap68.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 69,
+          "peak_cap_bytes": 282624,
+          "minimum_work": 32768,
+          "verified_metrics": {
+            "peak_bytes": 282624,
+            "recompute_cost": 32768,
+            "forward_cost": 17072128,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 32768,
+            "exact_minimum_work_at_cap": true,
+            "cap": 282624,
+            "states": 122,
+            "expanded": 122,
+            "seconds": 0.001269417000003159,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 282624,
+            "budget": 32767,
+            "states": 23,
+            "expanded": 23,
+            "seconds": 0.00018366699805483222,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "f5ef504e19fab206e4d8e8f0769a7638d0b67c7b20d21387f4c8ddecff926438",
+          "certificate_file": "mlp-b8-cap69.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 70,
+          "peak_cap_bytes": 286720,
+          "minimum_work": 32768,
+          "verified_metrics": {
+            "peak_bytes": 282624,
+            "recompute_cost": 32768,
+            "forward_cost": 17072128,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 32768,
+            "exact_minimum_work_at_cap": true,
+            "cap": 286720,
+            "states": 122,
+            "expanded": 122,
+            "seconds": 0.001265666971448809,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 286720,
+            "budget": 32767,
+            "states": 23,
+            "expanded": 23,
+            "seconds": 0.0001865419908426702,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "f5ef504e19fab206e4d8e8f0769a7638d0b67c7b20d21387f4c8ddecff926438",
+          "certificate_file": "mlp-b8-cap70.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 71,
+          "peak_cap_bytes": 290816,
+          "minimum_work": 32768,
+          "verified_metrics": {
+            "peak_bytes": 282624,
+            "recompute_cost": 32768,
+            "forward_cost": 17072128,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 32768,
+            "exact_minimum_work_at_cap": true,
+            "cap": 290816,
+            "states": 122,
+            "expanded": 122,
+            "seconds": 0.0012476249830797315,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 290816,
+            "budget": 32767,
+            "states": 23,
+            "expanded": 23,
+            "seconds": 0.00018366699805483222,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "f5ef504e19fab206e4d8e8f0769a7638d0b67c7b20d21387f4c8ddecff926438",
+          "certificate_file": "mlp-b8-cap71.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 72,
+          "peak_cap_bytes": 294912,
+          "minimum_work": 32768,
+          "verified_metrics": {
+            "peak_bytes": 282624,
+            "recompute_cost": 32768,
+            "forward_cost": 17072128,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 32768,
+            "exact_minimum_work_at_cap": true,
+            "cap": 294912,
+            "states": 124,
+            "expanded": 124,
+            "seconds": 0.0012955409474670887,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": {
+            "status": "infeasible_at_budget",
+            "cap": 294912,
+            "budget": 32767,
+            "states": 24,
+            "expanded": 24,
+            "seconds": 0.00020179100101813674,
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "actions_sha256": "f5ef504e19fab206e4d8e8f0769a7638d0b67c7b20d21387f4c8ddecff926438",
+          "certificate_file": "mlp-b8-cap72.json",
+          "original_budget_replays": []
+        },
+        {
+          "cap_units": 73,
+          "peak_cap_bytes": 299008,
+          "minimum_work": 0,
+          "verified_metrics": {
+            "peak_bytes": 299008,
+            "recompute_cost": 0,
+            "forward_cost": 17039360,
+            "backward_cost": 34078720
+          },
+          "positive": {
+            "status": "optimal",
+            "minimum_recompute_cost": 0,
+            "exact_minimum_work_at_cap": true,
+            "cap": 299008,
+            "states": 25,
+            "expanded": 25,
+            "seconds": 0.00022287503816187382,
+            "normalization": "eager legal backwards and useless suffix drops",
+            "domain": "strict chain with immediate-parent backward requirements",
+            "state_cap": 250000,
+            "time_cap_seconds": 30
+          },
+          "work_minus_one": null,
+          "actions_sha256": "afff592923d93bc17ebfef27eca2651e30f69e9f14b65c415f724d3380da9264",
+          "certificate_file": "mlp-b8-cap73.json",
+          "original_budget_replays": [
+            0
+          ]
+        }
+      ],
+      "steps": [
+        [
+          9,
+          93716480
+        ],
+        [
+          10,
+          34078720
+        ],
+        [
+          11,
+          21364736
+        ],
+        [
+          12,
+          17137664
+        ],
+        [
+          13,
+          15007744
+        ],
+        [
+          14,
+          11829248
+        ],
+        [
+          15,
+          9699328
+        ],
+        [
+          16,
+          8617984
+        ],
+        [
+          17,
+          7569408
+        ],
+        [
+          21,
+          6520832
+        ],
+        [
+          25,
+          5472256
+        ],
+        [
+          29,
+          4423680
+        ],
+        [
+          33,
+          3375104
+        ],
+        [
+          37,
+          2326528
+        ],
+        [
+          41,
+          1277952
+        ],
+        [
+          45,
+          229376
+        ],
+        [
+          49,
+          196608
+        ],
+        [
+          53,
+          163840
+        ],
+        [
+          57,
+          131072
+        ],
+        [
+          61,
+          98304
+        ],
+        [
+          65,
+          65536
+        ],
+        [
+          69,
+          32768
+        ],
+        [
+          73,
+          0
+        ]
+      ],
+      "universal_peak_floor": {
+        "units": 9,
+        "bytes": 36864,
+        "reason": "standing immutable x plus mandatory UP input and GELU output coexist before any drop",
+        "below_floor_search": {
+          "status": "infeasible_at_budget",
+          "cap": 32768,
+          "budget": 1000000000000,
+          "states": 3,
+          "expanded": 3,
+          "seconds": 9.124982170760632e-06,
+          "state_cap": 250000,
+          "time_cap_seconds": 30
+        },
+        "applies_at_every_work_budget": true
+      },
+      "zero_work_cap_units": 73,
+      "zero_work_peak_bytes": 299008,
+      "negative_controls": {
+        "changed_frozen_graph_rejected": true,
+        "unsupported_saved_requirement_rejected": true
+      }
+    }
+  },
+  "verified_cap_points": 94,
+  "nondominated_steps": 34,
+  "work_minus_one_exclusions": 92,
+  "original_budget_replays": 10,
+  "additional_original_benchmark_wins_from_curve": 0,
+  "seconds": 33.301854042045306,
+  "limits": {
+    "states_per_query": 250000,
+    "seconds_per_query": 30,
+    "aggregate_seconds": 120
+  },
+  "scope": "Complete fixed-cap minimum-work functions, including all finite-cap plateaus, a universal9u floor, and zero-work tails. Auxiliary points are not added original benchmark cases.",
+  "evidence": "author-checked exact-state computations and mathematical normalization; same-author-team review is not independent scientific acceptance"
+}
