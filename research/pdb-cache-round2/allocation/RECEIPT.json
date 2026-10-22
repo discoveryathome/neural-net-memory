@@ -1,0 +1,194 @@
+{
+  "schema": "cache-allocation-receipt/v1",
+  "status": "PASS",
+  "checked_utc": "2026-10-22T00:02:40Z",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "seed": "dafc4be0863b7654352ffb2ba4a4d2df",
+  "evidence": "author-checked; separately authored replay and review within one AI-assisted author team; scientific acceptance pending",
+  "scope": "two secondary additional-work improvements at unchanged frozen peaks and budgets; no global work optimum or smaller-peak claim",
+  "replay_command": "sandbox-exec -f SESSION/research.sb /opt/homebrew/bin/python3 -B research/pdb-cache-round2/allocation/allocation_dp.py",
+  "tests_command": "sandbox-exec -f SESSION/research.sb /opt/homebrew/bin/python3 -B -m unittest discover -s research/pdb-cache-round2/allocation -p 'test_*.py' -v",
+  "replay": {
+    "status": "PASS",
+    "scope": "constructive fixed-entry checkpoint allocation; no global minimum-work claim",
+    "graph_sha256": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+    "rows": [
+      {
+        "total_work": 234618880,
+        "last_local_cap_units": 15,
+        "last_plan_source_cap": 15,
+        "last_work": 10420224,
+        "retained_units": 4,
+        "earlier": [
+          {
+            "block": 0,
+            "mask": 256,
+            "retained": [
+              "b0_residual1"
+            ],
+            "owned_units": 1,
+            "local_cap_units": 22,
+            "forward_only_peak_units": 10,
+            "backward_cost": 77529088
+          },
+          {
+            "block": 1,
+            "mask": 256,
+            "retained": [
+              "b0_residual1"
+            ],
+            "owned_units": 1,
+            "local_cap_units": 20,
+            "forward_only_peak_units": 10,
+            "backward_cost": 77529088
+          },
+          {
+            "block": 2,
+            "mask": 258,
+            "retained": [
+              "b0_q",
+              "b0_residual1"
+            ],
+            "owned_units": 2,
+            "local_cap_units": 18,
+            "forward_only_peak_units": 11,
+            "backward_cost": 69140480
+          }
+        ],
+        "cap_units": 22,
+        "layers": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "total_work": 117178368,
+        "last_local_cap_units": 15,
+        "last_plan_source_cap": 15,
+        "last_work": 10420224,
+        "retained_units": 18,
+        "earlier": [
+          {
+            "block": 0,
+            "mask": 256,
+            "retained": [
+              "b0_residual1"
+            ],
+            "owned_units": 1,
+            "local_cap_units": 36,
+            "forward_only_peak_units": 10,
+            "backward_cost": 77529088
+          },
+          {
+            "block": 1,
+            "mask": 1294,
+            "retained": [
+              "b0_q",
+              "b0_k",
+              "b0_v",
+              "b0_residual1",
+              "b0_up"
+            ],
+            "owned_units": 8,
+            "local_cap_units": 34,
+            "forward_only_peak_units": 14,
+            "backward_cost": 18808832
+          },
+          {
+            "block": 2,
+            "mask": 1358,
+            "retained": [
+              "b0_q",
+              "b0_k",
+              "b0_v",
+              "b0_context",
+              "b0_residual1",
+              "b0_up"
+            ],
+            "owned_units": 9,
+            "local_cap_units": 25,
+            "forward_only_peak_units": 15,
+            "backward_cost": 10420224
+          }
+        ],
+        "cap_units": 36,
+        "layers": [
+          24,
+          24,
+          24
+        ]
+      }
+    ],
+    "metrics": [
+      {
+        "cap_units": 22,
+        "claims": {
+          "peak_bytes": 2883584,
+          "recompute_cost": 234618880,
+          "forward_cost": 712769536,
+          "backward_cost": 956301312
+        },
+        "prior_work": 234717184,
+        "saved_work": 98304
+      },
+      {
+        "cap_units": 36,
+        "claims": {
+          "peak_bytes": 4718592,
+          "recompute_cost": 117178368,
+          "forward_cost": 595329024,
+          "backward_cost": 956301312
+        },
+        "prior_work": 117211136,
+        "saved_work": 32768
+      }
+    ],
+    "seconds": 16.854352249996737,
+    "action_traces_reconstructed": true
+  },
+  "tests": 4,
+  "limits": {
+    "aggregate_pricing_seconds": 120,
+    "per_backward_table_seconds": 30,
+    "per_backward_table_states": 200000,
+    "per_full_region_seconds": 15,
+    "per_full_region_records": 500000,
+    "tight_edge_states": 200000
+  },
+  "copied_sources": {
+    "regional_solver_source": "transformer-regions-round2 / PR10, originating in retention-transfer / PR6",
+    "original_regional_solver_sha256": "0a6848a76242b0ad06ecda812984413fe9244f80db6456f708f3be8b7dc88109",
+    "regional_changes": "provenance paragraph and nested repository-root lookup only",
+    "pattern_db_sha256": "bb2576b557333e44511192615eea411be1daa04069dbb7422e082e74f7463acc"
+  },
+  "core_files": {
+    "verifier.py": "104e5e63d1cdb95355153144666292125d64806ee7bf149d0af714b2a47e1015",
+    "search.py": "7e321741e941d239392d2cf0e646c7ea05823a8f81dd2b4379300775c660ad63",
+    "MODEL.md": "356237ec6ce9efa5a99a87043ff556d7128eb0abacf8420dd003189d99cc596e",
+    "benchmarks/graphs/transformer-b4-t128.json": "a1b3a93b491b729515b4deb53b90b4aa8179b218500d88ad5d4eaa2dafa7b455"
+  },
+  "package_files": {
+    ".gitignore": "6574f425cb1aad8df8d6739ac666e3464935e8e25d86c4a03523d94700d63ec4",
+    "NOTES.md": "b7ca25b655054598731b66265b5a4b5223673bf89e82507c32ace0465907b44a",
+    "allocation_dp.py": "3d7170c88fa0fc904c45a46d250190661c2d9d9b87f7993b388f07b0d3365718",
+    "certificates/transformer-b4-t128-cap22.json": "66f619e57caea45e578f157a543ab3e12c49da5b29b5865f1f0346b9d41f745e",
+    "certificates/transformer-b4-t128-cap36.json": "9120109cd6e944b8280f9f45d41d1b24a61f8b50df79b4b893827183fbdb5089",
+    "controls/full-block-cap15.json": "658c9bc8cec4fd5e62ec7bd447353c0a64a674f92a78ef6efb6e7ad2dc5b30c8",
+    "evidence/cross-agent-review.json": "fcff16aa5a3b2332809fa51e1c3e16eef78693829f05e061fe0c8898de79c9e8",
+    "evidence/integrated-measurements.jsonl": "78fb2299fee45d40a7850c0ef7fa88ead5dcefaf9a24e5947bb8939cba6213ef",
+    "evidence/integrated-replay.json": "5e49e9b0ec9fb9d0b890e6d401e341d8b7a61db6948d60bb7ca4c224d8bc0dfb",
+    "evidence/integrated-replay.log": "513a0710c65f6a777881501d2a465227d0685fbfcc3397646e98999fc9ea091e",
+    "evidence/integrated-tests.log": "2cd0b2ea7c4a69b7110f786c7bb0402c5cab74df8bcdd6ca69b3c9ccc8a30add",
+    "evidence/original-reconstruction.log": "3fe8597223f5fef9b5c234d19f21e9e2d96e7e62dac230ca04cb424cbb30856a",
+    "regional_exact.py": "7ba1310c23725aefbcc008328110fe8c25954f8d2b8c31964480fe7d11959e23",
+    "test_allocation.py": "c25ab9fd75003adcf258430e45d4a139823beff1208cef2d36e2d3e58482c3e4"
+  },
+  "generated_binaries_committed": false,
+  "credit": [
+    "Doug Colkitt / @Mister-Meeseeks frozen model, verifier, graph and trial solver",
+    "retention-transfer / PR6 and transformer-regions-round2 / PR10 regional exact search, forward-only retention and composition",
+    "parent PDB-cache package backward pattern database",
+    "Codex AI author team allocation DP, trace reconstruction, separately authored implementation review"
+  ]
+}

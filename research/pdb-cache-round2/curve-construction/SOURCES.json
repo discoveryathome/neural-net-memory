@@ -1,0 +1,37 @@
+{
+  "schema": "constructive-curve-sources/v1",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "package_files": {
+    ".gitignore": "6574f425cb1aad8df8d6739ac666e3464935e8e25d86c4a03523d94700d63ec4",
+    "EXPECTED.json": "5f2392409782c778c954932c964ecc9fccd3adbc48eb9017c701a1d28d35656f",
+    "NOTES.md": "4f2f34ef48fd78d16d5db35b442b509b1bc5c982e792754fab44c58fcc17f24d",
+    "VERIFY.json": "b36ecd490623830f7e96b40d02e9bf3080eb2b050c45f916f3f0555772fc5b06",
+    "curve_constructor.py": "1b34bafc5d2b0cfa05e10f3d49c8ce3a22ff2bdcad62ebb8c51409e686d5ca8a",
+    "evidence/parent-review.json": "9cde88591b4dbc24a58a431166df5c6f4ec3af697fbc3e67477c246db9f4645e",
+    "evidence/shared-results.json": "3c3fe79e180073486a96af583eeb68f4ac38a0aa32f8ca6153328d01edfc21f7",
+    "evidence/shared.log": "b42bb0a80416e67c3bf572f5d9259cbeff93f09af8bb08b70cdaeb13dac50205",
+    "evidence/standalone-measurements.jsonl": "6da9ee55d96b89aed3d932e27e11f425b2298ec6062fa65d9c798862267244c0",
+    "evidence/standalone-results.json": "6a5b02b321a2806a27377af4e64af79fcb8aefe2c6c8885d82715b6ae3c317a1",
+    "evidence/standalone.log": "d1e20307cd4f8d7afc37bf3718485a17182256b86d8ae3a4c13a303898a13a45",
+    "evidence/verify-all.log": "57ac561f3c2859e5cdfa6a6aff17b65ab7d65d9077300db8549ebfc8b6928f10",
+    "replay.py": "094bf23d29173ef6bf8a356a0687f6ef26afe2cb9220424d770ddb8f148c2d57"
+  },
+  "reused_public_sources": {
+    "research/pdb-cache-round2/pattern_db.py": "bb2576b557333e44511192615eea411be1daa04069dbb7422e082e74f7463acc",
+    "research/pdb-cache-round2/allocation/allocation_dp.py": "3d7170c88fa0fc904c45a46d250190661c2d9d9b87f7993b388f07b0d3365718",
+    "research/pdb-cache-round2/allocation/regional_exact.py": "7ba1310c23725aefbcc008328110fe8c25954f8d2b8c31964480fe7d11959e23"
+  },
+  "frozen_repository_files": {
+    "verifier.py": "104e5e63d1cdb95355153144666292125d64806ee7bf149d0af714b2a47e1015",
+    "search.py": "7e321741e941d239392d2cf0e646c7ea05823a8f81dd2b4379300775c660ad63",
+    "MODEL.md": "356237ec6ce9efa5a99a87043ff556d7128eb0abacf8420dd003189d99cc596e",
+    "benchmarks/graphs/transformer-b4-t128.json": "a1b3a93b491b729515b4deb53b90b4aa8179b218500d88ad5d4eaa2dafa7b455"
+  },
+  "credit": [
+    "Doug Colkitt / @Mister-Meeseeks frozen model, graph, verifier and trial schedules",
+    "retention-transfer / PR6 and transformer-regions-round2 / PR10 exact regional search/composition",
+    "same-session PDB/allocation helpers and factored bound author team",
+    "Codex AI for @0xqtpie: constructive curve, full trace replay and author-team review"
+  ],
+  "evidence": "author-checked; outside scientific review and maintainer acceptance pending"
+}

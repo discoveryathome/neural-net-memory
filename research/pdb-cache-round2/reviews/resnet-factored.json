@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "scope": "read-only same-author-team code/proof review and separate source-only replay; not independent scientific validation",
+  "findings": [],
+  "package_files": {
+    "positive-cap36.json": "9120109cd6e944b8280f9f45d41d1b24a61f8b50df79b4b893827183fbdb5089",
+    "direct_enumeration.py": "30464b6131d019514df99f9786ac5e0180918aa9188cb4af97414bcfc40006c2",
+    "controls.py": "dc02efd73d26ee4aba039cadc156938522ab70e17d68ac6e8dddf4ea87db39fe",
+    "EXPECTED.json": "a470377c15330f012818a04df1461faf5ca9438aaf995d0b80bf5647e305a76d",
+    "pdb_audit.py": "fbe58283e2c1967041c4831942f78ffd4c7cd8005b17181f817eec82aa453677",
+    "README.md": "bced7767d33f6fb450868b6cf3761fb94655aab4c3e7f0f9d797a6272c2ab63e",
+    "replay.py": "eaf309ce2c22d6b5a3fa5f6eca9fa2473d1c7fe4449fc0a1c98d782929d92049",
+    "positive-cap22.json": "66f619e57caea45e578f157a543ab3e12c49da5b29b5865f1f0346b9d41f745e",
+    "terminal_phase_db.py": "30310410539bee5449dd8c1c302283791a7e58df4c4f36faf4324a57037700a7",
+    "factor_bound.py": "802787662f14e0006e264d804a688530a5aab0e7d2c52b0c5e5adb1fc4fe037f"
+  },
+  "audited_edges": 13329066,
+  "table_forgeries": 12,
+  "tiny": {
+    "tiny_brute_comparisons": 30,
+    "input_forgeries_rejected": 3
+  },
+  "rows": [
+    {
+      "cap": 12,
+      "lower_work": 462716928
+    },
+    {
+      "cap": 13,
+      "lower_work": 396165120
+    },
+    {
+      "cap": 22,
+      "lower_work": 234618880
+    },
+    {
+      "cap": 36,
+      "lower_work": 117178368
+    }
+  ],
+  "result_sha256": "8c2fb5cc63ddd2c1688e42572bb432858c2c6a37c78b2273f9794d155aa7fa5c",
+  "log_sha256": "b7d56365d05f822290c2042b49e97c78f7ba890fdf5a4bafdfd5f8aa734fb429",
+  "review": "First-final-GELU mapping, owned-cost partition, min/max factoring, DP aggregate domain, exact capacity saturation, full-witness component mapping and semantic table/witness forgeries all inspected; prior independent six-coordinate control copied unchanged. No blocking correctness issue found."
+}

@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "findings": [],
+  "review": "Same-author-team read-only proof/kernel/mapping review; no independent scientific acceptance",
+  "checked_utc": "2026-10-22T00:32:20Z",
+  "source_sha256": {
+    "research/pdb-cache-round2/curve-bound/NESTED-PROOF.md": "552fdac7d822c24176038e4112ab537d139e0291914a954385e20a3b0e727777",
+    "research/pdb-cache-round2/curve-bound/nested_bound.py": "32831d4ca9aa1d5013726958aebcc2699e673e6891552694a95e883bb6c76fac",
+    "research/pdb-cache-round2/curve-bound/nested_replay.py": "ac29a53ddf40a57e206493bcc3a38858f311c8ebd5cbf6189832f00fc7cc67af",
+    "research/pdb-cache-round2/curve-bound/replay.py": "4c0448e8c6ab0cf1d74e756c854c4689e908e51648b445fba076fcda64d7ed11",
+    "research/pdb-cache-round2/curve-bound/EXPECTED.json": "2bc3fff769c7e1d0aa8e523afb73b4bd6e972791f8213d3b6c764e6b69676f73",
+    "research/pdb-cache-round2/curve-bound/joint_replay.py": "54ed0e55e5d30f6ca1dcd23840c97fc1d553e591df99acda8fac7f93d68ad3c3"
+  },
+  "reviewed_checks": [
+    "Allfirst54 cut and ordered own-output-read endpoints e2<e1<e0 follow frozen consumer readiness; each minimum includes immediately before its own endpoint.",
+    "For blockb every older region i<b holds at leastmi through its full local completion. Thus current and minimum-state D/E both map to capC-sum_older_m.",
+    "Each min-state precedes its downstream norm1 read, so own backwards and output demand are pending. The max combines overlapping owned-work bounds safely.",
+    "Aggregate(M,R) is sufficient for future caps and final owned allowance; rising block order correctly carries earlier minima. Direct sixcoordinate enumeration covers the same tuples.",
+    "Alllocalcaps>=9 follows M<=R<=C-9. No optimistic9floor or unjustified clipped lowcap is used; cap27 saturation remains the inherited exact action-graph saturation.",
+    "New D9/10 tables are generated from hash-bound audited backtables and fully forward-audited; other tables are checked against common proof hashes and audit domains.",
+    "C15 matching full legal witness yields one additional auxiliary exact work point; C14 gap819200 is preserved, C11/12/13 remain lower diagnostics.",
+    "Terminal9 phase0 all1024forced masks unreachable gives universal10u floor under the favorable first-final-GELU projection; no finite limit supports this exclusion."
+  ],
+  "executed": {
+    "hash_bound_tables": 14,
+    "literal_recursive_prices": [
+      {
+        "cap_units": 11,
+        "lower_work": 524877824,
+        "literal_configurations": 25
+      },
+      {
+        "cap_units": 12,
+        "lower_work": 463929344,
+        "literal_configurations": 80
+      },
+      {
+        "cap_units": 13,
+        "lower_work": 405864448,
+        "literal_configurations": 205
+      },
+      {
+        "cap_units": 14,
+        "lower_work": 354451456,
+        "literal_configurations": 456
+      },
+      {
+        "cap_units": 15,
+        "lower_work": 312147968,
+        "literal_configurations": 917
+      }
+    ],
+    "tiny_controls": {
+      "direct_dp_comparisons": 28,
+      "rejected_input_forgeries": [
+        "wrong_envelope",
+        "negative_cost",
+        "missing_capacity",
+        "missing_terminal"
+      ]
+    },
+    "actual_components_caps14_15": [
+      {
+        "metrics": {
+          "peak_bytes": 1835008,
+          "recompute_cost": 355270656,
+          "forward_cost": 833421312,
+          "backward_cost": 956301312
+        },
+        "current_r": [
+          1,
+          1,
+          1
+        ],
+        "own_endpoint_minima": [
+          1,
+          1,
+          1
+        ],
+        "owned_remaining": [
+          95322112,
+          103710720,
+          112099328,
+          44138496
+        ],
+        "identity_sensitive_bounds": [
+          95322112,
+          103710720,
+          112099328,
+          44138496
+        ],
+        "factored_actual_case": [
+          95322112,
+          103710720,
+          111280128,
+          44138496
+        ]
+      },
+      {
+        "metrics": {
+          "peak_bytes": 1966080,
+          "recompute_cost": 312147968,
+          "forward_cost": 790298624,
+          "backward_cost": 956301312
+        },
+        "current_r": [
+          1,
+          1,
+          2
+        ],
+        "own_endpoint_minima": [
+          1,
+          1,
+          2
+        ],
+        "owned_remaining": [
+          95158272,
+          95322112,
+          77529088,
+          44138496
+        ],
+        "identity_sensitive_bounds": [
+          95158272,
+          95322112,
+          77529088,
+          44138496
+        ],
+        "factored_actual_case": [
+          95158272,
+          95322112,
+          77529088,
+          44138496
+        ]
+      }
+    ],
+    "terminal9_forced_INF_masks": 1024
+  },
+  "execution_scope": "No repeat of common13M+ table-edge audits or69point reconstruction. Read existing successful full receipts; reran cheap literal factor, kernel, table binding and two full-certificate owned-component controls."
+}

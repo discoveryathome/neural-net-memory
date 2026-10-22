@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "evidence": "same-author-team read-only review and separately executed portable replay; not independent scientific review",
+  "source_sha256": {
+    "allocation_dp.py": "3d7170c88fa0fc904c45a46d250190661c2d9d9b87f7993b388f07b0d3365718",
+    "test_allocation.py": "c25ab9fd75003adcf258430e45d4a139823beff1208cef2d36e2d3e58482c3e4",
+    "NOTES.md": "b7ca25b655054598731b66265b5a4b5223673bf89e82507c32ace0465907b44a",
+    "regional_exact.py": "7ba1310c23725aefbcc008328110fe8c25954f8d2b8c31964480fe7d11959e23"
+  },
+  "mapping_observations": [
+    "C-b-k counts each earlier output checkpoint and cache outside the local region, while the single fixed local input stands for immutable globalx. The concrete block-entry value is separately included in the outside checkpoints.",
+    "Local tails contain only owned-node costs. Later regions have completed and dropped their values before earlier backwards, so adding local costs and using total earlier cache units is sound.",
+    "Each retained mask is checked against a concrete first-forward trace, including the newly allocated output before drops. The DP minimum for each aggregate size preserves all information used by later regions in this stated class.",
+    "The final local cap>=10 restriction is now explicit in NOTES and source; no global work-optimum or peak-improvement claim is made. Tight-edge BFS paths are independently verified as complete global schedules.",
+    "All query/reconstruction limits raise rather than return incomplete prices."
+  ],
+  "portable_replay": {
+    "status": "PASS",
+    "seconds": 16.740206916991156,
+    "action_traces_reconstructed": true,
+    "metrics": [
+      {
+        "cap_units": 22,
+        "claims": {
+          "peak_bytes": 2883584,
+          "recompute_cost": 234618880,
+          "forward_cost": 712769536,
+          "backward_cost": 956301312
+        },
+        "prior_work": 234717184,
+        "saved_work": 98304
+      },
+      {
+        "cap_units": 36,
+        "claims": {
+          "peak_bytes": 4718592,
+          "recompute_cost": 117178368,
+          "forward_cost": 595329024,
+          "backward_cost": 956301312
+        },
+        "prior_work": 117211136,
+        "saved_work": 32768
+      }
+    ]
+  },
+  "controls": {
+    "test_methods": 4,
+    "status": "PASS",
+    "separate_ownership_and_retention_receipt": {
+      "status": "PASS",
+      "scope": "same-author-team separate full-verifier, integer capacity/cost ownership and continuous-retention controls; not global optimum proof",
+      "rows": [
+        {
+          "cap_units": 22,
+          "claims": {
+            "peak_bytes": 2883584,
+            "recompute_cost": 234618880,
+            "forward_cost": 712769536,
+            "backward_cost": 956301312
+          },
+          "owned_work": [
+            77529088,
+            77529088,
+            69140480,
+            10420224
+          ],
+          "continuous_retention_checks": 729,
+          "certificate_sha256": "66f619e57caea45e578f157a543ab3e12c49da5b29b5865f1f0346b9d41f745e"
+        },
+        {
+          "cap_units": 36,
+          "claims": {
+            "peak_bytes": 4718592,
+            "recompute_cost": 117178368,
+            "forward_cost": 595329024,
+            "backward_cost": 956301312
+          },
+          "owned_work": [
+            77529088,
+            18808832,
+            10420224,
+            10420224
+          ],
+          "continuous_retention_checks": 1335,
+          "certificate_sha256": "9120109cd6e944b8280f9f45d41d1b24a61f8b50df79b4b893827183fbdb5089"
+        }
+      ]
+    }
+  }
+}

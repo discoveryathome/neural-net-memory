@@ -1,0 +1,988 @@
+{
+  "model": "activation-memory/v1",
+  "graph_id": "transformer-b4-t128",
+  "graph_sha256": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+  "budget": 119537664,
+  "method": "cache-allocation-dp-round2",
+  "metadata": {
+    "global_optimal": false,
+    "scope": "fixed-entry checkpoints, all12-value masks jointly allocated; unchanged global verification",
+    "cap_units": 36,
+    "allocation": {
+      "total_work": 117178368,
+      "last_local_cap_units": 15,
+      "last_plan_source_cap": 15,
+      "last_work": 10420224,
+      "retained_units": 18,
+      "earlier": [
+        {
+          "block": 0,
+          "mask": 256,
+          "retained": [
+            "b0_residual1"
+          ],
+          "owned_units": 1,
+          "local_cap_units": 36,
+          "forward_only_peak_units": 10,
+          "backward_cost": 77529088
+        },
+        {
+          "block": 1,
+          "mask": 1294,
+          "retained": [
+            "b0_q",
+            "b0_k",
+            "b0_v",
+            "b0_residual1",
+            "b0_up"
+          ],
+          "owned_units": 8,
+          "local_cap_units": 34,
+          "forward_only_peak_units": 14,
+          "backward_cost": 18808832
+        },
+        {
+          "block": 2,
+          "mask": 1358,
+          "retained": [
+            "b0_q",
+            "b0_k",
+            "b0_v",
+            "b0_context",
+            "b0_residual1",
+            "b0_up"
+          ],
+          "owned_units": 9,
+          "local_cap_units": 25,
+          "forward_only_peak_units": 15,
+          "backward_cost": 10420224
+        }
+      ],
+      "cap_units": 36,
+      "layers": [
+        24,
+        24,
+        24
+      ],
+      "favorable_lower_work": 116129792,
+      "scope": "minimum over all12-value fixed-retention masks, fixed checkpoint order and supplied exact last-block prices; no global work optimum"
+    },
+    "backward_regions": [
+      {
+        "block": 2,
+        "cost": 10420224,
+        "states": 4872,
+        "local_cap_units": 25,
+        "tail_peak_bytes": 3145728
+      },
+      {
+        "block": 1,
+        "cost": 18808832,
+        "states": 4984,
+        "local_cap_units": 34,
+        "tail_peak_bytes": 3145728
+      },
+      {
+        "block": 0,
+        "cost": 77529088,
+        "states": 4105,
+        "local_cap_units": 36,
+        "tail_peak_bytes": 3145728
+      }
+    ],
+    "author": "Codex AI agent for @0xqtpie",
+    "credit": "Doug Colkitt / @Mister-Meeseeks model/verifier; prior PR6/PR10 regional composition; PR11 pattern reverse-search antecedent",
+    "evidence_level": "author-checked; scientific review pending"
+  },
+  "actions": [
+    {
+      "op": "forward",
+      "node": "b0_norm1"
+    },
+    {
+      "op": "forward",
+      "node": "b0_q"
+    },
+    {
+      "op": "forward",
+      "node": "b0_k"
+    },
+    {
+      "op": "forward",
+      "node": "b0_scores"
+    },
+    {
+      "op": "drop",
+      "node": "b0_k"
+    },
+    {
+      "op": "drop",
+      "node": "b0_q"
+    },
+    {
+      "op": "forward",
+      "node": "b0_probs"
+    },
+    {
+      "op": "drop",
+      "node": "b0_scores"
+    },
+    {
+      "op": "forward",
+      "node": "b0_v"
+    },
+    {
+      "op": "drop",
+      "node": "b0_norm1"
+    },
+    {
+      "op": "forward",
+      "node": "b0_context"
+    },
+    {
+      "op": "drop",
+      "node": "b0_probs"
+    },
+    {
+      "op": "drop",
+      "node": "b0_v"
+    },
+    {
+      "op": "forward",
+      "node": "b0_proj"
+    },
+    {
+      "op": "drop",
+      "node": "b0_context"
+    },
+    {
+      "op": "forward",
+      "node": "b0_residual1"
+    },
+    {
+      "op": "drop",
+      "node": "b0_proj"
+    },
+    {
+      "op": "forward",
+      "node": "b0_norm2"
+    },
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "drop",
+      "node": "b0_norm2"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_down"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b0_residual2"
+    },
+    {
+      "op": "drop",
+      "node": "b0_down"
+    },
+    {
+      "op": "forward",
+      "node": "b1_norm1"
+    },
+    {
+      "op": "forward",
+      "node": "b1_q"
+    },
+    {
+      "op": "forward",
+      "node": "b1_k"
+    },
+    {
+      "op": "forward",
+      "node": "b1_scores"
+    },
+    {
+      "op": "forward",
+      "node": "b1_probs"
+    },
+    {
+      "op": "drop",
+      "node": "b1_scores"
+    },
+    {
+      "op": "forward",
+      "node": "b1_v"
+    },
+    {
+      "op": "drop",
+      "node": "b1_norm1"
+    },
+    {
+      "op": "forward",
+      "node": "b1_context"
+    },
+    {
+      "op": "drop",
+      "node": "b1_probs"
+    },
+    {
+      "op": "forward",
+      "node": "b1_proj"
+    },
+    {
+      "op": "drop",
+      "node": "b1_context"
+    },
+    {
+      "op": "forward",
+      "node": "b1_residual1"
+    },
+    {
+      "op": "drop",
+      "node": "b1_proj"
+    },
+    {
+      "op": "forward",
+      "node": "b1_norm2"
+    },
+    {
+      "op": "forward",
+      "node": "b1_up"
+    },
+    {
+      "op": "drop",
+      "node": "b1_norm2"
+    },
+    {
+      "op": "forward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_down"
+    },
+    {
+      "op": "drop",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b1_residual2"
+    },
+    {
+      "op": "drop",
+      "node": "b1_down"
+    },
+    {
+      "op": "forward",
+      "node": "b2_norm1"
+    },
+    {
+      "op": "forward",
+      "node": "b2_q"
+    },
+    {
+      "op": "forward",
+      "node": "b2_k"
+    },
+    {
+      "op": "forward",
+      "node": "b2_scores"
+    },
+    {
+      "op": "forward",
+      "node": "b2_probs"
+    },
+    {
+      "op": "drop",
+      "node": "b2_scores"
+    },
+    {
+      "op": "forward",
+      "node": "b2_v"
+    },
+    {
+      "op": "drop",
+      "node": "b2_norm1"
+    },
+    {
+      "op": "forward",
+      "node": "b2_context"
+    },
+    {
+      "op": "drop",
+      "node": "b2_probs"
+    },
+    {
+      "op": "forward",
+      "node": "b2_proj"
+    },
+    {
+      "op": "forward",
+      "node": "b2_residual1"
+    },
+    {
+      "op": "drop",
+      "node": "b2_proj"
+    },
+    {
+      "op": "forward",
+      "node": "b2_norm2"
+    },
+    {
+      "op": "forward",
+      "node": "b2_up"
+    },
+    {
+      "op": "drop",
+      "node": "b2_norm2"
+    },
+    {
+      "op": "forward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b2_down"
+    },
+    {
+      "op": "drop",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b2_residual2"
+    },
+    {
+      "op": "drop",
+      "node": "b2_down"
+    },
+    {
+      "op": "forward",
+      "node": "b3_norm1"
+    },
+    {
+      "op": "forward",
+      "node": "b3_q"
+    },
+    {
+      "op": "forward",
+      "node": "b3_k"
+    },
+    {
+      "op": "forward",
+      "node": "b3_v"
+    },
+    {
+      "op": "drop",
+      "node": "b3_norm1"
+    },
+    {
+      "op": "forward",
+      "node": "b3_scores"
+    },
+    {
+      "op": "forward",
+      "node": "b3_probs"
+    },
+    {
+      "op": "drop",
+      "node": "b3_scores"
+    },
+    {
+      "op": "forward",
+      "node": "b3_context"
+    },
+    {
+      "op": "drop",
+      "node": "b3_probs"
+    },
+    {
+      "op": "forward",
+      "node": "b3_proj"
+    },
+    {
+      "op": "forward",
+      "node": "b3_residual1"
+    },
+    {
+      "op": "drop",
+      "node": "b3_proj"
+    },
+    {
+      "op": "forward",
+      "node": "b3_norm2"
+    },
+    {
+      "op": "forward",
+      "node": "b3_up"
+    },
+    {
+      "op": "drop",
+      "node": "b3_norm2"
+    },
+    {
+      "op": "forward",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b3_down"
+    },
+    {
+      "op": "drop",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "forward",
+      "node": "b3_residual2"
+    },
+    {
+      "op": "loss"
+    },
+    {
+      "op": "drop",
+      "node": "b3_down"
+    },
+    {
+      "op": "drop",
+      "node": "b3_residual2"
+    },
+    {
+      "op": "backward",
+      "node": "b3_residual2"
+    },
+    {
+      "op": "forward",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b3_down"
+    },
+    {
+      "op": "drop",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b3_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b3_up"
+    },
+    {
+      "op": "forward",
+      "node": "b3_norm2"
+    },
+    {
+      "op": "backward",
+      "node": "b3_up"
+    },
+    {
+      "op": "drop",
+      "node": "b3_norm2"
+    },
+    {
+      "op": "backward",
+      "node": "b3_norm2"
+    },
+    {
+      "op": "backward",
+      "node": "b3_residual1"
+    },
+    {
+      "op": "backward",
+      "node": "b3_proj"
+    },
+    {
+      "op": "forward",
+      "node": "b3_scores"
+    },
+    {
+      "op": "forward",
+      "node": "b3_probs"
+    },
+    {
+      "op": "backward",
+      "node": "b3_context"
+    },
+    {
+      "op": "backward",
+      "node": "b3_probs"
+    },
+    {
+      "op": "backward",
+      "node": "b3_scores"
+    },
+    {
+      "op": "forward",
+      "node": "b3_norm1"
+    },
+    {
+      "op": "backward",
+      "node": "b3_q"
+    },
+    {
+      "op": "backward",
+      "node": "b3_k"
+    },
+    {
+      "op": "backward",
+      "node": "b3_v"
+    },
+    {
+      "op": "backward",
+      "node": "b3_norm1"
+    },
+    {
+      "op": "drop",
+      "node": "b3_context"
+    },
+    {
+      "op": "drop",
+      "node": "b3_k"
+    },
+    {
+      "op": "drop",
+      "node": "b3_norm1"
+    },
+    {
+      "op": "drop",
+      "node": "b3_probs"
+    },
+    {
+      "op": "drop",
+      "node": "b3_q"
+    },
+    {
+      "op": "drop",
+      "node": "b3_residual1"
+    },
+    {
+      "op": "drop",
+      "node": "b3_scores"
+    },
+    {
+      "op": "drop",
+      "node": "b3_v"
+    },
+    {
+      "op": "drop",
+      "node": "b2_residual2"
+    },
+    {
+      "op": "forward",
+      "node": "b2_norm1"
+    },
+    {
+      "op": "forward",
+      "node": "b2_scores"
+    },
+    {
+      "op": "forward",
+      "node": "b2_probs"
+    },
+    {
+      "op": "forward",
+      "node": "b2_norm2"
+    },
+    {
+      "op": "forward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b2_residual2"
+    },
+    {
+      "op": "backward",
+      "node": "b2_down"
+    },
+    {
+      "op": "backward",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b2_up"
+    },
+    {
+      "op": "backward",
+      "node": "b2_norm2"
+    },
+    {
+      "op": "backward",
+      "node": "b2_residual1"
+    },
+    {
+      "op": "backward",
+      "node": "b2_proj"
+    },
+    {
+      "op": "backward",
+      "node": "b2_context"
+    },
+    {
+      "op": "backward",
+      "node": "b2_v"
+    },
+    {
+      "op": "backward",
+      "node": "b2_probs"
+    },
+    {
+      "op": "backward",
+      "node": "b2_scores"
+    },
+    {
+      "op": "backward",
+      "node": "b2_q"
+    },
+    {
+      "op": "backward",
+      "node": "b2_k"
+    },
+    {
+      "op": "backward",
+      "node": "b2_norm1"
+    },
+    {
+      "op": "drop",
+      "node": "b2_context"
+    },
+    {
+      "op": "drop",
+      "node": "b2_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b2_k"
+    },
+    {
+      "op": "drop",
+      "node": "b2_norm1"
+    },
+    {
+      "op": "drop",
+      "node": "b2_norm2"
+    },
+    {
+      "op": "drop",
+      "node": "b2_probs"
+    },
+    {
+      "op": "drop",
+      "node": "b2_q"
+    },
+    {
+      "op": "drop",
+      "node": "b2_residual1"
+    },
+    {
+      "op": "drop",
+      "node": "b2_scores"
+    },
+    {
+      "op": "drop",
+      "node": "b2_up"
+    },
+    {
+      "op": "drop",
+      "node": "b2_v"
+    },
+    {
+      "op": "drop",
+      "node": "b1_residual2"
+    },
+    {
+      "op": "forward",
+      "node": "b1_norm1"
+    },
+    {
+      "op": "forward",
+      "node": "b1_scores"
+    },
+    {
+      "op": "forward",
+      "node": "b1_probs"
+    },
+    {
+      "op": "forward",
+      "node": "b1_context"
+    },
+    {
+      "op": "forward",
+      "node": "b1_norm2"
+    },
+    {
+      "op": "forward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b1_residual2"
+    },
+    {
+      "op": "backward",
+      "node": "b1_down"
+    },
+    {
+      "op": "backward",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b1_up"
+    },
+    {
+      "op": "backward",
+      "node": "b1_norm2"
+    },
+    {
+      "op": "backward",
+      "node": "b1_residual1"
+    },
+    {
+      "op": "backward",
+      "node": "b1_proj"
+    },
+    {
+      "op": "backward",
+      "node": "b1_context"
+    },
+    {
+      "op": "backward",
+      "node": "b1_v"
+    },
+    {
+      "op": "backward",
+      "node": "b1_probs"
+    },
+    {
+      "op": "backward",
+      "node": "b1_scores"
+    },
+    {
+      "op": "backward",
+      "node": "b1_q"
+    },
+    {
+      "op": "backward",
+      "node": "b1_k"
+    },
+    {
+      "op": "backward",
+      "node": "b1_norm1"
+    },
+    {
+      "op": "drop",
+      "node": "b1_context"
+    },
+    {
+      "op": "drop",
+      "node": "b1_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b1_k"
+    },
+    {
+      "op": "drop",
+      "node": "b1_norm1"
+    },
+    {
+      "op": "drop",
+      "node": "b1_norm2"
+    },
+    {
+      "op": "drop",
+      "node": "b1_probs"
+    },
+    {
+      "op": "drop",
+      "node": "b1_q"
+    },
+    {
+      "op": "drop",
+      "node": "b1_residual1"
+    },
+    {
+      "op": "drop",
+      "node": "b1_scores"
+    },
+    {
+      "op": "drop",
+      "node": "b1_up"
+    },
+    {
+      "op": "drop",
+      "node": "b1_v"
+    },
+    {
+      "op": "drop",
+      "node": "b0_residual2"
+    },
+    {
+      "op": "forward",
+      "node": "b0_norm1"
+    },
+    {
+      "op": "forward",
+      "node": "b0_q"
+    },
+    {
+      "op": "forward",
+      "node": "b0_k"
+    },
+    {
+      "op": "forward",
+      "node": "b0_v"
+    },
+    {
+      "op": "forward",
+      "node": "b0_scores"
+    },
+    {
+      "op": "forward",
+      "node": "b0_probs"
+    },
+    {
+      "op": "forward",
+      "node": "b0_context"
+    },
+    {
+      "op": "forward",
+      "node": "b0_norm2"
+    },
+    {
+      "op": "forward",
+      "node": "b0_up"
+    },
+    {
+      "op": "forward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b0_residual2"
+    },
+    {
+      "op": "backward",
+      "node": "b0_down"
+    },
+    {
+      "op": "backward",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "backward",
+      "node": "b0_up"
+    },
+    {
+      "op": "backward",
+      "node": "b0_norm2"
+    },
+    {
+      "op": "backward",
+      "node": "b0_residual1"
+    },
+    {
+      "op": "backward",
+      "node": "b0_proj"
+    },
+    {
+      "op": "backward",
+      "node": "b0_context"
+    },
+    {
+      "op": "backward",
+      "node": "b0_v"
+    },
+    {
+      "op": "backward",
+      "node": "b0_probs"
+    },
+    {
+      "op": "backward",
+      "node": "b0_scores"
+    },
+    {
+      "op": "backward",
+      "node": "b0_q"
+    },
+    {
+      "op": "backward",
+      "node": "b0_k"
+    },
+    {
+      "op": "backward",
+      "node": "b0_norm1"
+    },
+    {
+      "op": "drop",
+      "node": "b0_context"
+    },
+    {
+      "op": "drop",
+      "node": "b0_gelu"
+    },
+    {
+      "op": "drop",
+      "node": "b0_k"
+    },
+    {
+      "op": "drop",
+      "node": "b0_norm1"
+    },
+    {
+      "op": "drop",
+      "node": "b0_norm2"
+    },
+    {
+      "op": "drop",
+      "node": "b0_probs"
+    },
+    {
+      "op": "drop",
+      "node": "b0_q"
+    },
+    {
+      "op": "drop",
+      "node": "b0_residual1"
+    },
+    {
+      "op": "drop",
+      "node": "b0_scores"
+    },
+    {
+      "op": "drop",
+      "node": "b0_up"
+    },
+    {
+      "op": "drop",
+      "node": "b0_v"
+    }
+  ],
+  "claims": {
+    "peak_bytes": 4718592,
+    "recompute_cost": 117178368,
+    "forward_cost": 595329024,
+    "backward_cost": 956301312
+  }
+}

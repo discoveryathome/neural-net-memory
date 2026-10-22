@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "scope": "read-only same-author-team implementation/proof review plus separate complete standalone replay; not independent scientific validation",
+  "files": {
+    "nested_bound.py": "32831d4ca9aa1d5013726958aebcc2699e673e6891552694a95e883bb6c76fac",
+    "nested_replay.py": "ac29a53ddf40a57e206493bcc3a38858f311c8ebd5cbf6189832f00fc7cc67af",
+    "NESTED-PROOF.md": "552fdac7d822c24176038e4112ab537d139e0291914a954385e20a3b0e727777",
+    "joint_replay.py": "54ed0e55e5d30f6ca1dcd23840c97fc1d553e591df99acda8fac7f93d68ad3c3",
+    "replay.py": "4c0448e8c6ab0cf1d74e756c854c4689e908e51648b445fba076fcda64d7ed11",
+    "EXPECTED.json": "2bc3fff769c7e1d0aa8e523afb73b4bd6e972791f8213d3b6c764e6b69676f73"
+  },
+  "findings": [],
+  "exact_caps": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+  ],
+  "new_audited_edges": 40022,
+  "forgeries": 4,
+  "tiny": {
+    "direct_dp_comparisons": 28,
+    "rejected_input_forgeries": [
+      "wrong_envelope",
+      "negative_cost",
+      "missing_capacity",
+      "missing_terminal"
+    ]
+  },
+  "rows": [
+    {
+      "cap": 11,
+      "lower": 524877824
+    },
+    {
+      "cap": 12,
+      "lower": 463929344
+    },
+    {
+      "cap": 13,
+      "lower": 405864448
+    },
+    {
+      "cap": 14,
+      "lower": 354451456
+    },
+    {
+      "cap": 15,
+      "lower": 312147968
+    }
+  ],
+  "result_sha256": "b8e5b8bd2d7266af28c4cd06b3a0c0a63705e6c79dc00e36cb27347b3eb92beb",
+  "review": "Checked own-read endpoint order before saved-input read, projected capacity reservation through each owner completion, max within owner/sum across disjoint owners, aggregate-state DP completeness, cap saturation, shared fresh proof equality/pins, newly generated lower-cap demand audits, C14/C15 full-witness mapping. No blocking issue found.",
+  "additive_followup": {
+    "reviewed": "universal cap10 peak floor from all1024 cap9 forced masks INF; favorable local terminal projection and before-GELU atomic lowercap argument sound",
+    "validation": "Previous complete standalone replay plus separately executed all1024cap9 check; no algorithm/table changes",
+    "source": "resnet-work/cap13-new/actual-critical-price.json",
+    "status": "PASS"
+  }
+}

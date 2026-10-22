@@ -1,0 +1,449 @@
+{
+  "schema": "b4-factored-work-curve/v1",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "graph_sha256": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+  "unit_bytes": 131072,
+  "rows": [
+    {
+      "cap_units": 14,
+      "lower_work": 330104832,
+      "constructive_work": 355270656,
+      "gap": 25165824
+    },
+    {
+      "cap_units": 15,
+      "lower_work": 311984128,
+      "constructive_work": 312147968,
+      "gap": 163840
+    },
+    {
+      "cap_units": 16,
+      "lower_work": 294191104,
+      "constructive_work": 294191104,
+      "gap": 0
+    },
+    {
+      "cap_units": 17,
+      "lower_work": 276725760,
+      "constructive_work": 276725760,
+      "gap": 0
+    },
+    {
+      "cap_units": 18,
+      "lower_work": 268173312,
+      "constructive_work": 268173312,
+      "gap": 0
+    },
+    {
+      "cap_units": 19,
+      "lower_work": 259784704,
+      "constructive_work": 259784704,
+      "gap": 0
+    },
+    {
+      "cap_units": 20,
+      "lower_work": 251396096,
+      "constructive_work": 251396096,
+      "gap": 0
+    },
+    {
+      "cap_units": 21,
+      "lower_work": 243007488,
+      "constructive_work": 243007488,
+      "gap": 0
+    },
+    {
+      "cap_units": 22,
+      "lower_work": 234618880,
+      "constructive_work": 234618880,
+      "gap": 0
+    },
+    {
+      "cap_units": 23,
+      "lower_work": 226230272,
+      "constructive_work": 226230272,
+      "gap": 0
+    },
+    {
+      "cap_units": 24,
+      "lower_work": 217841664,
+      "constructive_work": 217841664,
+      "gap": 0
+    },
+    {
+      "cap_units": 25,
+      "lower_work": 209453056,
+      "constructive_work": 209453056,
+      "gap": 0
+    },
+    {
+      "cap_units": 26,
+      "lower_work": 201064448,
+      "constructive_work": 201064448,
+      "gap": 0
+    },
+    {
+      "cap_units": 27,
+      "lower_work": 192675840,
+      "constructive_work": 192675840,
+      "gap": 0
+    },
+    {
+      "cap_units": 28,
+      "lower_work": 184287232,
+      "constructive_work": 184287232,
+      "gap": 0
+    },
+    {
+      "cap_units": 29,
+      "lower_work": 175898624,
+      "constructive_work": 175898624,
+      "gap": 0
+    },
+    {
+      "cap_units": 30,
+      "lower_work": 167510016,
+      "constructive_work": 167510016,
+      "gap": 0
+    },
+    {
+      "cap_units": 31,
+      "lower_work": 159121408,
+      "constructive_work": 159121408,
+      "gap": 0
+    },
+    {
+      "cap_units": 32,
+      "lower_work": 150732800,
+      "constructive_work": 150732800,
+      "gap": 0
+    },
+    {
+      "cap_units": 33,
+      "lower_work": 142344192,
+      "constructive_work": 142344192,
+      "gap": 0
+    },
+    {
+      "cap_units": 34,
+      "lower_work": 133955584,
+      "constructive_work": 133955584,
+      "gap": 0
+    },
+    {
+      "cap_units": 35,
+      "lower_work": 125566976,
+      "constructive_work": 125566976,
+      "gap": 0
+    },
+    {
+      "cap_units": 36,
+      "lower_work": 117178368,
+      "constructive_work": 117178368,
+      "gap": 0
+    },
+    {
+      "cap_units": 37,
+      "lower_work": 108789760,
+      "constructive_work": 108789760,
+      "gap": 0
+    },
+    {
+      "cap_units": 38,
+      "lower_work": 100401152,
+      "constructive_work": 100401152,
+      "gap": 0
+    },
+    {
+      "cap_units": 39,
+      "lower_work": 92012544,
+      "constructive_work": 92012544,
+      "gap": 0
+    },
+    {
+      "cap_units": 40,
+      "lower_work": 83623936,
+      "constructive_work": 83623936,
+      "gap": 0
+    },
+    {
+      "cap_units": 41,
+      "lower_work": 75235328,
+      "constructive_work": 75235328,
+      "gap": 0
+    },
+    {
+      "cap_units": 42,
+      "lower_work": 66846720,
+      "constructive_work": 66846720,
+      "gap": 0
+    },
+    {
+      "cap_units": 43,
+      "lower_work": 58458112,
+      "constructive_work": 58458112,
+      "gap": 0
+    },
+    {
+      "cap_units": 44,
+      "lower_work": 50069504,
+      "constructive_work": 50069504,
+      "gap": 0
+    },
+    {
+      "cap_units": 45,
+      "lower_work": 41680896,
+      "constructive_work": 41680896,
+      "gap": 0
+    },
+    {
+      "cap_units": 46,
+      "lower_work": 40632320,
+      "constructive_work": 40632320,
+      "gap": 0
+    },
+    {
+      "cap_units": 47,
+      "lower_work": 40468480,
+      "constructive_work": 40468480,
+      "gap": 0
+    },
+    {
+      "cap_units": 48,
+      "lower_work": 40304640,
+      "constructive_work": 40304640,
+      "gap": 0
+    },
+    {
+      "cap_units": 49,
+      "lower_work": 32636928,
+      "constructive_work": 32636928,
+      "gap": 0
+    },
+    {
+      "cap_units": 50,
+      "lower_work": 31588352,
+      "constructive_work": 31588352,
+      "gap": 0
+    },
+    {
+      "cap_units": 51,
+      "lower_work": 31424512,
+      "constructive_work": 31424512,
+      "gap": 0
+    },
+    {
+      "cap_units": 52,
+      "lower_work": 31260672,
+      "constructive_work": 31260672,
+      "gap": 0
+    },
+    {
+      "cap_units": 53,
+      "lower_work": 23592960,
+      "constructive_work": 23592960,
+      "gap": 0
+    },
+    {
+      "cap_units": 54,
+      "lower_work": 22544384,
+      "constructive_work": 22544384,
+      "gap": 0
+    },
+    {
+      "cap_units": 55,
+      "lower_work": 22380544,
+      "constructive_work": 22380544,
+      "gap": 0
+    },
+    {
+      "cap_units": 56,
+      "lower_work": 22216704,
+      "constructive_work": 22216704,
+      "gap": 0
+    },
+    {
+      "cap_units": 57,
+      "lower_work": 14548992,
+      "constructive_work": 14548992,
+      "gap": 0
+    },
+    {
+      "cap_units": 58,
+      "lower_work": 13500416,
+      "constructive_work": 13500416,
+      "gap": 0
+    },
+    {
+      "cap_units": 59,
+      "lower_work": 13336576,
+      "constructive_work": 13336576,
+      "gap": 0
+    },
+    {
+      "cap_units": 60,
+      "lower_work": 13172736,
+      "constructive_work": 13172736,
+      "gap": 0
+    },
+    {
+      "cap_units": 61,
+      "lower_work": 5505024,
+      "constructive_work": 5505024,
+      "gap": 0
+    },
+    {
+      "cap_units": 62,
+      "lower_work": 4456448,
+      "constructive_work": 4456448,
+      "gap": 0
+    },
+    {
+      "cap_units": 63,
+      "lower_work": 4292608,
+      "constructive_work": 4292608,
+      "gap": 0
+    },
+    {
+      "cap_units": 64,
+      "lower_work": 4128768,
+      "constructive_work": 4128768,
+      "gap": 0
+    },
+    {
+      "cap_units": 65,
+      "lower_work": 3964928,
+      "constructive_work": 3964928,
+      "gap": 0
+    },
+    {
+      "cap_units": 66,
+      "lower_work": 3407872,
+      "constructive_work": 3407872,
+      "gap": 0
+    },
+    {
+      "cap_units": 67,
+      "lower_work": 3244032,
+      "constructive_work": 3244032,
+      "gap": 0
+    },
+    {
+      "cap_units": 68,
+      "lower_work": 3080192,
+      "constructive_work": 3080192,
+      "gap": 0
+    },
+    {
+      "cap_units": 69,
+      "lower_work": 2916352,
+      "constructive_work": 2916352,
+      "gap": 0
+    },
+    {
+      "cap_units": 70,
+      "lower_work": 2359296,
+      "constructive_work": 2359296,
+      "gap": 0
+    },
+    {
+      "cap_units": 71,
+      "lower_work": 2195456,
+      "constructive_work": 2195456,
+      "gap": 0
+    },
+    {
+      "cap_units": 72,
+      "lower_work": 2031616,
+      "constructive_work": 2031616,
+      "gap": 0
+    },
+    {
+      "cap_units": 73,
+      "lower_work": 1867776,
+      "constructive_work": 1867776,
+      "gap": 0
+    },
+    {
+      "cap_units": 74,
+      "lower_work": 1310720,
+      "constructive_work": 1310720,
+      "gap": 0
+    },
+    {
+      "cap_units": 75,
+      "lower_work": 1146880,
+      "constructive_work": 1146880,
+      "gap": 0
+    },
+    {
+      "cap_units": 76,
+      "lower_work": 983040,
+      "constructive_work": 983040,
+      "gap": 0
+    },
+    {
+      "cap_units": 77,
+      "lower_work": 819200,
+      "constructive_work": 819200,
+      "gap": 0
+    },
+    {
+      "cap_units": 78,
+      "lower_work": 655360,
+      "constructive_work": 655360,
+      "gap": 0
+    },
+    {
+      "cap_units": 79,
+      "lower_work": 491520,
+      "constructive_work": 491520,
+      "gap": 0
+    },
+    {
+      "cap_units": 80,
+      "lower_work": 327680,
+      "constructive_work": 327680,
+      "gap": 0
+    },
+    {
+      "cap_units": 81,
+      "lower_work": 163840,
+      "constructive_work": 163840,
+      "gap": 0
+    },
+    {
+      "cap_units": 82,
+      "lower_work": 0,
+      "constructive_work": 0,
+      "gap": 0
+    }
+  ],
+  "diagnostics": [
+    {
+      "cap_units": 11,
+      "lower_work": 524877824
+    },
+    {
+      "cap_units": 13,
+      "lower_work": 396165120
+    }
+  ],
+  "extra_demand_binary_sha256": {
+    "b4-output-demand-pdb-cap11": "2d76ddd1dc9ba7099408673d2d329a808390d43d9b5ca593f7b8bbbf0a40bc09",
+    "b4-output-demand-pdb-cap14": "cfe6eecb72a5ba346cd4af4d0ef564864429b64d6397b802446a24fec6cb3501",
+    "b4-output-demand-pdb-cap15": "32349b0d6ea58bfc447af7f27812c9a5cc525518cc5c15ab07f3198ce5238f6b",
+    "b4-output-demand-pdb-cap16": "f4a672de47f3b5a9c4513450faf169c3a2cda7b3e6483df9ebb1e8b28bbae2d6",
+    "b4-output-demand-pdb-cap17": "f02bc09157e97da89d7ab3aaa781e8408124986d9e84559af2139be3707cfdd5",
+    "b4-output-demand-pdb-cap18": "078acbf8032446f7a7e595ce5cc88799d879641c0e841b636481f6b7a83e9c4d",
+    "b4-output-demand-pdb-cap19": "60de93ceaf3ed8b8442a7c2fea2d0cc76edc169cd1b6cb2599f23433989d7e8b",
+    "b4-output-demand-pdb-cap20": "2f7610255190e00862f3d3085eaeda5ba52197c31d0ba0bcdc5590b397b96836",
+    "b4-output-demand-pdb-cap21": "6cfd20fda6a3cbe2a4c676a9a5a0d536e7122eac5a8f23613012811989404833",
+    "b4-output-demand-pdb-cap23": "f8c884c881a7d8057c2f858b671e5f71ee77f365ffd461eb27dcd0e412c9b489",
+    "b4-output-demand-pdb-cap24": "7d70f56de8d506c9246d0b132dcbcef7d4becdccc6d1e63dd39ecae63346e750",
+    "b4-output-demand-pdb-cap25": "cfb76f19b74cb40bba8855ecbf94dc6bb405c5a8182e50a619fda1c14cd4214e",
+    "b4-output-demand-pdb-cap26": "59ddfdfaa65273b932d4d794e2c78cbf0b81520ddb34b3b682f21b0033a7f2bd"
+  },
+  "factored_expected_sha256": "a470377c15330f012818a04df1461faf5ca9438aaf995d0b80bf5647e305a76d",
+  "scope": "69 necessary lower prices;67 matches at16..82 become exact fixed-cap work values after full constructive replay. Non-suite points are not additional benchmark wins."
+}

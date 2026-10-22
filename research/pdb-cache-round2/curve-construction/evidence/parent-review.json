@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-22T00:21:13.752104+00:00",
+  "evidence": "parent same-author-team source review; not outside scientific review",
+  "findings": [],
+  "scope": "69-point constructive mapping and audited-table reuse; full replay is recorded separately",
+  "checks": [
+    "Every point passes unchanged full verifier at exact work budget and exact cap",
+    "Original22/36budgets retagged and separately verified",
+    "Cap27 alias follows full14 allocation maximum; lower requested cap explicitly bound",
+    "All4096 cache masks priced with concrete forward allocation profiles; compression perownedsize preserves future DPdependence",
+    "Outside cache and checkpoint bytes charged through localcap C-block-k",
+    "Fullregional finalblock plan includes everyfirst/loss/backward; earlierplans use tight PDBedges and allowned cleanup",
+    "Fullgraph/hash binding, binary hashes, done/live layout and input/node fields bound in shared table loads",
+    "Constructor alone makes no global lower-bound claim; joined lower proof is separate"
+  ],
+  "files": {
+    "curve_constructor.py": "1b34bafc5d2b0cfa05e10f3d49c8ce3a22ff2bdcad62ebb8c51409e686d5ca8a",
+    "replay.py": "094bf23d29173ef6bf8a356a0687f6ef26afe2cb9220424d770ddb8f148c2d57"
+  }
+}

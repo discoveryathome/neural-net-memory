@@ -1,0 +1,1 @@
+{"status": "PASS", "points": 69, "seconds": 15.94027979200473, "negative_controls": ["changed frozen graph rejected", "oversized27u table at24u rejected", "checkpoint dropped before its reader rejected"], "original_budget_replays": [22, 36], "zero_work_cap_units": 82}

@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "verdict": "Ready for source-manifest freeze and normal Python3.9 replay",
+  "scope": {
+    "files": [
+      "replay.py",
+      "README.md",
+      "TASK.json"
+    ],
+    "tree": "secondary-policy",
+    "read_only": true,
+    "source_sha256": {
+      "secondary-policy/research/pdb-cache-round2/replay.py": "f05eae412b8e813f68d1cd052294b0a30aeeeb6ca724db4dd7149630f80e49a0",
+      "secondary-policy/research/pdb-cache-round2/README.md": "62765b6304081c8dd71df823ef6011a52d217f4ccb75f9ea4d3e192889aeaa67",
+      "secondary-policy/research/pdb-cache-round2/TASK.json": "cbbea1515c3676cf24496975c6eaa70f1c09ee627dd821e19ce00b789ec81c8f"
+    }
+  },
+  "findings": [],
+  "actionable_findings": [],
+  "same_team_adversarial_read": {
+    "reviewer": "MLP agent",
+    "status": "PASS",
+    "findings": [],
+    "notes": "Fresh subprocess interpreters avoid module-cache contamination; paths/defaultROOT/status/temp lifetimes and68/69aggregation correct. Per-child360s timeout gives720s combined ceiling; child solver guards remain active."
+  },
+  "checks": {
+    "parent_fresh_record_result": "PASS and identical to current VERIFY.json",
+    "root_import_resolution": "Absolute driver paths; inherited sys.executable; source-relative child ROOT defaults resolve to the same checkout",
+    "aggregate_constructive_rows": 69,
+    "aggregate_exact_caps": "15..82",
+    "aggregate_exact_points": 68,
+    "cap14_gap": 819200,
+    "universal_peak_floor_units": 10,
+    "audited_edges": 15048271,
+    "secondary_cases_match_verified_curve": true,
+    "primary_cap11_still_constructive_only": true,
+    "zero_work_peak_bytes": 10747904,
+    "task_curve_arrays_match": true,
+    "auxiliary_fixed_benchmark_wins": 0,
+    "python39_grammar_files": 8,
+    "immutable_core_semantics_preserved": true
+  },
+  "claims_review": [
+    "README distinguishes three fixed-peak work reductions from68exact auxiliary optima.",
+    "Cap11 minimum work remains open; cap14 lower-upper gap819200 remains explicit.",
+    "First zero-work peak82 follows exact cap81 positive lower; smaller caps are subsets.",
+    "No GPU/runtime/exporter/SOTA/independent-scientific acceptance claim added."
+  ],
+  "coverage_limits": [
+    "No source-manifest regeneration/check was performed; parent owns it after this record replay.",
+    "Python3.9 grammar parsed, but fresh actual Python3.9 normal replay remains parent validation.",
+    "Parent completed the fresh full root replay; this review did not repeat the15M-edge table audit.",
+    "No cross-model or independent scientific validation; same-author-team review only."
+  ],
+  "log_file": "parent-b4-full-frontier-record.log",
+  "log_sha256": "964bc07de380b5331a392da960415013f2f216aaf177fb6529bc3bc5c78d0ad9",
+  "verify_sha256": "930ac55bc79a301c0b410dd33c2fee6fd73e0a29b4d00016ce8511ec4e299f8a",
+  "review_script_sha256": "7e5045d57b8a4ae3d9f21e9bfa113b12e0730e07a853ba2ed55ca46a384b29c8",
+  "timestamp": "2026-10-22T00:35:20Z"
+}

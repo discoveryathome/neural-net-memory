@@ -1,0 +1,37 @@
+{
+  "schema": "constructive-curve-verification/v1",
+  "status": "PASS",
+  "checked_utc": "2026-10-22T00:22:19Z",
+  "graph_sha256": "7d60aaf32c25d4d000872f9d317cdb0cbc71c929307eb69faf7e974c795d5854",
+  "base_commit": "a95cc1588fc57a07cfcf5a350206825e6f5b4b52",
+  "seed": "dafc4be0863b7654352ffb2ba4a4d2df",
+  "command": "sandbox-exec -f SESSION/research.sb /opt/homebrew/bin/python3 -B research/pdb-cache-round2/curve-construction/replay.py",
+  "shared_api": "run(repo,out,shared=(audited_factored_table_directory,audited_factored_result))",
+  "scope": "all69auxiliary cap/work upper points14..82 verified; original22/36budgets replayed; no global optimum claim by constructor alone; accepted records unchanged",
+  "standalone_seconds": 15.94027979200473,
+  "shared_seconds": 13.87970733299153,
+  "identical_action_digests": true,
+  "full_certificates_per_replay": 69,
+  "negative_controls": [
+    "changed frozen graph rejected",
+    "oversized27u table at24u rejected",
+    "checkpoint dropped before its reader rejected"
+  ],
+  "zero_work_cap_units": 82,
+  "original_budgets": {
+    "22": 239075328,
+    "36": 119537664
+  },
+  "limits": {
+    "aggregate_seconds": 120,
+    "backward_table_seconds": 30,
+    "backward_table_states": 200000,
+    "full_region_seconds": 15,
+    "full_region_records": 500000,
+    "tight_edge_states": 200000
+  },
+  "review": "read-only parent source review PASS; same AI-assisted author team, not independent scientific validation",
+  "compiler_or_optional_solver_dependencies": false,
+  "generated_certificates_or_binaries_committed": false,
+  "core_verify_log_sha256": "57ac561f3c2859e5cdfa6a6aff17b65ab7d65d9077300db8549ebfc8b6928f10"
+}

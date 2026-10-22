@@ -1,0 +1,66 @@
+{
+  "schema": "same-author-team-review/v1",
+  "status": "PASS",
+  "reviewer": "Codex MLP/native worker within the same AI-assisted author team",
+  "findings": [],
+  "checked_utc": "2026-10-22T00:17:20Z",
+  "scope": "read-only factored mandatory-cut theorem, summaries/min-convolution and actual-component control mapping; no new separate execution of all table audits",
+  "files": {
+    "factor_bound.py": "802787662f14e0006e264d804a688530a5aab0e7d2c52b0c5e5adb1fc4fe037f",
+    "controls.py": "dc02efd73d26ee4aba039cadc156938522ab70e17d68ac6e8dddf4ea87db39fe",
+    "direct_enumeration.py": "30464b6131d019514df99f9786ac5e0180918aa9188cb4af97414bcfc40006c2",
+    "README.md": "bced7767d33f6fb450868b6cf3761fb94655aab4c3e7f0f9d797a6272c2ab63e"
+  },
+  "checks": [
+    "First final GELU forces its54ancestors seen, no backward, immutable1+UP4+GELU4 live, and only terminalDOWN/residual2 unseen",
+    "Strict pre-finalnorm1-read endpoint preserves pending nextnorm1 output demand for every earlier region and includes its last required input allocation",
+    "Actual current owned r and future minima m obey0<=m<=r and initial1+R+s<=C; forced s>=8 givesR<=C-9",
+    "Actual simultaneous minima reserve M throughout the target execution even with identity exchanges; local target capC-M is favorable",
+    "All forward costs partition into disjoint14node owners; input regeneration outside a local owner is favorably omitted",
+    "A is exact-size minimum, E at-most prefix envelope; for fixedr,m min_L max(D(L),E(m)) equalsmax(A(r),E(m))",
+    "DP covers every three-region (r,m) tuple, and target Z has at-most initialowned allowance with forcedUP/GELU; infeasible extra tuples only relax",
+    "All14owned26+fixed1 bounds every allocation-before-drop by27units, so saturation27 clips only localtablelookups while retaining global root constraints",
+    "Actual-component control range(root,endpoint) includes the state before the saved read and excludes postread drops",
+    "Matching22/36fullcertificates have zero charged work before cut;12/13 are diagnostics with no work-optimum claim"
+  ],
+  "frozen_snapshot": {
+    "kind": "factored_bound_package_frozen",
+    "status": "PASS",
+    "scope": "Only new factored-bound subtree written; no parent files modified. Same-author-team review requested.",
+    "files": {
+      "positive-cap36.json": "9120109cd6e944b8280f9f45d41d1b24a61f8b50df79b4b893827183fbdb5089",
+      "direct_enumeration.py": "30464b6131d019514df99f9786ac5e0180918aa9188cb4af97414bcfc40006c2",
+      "controls.py": "dc02efd73d26ee4aba039cadc156938522ab70e17d68ac6e8dddf4ea87db39fe",
+      "EXPECTED.json": "a470377c15330f012818a04df1461faf5ca9438aaf995d0b80bf5647e305a76d",
+      "pdb_audit.py": "fbe58283e2c1967041c4831942f78ffd4c7cd8005b17181f817eec82aa453677",
+      "README.md": "bced7767d33f6fb450868b6cf3761fb94655aab4c3e7f0f9d797a6272c2ab63e",
+      "replay.py": "eaf309ce2c22d6b5a3fa5f6eca9fa2473d1c7fe4449fc0a1c98d782929d92049",
+      "positive-cap22.json": "66f619e57caea45e578f157a543ab3e12c49da5b29b5865f1f0346b9d41f745e",
+      "terminal_phase_db.py": "30310410539bee5449dd8c1c302283791a7e58df4c4f36faf4324a57037700a7",
+      "factor_bound.py": "802787662f14e0006e264d804a688530a5aab0e7d2c52b0c5e5adb1fc4fe037f"
+    },
+    "replay_result_sha256": "8c2fb5cc63ddd2c1688e42572bb432858c2c6a37c78b2273f9794d155aa7fa5c",
+    "replay_log_sha256": "b7d56365d05f822290c2042b49e97c78f7ba890fdf5a4bafdfd5f8aa734fb429",
+    "audited_edges": 13329066,
+    "result_rows": [
+      {
+        "cap_units": 12,
+        "lower_work": 462716928
+      },
+      {
+        "cap_units": 13,
+        "lower_work": 396165120
+      },
+      {
+        "cap_units": 22,
+        "lower_work": 234618880
+      },
+      {
+        "cap_units": 36,
+        "lower_work": 117178368
+      }
+    ],
+    "command": "sandbox-exec -f ../research.sb /opt/homebrew/bin/python3 -B ../secondary-policy/research/pdb-cache-round2/factored-bound/replay.py --repo . --out ../transformer-work/factored-cut-price/package-replay"
+  },
+  "limitation": "same-author-team source review and same-code process replication; not independent scientific validation or maintainer acceptance"
+}

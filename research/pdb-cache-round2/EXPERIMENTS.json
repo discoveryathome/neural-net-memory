@@ -1,0 +1,245 @@
+{
+  "initial_grid": {
+    "status": "BOUNDED_CONSTRUCTIVE_PROBE",
+    "attempts": 720,
+    "feasible": 391,
+    "seconds": 3.9272879170021042,
+    "best": 728662016,
+    "source_sha256": "367b957d137a557886d0d03eca2c452e48d0cdbc37d5f2f18678a9ffe1cf9677",
+    "source_credit": "Doug Colkitt @Mister-Meeseeks trial Cache; regional PDB follow-up; Codex AI author team",
+    "global_optimal": false
+  },
+  "refinement": {
+    "status": "BOUNDED_CONSTRUCTIVE_PROBE",
+    "attempts": 10000,
+    "distinct": 7590,
+    "feasible": 6583,
+    "seconds": 53.79096574999858,
+    "best": 702349312,
+    "seed": "dafc4be0863b7654352ffb2ba4a4d2df",
+    "source_sha256": "1a84d65c98f1e55c8377dafbed2aea7c6af6e4a6f25541eec50448f9a8e06026",
+    "global_optimal": false
+  },
+  "simplification_and_controls": {
+    "status": "AUTHOR_CHECKED_CONSTRUCTIVE_RESULT",
+    "claims": {
+      "peak_bytes": 1441792,
+      "recompute_cost": 702349312,
+      "forward_cost": 1180499968,
+      "backward_cost": 956301312
+    },
+    "policy": {
+      "weight": 0.0,
+      "beta": 0.85,
+      "bonus": 3.2,
+      "keepers": [
+        "b0_residual1",
+        "b1_residual2",
+        "b3_residual1"
+      ],
+      "forward_v": [
+        5,
+        3,
+        3,
+        5
+      ],
+      "backward_v": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    "controls": [
+      {
+        "mode": "PDB_marginal",
+        "claims": {
+          "peak_bytes": 1441792,
+          "recompute_cost": 702349312,
+          "forward_cost": 1180499968,
+          "backward_cost": 956301312
+        }
+      },
+      {
+        "mode": "trial_recovery",
+        "claims": {
+          "peak_bytes": 1441792,
+          "recompute_cost": 1517387776,
+          "forward_cost": 1995538432,
+          "backward_cost": 956301312
+        }
+      },
+      {
+        "mode": "zero_marginal",
+        "claims": {
+          "peak_bytes": 1441792,
+          "recompute_cost": 4557045760,
+          "forward_cost": 5035196416,
+          "backward_cost": 956301312
+        }
+      },
+      {
+        "mode": "same_forward_backward_order",
+        "claims": {
+          "peak_bytes": 1441792,
+          "recompute_cost": 702349312,
+          "forward_cost": 1180499968,
+          "backward_cost": 956301312
+        }
+      }
+    ],
+    "simplifications": [
+      {
+        "kind": "remove_keeper",
+        "name": "b0_probs",
+        "cost": 702349312
+      },
+      {
+        "kind": "remove_keeper",
+        "name": "b0_residual1",
+        "cost": 728334336
+      },
+      {
+        "kind": "remove_keeper",
+        "name": "b0_v",
+        "cost": 702349312
+      },
+      {
+        "kind": "remove_keeper",
+        "name": "b1_down",
+        "cost": 702349312
+      },
+      {
+        "kind": "remove_keeper",
+        "name": "b1_gelu",
+        "cost": 702349312
+      },
+      {
+        "kind": "remove_keeper",
+        "name": "b1_probs",
+        "cost": 702349312
+      },
+      {
+        "kind": "remove_keeper",
+        "name": "b1_residual2",
+        "cost": 847970304
+      },
+      {
+        "kind": "remove_keeper",
+        "name": "b2_k",
+        "cost": 702349312
+      },
+      {
+        "kind": "remove_keeper",
+        "name": "b2_scores",
+        "cost": 702349312
+      },
+      {
+        "kind": "remove_keeper",
+        "name": "b3_norm1",
+        "cost": 702349312
+      },
+      {
+        "kind": "remove_keeper",
+        "name": "b3_residual1",
+        "cost": 822018048
+      },
+      {
+        "kind": "normalize_v",
+        "which": "forward_v",
+        "block": 1,
+        "value": 5,
+        "cost": 702513152
+      },
+      {
+        "kind": "normalize_v",
+        "which": "forward_v",
+        "block": 1,
+        "value": 3,
+        "cost": 702349312
+      },
+      {
+        "kind": "normalize_v",
+        "which": "forward_v",
+        "block": 2,
+        "value": 5,
+        "cost": 702513152
+      },
+      {
+        "kind": "normalize_v",
+        "which": "forward_v",
+        "block": 2,
+        "value": 3,
+        "cost": 702349312
+      },
+      {
+        "kind": "normalize_v",
+        "which": "backward_v",
+        "block": 0,
+        "value": 5,
+        "cost": 702349312
+      },
+      {
+        "kind": "normalize_v",
+        "which": "backward_v",
+        "block": 2,
+        "value": 5,
+        "cost": 702349312
+      }
+    ],
+    "global_optimal": false
+  },
+  "finite_slot_domains": [
+    {
+      "expansion": "none",
+      "slots": 214,
+      "budget": 702349311,
+      "status": "INFEASIBLE",
+      "seconds": 0.019899334,
+      "scope": "supplied slots only"
+    },
+    {
+      "expansion": "local",
+      "slots": 459,
+      "budget": 702349311,
+      "status": "INFEASIBLE",
+      "seconds": 0.317230875,
+      "scope": "supplied slots only"
+    }
+  ],
+  "resources": {
+    "constructive_seconds_limit": 90,
+    "constructive_attempt_limit": 10000,
+    "python_states": "no graph-state search; at most 7590 distinct policies",
+    "optional_solver": "OR-Tools 9.15.6755",
+    "optional_workers": 1,
+    "optional_memory_mib": 300,
+    "external_rss_guard_mib": 350,
+    "optional_seconds_limit": 30
+  },
+  "raw_session_source_and_log_sha256": {
+    "pdb_policy.py": "367b957d137a557886d0d03eca2c452e48d0cdbc37d5f2f18678a9ffe1cf9677",
+    "pdb_policy_v2.py": "1a84d65c98f1e55c8377dafbed2aea7c6af6e4a6f25541eec50448f9a8e06026",
+    "simplify_and_ablate.py": "afbc099116eb4158a76f4c7e357f7023ff5002673965c05fce8ad99315dc77ff",
+    "pdb-policy.jsonl": "6c24a8200eb9a48453b37326dab0f885418cb3a1476826996ee817fd189bd583",
+    "pdb-policy-v2.jsonl": "37464a27177e14e110a06d6520f37ee97b87ca4a859e135f0d23ce982d165540",
+    "pdb-policy-v2-result.json": "0093605f48519cb8f0d228bb51876186d3d06cbbe957a55327ffef847fefc7ff",
+    "final-controls.json": "6435f54df38587797cc8eca7b5aec0df69aec9e2509f36572fbdc5a06c06a003",
+    "slot_repair.py": "93fdc970033a80c57cfa92e7a8f2bf19d02b48d423704b5eb7c89c8c4db8f739",
+    "slots-v2-none.log": "5b91235a529f786652d604c5f66a041e8fd40291d8a2a8b41b454316e9e6cd90",
+    "slots-v2-local.log": "28bb1431d878eab33df644d4f5ee045a68fc1167b2c5a83b1a3e25ad91663bef"
+  },
+  "raw_log_location": "session scratch resnet-work/secondary; not required for winning-trace replay",
+  "source_provenance": {
+    "trial_cache": "research/trial-30m/cache_search.py",
+    "pattern_db_source_sha256": "4475cf92fc6f3e82afa20442dcdce770a6f0fd62624cf847f67e40ec5b4cc604",
+    "output_demand_source_sha256": "8b80b6ce5420b51188fbfb167f87c49fa04699c7b09cb13ae3e093df570de5f5"
+  },
+  "global_optimal": false,
+  "randomness": {
+    "master_seed": "dafc4be0863b7654352ffb2ba4a4d2df",
+    "refinement_random_seed_hex": "dafc4be0863b7654",
+    "refinement_seed_derivation": "first 64 bits of the master seed",
+    "initial_grid_shuffle_seed": 20261021
+  }
+}

@@ -1,0 +1,9 @@
+test_both_complete_traces_improve_work_at_original_caps (test_allocation.AllocationControls.test_both_complete_traces_improve_work_at_original_caps) ... ok
+test_changed_frozen_cost_is_rejected (test_allocation.AllocationControls.test_changed_frozen_cost_is_rejected) ... ok
+test_dropping_checkpoint_before_its_first_reader_is_rejected (test_allocation.AllocationControls.test_dropping_checkpoint_before_its_first_reader_is_rejected) ... ok
+test_loss_before_all_first_forwards_is_rejected (test_allocation.AllocationControls.test_loss_before_all_first_forwards_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.003s
+
+OK
